@@ -1,0 +1,1285 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Fractions: Lessons 4.A - 4.B</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78321</md:content-id>
+  <md:title>Fractions: Lessons 4.A - 4.B</md:title>
+  <md:abstract>By the end of this section, you will be able to: 
+<list>
+<item>Simplify Fractions</item>
+<item>Find LCD</item>
+<item>Add and Subtract Fractions</item>
+<item>Multiply and Divide Fractions</item>
+<item>Find reciprovals</item>
+<item>Convert Fractions</item>
+</list></md:abstract>
+  <md:uuid>ee1c9687-d6ce-4262-be29-041ef23cf092</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-633"><label>Topics Covered in this Module</label>
+
+<para id="eip-idm261134960">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para>
+<list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Simplifying Fractions <link document="" target-id="eip-433"/></item>
+<item>Least Common Denominator <link document="" target-id="eip-459"/></item>
+<item>Convert to Equivalent Fractions <link document="" target-id="eip-834"/></item>
+<item>Add and Subtract Fractions <link document="" target-id="eip-339"/></item>
+<item>Adding and Subtracting Fractions by Finding Factors and LCDs  <link document="" target-id="eip-901"/></item>
+<item>Multiply Fractions <link target-id="eip-818" document=""/></item>
+<item>Find Reciprocals <link target-id="eip-709" document=""/></item>
+<item>Divide Fractions <link target-id="eip-601" document=""/></item>
+<item>Summary of Fraction Operations <link target-id="eip-83" document=""/></item>
+<item>Convert Fractions to Decimals <link target-id="fs-id2692103" document=""/></item>
+
+<item>Key Concepts  <link target-id="eip-36" document=""/></item></list></note><section id="eip-433"><title>Simplifying Fractions <footnote id="eip-idm347784128">Section material derived from Openstax Prealgebra: Fractions-Multiply and Divide Fractions</footnote></title><para id="fs-id1167833058122">A <term>fraction</term> is a way to represent parts of a whole. The fraction <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> represents two of three equal parts. See <link target-id="CNX_IntAlg_Figure_01_03_001"/>. In the fraction <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> the 2 is called the <term>numerator</term> and the 3 is called the <term>denominator</term>. The line is called the fraction bar.</para>
+<figure id="CNX_IntAlg_Figure_01_03_001">
+<media id="fs-id1167836629535" alt="Figure shows a circle divided in three equal parts. 2 of these are shaded.">
+<image src="../../media/CNX_IntAlg_Figure_01_03_001_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<caption>In the circle, <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of the circle is shaded—2 of the 3 equal parts.</caption>
+</figure>
+<note id="fs-id1167833412814"><label>Fractions</label>
+<para id="fs-id1167836688384">A <emphasis effect="bold">fraction</emphasis> is written <m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> and</para>
+<para id="fs-id1167836408815"><emphasis effect="italics">a</emphasis> is the <emphasis effect="bold">numerator</emphasis> and <emphasis effect="italics">b</emphasis> is the <emphasis effect="bold">denominator</emphasis>.</para>
+<para id="fs-id1167836688080">A fraction represents parts of a whole. The denominator <m:math><m:mi>b</m:mi></m:math> is the number of equal parts the whole has been divided into, and the numerator <m:math><m:mi>a</m:mi></m:math> indicates how many parts are included.</para>
+</note><para id="fs-id1167836521454">Fractions that have the same value are <term>equivalent fractions</term>. The Equivalent Fractions</para>
+<para id="fs-id1167829755870">Property allows us to find equivalent fractions and also simplify fractions.</para>
+<note id="fs-id1167829596336"><label>Equivalent Fractions Property</label>
+<para id="fs-id1167832940622">If <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis> are numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836550529">then <m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</note><para id="fs-id1167836327003">A fraction is considered simplified if there are no common factors, other than 1, in its numerator and denominator.</para>
+<para id="fs-id1167836447306">For example,</para>
+<para id="fs-id1167836388086">  <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> is simplified because there are no common factors of 2 and <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829695451">  <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math> is not simplified because 5 is a common factor of 10 and <m:math><m:mrow><m:mn>15</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836377781">We simplify, or reduce, a fraction by removing the common factors of the numerator and denominator. A fraction is not simplified until all common factors have been removed. If an expression has fractions, it is not completely simplified until the fractions are simplified.</para>
+<para id="fs-id1167836493293">Sometimes it may not be easy to find common factors of the numerator and denominator. When this happens, a good idea is to factor the numerator and the denominator into prime numbers. Then divide out the common factors using the Equivalent Fractions Property.</para>
+<example id="fs-id1167836620030">
+<title>How To Simplify a Fraction</title>
+<exercise id="fs-id1167836627469">
+<problem id="fs-id1167836340855">
+<para id="fs-id1167836526280">Simplify: <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>315</m:mn></m:mrow><m:mrow><m:mn>770</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836527773">
+<media id="fs-id1167836514898" alt="Step 1 is to rewrite the numerator and denominator to show the common factors. If needed, use a factor tree. Here, we rewrite 315 and 770 as the product of the primes. Starting with minus 315 divided by 770, we get, minus 3 times 3 time 5 times 7 divided by 2 times 5 times 7 times 11.">
+<image src="../../media/CNX_IntAlg_Figure_01_03_002a_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836391701" alt="Step 2 is to simplify using the Equivalent Fractions Property by dividing out common factors. We first mark out the common factors 5 and 7 and then divide them out. This leaves minus 3 times 3 divided by 2 times 11.">
+<image src="../../media/CNX_IntAlg_Figure_01_03_002b_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836516667" alt="Step 3 is to multiply the remaining factors, if necessary. We get minus 9 by 22.">
+<image src="../../media/CNX_IntAlg_Figure_01_03_002c_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167836624000">We now summarize the steps you should follow to simplify fractions.</para>
+<note id="fs-id1167836282262" class="howto"><label>Simplify a Fraction</label>
+<list id="fs-id1167836693896" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Rewrite the numerator and denominator to show the common factors.<newline/>
+If needed, factor the numerator and denominator into prime numbers first.</item>
+<item>Simplify using the Equivalent Fractions Property by dividing out common factors.</item>
+<item>Multiply any remaining factors.</item>
+</list>
+</note></section><section id="eip-459"><title>Least Common Denominator <footnote id="eip-idm349623344">Section material derived from Openstax Prealgebra: Fractions-Add and Subtract Fractions with Different Denominators</footnote></title><para id="fs-id1883782">In the previous section, we explained how to add and subtract fractions with a common denominator. But how can we add and subtract fractions with unlike denominators?</para>
+<para id="fs-id2650576">Let’s think about coins again. Can you add one quarter and one dime? You could say there are two coins, but that’s not very useful. To find the total value of one quarter plus one dime, you change them to the same kind of unit—cents. One quarter equals <m:math><m:mrow><m:mn>25</m:mn></m:mrow></m:math> cents and one dime equals <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> cents, so the sum is <m:math><m:mrow><m:mn>35</m:mn></m:mrow></m:math> cents. See <link target-id="CNX_BMath_Figure_04_05_001"/>.</para>
+<figure id="CNX_BMath_Figure_04_05_001"><media id="fs-id2076472" alt="A quarter and a dime are shown. Below them, it reads 25 cents plus 10 cents. Below that, it reads 35 cents.">
+<image src="../../media/CNX_BMath_Figure_04_05_002_img.jpg" mime-type="image/jpeg"/>
+</media>
+<caption>Together, a quarter and a dime are worth <m:math><m:mrow><m:mn>35</m:mn></m:mrow></m:math> cents, or <m:math><m:mrow><m:mfrac><m:mrow><m:mn>35</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math> of a dollar.</caption></figure><para id="fs-id1989058">Similarly, when we add fractions with different denominators we have to convert them to equivalent fractions with a common denominator. With the coins, when we convert to cents, the denominator is <m:math><m:mrow><m:mn>100</m:mn><m:mo>.</m:mo></m:mrow></m:math> Since there are <m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math> cents in one dollar, <m:math><m:mrow><m:mn>25</m:mn></m:mrow></m:math> cents is <m:math><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> cents is <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> So we add <m:math><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math> to get <m:math><m:mrow><m:mfrac><m:mrow><m:mn>35</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> which is <m:math><m:mrow><m:mn>35</m:mn></m:mrow></m:math> cents.</para>
+<para id="fs-id2669765">You have practiced adding and subtracting fractions with common denominators. Now let’s see what you need to do with fractions that have different denominators.</para>
+<para id="fs-id2587210">First, we will use fraction tiles to model finding the common denominator of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2207102">We’ll start with one <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> tile and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> tile. We want to find a common fraction tile that we can use to match <emphasis effect="italics">both</emphasis> <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> exactly.</para>
+<para id="fs-id1511088">If we try the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> pieces, <m:math><m:mn>2</m:mn></m:math> of them exactly match the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> piece, but they do not exactly match the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> piece.</para>
+<media id="fs-id872283" alt="Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle is an equally sized rectangle split vertically into two pieces, each labeled 1 fourth. Underneath the second rectangle are two pieces, each labeled 1 fourth. These rectangles together are longer than the rectangle labeled as 1 third.">
+<image src="../../media/CNX_BMath_Figure_04_05_003_img.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id729170">If we try the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> pieces, they do not exactly cover the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> piece or the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> piece.</para>
+<media id="fs-id2264678" alt="Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle is an equally sized rectangle split vertically into three pieces, each labeled 1 sixth. Underneath the second rectangle is an equally sized rectangle split vertically into 2 pieces, each labeled 1 sixth.">
+<image src="../../media/CNX_BMath_Figure_04_05_004_img.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1885367">If we try the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> pieces, we see that exactly <m:math><m:mn>3</m:mn></m:math> of them cover the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> piece, and exactly <m:math><m:mn>2</m:mn></m:math> of them cover the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> piece.</para>
+<media id="fs-id2760375" alt="Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle are three smaller rectangles, each labeled 1 fifth. Together, these rectangles are longer than the 1 half rectangle. Below the 1 third rectangle are two smaller rectangles, each labeled 1 fifth. Together, these rectangles are longer than the 1 third rectangle.">
+<image src="../../media/CNX_BMath_Figure_04_05_005_img.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1269101">If we were to try the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> pieces, they would also work.</para>
+<media id="fs-id1496302" alt="Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle is an equally sized rectangle split vertically into 6 pieces, each labeled 1 twelfth. Underneath the second rectangle is an equally sized rectangle split vertically into 4 pieces, each labeled 1 twelfth.">
+<image src="../../media/CNX_BMath_Figure_04_05_006_img.jpg" mime-type="image/jpeg"/>
+</media>
+
+
+<para id="fs-id2280121">Even smaller tiles, such as <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>48</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> would also exactly cover the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> piece and the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> piece.</para>
+<para id="fs-id2052732">The denominator of the largest piece that covers both fractions is the <term>least common denominator (LCD)</term> of the two fractions. So, the least common denominator of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> is <m:math><m:mn>6</m:mn><m:mo>.</m:mo></m:math></para><para id="fs-id2269375">Notice that all of the tiles that cover <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> have something in common: Their denominators are common multiples of <m:math><m:mn>2</m:mn></m:math> and <m:math><m:mn>3</m:mn><m:mo>,</m:mo></m:math> the denominators of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> The least common multiple (LCM) of the denominators is <m:math><m:mn>6</m:mn><m:mo>,</m:mo></m:math> and so we say that <m:math><m:mn>6</m:mn></m:math> is the least common denominator (LCD) of the fractions <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para><note id="eip-170" class="manipulative-math">Doing the Manipulative Mathematics activity "Finding the Least Common Denominator" will help you develop a better understanding of the LCD.</note><note id="eip-334"><title>Least Common Denominator</title>The <term>least common denominator (LCD)</term> of two fractions is the least common multiple (LCM) of their denominators.</note><para id="fs-id2828994">To find the LCD of two fractions, we will find the LCM of their denominators. We follow the procedure we used earlier to find the LCM of two numbers. We only use the denominators of the fractions, not the numerators, when finding the LCD.</para>
+<example id="fs-id1858347"><title>Finding the LCD of Two Fractions</title><exercise id="fs-id1800633"><problem id="fs-id2139288">
+<para id="fs-id1470244">Find the LCD for the fractions <m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1910766">
+<title>Solution</title>
+<table id="eip-id1168467165136" class="unnumbered unstyled" summary="The first line says, “Factor each denominator into its primes,” and shows 2 trees. The first tree has a 12 with 2 lines coming out from it. Below the 12 is a 3 and a 4. The 3 is circled. The 4 has 2 lines coming out from it. Below the 4 are two 2s. The 2s are circled. The next tree has an 18 with 2 lines coming out from it. Below the 18 is a 3 and a 6. The 3 is circled. The 6 has 2 lines coming out from it. Below the 6 is a 2 and a 3. The 2 and the 3 are circled. The next line says, “List the primes of 12 and the primes of 18, lining them up in columns when possible,” and shows 12 equals 2 times 2 times 3 over 18 equals 2 times 3 times 3. The 2s and 3s are lined up vertically. The next line says, “Bring down the columns,” and shows lines through each column with LCM equals 2 times 2 times 3 times 3 written underneath. The next line says, “Multiply the factors. The product is the LCM,” and shows LCM equals 36. The last line says, “The LCM of 12 and 18 is 36, so the LCD of 7 over 12 and 5 over 18 is 36,” and shows LCD of 7 over 12 and 5 over 18 is 36."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>Factor each denominator into its primes.</entry>
+   <entry><media id="eip-id1168468743774" alt="."><image src="../../media/CNX_BMath_Figure_04_05_025_img-01.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row> 
+   <entry>List the primes of 12 and the primes of 18 lining them up in columns when possible.</entry>
+   <entry><media id="eip-id1168468412977" alt="."><image src="../../media/CNX_BMath_Figure_04_05_025_img-02.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>Bring down the columns.</entry>
+   <entry><media id="eip-id1168469891757" alt="."><image src="../../media/CNX_BMath_Figure_04_05_025_img-03.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+<row>
+   <entry>Multiply the factors. The product is the LCM.</entry>
+   <entry><m:math><m:mtext>LCM</m:mtext><m:mo>=</m:mo><m:mn>36</m:mn></m:math></entry>
+</row>
+<row>
+    <entry>The LCM of 12 and 18 is 36, so the LCD of <m:math><m:mfrac><m:mn>7</m:mn><m:mn>12</m:mn></m:mfrac></m:math> and <m:math><m:mfrac><m:mn>5</m:mn><m:mn>18</m:mn></m:mfrac></m:math> is 36.</entry>
+    <entry>LCD of <m:math><m:mfrac><m:mn>7</m:mn><m:mn>12</m:mn></m:mfrac></m:math> and <m:math><m:mfrac><m:mn>5</m:mn><m:mn>18</m:mn></m:mfrac></m:math> is 36.</entry>
+</row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><para id="fs-id2261326">To find the LCD of two fractions, find the LCM of their denominators. Notice how the steps shown below are similar to the steps we took to find the LCM.</para>
+<note id="fs-id2263834" class="howto"><label>Find the least common denominator (LCD) of two fractions.</label>
+<list id="eip-id1168469505824" class="stepwise" number-style="arabic" list-type="enumerated"><item> Factor each denominator into its primes.</item>
+<item> List the primes, matching primes in columns when possible.</item>
+<item> Bring down the columns.</item>
+<item> Multiply the factors. The product is the LCM of the denominators.</item>
+<item> The LCM of the denominators is the LCD of the fractions.</item></list></note><example id="fs-id1481942"><title>Finding the LCD of Two Fractions</title><exercise id="fs-id1790344">
+<problem id="fs-id2273331">
+<para id="fs-id1773570">Find the least common denominator for the fractions <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1602350">
+<title>Solution</title>
+<para id="fs-id2427618">To find the LCD, we find the LCM of the denominators.</para>
+<para id="fs-id2196399">Find the LCM of <m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>24</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167906426767"><media id="fs-id2296558" alt="The top line shows 15 equals 3 times 5. The next line shows 24 equals 2 times 2 times 2 times 3. The 3s are lined up vertically. The next line shows LCM equals 2 times 2 times 2 times 3 times 5. The last line shows LCM equals 120.">
+<image src="../../media/CNX_BMath_Figure_04_05_016_img-01.png" mime-type="image/jpeg"/>
+</media></para><para id="fs-id1836278">The LCM of <m:math><m:mrow><m:mn>15</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>24</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mn>120</m:mn><m:mo>.</m:mo></m:mrow></m:math> So, the LCD of <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac></m:mrow></m:math> is <m:math><m:mrow><m:mn>120</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example></section><section id="eip-834"><title>Convert to Equivalent Fractions <footnote id="eip-idm361473504">Section material derived from Openstax Prealgebra: Fractions-Add and Subtract Fractions with Different Denominators</footnote></title><para id="fs-id1612378">Earlier, we used fraction tiles to see that the LCD of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> is <m:math><m:mrow><m:mn>12</m:mn><m:mo>.</m:mo></m:mrow></m:math> We saw that three <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> pieces exactly covered <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> and two <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> pieces exactly covered <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> so </para>
+<equation id="eip-543" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow><m:mtext> and </m:mtext><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><media id="fs-id2300486" alt="On the left is a rectangle labeled 1 fourth. Below it is an identical rectangle split vertically into 3 equal pieces, each labeled 1 twelfth. On the right is a rectangle labeled 1 sixth. Below it is an identical rectangle split vertically into 2 equal pieces, each labeled 1 twelfth.">
+<image src="../../media/CNX_BMath_Figure_04_05_026_img.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1833979">We say that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> are equivalent fractions and also that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> are equivalent fractions.</para>
+<para id="fs-id2432332">We can use the Equivalent Fractions Property to algebraically change a fraction to an equivalent one. Remember, two fractions are equivalent if they have the same value. The Equivalent Fractions Property is repeated below for reference.</para><note id="fs-id2154719"><label>Equivalent Fractions Property</label>
+<para id="fs-id1462486">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi></m:mrow></m:math> are whole numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>then</m:mtext></m:mrow></m:math></para>
+<equation id="fs-id1171105206877" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mspace width="1.0em"/><m:mtext>and</m:mtext><m:mspace width="1.0em"/><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow></m:math></equation></note><para id="fs-id3006477">To add or subtract fractions with different denominators, we will first have to convert each fraction to an <term class="no-emphasis">equivalent</term> fraction with the LCD. Let’s see how to change <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> to equivalent fractions with denominator <m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> without using models.</para>
+<example id="fs-id1744424"><title>Coverting to Equivalent Fractions</title><exercise id="fs-id2590373">
+<problem id="fs-id2719084">
+<para id="fs-id2775051">Convert <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> to equivalent fractions with denominator <m:math><m:mrow><m:mn>12</m:mn><m:mo>,</m:mo></m:mrow></m:math> their LCD.</para>
+</problem>
+<solution id="fs-id1512026">
+<title>Solution</title>
+<table id="eip-id1168467209573" class="unnumbered unstyled" summary="The first line says, “Find the LCD,” and says, “The LCD of 1 fourth and 1 sixth is 12.” The next line says, “Find the number to multiply 4 to get 12,” and shows 4 times 3 equals 12. The 3 is red. The next line says, “Find the number to multiply 6 to get 12,” and shows 6 times 2 equals 12. The 2 is red. The next line says, “Use the Equivalent Fractions Property to convert each fraction to an equivalent fraction with the LCD, multiplying both the numerator and denominator of each fraction by the same number.” This line shows 1 fourth and underneath shows 1 times 3 over 4 times 3. The 3s are red. Beside this is shown 1 sixth and underneath shows 1 times 2 over 6 times 2. The 2s are red. The last line says, “Simplify the numerators and denominators,” and shows 3 over twelve and 2 over twelve. Below 3 over 12 is 1 fourth equals 3 over 12. Below 2 over twelve is 1 sixth equals 2 over twelve."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>Find the LCD.</entry>
+   <entry>The LCD of <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> is 12.</entry>
+ </row>
+ <row> 
+   <entry>Find the number to multiply 4 to get 12.</entry>
+   <entry><media id="eip-id1168466118450" alt="."><image src="../../media/CNX_BMath_Figure_04_05_027_img-01.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>Find the number to multiply 6 to get 12.</entry>
+   <entry><media id="eip-id1168469455877" alt="."><image src="../../media/CNX_BMath_Figure_04_05_027_img-02.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>Use the Equivalent Fractions Property to convert each fraction to an equivalent fraction with the LCD, multiplying both the numerator and denominator of each fraction by the same number.</entry>
+   <entry><media id="eip-id1168466096938" alt="."><image src="../../media/CNX_BMath_Figure_04_05_027_img-03.png" mime-type="image/jpeg"/></media></entry>
+ </row> 
+ <row>
+   <entry>Simplify the numerators and denominators.</entry>
+   <entry><media id="eip-id1168468629691" alt="."><image src="../../media/CNX_BMath_Figure_04_05_027_img-04.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id2829004">We do not reduce the resulting fractions. If we did, we would get back to our original fractions and lose the common denominator.</para>
+</solution>
+</exercise>
+</example><note id="fs-id1383519" class="howto"><title>Convert two fractions to equivalent fractions with their LCD as the common denominator.</title><list id="eip-id1168468227692" class="stepwise" number-style="arabic" list-type="enumerated"><item>Find the LCD.</item>
+<item> For each fraction, determine the number needed to multiply the denominator to get the LCD.</item>
+<item> Use the Equivalent Fractions Property to multiply both the numerator and denominator by the number you found in Step 2.</item>
+<item>Simplify the numerator and denominator.</item></list></note><example id="fs-id1987883"><title>Coverting to Equivalent Fractions with an LCD</title><exercise id="fs-id1209196">
+<problem id="fs-id1346383">
+<para id="fs-id2924698">Convert <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac></m:mrow></m:math> to equivalent fractions with denominator <m:math><m:mrow><m:mn>120</m:mn><m:mo>,</m:mo></m:mrow></m:math> their LCD.</para>
+</problem>
+<solution id="fs-id2265944">
+<title>Solution</title>
+
+<table id="eip-id1168466215186" class="unnumbered unstyled" summary="The first line says, “The LCD is 120. We will start at Step 2.” The next line says, “Find the number that must multiply 15 to get 120.” Next to this, it says 15 times 8 equals 120. 8 is in red. The next line says, “Find the number that must multiply 24 to get 120.” Next to this, it says 24 times 5 equals 120. 5 is in red. The next line says, “Use the Equivalent Fractions Property,” and shows 8 times a red 8 over 15 times a red 8 next to 11 times a red 5 over 24 times a red 5. The last step says, “Simplify the numerators and denominators,” and shows 64 over 120 and 55 over 120."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry>The LCD is 120. We will start at Step 2.</entry>
+ </row>
+ <row> 
+   <entry>Find the number that must multiply 15 to get 120.</entry>
+   <entry><media id="eip-id1168466119565" alt="."><image src="../../media/CNX_BMath_Figure_04_05_028_img-01.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>Find the number that must multiply 24 to get 120.</entry>
+   <entry><media id="eip-id1168466229504" alt="."><image src="../../media/CNX_BMath_Figure_04_05_028_img-02.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>Use the Equivalent Fractions Property.</entry>
+   <entry><media id="eip-id1168466884619" alt="."><image src="../../media/CNX_BMath_Figure_04_05_028_img-03.png" mime-type="image/jpeg"/></media></entry>
+ </row>  
+ <row>
+   <entry>Simplify the numerators and denominators.</entry>
+   <entry><media id="eip-id1168466138250" alt="."><image src="../../media/CNX_BMath_Figure_04_05_028_img-04.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+</tbody>
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example></section><section id="eip-339"><title>Add and Subtract Fractions <footnote id="eip-idm1357531408">Section material derived from Openstax Prealgebra: Fractions-Add and Subtract Fractions with Common Denominators</footnote></title><para id="fs-id2754296">How many quarters are pictured? One quarter plus <m:math><m:mn>2</m:mn></m:math> quarters equals <m:math><m:mn>3</m:mn></m:math> quarters.</para>
+<media id="fs-id1724461" alt="Three U.S. quarters are shown. One is shown on the left, and two are shown on the right.">
+<image src="../../media/CNX_BMath_Figure_04_04_001.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id2085824">Remember, quarters are really fractions of a dollar. Quarters are another way to say fourths. So the picture of the coins shows that</para>
+<equation id="fs-id1166497459993" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mtext>one quarter</m:mtext></m:mtd><m:mtd columnalign="center"><m:mo>+</m:mo></m:mtd><m:mtd columnalign="center"><m:mtext>two quarters</m:mtext></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="center"><m:mtext>three quarters</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id2142942">Let’s use fraction circles to model the same example, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+
+
+<table id="eip-id1168467352669" class="unnumbered unstyled" summary="The first line says, “Start with one 1 fourth piece,” and shows a quarter of a circle next to the fraction 1 fourth. The next line says, “Add two more 1 fourth pieces,” and shows two quarters of a circle next to the fraction 2 fourths. The last line says, “The result is 3 fourths,” and shows a circle divided into four equal pieces with three pieces shaded next to the fraction 3 fourths."><label/>
+<tgroup cols="3"><tbody>
+ <row>
+   <entry>Start with one <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> piece.</entry>
+   <entry><media id="eip-id1168468646781" alt="."><image src="../../media/CNX_BMath_Figure_04_04_002_img-01.png" mime-type="image/jpeg"/></media></entry>
+   <entry><media id="eip-id1165720809696" alt="."><image src="../../media/CNX_BMath_Figure_04_04_002_img-04.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row> 
+   <entry>Add two more <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>pieces.</entry>
+   <entry><media id="eip-id1168468650091" alt="."><image src="../../media/CNX_BMath_Figure_04_04_002_img-02.png" mime-type="image/png"/></media></entry>
+   <entry><media id="eip-id1165720997799" alt="."><image src="../../media/CNX_BMath_Figure_04_04_002_img-05.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>The result is <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>.</entry>
+   <entry><media id="eip-id1168467360812" alt="."><image src="../../media/CNX_BMath_Figure_04_04_002_img-03.png" mime-type="image/png"/></media></entry>
+   <entry><media id="eip-id1165720911699" alt="."><image src="../../media/CNX_BMath_Figure_04_04_002_img-06.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ 
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id2157220">So again, we see that</para>
+<equation id="fs-id865323" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></equation>
+<example id="fs-id1852374"><title>Adding Fractions</title><exercise id="fs-id1613704">
+<problem id="fs-id3417040">
+<para id="fs-id2661927">Use a model to find the sum <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1394348">
+<title>Solution</title>
+
+<table id="eip-id1168468316426" class="unnumbered unstyled" summary="The first line says, “Start with three 1 eighth pieces,” and shows three eighths of a circle next to the fraction 3 eighths. The next line says, “Add two 1 eighth pieces,” and shows two eighths of a circle next to the fraction 2 eighths The last line says, “How many 1 eighth pieces are there?” and shows a circle divided into eight equal pieces with 5 pieces shaded next to the fraction 5 eighths."><label/>
+<tgroup cols="3"><tbody>
+ <row>
+   <entry>Start with three <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> pieces.</entry>
+   <entry><media id="eip-id1168467251586" alt="."><image src="../../media/CNX_BMath_Figure_04_04_003_img-01.png" mime-type="image/jpeg"/></media></entry>
+   <entry><media id="eip-id1165722006924" alt="."><image src="../../media/CNX_BMath_Figure_04_04_003_img-06.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row> 
+   <entry>Add two <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>pieces.</entry>
+   <entry><media id="eip-id1168467461294" alt="."><image src="../../media/CNX_BMath_Figure_04_04_003_img-02.png" mime-type="image/png"/></media></entry>
+   <entry><media id="eip-id1165722006962" alt="."><image src="../../media/CNX_BMath_Figure_04_04_003_img-05.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>How many <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>pieces are there?</entry>
+   <entry><media id="eip-id1168467247753" alt="."><image src="../../media/CNX_BMath_Figure_04_04_003_img-03.png" mime-type="image/png"/></media></entry>
+   <entry><media id="eip-id1165722006999" alt="."><image src="../../media/CNX_BMath_Figure_04_04_003_img-04.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ 
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id3003345">There are five <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> pieces, or five-eighths. The model shows that <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><note id="fs-id1167829744486"><label>Fraction Addition and Subtraction</label>
+<para id="fs-id1167836493307">If <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis> are numbers where <m:math><m:mrow><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1171791493356" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mspace width="0.5em"/><m:mtext>and</m:mtext><m:mspace width="0.5em"/><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167833024310">To add or subtract fractions, add or subtract the numerators and place the result over the common denominator.</para>
+</note><note id="fs-id1167836610898" class="howto"><label>Add or subtract fractions</label>
+<list id="fs-id1167829715974" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Do they have a common denominator?
+<list id="fs-id1167836546938" list-type="bulleted" bullet-style="bullet">
+<item>Yes—go to step 2.</item>
+<item>No—rewrite each fraction with the LCD (least common denominator).
+<list id="fs-id1167833053829" list-type="bulleted" bullet-style="bullet">
+<item>Find the LCD.</item>
+<item>Change each fraction into an equivalent fraction with the LCD as its denominator.</item>
+</list></item></list></item>
+<item>Add or subtract the fractions.</item>
+<item>Simplify, if possible.</item>
+</list>
+</note></section><section id="eip-901"><title>Adding and Subtracting Fractions by Finding Factors and LCDs <footnote id="eip-idm965580464">Section material derived from Openstax Prealgebra: Fractions-Add and Subtract Fractions with Different Denominators</footnote></title><para id="fs-id2369879">Once we have converted two fractions to equivalent forms with common denominators, we can add or subtract them by adding or subtracting the numerators.</para>
+<note id="fs-id1594414" class="howto"><label>Add or Subtract Fractions with Different Denominators.</label>
+<list id="eip-id1168468303196" class="stepwise" list-type="enumerated" number-style="arabic"><item> Find the LCD.</item>
+<item> Convert each fraction to an equivalent form with the LCD as the denominator.</item>
+<item>Add or subtract the fractions.</item>
+<item> Write the result in simplified form.</item></list></note><example id="fs-id2376018"><title>Adding Fractions</title><exercise id="fs-id2579343">
+<problem id="fs-id808259">
+<para id="fs-id1357286">Add: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2757148">
+<title>Solution</title>
+
+
+<table id="eip-id1168466144855" class="unnumbered unstyled" summary="The first line says 1 half plus 1 third. The next line says, “Find the LCD of 2, 3,” and shows 2 equals 2 and 3 equals 3. Below this, it says LCD equals 2 times 3. Below this, it says LCD equals 6. The next line says, “Change into equivalent fractions with the LCD 6,” and shows 1 times a red 3 over 2 times a red three plus 1 times a red 2 over 3 times a red 2. The next line says, “Simplify the numerators and denominators,” and shows 3 over 6 plus 2 over 6. The last line says, “Add,” and shows 5 sixths."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry align="center"><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+ </row>
+ <row> 
+   <entry>Find the LCD of 2, 3.<newline/><media id="eip-id1168467195192" alt="."><image src="../../media/CNX_BMath_Figure_04_05_029_img-01.png" mime-type="image/jpeg"/></media></entry>
+   <entry/>
+ </row>
+ <row>
+   <entry>Change into equivalent fractions with the LCD 6.</entry>
+   <entry><media id="eip-id1168468757936" alt="."><image src="../../media/CNX_BMath_Figure_04_05_029_img-02.png" mime-type="image/jpeg"/></media></entry>
+ </row>
+ <row>
+   <entry>Simplify the numerators and denominators.</entry>
+   <entry align="center"><m:math><m:mfrac><m:mn>3</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>6</m:mn></m:mfrac></m:math></entry>
+ </row>  
+ <row>
+   <entry>Add.</entry>
+   <entry align="center"><m:math><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:math></entry>
+ </row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1598176">Remember, always check to see if the answer can be simplified. Since <m:math><m:mn>5</m:mn></m:math> and <m:math><m:mn>6</m:mn></m:math> have no common factors, the fraction <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> cannot be reduced.</para>
+</solution>
+</exercise>
+</example><para id="fs-id2684867">When we use the Equivalent Fractions Property, there is a quick way to find the number you need to multiply by to get the LCD. Write the factors of the denominators and the LCD just as you did to find the LCD. The “missing” factors of each denominator are the numbers you need.</para><media id="fs-id2474611" alt="The first line says 12 equals 2 times 2 times 3. There is a blank space next to the 3. The next line says 18 equals 2 times 3 times 3. There is a blank space between the 2 and the first 3. There are red lines drawn from the blank spaces. This is labeled as missing factors. There is a horizontal line. Below the line, it says LCD equals 2 times 2 times 3 times 3. Below this, it says LCD equals 36.">
+<image src="../../media/CNX_BMath_Figure_04_05_015.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1544257">The LCD, <m:math><m:mrow><m:mn>36</m:mn><m:mo>,</m:mo></m:mrow></m:math> has <m:math><m:mn>2</m:mn></m:math> factors of <m:math><m:mn>2</m:mn></m:math> and <m:math><m:mn>2</m:mn></m:math> factors of <m:math><m:mn>3</m:mn><m:mo>.</m:mo></m:math></para>
+<para id="fs-id3216933">Twelve has two factors of <m:math><m:mn>2</m:mn><m:mo>,</m:mo></m:math> but only one of <m:math><m:mn>3</m:mn></m:math>—so it is ‘missing‘ one <m:math><m:mn>3</m:mn><m:mo>.</m:mo></m:math> We multiplied the numerator and denominator of <m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math> by <m:math><m:mn>3</m:mn></m:math> to get an equivalent fraction with denominator <m:math><m:mrow><m:mn>36</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id4333649">Eighteen is missing one factor of <m:math><m:mn>2</m:mn></m:math>—so you multiply the numerator and denominator <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>18</m:mn></m:mrow></m:mfrac></m:mrow></m:math> by <m:math><m:mn>2</m:mn></m:math> to get an equivalent fraction with denominator <m:math><m:mrow><m:mn>36</m:mn><m:mo>.</m:mo></m:mrow></m:math> We will apply this method as we subtract the fractions in the next example.</para><example id="fs-id2668537"><title>Subtracting Fractions</title><exercise id="fs-id3322510">
+<problem id="fs-id2270972">
+<para id="fs-id2454954">Subtract: <m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>19</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2173183">
+<title>Solution</title>
+<table id="eip-id1168466319808" class="unnumbered unstyled" summary="The first line says 7 over 15 minus 19 over 24. The next line says “Find the LCD,” and shows 15 equals 3 times 5. Below that, it says 24 equals 2 times 2 times 2 times 3. There is a line below this. Below the line, it says LCD equals 2 times 2 times 2 times 3 times 5. Below that, it says LCD equals 120. The next line says, “Identify the missing factors needed for the LCD.” Beside that, it says, “15 is 'missing' three factors of 2,” and “24 is 'missing' a factor of 5.” The next line says, “Rewrite as equivalent fractions with the LCD,” and shows 7 times a red 8 over 15 times a red 8 minus 19 times a red 5 over 24 times a red 5. The next step says, “Simplify each numerator and denominator,” and shows 56 over 120 minus 95 over 120. The next step says, “Subtract,” and says negative 39 over 120. The next step says, “Rewrite showing the common factor of 3,” and says negative 13 times 3 over 40 times 3. The last step says, “Remove the common factor to simplify,” and shows negative 13 over 40."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry align="center"><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>15</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>19</m:mn><m:mn>24</m:mn></m:mfrac></m:mrow></m:math></entry>
+ </row>
+ <row>
+   <entry>Find the LCD.<newline/><media id="eip-id1168469519946" alt="."><image src="../../media/CNX_BMath_Figure_04_05_032_img-01.png" mime-type="image/png"/></media><newline/>15 is 'missing' three factors of 2<newline/>24 is 'missing' a factor of 5</entry>
+   <entry/>
+ </row>  
+ <row>
+   <entry>Rewrite as equivalent fractions with the LCD.</entry>
+   <entry align="center"><media id="eip-id1168468230268" alt="."><image src="../../media/CNX_BMath_Figure_04_05_032_img-02.png" mime-type="image/jpeg"/></media></entry>
+ </row> 
+ <row>
+   <entry>Simplify each numerator and denominator.</entry>
+   <entry align="center"><m:math><m:mrow><m:mfrac><m:mn>56</m:mn><m:mn>120</m:mn></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>95</m:mn><m:mn>120</m:mn></m:mfrac></m:mrow></m:math></entry>
+ </row>  
+ <row>
+   <entry>Subtract.</entry>
+   <entry align="center"><m:math><m:mo>−</m:mo><m:mfrac><m:mn>39</m:mn><m:mn>120</m:mn></m:mfrac></m:math></entry>
+ </row>  
+ <row>
+   <entry>Rewrite showing the common factor of 3.</entry>
+   <entry align="center"><m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>13</m:mn><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>40</m:mn><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>  
+ <row>
+   <entry>Remove the common factor to simplify.</entry>
+   <entry align="center"><m:math><m:mo>−</m:mo><m:mfrac><m:mn>13</m:mn><m:mn>40</m:mn></m:mfrac></m:math></entry>
+ </row>  
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1250061"><title>Adding with Negative Fractions</title><exercise id="fs-id1976979">
+<problem id="fs-id3262124">
+<para id="fs-id4210825">Add: <m:math><m:mrow><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>23</m:mn></m:mrow><m:mrow><m:mn>42</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id3448071">
+<title>Solution</title>
+
+
+<table id="eip-id1168466855270" class="unnumbered unstyled" summary="The first line says negative 11 over 30 plus 23 over 42. The next line says, “Find the LCD.” Beside that, it says 30 equals 2 times 3 times 5. Below that, it says 42 equals 2 times 3 times 7. There is a line below that. Below the line, it says LCD equals 2 times 3 times 5 times 7. Below that, it says LCD equals 210. The next line says, “Rewrite as equivalent fractions with the LCD.” Beside that, it says negative 11 times a red 7 over 30 times a red 7 plus 23 times a red 5 over 42 times a red 5. The next step says, “Simplify each numerator and denominator.” Beside that is negative 77 over 210 plus 115 over 210. The next step says, “Add,” and shows 38 over 210. The next step says, “Rewrite showing the common factor of 2,” and shows 19 times 2 over 105 times 2. The last step says, “Remove the common factor to simplify,” and says 19 over 105."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry align="center"><m:math><m:mo>−</m:mo><m:mrow><m:mfrac><m:mn>11</m:mn><m:mn>30</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>23</m:mn><m:mn>42</m:mn></m:mfrac></m:mrow></m:math></entry>
+ </row>
+ <row>
+   <entry>Find the LCD.<newline/><media id="eip-id1168468614224" alt="."><image src="../../media/CNX_BMath_Figure_04_05_033_img-01.png" mime-type="image/jpeg"/></media></entry>
+   <entry/>
+ </row>  
+ <row>
+   <entry>Rewrite as equivalent fractions with the LCD.</entry>
+   <entry align="center"><media id="eip-id1168468567274" alt="."><image src="../../media/CNX_BMath_Figure_04_05_033_img-02.png" mime-type="image/jpeg"/></media></entry>
+ </row>  
+ <row>
+   <entry>Simplify each numerator and denominator.</entry>
+   <entry align="center"><m:math><m:mo>−</m:mo><m:mrow><m:mfrac><m:mn>77</m:mn><m:mn>210</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>115</m:mn><m:mn>210</m:mn></m:mfrac></m:mrow></m:math></entry>
+ </row>
+  <row>
+   <entry>Add.</entry>
+   <entry align="center"><m:math><m:mfrac><m:mn>38</m:mn><m:mn>210</m:mn></m:mfrac></m:math></entry>
+ </row>  
+ <row>
+   <entry>Rewrite showing the common factor of 2.</entry>
+   <entry align="center"><m:math><m:mfrac><m:mrow><m:mn>19</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>105</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row> 
+ <row>  
+   <entry>Remove the common factor to simplify.</entry>
+   <entry align="center"><m:math><m:mfrac><m:mn>19</m:mn><m:mn>105</m:mn></m:mfrac></m:math></entry>
+ </row>   
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id3291799">In the next example, one of the fractions has a variable in its numerator. We follow the same steps as when both numerators are numbers.</para>
+<note id="eip-148"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id3332532" display="block">
+<item><link url="http://www.openstax.org/l/24AddMixed">Adding Mixed Numbers</link></item>
+<item><link url="http://www.openstax.org/l/24SubtractMixed">Subtracting Mixed Numbers</link></item>
+</list>
+</note></section><section id="eip-818"><title>Multiply fractions <footnote id="eip-idm433103792">Section material derived from Openstax Prealgebra: Fractions-Multiply and Divide Fractions</footnote></title><para id="fs-id2904577">A model may help you understand multiplication of fractions. We will use fraction tiles to model <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> To multiply <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> think <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> of <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2140323">Start with fraction tiles for three-fourths. To find one-half of three-fourths, we need to divide them into two equal groups. Since we cannot divide the three <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> tiles evenly into two parts, we exchange them for smaller tiles.</para>
+<media id="fs-id2173839" alt="A rectangle is divided vertically into three equal pieces. Each piece is labeled as one fourth. There is a an arrow pointing to an identical rectangle divided vertically into six equal pieces. Each piece is labeled as one eighth. There are braces showing that three of these rectangles represent three eighths.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_010_img.jpg"/>
+</media>
+<para id="fs-id1858740">We see <m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> is equivalent to <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Taking half of the six <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> tiles gives us three <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> tiles, which is <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1968554">Therefore,</para>
+<equation id="fs-id1759411" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></equation>
+<example id="fs-id1534696"><title>Multiplying Fractions</title><exercise id="fs-id2601459"><problem id="fs-id1851679">
+<para id="fs-id2829005">Use a diagram to model <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1523872">
+<title>Solution</title>
+<para id="fs-id2216313">First shade in <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> of the rectangle.</para>
+<media id="fs-id2946372" alt="A rectangle is shown, divided vertically into four equal pieces. Three of the pieces are shaded.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_029_img.jpg"/>
+</media>
+<para id="fs-id2778298">We will take <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> of this <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> so we heavily shade <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> of the shaded region.</para><media id="fs-id3199434" alt="A rectangle is shown, divided vertically into four equal pieces. Three of the pieces are shaded. The rectangle is divided by a horizontal line, creating eight equal pieces. Three of the eight pieces are darkly shaded.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_030_img.jpg"/>
+</media>
+<para id="fs-id2703738">Notice that <m:math><m:mn>3</m:mn></m:math> out of the <m:math><m:mn>8</m:mn></m:math> pieces are heavily shaded. This means that <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> of the rectangle is heavily shaded.</para><para id="fs-id2173908">Therefore, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> of <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> is <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise></example>
+
+
+<para id="fs-id1598175">Look at the result we got from the model in <link target-id="fs-id1534696"/>. We found that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Do you notice that we could have gotten the same answer by multiplying the numerators and multiplying the denominators?</para>
+<table id="eip-id1168468256450" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Multiply the numerators, and multiply the denominators.</entry>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:math></entry></row>  
+</tbody>
+
+</tgroup>
+</table><para id="fs-id3293033">This leads to the definition of fraction multiplication. To multiply fractions, we multiply the numerators and multiply the denominators. Then we write the fraction in simplified form.</para>
+<note id="fs-id2908633"><label>Fraction Multiplication</label>
+<para id="fs-id2707863">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mrow></m:math> are numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1171100782926" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note>
+<example id="fs-id1863495"><title>Multiplying Fractions</title><exercise id="fs-id2436292">
+<problem id="fs-id1370912">
+<para id="fs-id1632996">Multiply, and write the answer in simplified form: <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1988962">
+<title>Solution</title>
+<table id="eip-id1168468398776" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Multiply the numerators; multiply the denominators.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mfrac><m:mn>3</m:mn><m:mn>20</m:mn></m:mfrac></m:math></entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id3400279">There are no common factors, so the fraction is simplified.</para>
+</solution>
+</exercise>
+</example>
+
+<para id="eip-533">When multiplying fractions, the properties of positive and negative numbers still apply. It is a good idea to determine the sign of the product as the first step. In <link target-id="fs-id2590618">Example 4.26</link> we will multiply two negatives, so the product will be positive.</para><example id="fs-id2590618"><title>Multiplying Fractions with Negatives</title><exercise id="fs-id4876976">
+<problem id="fs-id1933193">
+<para id="fs-id3323807">Multiply, and write the answer in simplified form: <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2784352">
+<title>Solution</title>
+<table id="eip-id1168466273465" class="unnumbered unstyled" summary="The problem is negative 5 eighths times negative 2 thirds. The second line says, “The signs are the same, so the product is positive. Multiply the numerators, multiply the denominators,” and next to this is 5 times 2 over 8 times 3. The next line says, “Simplify,” and has 10 over 24. The next step says to “Look for common factors in the numerator and denominator. Rewrite showing common factors,” and shows 5 times 2 over 12 times 2. The last step says to “Remove common factors,” and shows 10 over 24 equal to 5 times 2 over 12 times 2 with the 2s crossed out equal to 5 over 12."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry></row>
+<row>
+  <entry>The signs are the same, so the product is positive. Multiply the numerators, multiply the denominators.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mfrac><m:mn>10</m:mn><m:mn>24</m:mn></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Look for common factors in the numerator and denominator. Rewrite showing common factors.</entry>
+  <entry><media id="eip-id6805038" alt=""><image src="../../media/CNX_BMath_Figure_04_02_038_img-01.png" mime-type="image/png"/></media></entry></row> 
+<row>
+  <entry>Remove common factors.</entry>
+  <entry><m:math><m:mfrac><m:mn>5</m:mn><m:mn>12</m:mn></m:mfrac></m:math></entry></row>     
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id2358857">Another way to find this product involves removing common factors earlier.</para>
+<table id="eip-id1168466166066" class="unnumbered unstyled" summary="The problem is negative 5 eighths times negative 2 thirds. The second line says, “Determine the sign of the product. Multiply,” and next to this is 5 times 2 over 8 times 3. The next line says, “Show common factors and remove them,” and shows 5 times 2 over 4 times 2 times 3. The 2s are written in red and crossed out. The last step says to “Multiply remaining factors,” and shows 5 over 12."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry></row>
+<row>
+  <entry>Determine the sign of the product. Multiply.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Show common factors and then remove them.</entry>
+  <entry><media id="eip-id1168469466410" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_032_img-01.png"/></media></entry>
+</row>
+<row>
+  <entry>Multiply remaining factors.</entry>
+  <entry><m:math><m:mfrac><m:mn>5</m:mn><m:mn>12</m:mn></m:mfrac></m:math></entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1891341">We get the same result.</para>
+</solution>
+</exercise>
+</example>
+
+<example id="fs-id1460940"><title>Multiplying Fractions with Negatives</title><exercise id="fs-id1500224">
+<problem id="fs-id4201379">
+<para id="fs-id4338318">Multiply, and write the answer in simplified form: <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2224517">
+<title>Solution</title>
+<table id="eip-id1168466394330" class="unnumbered unstyled" summary="The first line says, “Rewrite showing common factors,” and shows negative 2 times 7 times 4 times 5 over 3 times 5 times 3 times 7. The 5s and 7s are in red and crossed out. The next line says, “Remove the common factors,” and shows negative 2 times 4 over 3 times 3. The last step says to “Multiply the remaining factors,” and shows negative 8 ninths."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry></row>
+<row>
+  <entry>Determine the sign of the product; multiply.</entry>
+  <entry><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>21</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry></row>
+<row>
+  <entry>Are there any common factors in the numerator and the denominator?<newline/><m:math><m:mspace width="0.2em"/></m:math>We know that 7 is a factor of 14 and 21, and 5 is a factor of 20 and 15.</entry> 
+  <entry/></row> 
+<row>
+  <entry>Rewrite showing common factors.</entry> 
+  <entry><media id="eip-id1168467209499" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_033_img-01.png"/></media></entry></row>
+<row>
+  <entry>Remove the common factors.</entry>
+  <entry><m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Multiply the remaining factors.</entry>
+  <entry><m:math><m:mo>−</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>9</m:mn></m:mfrac></m:math></entry></row>  
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+
+<para id="fs-id2778365">When multiplying a fraction by an integer, it may be helpful to write the integer as a fraction. Any integer, <m:math><m:mi>a</m:mi><m:mo>,</m:mo></m:math> can be written as <m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mn>1</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> So, <m:math><m:mrow><m:mn>3</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> for example.</para>
+<example id="fs-id1257967"><title>Multiplying Fractions, Whole Numbers, and Terms</title><exercise id="fs-id2323137">
+<problem id="fs-id2561418">
+<para id="fs-id1859590">Multiply, and write the answer in simplified form:</para>
+<para id="fs-id2129913"><span class="token">ⓐ</span><m:math><m:mfrac><m:mn>1</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>56</m:mn></m:math></para><para id="eip-id1168466244933"><span class="token">ⓑ</span><m:math><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−20</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:math></para>
+
+</problem>
+<solution id="fs-id1724732">
+<title>Solution</title>
+
+
+<table id="eip-id1168466216346" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+  <entry><span class="token">ⓐ</span></entry>
+  <entry/>
+</row>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>56</m:mn></m:math></entry></row> 
+<row>
+  <entry>Write 56 as a fraction.</entry>
+  <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>56</m:mn><m:mn>1</m:mn></m:mfrac></m:math></entry></row>   
+<row>
+  <entry>Determine the sign of the product; multiply.</entry>
+  <entry><m:math><m:mfrac><m:mn>56</m:mn><m:mn>7</m:mn></m:mfrac></m:math></entry></row>  
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mn>8</m:mn></m:math></entry></row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><table id="eip-id1168466048420" class="unnumbered unstyled" summary="The first line says 12 fifths times negative 20 “x”. The next line says, “Write negative 20 'x' as a fraction,” and shows 12 fifths times negative 20 “x” over 1. The next step says, “Determine the sign of the product; multiply,” and shows negative 12 times 20 times 'x' over 5 times 1. The next step says, “Show common factors and then remove them,” and shows negative 12 times 4 times 5 times 'x' over 5 times 1. The 5s are in red and crossed out. The last step says “Multiply remaining factors; simplify,” and shows negative 48 'x'."><label/>
+<tgroup cols="2"><tbody>
+<row>
+  <entry><span class="token">ⓑ</span></entry>
+  <entry/>
+</row>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−20</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:math></entry></row> 
+<row>
+  <entry>Write −20x as a fraction.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>−20</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow></m:math></entry></row>  
+<row>
+  <entry>Determine the sign of the product; multiply.</entry>
+  <entry><m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn><m:mo>·</m:mo><m:mn>20</m:mn><m:mo>·</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>·</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:math></entry></row>  
+<row>
+  <entry>Show common factors and then remove them.</entry>
+  <entry><media id="eip-id1168468528865" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_036_img-01.png"/></media></entry></row>    
+<row>
+  <entry>Multiply remaining factors; simplify.</entry>
+  <entry>−48x</entry></row>  
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example>
+</section><section id="eip-709"><title>Find Reciprocals <footnote id="eip-idm945848656">Section material derived from Openstax Prealgebra: Fractions-Multiply and Divide Fractions</footnote></title><para id="fs-id1166761301297">The fractions <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> are related to each other in a special way. So are <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Do you see how? Besides looking like upside-down versions of one another, if we were to multiply these pairs of fractions, the product would be <m:math><m:mn>1</m:mn><m:mo>.</m:mo></m:math></para>
+<equation id="fs-id1834573" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="1.0em"/><m:mtext>and</m:mtext><m:mspace width="1.0em"/><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation><para id="fs-id1597613">Such pairs of numbers are called reciprocals.</para><note id="fs-id1361007"><label>The Reciprocal</label>
+<para id="fs-id1804020">The <term>reciprocal</term> of the fraction <m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:mrow></m:math> is <m:math><m:mrow><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></para><para id="fs-id1183695">A number and its reciprocal have a product of <m:math><m:mn>1</m:mn><m:mo>.</m:mo></m:math></para>
+<equation id="fs-id1340660" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation>
+</note><para id="fs-id2299691">To find the reciprocal of a fraction, we invert the fraction. This means that we place the numerator in the denominator and the denominator in the numerator.</para><para id="fs-id3262125">To get a positive result when multiplying two numbers, the numbers must have the same sign. So reciprocals must have the same sign. </para><media id="fs-id1474540" alt="“a” over “b” multiplied by “b” over “a” equals positive one.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_035_img.jpg"/>
+</media>
+<para id="fs-id2224098">To find the reciprocal, keep the same sign and invert the fraction. The number zero does not have a reciprocal. Why? A number and its reciprocal multiply to <m:math><m:mn>1</m:mn><m:mo>.</m:mo></m:math> Is there any number <m:math><m:mi>r</m:mi></m:math> so that <m:math><m:mrow><m:mn>0</m:mn><m:mo>·</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mo>?</m:mo></m:math> No. So, the number <m:math><m:mn>0</m:mn></m:math> does not have a reciprocal.</para><example id="fs-id1242988"><title>Finding Reciprocals</title><exercise id="fs-id1841849"><problem id="fs-id2691525">
+<para id="fs-id1714600">Find the reciprocal of each number. Then check that the product of each number and its reciprocal is <m:math><m:mn>1</m:mn><m:mo>.</m:mo></m:math></para>
+
+<list id="eip-id1168469776775" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mfrac><m:mn>4</m:mn><m:mn>9</m:mn></m:mfrac></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mn>7</m:mn></m:math></item></list>
+
+</problem>
+<solution id="fs-id2150565">
+<title>Solution</title>
+<para id="fs-id2270162">To find the reciprocals, we keep the sign and invert the fractions.</para>
+<table id="eip-374" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row><entry><span class="token">ⓐ</span></entry> 
+  <entry/>
+  </row>
+  <row>
+    <entry>Find the reciprocal of <m:math><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+    <entry>The reciprocal of <m:math><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:math> is <m:math><m:mfrac><m:mrow><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+  </row>
+  <row>
+    <entry>Check:</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Multiply the number and its reciprocal.</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Multiply numerators and denominators.</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:mn>36</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>Simplify.</entry>
+    <entry><m:math><m:mn>1</m:mn><m:mo>✓</m:mo></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table><table id="eip-37774" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓑ</span></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Find the reciprocal of <m:math><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+    <entry><m:math><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:mfrac></m:math> </entry>
+  </row>
+  <row>
+    <entry>Simplify.</entry>
+    <entry><m:math><m:mo>-</m:mo><m:mn>6</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Check:</entry>
+    <entry><m:math><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>1</m:mn><m:mo>✓</m:mo></m:math></entry>
+  </row>
+  
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table><table id="eip-id1170196522976" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓒ</span></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Find the reciprocal of <m:math><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+    <entry><m:math><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:mfrac></m:math> </entry>
+  </row>
+  <row>
+    <entry>Check:</entry>
+    <entry><m:math><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></entry>
+  </row>
+<row>
+<entry/><entry><m:math><m:mfrac><m:mrow><m:mn>70</m:mn></m:mrow><m:mrow><m:mn>70</m:mn></m:mrow></m:mfrac></m:math></entry></row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>1</m:mn><m:mo>✓</m:mo></m:math></entry>
+  </row>
+  
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><table id="eip-id1170195508737" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓓ</span></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Find the reciprocal of <m:math><m:mn>7</m:mn></m:math>.</entry>
+    <entry/>
+  </row>
+  
+<row>
+    <entry>Write <m:math><m:mn>7</m:mn></m:math> as a fraction.</entry>
+    <entry><m:math><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:mfrac></m:math></entry>
+  </row>
+
+<row>
+<entry>Write the reciprocal of <m:math><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+<entry><m:math><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>7</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+  
+
+<row>
+    <entry>Check:</entry>
+    <entry><m:math><m:mn>7</m:mn><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></entry>
+  </row>
+
+
+<row>
+<entry/>
+<entry><m:math><m:mn>1</m:mn><m:mo>✓</m:mo></m:math></entry></row>
+  
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id3013805">In a previous chapter, we worked with opposites and absolute values. <link target-id="fs-id1394345"/> compares opposites, absolute values, and reciprocals.</para>
+<table id="fs-id1394345" summary="A table is shown with 2 rows and 3 columns. The first row is a header row labeling each column. The first column is “Opposite,” the second column is “Absolute Value,” and the third column is “Reciprocal.” Under “Opposite” is written “has opposite sign.” Under “Absolute Value” is written “is never negative.” Under “Reciprocal” is written “has same sign, fraction inverts.”">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="left">Opposite</entry>
+<entry align="left">Absolute Value</entry>
+<entry align="left">Reciprocal</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left" valign="top">has opposite sign</entry>
+<entry align="left" valign="top">is never negative</entry>
+<entry align="left" valign="top">has same sign, fraction inverts</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<example id="fs-id2649269"><title>Reciprocals and Opposites</title><exercise id="fs-id1811476">
+<problem id="fs-id1741941">
+<para id="fs-id1627754">Fill in the chart for each fraction in the left column:</para>
+<table id="fs-id1179454" class="unnumbered" summary="A table is shown with 5 rows and 4 columns. The first row is a header row labeling each column. The first column is “Number,” the second column is “Opposite,” the third column is “Absolute Value,” and the fourth column is “Reciprocal.” Under the column “Number” are the values: negative 3 eighths, 1 half, 9 fifths, and negative 5. The remainder of the table is empty.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry align="left">Number</entry>
+<entry align="left">Opposite</entry>
+<entry align="left">Absolute Value</entry>
+<entry align="left">Reciprocal</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math></entry>
+<entry align="left"/>
+<entry align="left"/>
+<entry align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="fs-id2431075">
+<title>Solution</title>
+<para id="fs-id1932057">To find the opposite, change the sign. To find the absolute value, leave the positive numbers the same, but take the opposite of the negative numbers. To find the reciprocal, keep the sign the same and <term class="no-emphasis">invert</term> the fraction.</para>
+<table id="fs-id1722688" class="unnumbered" summary="A table is shown with 5 rows and 4 columns. The first row is a header row labeling each column. The first column is “Number,” the second column is “Opposite,” the third column is “Absolute Value,” and the fourth column is “Reciprocal.” Under the column “Number” are the values: negative 3 eighths, 1 half, 9 fifths, and negative 5. Under the column “Opposite” are the values: 3 eighths, negative 1 half, negative 9 fifths, and 5. Under the column “Absolute Value” are the values: 3 eighths, 1 half, 9 fifths, and 5. Under the column “Reciprocal” are the values: negative 8 thirds, 2, 5 ninths, and negative 1 fifth.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry align="left">Number</entry>
+<entry align="left">Opposite</entry>
+<entry align="left">Absolute Value</entry>
+<entry align="left">Reciprocal</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mn>2</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left" valign="top"><m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mn>5</m:mn></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mn>5</m:mn></m:math></entry>
+<entry align="left" valign="top"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example></section><section id="eip-601"><title>Divide Fractions <footnote id="eip-idm741896864">Section material derived from Openstax Prealgebra: Fractions-Multiply and Divide Fractions</footnote></title><para id="fs-id1574742">Why is <m:math><m:mrow><m:mn>12</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow><m:mo>?</m:mo></m:math> We previously modeled this with counters. How many groups of <m:math><m:mn>3</m:mn></m:math> counters can be made from a group of <m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> counters?</para>
+<media id="fs-id1621685" alt="Four red ovals are shown. Inside each oval are three grey circles.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_015_img.jpg"/>
+</media>
+<para id="fs-id1828558">There are <m:math><m:mn>4</m:mn></m:math> groups of <m:math><m:mn>3</m:mn></m:math> counters. In other words, there are four <m:math><m:mrow><m:mn>3</m:mn><m:mtext>s</m:mtext></m:mrow></m:math> in <m:math><m:mrow><m:mn>12</m:mn><m:mo>.</m:mo></m:mrow></m:math> So, <m:math><m:mrow><m:mn>12</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2340005">What about dividing fractions? Suppose we want to find the quotient: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> We need to figure out how many <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mtext>s</m:mtext></m:mrow></m:math> there are in <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> We can use fraction tiles to model this division. We start by lining up the half and sixth fraction tiles as shown in <link target-id="CNX_BMath_Figure_04_02_016"/>. Notice, there are three <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> tiles in <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> so <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_BMath_Figure_04_02_016">
+<media id="fs-id1458356" alt="A rectangle is shown, labeled as one half. Below it is an identical rectangle split into three equal pieces, each labeled as one sixth.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_016.jpg"/>
+</media>
+</figure>
+<example id="fs-id1340751"><title>Dividing Fractions</title><exercise id="fs-id1508964">
+<problem id="fs-id1899946">
+<para id="fs-id1969048">Model: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2908766">
+<title>Solution</title>
+<para id="fs-id1885595">We want to determine how many <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mtext>s</m:mtext></m:mrow></m:math> are in <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Start with one <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> tile. Line up <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> tiles underneath the <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> tile.</para>
+<media id="fs-id1362946" alt="A rectangle is shown, labeled one fourth. Below it is an identical rectangle split into two equal pieces, each labeled as one eighth.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_017_img.jpg"/>
+</media>
+<para id="fs-id3017276">There are two <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mtext>s</m:mtext></m:mrow></m:math> in <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id4163583">So, <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="fs-id2269244"><title>Dividing Fractions</title><exercise id="fs-id2908464">
+<problem id="fs-id1282534">
+<para id="fs-id2262665">Model: <m:math><m:mrow><m:mn>2</m:mn><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3340394">
+<title>Solution</title>
+<para id="fs-id1398050">We are trying to determine how many <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>s</m:mtext></m:mrow></m:math> there are in <m:math><m:mn>2</m:mn><m:mo>.</m:mo></m:math> We can model this as shown.</para>
+<media id="fs-id1398224" alt="Two rectangles are shown, each labeled as 1. Below it are two identical rectangle, each split into four pieces. Each of the eight pieces is labeled as one fourth.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_020_img.jpg"/>
+</media>
+<para id="fs-id1738644">Because there are eight <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mtext>s</m:mtext></m:mrow></m:math> in <m:math><m:mn>2</m:mn><m:mo>,</m:mo><m:mrow><m:mn>2</m:mn><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1785530">Let’s use money to model <m:math><m:mrow><m:mn>2</m:mn><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> in another way. We often read <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> as a ‘quarter’, and we know that a quarter is one-fourth of a dollar as shown in <link target-id="CNX_BMath_Figure_04_02_023"/>. So we can think of <m:math><m:mrow><m:mn>2</m:mn><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> as, “How many quarters are there in two dollars?” One dollar is <m:math><m:mn>4</m:mn></m:math> quarters, so <m:math><m:mn>2</m:mn></m:math> dollars would be <m:math><m:mn>8</m:mn></m:math> quarters. So again, <m:math><m:mrow><m:mn>2</m:mn><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_BMath_Figure_04_02_023">
+<media id="fs-id1543978" alt="A picture of a United States quarter is shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_023.jpg"/>
+</media>
+<caption>The U.S. coin called a quarter is worth one-fourth of a dollar.</caption>
+</figure>
+<para id="fs-id1733017">Using fraction tiles, we showed that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Notice that <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>6</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> also. How are <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:math> related? They are reciprocals. This leads us to the procedure for fraction division.</para>
+<note id="fs-id1185222"><label>Fraction Division</label>
+<para id="fs-id1792338">If <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>d</m:mi></m:mrow></m:math> are numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1171100707994" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>d</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id2691204">To divide fractions, multiply the first fraction by the reciprocal of the second.</para>
+</note><para id="fs-id2325600">We need to say <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> to be sure we don’t divide by zero.</para>
+<example id="fs-id2352971"><title>Dividing Fractions</title><exercise id="fs-id1382195">
+<problem id="fs-id2603246">
+<para id="fs-id2275768">Divide, and write the answer in simplified form: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2263586">
+<title>Solution</title>
+
+<table id="eip-id1168468274991" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry></row>
+<row>
+  <entry>Multiply the first fraction by the reciprocal of the second.</entry>
+  <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>(</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>)</m:mo></m:math></entry></row>  
+<row>
+  <entry>Multiply. The product is negative.</entry>
+  <entry><m:math><m:mo>−</m:mo><m:mfrac><m:mn>14</m:mn><m:mn>15</m:mn></m:mfrac></m:math></entry></row>  
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise>
+</example><example id="fs-id1822162"><title>Dividing Fractions</title><exercise id="fs-id1347749">
+<problem id="fs-id1159900">
+<para id="fs-id2629698">Divide, and write the answer in simplified form: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mi>n</m:mi><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3340612">
+<title>Solution</title>
+
+<table id="eip-id1168466192195" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mi>n</m:mi><m:mn>5</m:mn></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Multiply the first fraction by the reciprocal of the second.</entry>
+  <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>5</m:mn><m:mi>n</m:mi></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Multiply.</entry>
+  <entry><m:math><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:math></entry></row>
+</tbody>
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><example id="fs-id1549882"><title>Dividing Fractions</title><exercise id="fs-id2370170">
+<problem id="fs-id1546203">
+<para id="fs-id2369156">Divide, and write the answer in simplified form: <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3199626">
+<title>Solution</title>
+<table id="eip-id1168467263034" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry align="center"><m:math><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>÷</m:mo><m:mo>(</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>)</m:mo></m:math></entry></row>
+<row>
+  <entry>Multiply the first fraction by the reciprocal of the second.</entry>
+  <entry align="center"><m:math><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>·</m:mo><m:mo>(</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>8</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>)</m:mo></m:math></entry></row>  
+<row>
+  <entry>Multiply. Remember to determine the sign first.</entry>
+  <entry align="center"><m:math><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:math></entry></row> 
+<row>
+  <entry>Rewrite to show common factors.</entry>
+  <entry align="center"><m:math><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:menclose notation="updiagonalstrike"><m:mn>4</m:mn></m:menclose><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mn>4</m:mn></m:menclose><m:mo>·</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:math></entry></row>   
+<row>
+  <entry>Remove common factors and simplify.</entry>
+  <entry align="center"><m:math><m:mfrac><m:mn>6</m:mn><m:mn>7</m:mn></m:mfrac></m:math></entry></row>  
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id2961464"><title>Dividing Fractions</title><exercise id="fs-id2135873">
+<problem id="fs-id1781622">
+<para id="fs-id1611165">Divide, and write the answer in simplified form: <m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2305386">
+<title>Solution</title>
+
+<table id="eip-id1168466022407" class="unnumbered unstyled" summary="No Alt Text"><label/>
+<tgroup cols="2"><tbody>
+<row>
+  <entry/>
+  <entry><m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry></row>
+<row>
+  <entry>Multiply the first fraction by the reciprocal of the second.</entry>
+  <entry><m:math><m:mfrac><m:mn>7</m:mn><m:mn>18</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>27</m:mn><m:mn>14</m:mn></m:mfrac></m:math></entry></row>  
+<row>
+  <entry>Multiply.</entry>  
+  <entry><m:math><m:mfrac><m:mrow><m:mn>7</m:mn><m:mo>·</m:mo><m:mn>27</m:mn></m:mrow><m:mrow><m:mn>18</m:mn><m:mo>·</m:mo><m:mn>14</m:mn></m:mrow></m:mfrac></m:math></entry></row> 
+<row>
+  <entry>Rewrite showing common factors.</entry>
+  <entry><media id="eip-id1168468328104" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_04_02_034_img-01.png"/></media></entry></row>    
+<row>
+  <entry>Remove common factors.</entry>
+  <entry><m:math><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:math></entry></row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><m:math><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:math></entry></row>  
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><note id="fs-id1784433" class="media-2"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id2707739" display="block">
+<item><link url="http://www.openstax.org/l/24SimplifyFrac">Simplifying Fractions</link></item>
+<item><link url="http://www.openstax.org/l/24MultiplyFrac">Multiplying Fractions (Positive Only)</link></item>
+<item><link url="http://www.openstax.org/l/24MultSigned">Multiplying Signed Fractions</link></item>
+<item><link url="http://www.openstax.org/l/24DivideFrac">Dividing Fractions (Positive Only)</link></item>
+<item><link url="http://www.openstax.org/l/24DivideSign">Dividing Signed Fractions</link></item>
+</list>
+</note></section><section id="eip-83"><title>Summary of Fraction Operations <footnote id="eip-idm313640864">Section material derived from Openstx Prealgebra: Fractions-Add and Subtract Fractions with Different Denominators</footnote></title><para id="fs-id1754978"><emphasis>Fraction multiplication:</emphasis> Multiply the numerators and multiply the denominators.</para><equation id="fs-id1171105206682" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id2773547"><emphasis>Fraction division:</emphasis> Multiply the first fraction by the reciprocal of the second.</para><equation id="fs-id1171103505483" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>d</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>d</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1362986"><emphasis>Fraction addition:</emphasis> Add the numerators and place the sum over the common denominator. If the fractions have different denominators, first convert them to equivalent forms with the LCD.</para><equation id="fs-id1171105199899" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id2164207"><emphasis>Fraction subtraction:</emphasis> Subtract the numerators and place the difference over the common denominator. If the fractions have different denominators, first convert them to equivalent forms with the LCD.</para><equation id="fs-id1171105198355" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></equation>
+</section><section id="fs-id2692103"><title>Convert Fractions to Decimals <footnote id="eip-idm1378119744">Section material derived from Openstax Prealgebra: Decimals-Decimals and Fractions</footnote></title><para id="fs-id2669580">Remember that the fraction bar indicates division. So <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> can be written as <m:math><m:mrow><m:mn>4</m:mn><m:mo>÷</m:mo><m:mn>5</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mn>5</m:mn><m:menclose notation="longdiv"><m:mn>4</m:mn></m:menclose><m:mo>.</m:mo></m:mrow></m:math> This means that we can convert a fraction to a decimal by treating it as a division problem.</para><note id="fs-id1262704"><label>Convert a Fraction to a Decimal</label>
+<para id="fs-id2434715">To convert a fraction to a decimal, divide the numerator of the fraction by the denominator of the fraction.</para></note><example id="fs-id1785989"><title>Convert a Fraction to a Decimal</title><exercise id="fs-id2702587"><problem id="fs-id2451182">
+<para id="fs-id770382">Write the fraction <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> as a decimal.</para>
+</problem>
+<solution id="fs-id1543192">
+<title>Solution</title>
+
+
+<table id="eip-323" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>A fraction bar means division, so we can write the fraction <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> using division.
+</entry>
+    <entry><media id="fs-id2702130" alt="A division problem is shown. 3 is on the inside of the division sign and 4 is on the outside.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_03_001_img.jpg"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>Divide.</entry>
+    <entry><media id="fs-id2140174" alt="A division problem is shown. 3.00 is on the inside of the division sign and 4 is on the outside. Below the 3.00 is a 28 with a line below it. Below the line is a 20. Below the 20 is another 20 with a line below it. Below the line is a 0. Above the division sign is 0.75.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_03_002_img.jpg"/>
+</media></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>So the fraction <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> is equal to <m:math><m:mrow><m:mn>0.75</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example></section><section id="eip-36"><title>Key Concepts</title><list id="eip-513"><item><emphasis>Simplify a fraction.</emphasis><list id="eip-id1170323004302" class="stepwise" number-style="arabic" list-type="enumerated"><item>Rewrite the numerator and denominator to show the common factors. If needed, factor the numerator and denominator into prime numbers.</item>
+<item>Simplify, using the equivalent fractions property, by removing common factors.</item>
+<item>Multiply any remaining factors.</item></list></item>
+
+<item><emphasis>Fraction Addition</emphasis><list id="eip-id1170326280061"><item>If <m:math><m:mi>a</m:mi><m:mo>, </m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:math> and <m:math><m:mi>c</m:mi></m:math> are numbers where <m:math><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>, then <m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math>.</item><item>To add fractions, add the numerators and place the sum over the common denominator.</item></list></item>
+<item><emphasis>Fraction Subtraction</emphasis><list id="eip-id1170322914726"><item>If <m:math><m:mi>a</m:mi><m:mo>, </m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:math> and <m:math><m:mi>c</m:mi></m:math> are numbers where <m:math><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>, then <m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math>.</item><item>To subtract fractions, subtract the numerators and place the difference over the common denominator.</item></list></item>
+
+<item><emphasis>Find the least common denominator (LCD) of two fractions.</emphasis><list id="eip-id1170326533417" list-type="enumerated" number-style="arabic" class="stepwise"><item>Factor each denominator into its primes.</item>
+<item>List the primes, matching primes in columns when possible.</item>
+<item>Bring down the columns.</item>
+<item>Multiply the factors. The product is the LCM of the denominators.</item>
+<item>The LCM of the denominators is the LCD of the fractions.</item></list></item>
+<item><emphasis>Equivalent Fractions Property</emphasis><list id="eip-id1170322988097"><item>If <m:math><m:mi>a</m:mi><m:mo>, </m:mo><m:mi>b</m:mi></m:math>, and <m:math><m:mi>c</m:mi></m:math> are whole numbers where <m:math><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>, <m:math><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math> then <newline/>
+
+<m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac></m:math>
+ and <m:math><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac></m:math></item></list></item>
+<item><emphasis>Convert two fractions to equivalent fractions with their LCD as the common denominator.</emphasis><list id="eip-id1170324058309" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find the LCD.</item>
+<item>For each fraction, determine the number needed to multiply the denominator to get the LCD.</item>
+<item>Use the Equivalent Fractions Property to multiply the numerator and denominator by the number from Step 2.</item>
+<item>Simplify the numerator and denominator.</item></list></item><item><emphasis>Add or subtract fractions with different denominators.</emphasis><list id="eip-id1170322955166" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find the LCD.</item>
+<item>Convert each fraction to an equivalent form with the LCD as the denominator.</item>
+<item>Add or subtract the fractions.</item>
+<item>Write the result in simplified form.</item></list></item><item><emphasis>Summary of Fraction Operations</emphasis><list id="eip-id1170322929638"><item><emphasis>Fraction multiplication:</emphasis> Multiply the numerators and multiply the denominators. <equation id="eip-id1170323965022"><m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mi>d</m:mi></m:mrow></m:mfrac></m:math></equation></item>
+<item><emphasis>Fraction division:</emphasis> Multiply the first fraction by the reciprocal of the second.<equation id="eip-id1170324128063"><m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math></equation></item>
+<item><emphasis>Fraction addition:</emphasis> Add the numerators and place the sum over the common denominator. If the fractions have different denominators, first convert them to equivalent forms with the LCD.<equation id="eip-id1170326522136"><m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math></equation></item>
+<item><emphasis>Fraction subtraction:</emphasis> Subtract the numerators and place the difference over the common denominator. If the fractions have different denominators, first convert them to equivalent forms with the LCD.<equation id="eip-id1170323796197"><m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math></equation></item></list></item>
+<item><emphasis>Simplify complex fractions.</emphasis><list id="eip-id1170321558052" list-type="enumerated" number-style="arabic" class="stepwise"><item>Simplify the numerator.</item>
+<item>Simplify the denominator.</item>
+<item>Divide the numerator by the denominator.</item>
+<item>Simplify if possible.</item>
+</list></item>
+
+<item><emphasis>Reciprocal</emphasis><list id="eip-id1170322987712"><item>A number and its reciprocal have a product of <m:math><m:mn>1</m:mn></m:math>. <m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>⋅</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:math></item>
+<item><table id="eip-id1170326426110" summary="reciprocal"><title/><tgroup cols="3"><tbody>
+<row>
+<entry><emphasis>Opposite</emphasis></entry>
+<entry><emphasis>Absolute Value</emphasis></entry>
+<entry><emphasis>Reciprocal</emphasis></entry>
+</row>
+
+<row>
+<entry>has opposite sign</entry>
+<entry>is never negative</entry>
+<entry>has same sign, fraction inverts</entry></row></tbody></tgroup></table></item></list></item>
+
+<item><emphasis>Convert a Fraction to a Decimal: </emphasis> to convert a fraction to a decimal, divide the numerator of the fraction by the denominator of the fraction.</item>
+
+<item><emphasis>Add mixed numbers with a common denominator.</emphasis><list id="eip-id1170326380255" class="stepwise" number-style="arabic" list-type="enumerated"><item>Add the whole numbers.</item>
+<item>Add the fractions.</item>
+<item>Simplify, if possible.</item></list></item>
+<item><emphasis>Subtract mixed numbers with common denominators.</emphasis><list id="eip-id1170324018538" class="stepwise" number-style="arabic" list-type="enumerated"><item>Rewrite the problem in vertical form.</item>
+<item>Compare the two fractions.
+<newline/>If the top fraction is larger than the bottom fraction, go to Step 3.
+<newline/>If not, in the top mixed number, take one whole and add it to the fraction part, making a mixed number with an improper fraction.</item>
+<item>Subtract the fractions.</item>
+<item>Subtract the whole numbers.</item>
+<item>Simplify, if possible.</item></list>
+</item>
+
+<item><emphasis>Subtract mixed numbers with common denominators as improper fractions.</emphasis><list id="eip-id1170322790853" list-type="enumerated" number-style="arabic" class="stepwise"><item>Rewrite the mixed numbers as improper fractions.</item>
+<item>Subtract the numerators.</item>
+<item>Write the answer as a mixed number, simplifying the fraction part, if possible.</item>
+
+</list></item></list></section></content>
+<glossary>
+
+
+<definition id="fs-id2715365">
+<term>Fraction</term>
+<meaning id="fs-id2495919"> A fraction is written <m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac></m:math>. in a fraction, <m:math><m:mi>a</m:mi></m:math> is the numerator and <m:math><m:mi>b</m:mi></m:math> is the denominator. A fraction represents parts of a whole. The denominator <m:math><m:mi>b</m:mi></m:math> is the number of equal parts the whole has been divided into, and the numerator <m:math><m:mi>a</m:mi></m:math> indicates how many parts are included.</meaning>
+</definition>
+
+<definition id="fs-id2483777"><term>Least Common Denominator (LCD)</term><meaning id="fs-id2129255">The least common denominator (LCD) of two fractions is the least common multiple (LCM) of their denominators.</meaning></definition>
+
+
+
+<definition id="fs-id2435034">
+<term>Mixed Number</term>
+<meaning id="fs-id3330885">A mixed number consists of a whole number <m:math><m:mi>a</m:mi></m:math> and a fraction <m:math><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math> where <m:math><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>. It is written as <m:math><m:mi>a</m:mi><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>c</m:mi></m:mrow></m:mfrac></m:math>, where <m:math><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>.</meaning>
+</definition>
+
+<definition id="fs-id1931973">
+<term>Proper and Improper Fractions</term>
+<meaning id="fs-id2087090">The fraction <m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac></m:math> is <emphasis effect="italics">proper</emphasis> if <m:math><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi></m:math>and <emphasis effect="italics">improper</emphasis> if <m:math><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi></m:math>.</meaning>
+</definition>
+
+<definition id="fs-id2946118"><term>Reciprocal</term><meaning id="fs-id2447033">The reciprocal of the fraction <m:math><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac></m:math> is <m:math><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:math> where <m:math><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math> and <m:math><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>.</meaning></definition>
+<definition id="fs-id1170326339386"><term>Simplified Fraction</term><meaning id="fs-id1170326339389">A fraction is considered simplified if there are no common factors in the numerator and denominator.</meaning></definition>
+
+</glossary>
+
+</document>

@@ -1,0 +1,763 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Weighted Averages - Lessons 5.B - 6.B</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78684</md:content-id>
+  <md:title>Weighted Averages - Lessons 5.B - 6.B</md:title>
+  <md:abstract>This module correlates to our Corequisite for MAT 1043(QR) and NCBO.</md:abstract>
+  <md:uuid>f559d723-3a4e-442b-8b08-d7318e8e7ac6</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-987"><label>Topics Covered in this Module</label>
+<para id="fs-id2294279">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Weighted Average <link target-id="eip-697" document=""/></item>
+<item>Expected Value <link target-id="eip-259"/></item>
+<item>Weighted Moving Averages <link target-id="eip-42" document=""/></item>
+<item>Using Spreadsheets for Calculating Statistics <link target-id="eip-572" document=""/></item>
+
+
+<item>Key Concepts  <link target-id="eip-218" document=""/></item></list></note><section id="eip-697"><title>Weighted Averages <footnote id="eip-idm484182992"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-376">A weighted average is an average that has weights attached to the data values based on how important or relevant they are before taking the average. Not all data should be equally weighted when calculating the average. For example, When looking at poll numbers for politicians over various companies, a weighted average may be taken because sample size and date they were administered must be taken into account. A poll conducted two years ago is nowhere near as valid as one conducted last week, and a sample size of <m:math><m:mn>100</m:mn></m:math> is much less reliable than a size of <m:math><m:mn>10,000</m:mn></m:math>. Your grade in your classes is a weighted average. </para><para id="eip-383">In a weighted average, some values contribute to the average more than others. This is often determined by how recent or significant the data value is. Any data value given a larger weight will affect the mean more intensely. Thus, when certain values are more weighted than others, the mean of the data can change.</para><para id="eip-397">The weights to use are usually provided to you, but in this class, if you are not given the weights to use, you can use the traditional numbering of 1 through the maximum number included in a group of data values.</para><para id="eip-25">It is important to remember that if decimal weights are being used, they must all add up to one in total. For example, three data values  may be given the weights of <m:math><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>25</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>40</m:mn><m:mo>,</m:mo><m:mn> and 0</m:mn><m:mo>.</m:mo><m:mn>35</m:mn></m:math>, because they all add up to <m:math><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>0</m:mn></m:math>.</para><para id="eip-797">Weighted moving averages often use the weighted averages formula, where you take the sum of the data values multiplied by their weights, divided by the sum of the weights.
+
+<figure id="eip-idm322148977">
+<media id="wtdavgeq1" alt="equation for calculating the wtd average">
+<image mime-type="image/png" src="../../media/wtdavgeq.png"/>
+</media>
+</figure>
+Where <m:math><m:mi>x</m:mi><m:mo>=</m:mo></m:math> each data value, <m:math><m:mi>w</m:mi><m:mo>=</m:mo></m:math> each weight value, and <m:math><m:mi>i</m:mi></m:math> is representing each instance in the data sequence, starting at 1. <m:math><m:mi>Σ</m:mi></m:math> represnts the sum; meaning you add up all of the products of weights and data values.</para><example id="eip-591"><title>Weighted Average</title><para id="eip-361">Calculate the weighted mean of the grade a student would receive in their Mathematics course based on the following weights and item grades.</para><para id="eip-135"><table id="grades" summary="The grade a student received by the midterm of a semester"><title>Mid-Term grade report</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry>Category</entry>
+    <entry>Weight</entry>
+    <entry>Score</entry>
+  </row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c2">
+          Average:
+        </entry>
+        <entry>???</entry>
+      </row>
+    </tfoot>
+<tbody>
+  <row>
+    <entry>Preview/Practice assignments average (MML)</entry>
+    <entry>20%</entry>
+    <entry>92</entry>
+  </row>
+  <row>
+    <entry>Student Portfolio</entry>
+    <entry>30%</entry>
+    <entry>85</entry>
+  </row>
+  <row>
+    <entry>Mini-Project average (Blackboard)</entry>
+    <entry>20%</entry>
+    <entry>89</entry>
+  </row>
+  <row>
+    <entry>Exams</entry>
+    <entry>30%</entry>
+    <entry>78</entry>
+  </row>
+ 
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table></para><para id="eip-637">Each score should be multiplied by the weight associated with that category. First, each percent should be converted to decimal form.</para><table id="eip-949" summary="Midterm grade weights converted from percents to decimals.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry>Category</entry>
+    <entry>Weight</entry>
+    <entry>Score</entry>
+  </row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c2">
+          Average:
+        </entry>
+        <entry>???</entry>
+      </row>
+    </tfoot>
+<tbody>
+  <row>
+    <entry>Preview/Practice assignments average (MML)</entry>
+    <entry>0.20</entry>
+    <entry>92</entry>
+  </row>
+  <row>
+    <entry>Student Portfolio</entry>
+    <entry>0.30</entry>
+    <entry>85</entry>
+  </row>
+  <row>
+    <entry>Mini-Project average (Blackboard)</entry>
+    <entry>0.20</entry>
+    <entry>89</entry>
+  </row>
+  <row>
+    <entry>Exams</entry>
+    <entry>0.30</entry>
+    <entry>78</entry>
+  </row>
+ 
+</tbody>
+
+
+
+
+
+
+</tgroup><caption>Midterm grade weights converted from percents to decimals.</caption>
+</table><para id="eip-513">Notice that all of the category weights add up to <m:math><m:mn>100</m:mn><m:mo>%</m:mo></m:math>, or <m:math><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>0</m:mn></m:math>. The category weight must be multiplied by the category score to get the weighted score.</para><table id="eip-998" summary="Midterm grades being multiplied by the category weights.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry>Category</entry>
+    <entry>Weighted Score</entry>
+  </row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c2">
+          Average:
+        </entry>
+
+      </row>
+    </tfoot>
+<tbody>
+  <row>
+    <entry>Preview/Practice assignments average (MML)</entry>
+    <entry>0.20*92</entry>
+
+   
+  </row>
+  <row>
+    <entry>Student Portfolio</entry>
+    <entry>0.30*85</entry>
+  
+
+  </row>
+  <row>
+    <entry>Mini-Project average (Blackboard)</entry>
+    <entry>0.20*89</entry>
+
+    
+  </row>
+  <row>
+    <entry>Exams</entry>
+    <entry>0.30*78</entry>
+  
+  </row>
+</tbody>
+
+
+
+
+</tgroup><caption>Midterm grades being multiplied by the category weights.</caption>
+</table><table id="eip-55" summary="Midterm weighted scores after multiplying the category score by the category weights.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry>Category</entry>
+    <entry>Weighted Score</entry>
+  </row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c2">
+          Average:
+        </entry>
+
+      </row>
+    </tfoot>
+<tbody>
+  <row>
+    <entry>Preview/Practice assignments average (MML)</entry>
+    <entry>18.4</entry>
+
+   
+  </row>
+  <row>
+    <entry>Student Portfolio</entry>
+    <entry>25.5</entry>
+  
+
+  </row>
+  <row>
+    <entry>Mini-Project average (Blackboard)</entry>
+    <entry>17.8</entry>
+
+    
+  </row>
+ 
+  <row>
+    <entry>Exams</entry>
+    <entry>23.4</entry>
+  
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup><caption>Midterm weighted scores after multiplying the category score by the category weights.</caption>
+</table><para id="eip-285">To find the final midterm grade, you add together all the weights scores previously calculated and divide by the sum of the weights.</para><para id="eip-993">To find the sum of the weights to divide by, we would add all the weights together. As we discussed earlier, they all add up to 1:
+
+<equation id="eip-idm358855808"><m:math><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>20</m:mn><m:mo>,</m:mo> <m:mn>0</m:mn><m:mo>.</m:mo><m:mn>30</m:mn><m:mo>,</m:mo> <m:mn>0</m:mn><m:mo>.</m:mo><m:mn>20</m:mn><m:mo>,</m:mo> <m:mn>0</m:mn><m:mo>.</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>0</m:mn></m:math>
+</equation>
+
+This means that whatever the sum of the weighted scores is, that is the final weighted average. This is because any number divided by <m:math><m:mn>1</m:mn></m:math> is itself.</para><equation id="eip-280"><m:math><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>18</m:mn><m:mo>.</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>25</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>17</m:mn><m:mo>.</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>23</m:mn><m:mo>.</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>85</m:mn><m:mo>.</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>85</m:mn><m:mo>.</m:mo><m:mn>1</m:mn></m:math></equation><table id="eip-628" summary=".">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry>Category</entry>
+    <entry>Weighted Score</entry>
+  </row>
+</thead>
+<tfoot>
+<row>
+<entry namest="c1" nameend="c2">
+          Average: <emphasis>85.1</emphasis>
+        </entry>
+
+      </row>
+    </tfoot>
+<tbody>
+  <row>
+    <entry>Preview/Practice assignments average (MML)</entry>
+    <entry>18.4</entry>
+
+   
+  </row>
+  <row>
+    <entry>Student Portfolio</entry>
+    <entry>25.5</entry>
+  
+
+  </row>
+  <row>
+    <entry>Mini-Project average (Blackboard)</entry>
+    <entry>17.8</entry>
+
+    
+  </row>
+ 
+  <row>
+    <entry>Exams</entry>
+    <entry>23.4</entry>
+  
+  </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup><caption>Final calcualted midterm grade using weighted averages.</caption>
+</table><para id="eip-431">When all of the weights scores are added together, you arrive at the overall weighted average. Each individual score is weighted differently based on the importance in the coursework.</para></example></section>
+
+<section id="eip-259"><title>Expected Value <footnote id="eip-idm315343920">Section material derived from Openstax Introductory Statistics: Discrete Random Variables-Mean or Expected Value and Standard Deviation</footnote></title><para id="eip-812">
+The <term>expected value</term> is often referred to as the <emphasis>"long-term" average or mean</emphasis>. This means that over the long term of doing an experiment over and over, you would <emphasis>expect</emphasis> this average.
+</para><para id="eip-316">You toss a coin and record the result. What is the probability that the result is heads? If you flip a coin two times, does probability tell you that these flips will result in one heads and one tail? You might toss a fair coin ten times and record nine heads. As you learned in <link document="m46938"/>, probability does not describe the short-term results of an experiment. It gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. <emphasis effect="bold">In his experiment, Pearson illustrated the Law of Large Numbers</emphasis>.</para><para id="eip-933"><emphasis effect="bold">The Law of Large Numbers</emphasis> states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero <emphasis effect="bold">(the theoretical probability and the relative frequency get closer and closer together)</emphasis>. When evaluating the long-term results of statistical experiments, we often want to know the “average” outcome. This “long-term average” is known as the <term>mean</term> or <term>expected value</term> of the experiment and is denoted by the Greek letter <emphasis effect="italics">μ</emphasis>. In other words, after conducting many trials of an experiment, you would expect this average value.</para><note id="eip-587"><label>Expected Value</label>
+<para id="eip-idp95250624">To find the expected value or long term average, <emphasis effect="italics">μ</emphasis>, simply multiply each value of the random variable by its probability and add the products.</para></note><example id="eip-59"><para id="fs-idm190895152">A men's soccer team plays soccer zero, one, or two days a week. The probability that they play zero days is 0.2, the probability that they play one day is 0.5, and the probability that they play two days is 0.3. Find the long-term average or expected value, <emphasis effect="italics">μ</emphasis>, of the number of days per week the men's soccer team plays soccer.</para>
+
+<para id="element-126">To do the problem, first let the random variable <emphasis effect="italics">X</emphasis> = the number of days the men's soccer team plays soccer per week. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. Construct a PDF table adding a column <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). In this column, you will multiply each <emphasis effect="italics">x</emphasis> value by its probability.</para>
+
+<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Expected Value Table This table is called an expected value table. The table helps you calculate the expected value or long-term average.</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>0.2</entry>
+    <entry>(0)(0.2) = 0</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0.5</entry>
+    <entry>(1)(0.5) = 0.5</entry>
+  </row>
+<row>
+    <entry>2</entry>
+    <entry>0.3</entry>
+    <entry>(2)(0.3) = 0.6</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-idm87467792">Add the last column <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) to find the long term average or expected value: (0)(0.2) + (1)(0.5) + (2)(0.3) = 0 + 0.5 + 0.6 = 1.1.</para><para id="element-353">The expected value is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week. We say <emphasis effect="italics">μ</emphasis> = 1.1.</para></example><example id="eip-274"><para id="element-117">Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A computer randomly selects five numbers from zero to nine with replacement. You pay $2 to play and could profit $100,000 if you match all five numbers in order (you get your $2 back plus $100,000). Over the long term, what is your <emphasis>expected</emphasis> profit of playing the game?</para>
+<para id="element-481">To do this problem, set up an expected value table for the amount of money you can profit.</para>
+<para id="element-382">Let <emphasis effect="italics">X</emphasis> = the amount of money you profit. The values of <emphasis effect="italics">x</emphasis> are not 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Since you are interested in your profit (or loss), the values of <emphasis effect="italics">x</emphasis> are 100,000 dollars and −2 dollars.</para>
+
+<para id="element-996">To win, you must get all five numbers correct, in order. The probability of choosing one correct number is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> because there are ten numbers. You may choose a number more than once. The probability of choosing all five numbers correctly and in order is</para>
+
+<equation id="eip-10"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>5</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.00001.</m:mn>
+ </m:mrow>
+</m:math></equation>
+
+<para id="element-800">Therefore, the probability of winning is 0.00001 and the probability of losing is</para>
+<equation id="eip-755"><m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.00001</m:mn><m:mo>=</m:mo><m:mn>0.99999.</m:mn>
+ </m:mrow>
+</m:math></equation>
+
+
+<para id="element-839">The expected value table is as follows:</para>
+
+<table id="element-480" summary="In the table, to find the expected value, add the last column."><title>Αdd the last column. –1.99998 + 1 = –0.99998</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+  <row>
+    <entry/>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Loss</entry>
+    <entry>–2</entry>
+    <entry>0.99999</entry>
+    <entry>(–2)(0.99999) = –1.99998</entry>
+  </row>
+  <row>
+    <entry>Profit</entry>
+    <entry>100,000</entry>
+    <entry>0.00001</entry>
+    <entry>(100000)(0.00001) = 1</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><para id="element-406">Since –0.99998 is about –1, you would, on average, expect to lose approximately $1 for each game you play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the average or expected LOSS per game after playing this game over and over.</para></example><example id="eip-416"><para id="element-408">Suppose you play a game with a biased coin. You play each game by tossing the coin once. <emphasis effect="italics">P</emphasis>(heads) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> and <emphasis effect="italics">P</emphasis>(tails) = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math>. If you toss a head, you pay $6. If you toss a tail, you win $10. If you play this game many times, will you come out ahead?<newline count="2"/>
+</para><exercise id="element-193">
+<problem id="id14631763">
+<para id="element-653">a. Define a random variable <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+<solution id="id14631784">
+  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = amount of profit<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-483"><problem id="id14631817">
+<para id="element-597">b. Complete the following expected value table.</para><table id="element-644" summary="Problem 2 Table">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+  <row>
+    <entry/>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry>____</entry>
+    <entry>____</entry>
+  </row>
+</thead>
+<tbody>
+<row>
+    <entry>WIN</entry>
+    <entry>10</entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry>____</entry>
+  </row>
+  <row>
+    <entry>LOSE</entry>
+    <entry>____</entry>
+    <entry>____</entry>
+    <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+
+<solution id="id7273882"><para id="fs-idm44109456">b.
+<table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+  <row>
+    <entry/>
+    <entry><emphasis effect="italics">x</emphasis></entry>
+    <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+    <entry><emphasis effect="italics">xP</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>WIN</entry>
+    <entry>10</entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry> <entry><m:math><m:mfrac><m:mn>10</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>LOSE</entry>
+    <entry>–6</entry>
+    <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+<newline count="2"/></para></solution>
+</exercise><exercise id="element-737">
+<problem id="id10943564">
+  <para id="element-847">c. What is the expected value, <emphasis effect="italics">μ</emphasis>? Do you come out ahead?</para>
+</problem>
+
+<solution id="id10943588">
+  <para id="element-535">c. Add the last column of the table. The expected value <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>–</m:mtext><m:mn>2</m:mn>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math>. You lose, on average, about 67 cents each time you play the game so you do not come out ahead.</para></solution>
+</exercise></example><example id="eip-331"><para id="eip-193">
+  Find the expected value from the expected value table.
+<table id="expectedvalue" summary=".">
+<tgroup cols="3">
+
+<thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row><entry>2</entry><entry>0.1</entry><entry/></row>
+<row><entry>4</entry><entry>0.3</entry><entry/></row>
+<row><entry>6</entry><entry>0.4</entry><entry/></row>
+<row><entry>8</entry><entry>0.2</entry><entry/></row>
+</tbody>
+</tgroup>
+</table>
+
+</para><table id="eip-125" summary=".">
+<tgroup cols="3"><thead>
+<row>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row><entry>2</entry><entry>0.1</entry><entry>2(0.1) = 0.2</entry></row>
+<row><entry>4</entry><entry>0.3</entry><entry>4(0.3) = 1.2</entry></row>
+<row><entry>6</entry><entry>0.4</entry><entry>6(0.4) = 2.4</entry></row>
+<row><entry>8</entry><entry>0.2</entry><entry>8(0.2) = 1.6</entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-920">The expected value is the sum of the products between the probability of an event and the event variable's value:</para><equation id="eip-723"><m:math><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>2</m:mn><m:mo> +</m:mo><m:mn> 1</m:mn><m:mo>.</m:mo><m:mn>2</m:mn><m:mo> + </m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>4</m:mn><m:mo> + </m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>6</m:mn><m:mo> = </m:mo><m:mn>5</m:mn><m:mo>.</m:mo><m:mn>4</m:mn></m:math></equation>
+</example></section><section id="eip-42"><title>Weighted Moving Averages <footnote id="eip-idm215970608"> This material was created by Amanda Towry using Microsoft Excel spreadsheet and Microsoft Word processing programs.</footnote></title>
+<para id="eip-181">When using a simple average, or the mean, of a data set, all data values are being given equal value. This makes sense when all of the individual data values are equally important, such as average temperature on a specific day or the average number of candies in bags produced in a day at a company production plant. However, there are certain situations where older data or data from smaller sample sizes would be considered less relevant. This is where the weighted average came in the previous module.  Let's suppose then, that someone wanted to then look at the trends of change over extended periods of times of one of those instances requiring weighted averages. Maybe a students test scores over a semester? The sales changes for a company over different financial quarters? How would that best be carried out? This is where the weighted moving average comes in handy. It allows for extended periods of data to be "smoothed" out so that overall trends and behavior can be determined and found within the instantaneous changes from data point to data point. </para>
+<para id="eip-124"><term>Weighted moving averages</term> are weighted averages that "move" down sets of data. These moving averages allow for "jagged" data to be smoothed or straightened out so that it is easier to see overall trends of data over time.
+
+</para><para id="eip-87">A weighted moving average will take groups of values out of a data set, moving down the list one data value at a time, and determine a weighted average for a group of values at each successive step through time. Just as in a normal weighted average, each value in the group is assigned a weighting based on the relevance or age of the data.</para><para id="eip-801">The number of data points to include in the groups is commonly three; but for this class, you will always be told how many data values to include in a group.</para><para id="eip-552">The weights to use are usually provided to you, but in this class, if you are not given the weights to use, you can use the traditional numbering of 1 through the maximum number included in a group of data values.</para><para id="eip-877"><title>Weighted Moving Average Equation</title>Weighted moving averages still use the weighted averages formula, where you take the sum of the data values multiplied by their weights, divided by the sum of the weights.
+
+<figure id="eip-idm322148976">
+<media id="wtdavgeq" alt="equation for calculating the wtd average">
+<image mime-type="image/png" src="../../media/wtdavgeq.png"/>
+</media>
+</figure>
+Where <m:math><m:mi>x</m:mi><m:mo>=</m:mo></m:math> each data value, <m:math><m:mi>w</m:mi><m:mo>=</m:mo></m:math> each weight value, and <m:math><m:mi>i</m:mi></m:math> is representing each instance in the data sequence, starting at 1. <m:math><m:mi>Σ</m:mi></m:math> represnts the sum; meaning you add up all of the products of weights and data values.</para><para id="eip-76">When filling in the weighted moving average values, you must be sure to start the data in the column number that matches the number of data values in the grouping. For example, if you are taking groups of four from your data set, the first moving average value will start in the weighted average column and in the fourth row. The following example illustrates this.</para><example id="eip-524"><title>Weighted Moving Average</title><para id="eip-715">For the following data, calculate the moving average for groups of two data points at a time. Use the traditional weights of 1 and 2 based off most relevant data values.
+
+<figure id="eip-idm255844784">
+<media id="wtdmoveavg" alt="weighted moving average table of values">
+<image mime-type="image/png" src="../../media/wtdmoveavg.png"/>
+</media>
+</figure>
+
+First, we must create a new column to fill in the moving averages.
+<figure id="eip-idm772490064">
+<media id="wtdmoveavgex2" alt="weighted moving average table of values">
+<image mime-type="image/png" src="../../media/wtdmoveavg2.png"/>
+</media>
+</figure>
+
+Since we are taking groups of two, the first new data value will be a weighted average of week 1 and week 2 sales and will be placed in the second row of the last column. Because week 2 is more recent than week 1, week 2 gets the weighting of 2 and week 1 gets the weighting of 1.
+
+<equation id="eip-idm1218573968"><m:math><m:mo>(</m:mo><m:mn>39</m:mn><m:mo>)(</m:mo><m:mn>1</m:mn><m:mo>)+(</m:mo><m:mn>44</m:mn><m:mo>)(</m:mo><m:mn>2</m:mn><m:mo>)=</m:mo><m:mn>39</m:mn><m:mo>+</m:mo><m:mn>88</m:mn><m:mo>=</m:mo><m:mn>127</m:mn></m:math>
+</equation>
+
+Now, when we carry out the division, we must divide by the sum of the weights; which is <m:math><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:math> .
+
+<equation id="eip-idm1057053456"><m:math><m:mfrac><m:mrow><m:mn>127</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>42</m:mn><m:mo>.</m:mo><m:mn>33</m:mn></m:math>
+</equation>
+This value we have calcualted must be placed in the table. Becuase we are taking groups of two, this first calculated data value must be palced in the second row of the weighted average column. This is because we started with the first two data values and there was no data before them in order to calculate a moving average for the first row in the weighted average column.
+
+
+<figure id="eip-idm476822656">
+<media id="wtdmoveavgex3" alt="weighted moving average steps example">
+<image mime-type="image/png" src="../../media/wtdmoveavg3.png"/>
+</media>
+</figure>
+
+Now we repeat the steps for the next data point and place the results in the third row of the last column.
+
+<equation id="eip-idm1249852464">
+<m:math><m:mo>(</m:mo><m:mn>44</m:mn><m:mo>)(</m:mo><m:mn>1</m:mn><m:mo>)+(</m:mo><m:mn>40</m:mn><m:mo>)(</m:mo><m:mn>2</m:mn><m:mo>)=</m:mo><m:mn>44</m:mn><m:mo>+</m:mo><m:mn>80</m:mn><m:mo>=</m:mo><m:mn>124</m:mn></m:math>
+</equation>
+
+<equation id="eip-idm628804928">
+<m:math><m:mfrac><m:mrow><m:mn>124</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>41</m:mn><m:mo>.</m:mo><m:mn>33</m:mn></m:math>
+</equation>
+
+<figure id="eip-idm1050124608">
+<media id="wtdmoveavgex4" alt="weighted moving average steps example">
+<image mime-type="image/png" src="../../media/wtdmoveavg4.png"/>
+</media>
+</figure>
+
+Continuing this process results in the following table of values.
+
+<figure id="eip-idm250417504"><media id="wtdmoveavgex5" alt="weighted moving average steps example">
+<image mime-type="image/png" src="../../media/wtdmoveavg5.png"/>
+</media>
+</figure>
+
+Look at how the graph of the original sales values compares to the weighted moving average. It is much smoother and easier to notice the trends over time.
+
+<figure id="eip-idm829061712">
+<media id="wtdmoveavg6" alt="weighted moving average steps example">
+<image mime-type="image/png" src="../../media/wtdmoveavg6.png"/>
+</media>
+</figure>
+
+Notice that the weighted moving average line (the red line) seems to "lag" behind the actual data (the blue line) in the graph. This is because we started the weighted moving average in the second row and we didn't have a value for the first row in the weighted average data.</para></example></section><section id="eip-572"><title>Using Spreadsheets for Calculating Statistics <footnote id="eip-idm311041920"> This material was created by Amanda Towry using Microsoft Excel spreadsheets program.</footnote></title><para id="eip-901">
+When working with data and statistics, there are often a lot of mathematical calculations that have to be carried out. Depending on how much data needs to be analyzed, it can become tenuous and time-consuming to compute needed statistics by hand. This is why most statistical analysis is done by the use of some kind of spreadsheet software.
+</para><para id="eip-808">In your course, you will be using Microsoft Excel a lot. Many of the calculations you will be expected to calculate can be easily entered into a cell and the program will do the math for you. The most important aspect of your skill, in this case, is knowing how to properly and efficient input data and utilizing the correct equations to complete your data analyses.</para><para id="eip-451">What follows are the many common equations and calculations you will be learning to do in the spreadsheet software you are using in this course.</para><note id="eip-868"><label>All Equations Inputted into a Spreadsheet MUST Begin with an Equals Sign</label>
+If you are having the spreadsheet calculate a statistic, it will not know to do so unless the first thing you enter is an equal sign. Anything else after the equal sign the spreadsheet will interpret as an equation or data to use in the equation you cite. When you finish the equation you want to type into the cell, you must hit the enter key for it to calculate the result.
+<figure id="eip-idm313497648"><media id="excelequals" alt="screen shot of equals entered into cell">
+<image mime-type="image/png" src="../../media/ExcelEquals.png"/>
+</media>
+</figure></note><para id="eip-254"><title>Adding and Subtracting in Spreadsheet</title>When you need to add or subtract values, there are two options.
+<list id="eip-idm394248656"><item><emphasis>Manually enter the numbers to be added with addition/subtraction signs included</emphasis>
+<figure id="eip-idm498530624"><media id="adding1" alt="adding in excel">
+<image mime-type="image/png" src="../../media/exceladding.png"/>
+</media>
+<caption>Adding by manually entering values.</caption></figure>
+<figure id="eip-idm1141061280"><media id="subtract1" alt="subtracting in excel">
+<image mime-type="image/png" src="../../media/excelsubtract.png"/>
+</media>
+<caption>Subtracting by manually entering values.</caption></figure>
+</item>
+<item><emphasis>Clicking on cells that include the values that you want to add together with the addition/subtraction sign included</emphasis>
+<figure id="eip-idm916505936"><media id="adding2" alt="adding in excel">
+<image mime-type="image/png" src="../../media/exceladding2.png"/>
+</media>
+<caption>Adding by selecting cells with the values you want to add within them.Make sure to include the addition sign manually.</caption></figure><figure id="eip-idm1322567424"><media id="subtract2" alt="subtracting in excel">
+<image mime-type="image/png" src="../../media/excelsubtract2.png"/>
+</media>
+<caption>Subtractinging by selecting cells with the values you want to subtract within them. Make sure to include the subtraction sign manually.</caption></figure></item>
+</list></para><para id="eip-917"><title>Multiplying and Dividing in Spreadsheet</title>In the spreadsheet programs you use, you may need to multiply or divide two numbers. Spreadsheets do not use regular multiplication or division symbols. Adding an <m:math><m:mi>x</m:mi></m:math> will not perform the multiplication function in spreadsheets.
+
+For multiplication, you must use an asterisk <m:math><m:mo>*</m:mo></m:math> to complete multiplication between numbers. You can either:
+
+<list id="eip-idm1223271072"><label><emphasis>Multiplying</emphasis></label>
+<item>Manually enter the values to be multiplied with an asterisk between them
+<figure id="eip-idm1325452672"><media id="excelmultiply" alt="multiplying in excel">
+<image mime-type="image/png" src="../../media/excelmultiply.png"/>
+</media>
+<caption>Multiplication by manually entering values into a cell with an asterisk for multiplication.</caption></figure></item>
+
+<item>Click on the cells including the values you want to multiply together with an asterisk between them
+<figure id="eip-idm603509792"><media id="excelmultiply2" alt="multiplying in excel">
+<image mime-type="image/png" src="../../media/excelmultiply2.png"/>
+</media>
+<caption>Multiplication by clicking on specific cell values with an asterisk for multiplication.</caption></figure></item>
+</list><m:math><m:mo>/</m:mo></m:math> to complete division between two numbers. You can either:
+<list id="eip-idm501255728"><label><emphasis>Dividing</emphasis></label>
+
+<item>Manually enter the values to be divided with a backslash between them
+<figure id="eip-idm600820512"><media id="exceldivide" alt="dividing in excel">
+<image mime-type="image/png" src="../../media/exceldivide.png"/>
+</media>
+<caption>DIvision by manually entering values into a cell with a backslash for division.</caption></figure></item>
+
+<item>Click on the cells including the values you want to multiply together with an asterisk between them
+<figure id="eip-idm231993168"><media id="exceldivide2" alt="dividing in excel">
+<image mime-type="image/png" src="../../media/exceldivide2.png"/>
+</media>
+<caption>Division by clicking on specific cell values with a backslash for division.</caption></figure></item>
+
+
+</list></para><para id="eip-617"><title>Utilizing Equations in Spreadsheets</title>Sometimes, you will need to use an equation in spreadsheets that aren't simply adding/subtracting or multiplying/dividing. When needing to enter a specific equation, usually you can type the name of the equation into the cell after an equal sign and a list will populate for you to choose from.
+
+<figure id="eip-idm332827920"><media id="cellequation" alt="typing an equation into spreadsheet">
+<image mime-type="image/png" src="../../media/excelequation.png"/>
+</media>
+<caption>Entering an equation into a cell is as easy as beginning to type the equaitons name and then selecting it from a narrowed down list.</caption></figure><figure id="eip-idm235344352"><media id="cellequation2" alt="typing an equation into spreadsheets">
+<image mime-type="image/png" src="../../media/excelequation2.png"/>
+</media>
+<caption>Multiply data values, or cells, can be selected for an equation if you left click the mouse on one value and "drag" the highlighted box to include all the values you want to use.</caption></figure><figure id="eip-idm231314464"><media id="excelequation3" alt="typing and equation into spreadsheets">
+<image mime-type="image/png" src="../../media/excelequation3.png"/>
+</media>
+<caption>When an equation you entered is complete, hitting enter key will terminate the equation and the spreadsheet will complette the calculation. As long as the equation is written correctly.</caption></figure></para></section><section id="eip-218"><title>Key Concepts</title><list id="eip-idm1274804528"><item><emphasis>The weighted average is calculated as</emphasis>
+<figure id="wtdavgeqn">
+<media id="wtdavgeqns" alt="equation for calculating the wtd average">
+<image mime-type="image/png" src="../../media/wtdavgeq.png"/>
+</media>
+</figure>
+</item>
+<item><emphasis>Mean or Expected Value:</emphasis> <m:math>
+ <m:mrow>
+  <m:mi>μ</m:mi><m:mo>=</m:mo><m:munder>
+   <m:mrow>
+    <m:msup>
+     <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
+     <m:mtext>​</m:mtext>
+    </m:msup>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>∈</m:mo><m:mi>X</m:mi>
+   </m:mrow>
+  </m:munder>
+  <m:mi>x</m:mi><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</item>
+<item><emphasis> The weighted moving average uses the weighted average equation and moves down a list of data one data value at a time.</emphasis></item>
+<item><emphasis>The weighted moving average can be used to "smooth out" data to visualize trends over time.</emphasis></item></list></section></content>
+
+<glossary>
+
+<definition id="expectedv">
+<term>Expected Value</term>
+<meaning id="id10864394">expected arithmetic average when an experiment is repeated many times; also called the mean. Notations: <emphasis effect="italics">μ</emphasis>. For a discrete random variable (RV) with probability distribution function <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>),the definition can also be written in the form <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mstyle displaystyle="true">
+   <m:mo>∑</m:mo> <m:mrow/>
+  </m:mstyle>
+ </m:mrow>
+</m:math><emphasis effect="italics">x</emphasis><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>).</meaning></definition>
+
+<definition id="fs-idm140669088">
+<term>The Law of Large Numbers</term>
+<meaning id="fs-idp31486048">As the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency probability approaches zero.</meaning>
+</definition>
+
+<definition id="wtdmovingavgdef">
+<term>Weighted Moving Average</term>
+<meaning id="wtdmovingavgmean">
+A weighted average that moves through data one data value at a time to "smooth out" the data over time allowing for an easier identification of trends and habits of the data.
+</meaning>
+</definition>
+</glossary>
+</document>

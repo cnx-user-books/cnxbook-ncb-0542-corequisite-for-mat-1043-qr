@@ -1,0 +1,390 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Measures of Central Tendency: Lessons 2.A - 2.C</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78679</md:content-id>
+  <md:title>Measures of Central Tendency: Lessons 2.A - 2.C</md:title>
+  <md:abstract/>
+  <md:uuid>3426eb60-c2a9-43dd-b17c-15ccda822f18</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-956"><label>Topics Covered in this Module</label>
+<para id="fs-id2294279">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Types of Data and Their Representations  <link document="" target-id="eip-279"/></item>
+<item>Mean, Median, Mode <link document="" target-id="eip-694"/></item>
+<item>5-number Summary <link document="" target-id="eip-64"/></item>
+<item>Box Plots <link document="" target-id="eip-45"/></item>
+<item>Key Concepts  <link document="" target-id="eip-940"/></item></list></note><section id="eip-279"><title>Types of Data and Their Representations <footnote id="eip-idm910862112">Section material derived from Openstax Introductory Statistics: Sampling and Data-Data Sampling and Variation in Data and Sampling</footnote></title><para id="eip-760">Data may come from a population or from a sample. Lowercase letters like <m:math>
+<m:mi>x</m:mi>
+</m:math> or <m:math>
+<m:mi>y</m:mi>
+</m:math> generally are used to represent data values. Most data can be put into the following categories:
+</para><list id="eip-812"><item>Qualitative</item>
+<item>Quantitative</item>
+</list><para id="eip-526"><term>Qualitative data</term> are the result of categorizing or describing attributes of a population. Qualitative data are also often called <term>categorical data</term>. Hair color, blood type, ethnic group, the car a person drives, and the street a person lives on are examples of qualitative data. Qualitative data are generally described by words or letters. For instance, hair color might be black, dark brown, light brown, blonde, gray, or red. Blood type might be AB+, O-, or B+. Researchers often prefer to use quantitative data over qualitative data because it lends itself more easily to mathematical analysis. For example, it does not make sense to find an average hair color or blood type.</para><para id="eip-390"><term>Quantitative data</term> are always numbers. Quantitative data are the result of <emphasis>counting</emphasis> or <emphasis>measuring</emphasis> attributes of a population. Amount of money, pulse rate, weight, number of people living in your town, and number of students who take statistics are examples of quantitative data. Quantitative data may be either <term>discrete</term> or <term>continuous</term>.</para><para id="eip-339">All data that are the result of counting are called <term>quantitative discrete data</term>. These data take on only certain numerical values. If you count the number of phone calls you receive for each day of the week, you might get values such as zero, one, two, or three.</para><para id="eip-985">Data that are not only made up of counting numbers, but that may include fractions, decimals, or irrational numbers, are called <term>quantitative continuous data</term>. Continuous data are often  the results of measurements like lengths, weights, or times. A list of the lengths in minutes for all the phone calls that you make in a week, with numbers like 2.4, 7.5, or 11.0, would be quantitative continuous data.</para><para id="eip-209">Tables are a good way of organizing and displaying data.  But graphs can be even more helpful in understanding the data. There are no strict rules concerning which graphs to use.  </para><para id="eip-597">Two graphs that are used to display qualitative data are pie charts and bar graphs.</para><para id="eip-909">In a <term>pie chart</term>, categories of data are represented by wedges in a circle and are proportional in size to the percent of individuals in each category.</para><para id="eip-166">In a <term>bar graph</term>, the length of the bar for each category is proportional to the number or percent of individuals in each category.  Bars may be vertical or 
+horizontal.
+
+
+<figure id="eip-idm424871808"><media id="bargraph1" alt="A bar graph.">
+
+    <image mime-type="image/png" src="../../media/bargraph1.png"/>
+</media>
+<caption>Credit: Created by Amanda Towry by use of Microsoft Excel</caption></figure></para><para id="eip-717">Three graphs that are used to display quantitative data are dot plots, histograms, and box plots.</para><para id="eip-129">In a <term>dot plot</term>, individual dots are used to represent individual data values on a number line of values.
+
+<figure id="eip-idm284474496"><media id="dotplot1" alt="A dot plot.">
+
+    <image mime-type="image/png" src="../../media/dotplot1.png"/>
+</media>
+<caption>Credit: Created by Amanda Towry by use of Geogebra Dot Plot Tool found at https://www.geogebra.org/m/HD6hhQ75</caption></figure></para><para id="eip-604">In a <term>histogram</term>, data is represented similar to a bar graph in structure. However, there is usually no distance or space between the groups of data, called bins, which contain a range of data values instead of a single unique data value/description.
+
+<figure id="eip-idm1319902080"><media id="histogram1" alt="A histogram.">
+
+    <image mime-type="image/png" src="../../media/histogram1.png"/>
+</media>
+<caption>Credit: Created by Amanda Towry by use of Microsoft Excel</caption></figure></para><para id="eip-113">In a <term>box plot</term> (also called a box and whisker plot), <term>a five-number summary</term> is used to construct a visual display of the spread of the data. The five-number summary includes the minimum, the first quartile, the median, the third quartile, and the maximum.</para><para id="eip-934">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data.  We might make different choices of what we think is the “best” graph depending on the data and the context.  Our choice also depends on what we are using the data for.</para><example id="eip-0"><title>Types of Data</title><para id="id3406867">The data are the number of books students carry in their backpacks. You sample five students. Two students carry three books, one student carries four books, one student carries two books, and one student carries one book. The numbers of books (three, four, two, and one) are the quantitative discrete data.</para></example><example id="eip-131"><title>Types of Data</title><para id="id3944554">The data are the weights of backpacks with books in them. You sample the same five students. The weights (in pounds) of their backpacks are 6.2, 7, 6.8, 9.1, 4.3. Notice that backpacks carrying three books can have different weights. Weights are quantitative continuous data.</para></example><example id="eip-515"><title>Types of Data</title><para id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</para><exercise id="eip-idm51320448">
+<problem id="eip-idm51320192">
+<para id="fs-idp7536032">Name data sets that are quantitative discrete, quantitative continuous, and qualitative.</para>
+</problem>
+<solution id="eip-idp9281200">
+<para id="fs-idm84978080">One Possible Solution:</para>
+<list id="fs-idp14197904" list-type="bulleted"><item>The three cans of soup, two packages of nuts, four kinds of vegetables and two desserts are quantitative discrete data because you count them.</item>
+<item>The weights of the soups (19 ounces, 14.1 ounces, 19 ounces) are quantitative continuous data because you measure weights as precisely as possible.</item>
+<item>Types of soups, nuts, vegetables and desserts are qualitative data because they are categorical.</item>
+</list>
+</solution>
+</exercise>
+<para id="fs-idm59417696">Try to identify additional data sets in this example.</para></example><example id="eip-288"><title>Types of Data</title><para id="id11979238">The data are the colors of backpacks. Again, you sample the same five students. One student has a red backpack, two students have black backpacks, one student has a green backpack, and one student has a gray backpack. The colors red, black, black, green, and gray are qualitative data.</para></example></section><section id="eip-694"><title>The Mean, Median, and Mode <footnote id="eip-idm299991488">Section material derived from Openstax Prealgebra: Decimals-Averages and Probability</footnote></title><para id="eip-855">The <term class="no-emphasis">mean</term> is often called the arithmetic average. It is computed by dividing the sum of the values by the number of values. Students want to know the mean of their test scores. Climatologists report that the mean temperature has, or has not, changed. City planners are interested in the mean household size.</para><para id="eip-923">The words “mean” and “average” are often used interchangeably. The substitution of one word for the other is common practice. The technical term is “arithmetic mean” and “average” is technically a center location. However, in practice among non-statisticians, “average" is commonly accepted for “arithmetic mean.”</para><equation id="eip-766"><label/><m:math><m:mrow><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sum of values in data set</m:mtext></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:math></equation><para id="eip-880">Suppose Ethan’s first three test scores were <m:math><m:mrow><m:mn>85</m:mn><m:mo>,</m:mo><m:mn>88</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>94</m:mn><m:mo>.</m:mo></m:mrow></m:math> To find the mean score, he would add them and divide by <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><equation id="eip-800"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd><m:mfrac><m:mrow><m:mn>85</m:mn><m:mo>+</m:mo><m:mn>88</m:mn><m:mo>+</m:mo><m:mn>94</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mfrac><m:mrow><m:mn>267</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>89</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation><para id="eip-524">His mean test score is <m:math><m:mrow><m:mn>89</m:mn></m:mrow></m:math> points.</para><note id="eip-821"><label>The Mean</label>
+<para id="fs-id1384899">The <term>mean</term> of a set of <m:math><m:mi>n</m:mi></m:math> numbers is the arithmetic average of the numbers.</para>
+<list id="eip-id1168468272241" list-type="enumerated" number-style="arabic" class="stepwise"><item>Write the formula for the mean
+<equation id="fs-id1913725" class="unnumbered"><label/><m:math><m:mrow><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sum of values in data set</m:mtext></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:math></equation></item>
+
+
+<item> Find the sum of all the values in the set. Write the sum in the numerator.</item>
+<item> Count the number, <m:math><m:mrow><m:mi>n</m:mi><m:mo>,</m:mo></m:mrow></m:math> of values in the set. Write this number in the denominator.</item>
+<item> Simplify the fraction.</item>
+<item> Check to see that the mean is reasonable. It should be greater than the least number and less than the greatest number in the set.</item></list></note><example id="eip-145"><title>Finding the Mean</title><exercise id="fs-id2170667"><problem id="fs-id1717083">
+<para id="fs-id1826610">Find the mean of the numbers <m:math><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2246100">
+<title>Solution</title>
+
+
+<table id="eip-id1168467435661" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>Write the formula for the mean:</entry>
+   <entry><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sum of all the numbers</m:mtext></m:mrow><m:mi>n</m:mi></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry>Write the sum of the numbers in the numerator.</entry>
+   <entry><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mi>n</m:mi></m:mfrac></m:math></entry>
+ </row>
+ <row> 
+   <entry>Count how many numbers are in the set. There are 5 numbers in the set, so <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:math>.</entry>
+   <entry><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry>Add the numbers in the numerator.</entry>
+   <entry><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>50</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:math></entry>
+ </row>
+ <row>
+   <entry>Then divide.</entry>
+   <entry><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mn>10</m:mn></m:math></entry>
+ </row>
+ <row>
+   <entry>Check to see that the mean is 'typical': 10 is neither less than 6 nor greater than 15.</entry>
+   <entry>The mean is 10.</entry>
+ </row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise>
+
+</example><para id="eip-585">It is customary to report the mean to one more decimal place than the original numbers. For example, if the numbers represent money, then it will make sense to report the mean in dollars and cents.</para><para id="eip-848">
+The "center" of a data set is also a way of describing location.
+The two most widely used measures of the "center" of the data are the <term>mean</term> (average) and the <term>median</term>. To calculate the <emphasis>mean weight</emphasis> of 50 people, add the 50 weights together and divide by 50. To find the <emphasis> median weight</emphasis> of the 50 people, order the data and find the number that splits the data into two equal parts. The median is generally a better measure of the center when there are extreme values or outliers because it is not affected by the precise numerical values of the outliers. The mean is the most common measure of the center.
+</para><note id="eip-351"><label>The Median</label>
+<para id="fs-id1977427">The <term>median</term> of a set of data values is the middle value.</para>
+<list id="fs-id2455647" list-type="bulleted" bullet-style="bullet">
+<item>Half the data values are less than or equal to the median.</item>
+<item>Half the data values are greater than or equal to the median.</item>
+</list>
+</note><note id="eip-363"><label>Finding the Median of a Set of Numbers</label>
+<list id="eip-id1168466010714" list-type="enumerated" number-style="arabic" class="stepwise"><item> List the numbers from smallest to largest.</item>
+<item> Count how many numbers are in the set. Call this <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item> Is <m:math><m:mi>n</m:mi></m:math> odd or even?
+<list id="fs-id1733078" list-type="bulleted" bullet-style="bullet">
+<item>If <m:math><m:mi>n</m:mi></m:math> is an odd number, the median is the middle value.</item>
+<item>If <m:math><m:mi>n</m:mi></m:math> is an even number, the median is the mean of the two middle values.</item>
+</list></item></list></note><example id="eip-538"><title>Finding the Median</title><exercise id="fs-id2427676"><problem id="fs-id2299730">
+<para id="fs-id1549148">Find the median of <m:math><m:mrow><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>19</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>18</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3009100">
+<title>Solution</title>
+<table id="eip-id1168468416053" class="unnumbered unstyled" summary="The figure shows the numbers 59, 60, and 62 separated by a small space from the numbers 65, 68, and 70. Each set of three has a bracket underneath grouping the numbers together."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>List the numbers in order from smallest to largest.</entry>
+   <entry align="center">9, 11, 12, 13, 15, 18, 19</entry>
+ </row>
+ <row>
+   <entry>Count how many numbers are in the set. Call this <m:math><m:mi>n</m:mi></m:math>.</entry>
+   <entry align="center"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:math></entry>
+ </row>
+ <row> 
+   <entry>Is <m:math><m:mi>n</m:mi></m:math> odd or even?</entry>
+   <entry align="center">odd</entry>
+ </row>
+ <row>
+   <entry>The median is the middle value.</entry>
+   <entry align="center"><media id="eip-id1168467250839" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_05_009_img.png"/></media></entry>
+ </row>
+ <row>
+   <entry>The middle is the number in the 4th position.</entry>
+   <entry align="center">So the median of the data is 13.</entry>
+ </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="eip-808"><title>Finding the Median</title><exercise id="fs-id315074"><problem id="fs-id2668880">
+<para id="fs-id1372926">Kristen received the following scores on her weekly math quizzes:</para>
+<para id="fs-id1829034"><m:math><m:mrow><m:mn>83</m:mn><m:mo>,</m:mo><m:mn>79</m:mn><m:mo>,</m:mo><m:mn>85</m:mn><m:mo>,</m:mo><m:mn>86</m:mn><m:mo>,</m:mo><m:mn>92</m:mn><m:mo>,</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>76</m:mn><m:mo>,</m:mo><m:mn>90</m:mn><m:mo>,</m:mo><m:mn>88</m:mn><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>64</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find her median score.</para>
+</problem>
+<solution id="fs-id1397083">
+<title>Solution</title>
+<table id="eip-id1168467170036" class="unnumbered unstyled" summary="The problem says, 'Find the median of 83, 79, 85, 86, 92, 100, 76, 90, 88, and 64.' The first step says, 'List the numbers in order from smallest to largest,' and shows 64, 76, 79, 83, 85, 86, 88, 90, 92, 100. The next step says, 'Count how many numbers are in the set. Call this n. n equals 10.' The next step asks, 'Is n odd or even? Even.' The next line says, 'The median is the two middle values, the 5th and 6th numbers.' The ordered list of numbers is shown again with the first five numbers grouped together and labeled 5 numbers and the second five numbers are grouped together and labeled 5 numbers. The next step says 'Find the mean of 85 and 86.' The mean equals the sum of 85 plus 86 divided by 2, which equals 85.5. The last line shows 'Kristen's median score is 85.5'."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry>Find the median of 83, 79, 85, 86, 92, 100, 76, 90, 88, and 64.</entry>
+   <entry/>
+ </row>
+ <row>
+   <entry>List the numbers in order from smallest to largest.</entry>
+   <entry align="center">64, 76, 79, 83, 85, 86, 88, 90, 92, 100</entry>
+ </row>
+ <row> 
+   <entry>Count the number of data values in the set. Call this <m:math><m:mi>n.</m:mi></m:math></entry>
+   <entry align="center"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:math></entry>
+ </row>
+ <row>
+   <entry>Is <m:math><m:mi>n</m:mi></m:math> odd or even?</entry>
+   <entry align="center">even</entry>
+   </row>
+   <row>
+   <entry>The median is the mean of the two middle values, the 5th and 6th numbers.</entry>
+   <entry align="center"><media id="eip-id1168468412982" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_05_010_img-01.png"/></media></entry>
+ </row>
+ <row>
+ <entry>Find the mean of 85 and 86.</entry>
+ <entry align="center"><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>85</m:mn><m:mo>+</m:mo><m:mn>86</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:math></entry>
+ </row>
+ <row>
+ <entry/>
+ <entry align="center"><m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mn>85.5</m:mn></m:math></entry>
+ </row>
+ <row>
+ <entry/>
+ <entry align="center">Kristen's median score is 85.5.</entry>
+ </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="eip-115">Another measure of the center is the mode. The <term>mode</term> is the most frequent value. The <term>frequency</term>, is the number of times a number occurs. So the mode of a set of numbers is the number with the highest frequency. There can be more than one mode in a data set as long as those values have the same frequency and that frequency is the highest. A data set with two modes is called bimodal.</para><note id="eip-235"><label>The Mode</label>
+<para id="fs-id2783996">The <term>mode</term> of a set of numbers is the number with the highest frequency.</para>
+</note><note id="eip-420"><label>Identify the mode of a set of numbers.</label>
+<list id="eip-id1168466097152" list-type="enumerated" number-style="arabic" class="stepwise"><item> List the data values in numerical order.</item>
+<item> Count the number of times each value appears.</item>
+<item> The mode is the value with the highest frequency.</item></list></note><example id="eip-275"><title>Finding the Mode</title><para id="element-639">Statistics exam scores for 20 students are as follows:</para>
+<para id="element-104"><list id="set-536" list-type="labeled-item" display="inline">
+<item>50</item><item>53</item><item>59</item><item>59</item><item>63</item><item>63</item><item>72</item><item>72</item><item>72</item><item>72</item><item>72</item><item>76</item><item>78</item><item>81</item><item>83</item><item>84</item><item>84</item><item>84</item><item>90</item><item>93</item></list>
+</para><exercise id="exer3">
+<problem id="id44835721">
+<para id="element-32535">Find the mode.</para>
+</problem>
+<solution id="id44835735">
+<para id="element-76">The most frequent score is 72, which occurs five times. Mode  =  72.</para>
+</solution>
+</exercise>
+</example></section><section id="eip-64"><title>The Five-Number Summary <footnote id="eip-idm296103312">Section material derived by Amanda Towry</footnote></title><para id="eip-883">The <term>five-number summary</term> is a set of measurements about the central tendencies of a set of data. These summaries are used to create boxplots which allow a good analysis of the spread of the data.</para><note id="eip-429"><label>The Five-Number Summary</label>
+A description of the spread of a data set which consists of the following aspects:
+<list id="eip-idm286885104">
+<item>Minimum Value</item>
+<item>First Quartile</item>
+<item>Median</item>
+<item>Third Quartile</item>
+<item>Maximum Value</item>
+</list></note>
+<figure id="eip-idm627569072"><media id="fivenumsum" alt="An image of a boxplot with the parts labeled for the understanding of the five-number summary.">
+
+   <image mime-type="image/png" src="../../media/5numsum.png"/>
+</media>
+<caption>Credit: Created by Amanda Towry by use of Microsoft Word</caption></figure></section><section id="eip-45"><title>Box Plots <footnote id="eip-idm353087056">Section material derived from  Openstax Introductory Statistics: Descriptive Statistics-Box Plots</footnote></title><para id="eip-341">
+<term>Box plots</term> (also called <term>box-and-whisker plots</term> or <term>box-whisker plots</term>) give a good graphical image of the concentration of the data. They also show how far the extreme values are from most of the data. A box plot is constructed from five values: the minimum value, the first quartile, the median, the third quartile, and the maximum value. We use these values to compare how close other data values are to them.
+</para><para id="eip-31">To construct a box plot, use a horizontal or vertical number line and a rectangular box. The smallest and largest data values label the endpoints of the axis. The first quartile marks one end of the box and the third quartile marks the other end of the box. Quartiles are determined by splitting the data in half around its median value. The median of the "lower half" of the data will give you your first quartile. The median of the "upper half" of the split data will give you your third quartile. Approximately <emphasis>the middle 50 percent of the data fall inside the box.</emphasis> The "whiskers" extend from the ends of the box to the smallest and largest data values. The median or second quartile can be between the first and third quartiles, or it can be one, or the other, or both. The box plot gives a good, quick picture of the data.</para><note id="eip-504"><label>Box Plot outliers</label>
+<para id="eip-idp95320688">You may encounter box-and-whisker plots that have dots marking outlier values. In those cases, the whiskers are not extending to the minimum and maximum values.</para>
+</note><para id="eip-556">Consider, again, this dataset.</para><para id="eip-567"><list list-type="labeled-item" display="inline" id="set-476">
+<item>1</item>
+<item>1</item>
+<item>2</item>
+<item>2</item>
+<item>4</item>
+<item>6</item>
+<item>6.8</item>
+<item>7.2</item>
+<item>8</item>
+<item>8.3</item>
+<item>9</item>
+<item>10</item>
+<item>10</item>
+<item>11.5</item>
+</list>
+</para><para id="eip-754">The first quartile is two, the median is seven, and the third quartile is nine. The smallest value is one, and the largest value is 11.5. The following image shows the constructed box plot.</para><para id="eip-570"><media id="id8621327" alt="Horizontal boxplot's first whisker extends from the smallest value, 1, to the first quartile, 2, the box begins at the first quartile and extends to the third quartile, 9, a vertical dashed line is drawn at the median, 7, and the second whisker extends from the third quartile to the largest value of 11.5." display="block"><image src="../../media/fig-ch_02_05_01.jpg" mime-type="image/jpg" width="420"/></media>
+</para><para id="eip-805">The two whiskers extend from the first quartile to the smallest value and from the third quartile to the largest value. The median is shown with a dashed line.</para><note id="eip-939"><label>Scaled Number Lines on Boxplots</label>
+<para id="fs-idp69379904">It is important to start a box plot with a <emphasis effect="bold">scaled number line</emphasis>. Otherwise the box plot may not be useful.</para>
+</note><example id="eip-218"><title>Creating a Boxplot </title><para id="element-676">The following data are the heights of 40 students in a statistics class.</para>
+<para id="element-731">
+<list id="element-2134" list-type="labeled-item" display="inline">
+<item>59</item>
+<item>60</item>
+<item>61</item>
+<item>62</item>
+<item>62</item>
+<item>63</item>
+<item>63</item>
+<item>64</item>
+<item>64</item>
+<item>64</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>65</item>
+<item>66</item>
+<item>66</item>
+<item>67</item>
+<item>67</item>
+<item>68</item>
+<item>68</item>
+<item>69</item>
+<item>70</item>
+<item>70</item>
+<item>70</item>
+<item>70</item>
+<item>70</item>
+<item>71</item>
+<item>71</item>
+<item>72</item>
+<item>72</item>
+<item>73</item>
+<item>74</item>
+<item>74</item>
+<item>75</item>
+<item>77</item>
+</list>
+</para>
+<para id="element-483">Construct a box plot with the following properties; the calculator intructions for the minimum and maximum values as well as the quartiles follow the example.</para>
+<list id="element-172" list-type="bulleted">
+<item>Minimum value = 59</item>
+<item>Maximum value = 77</item>
+<item><emphasis effect="italics">Q</emphasis>1: First quartile = 64.5</item>
+<item><emphasis effect="italics">Q</emphasis>2: Second quartile or median= 66</item>
+<item><emphasis effect="italics">Q</emphasis>3: Third quartile = 70</item>
+</list>
+<figure id="fs-idm18897872"><media id="id1164416794841" alt="Horizontal boxplot with first whisker extending from smallest value, 59, to Q1, 64.5, box beginning from Q1 to Q3, 70, median dashed line at Q2, 66, and second whisker extending from Q3 to largest value, 77." display="block"><image src="../../media/fig-ch_02_05_02.jpg" mime-type="image/jpg" width="420"/></media>
+</figure><list id="element-754" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Each quarter has approximately 25% of the data.</item>
+<item>The spreads of the four quarters are 64.5 – 59 = 5.5 (first quarter), 66 – 64.5 = 1.5 (second quarter), 70 – 66 = 4 (third quarter), and 77 – 70 = 7 (fourth quarter). So, the second quarter has the smallest spread and the fourth quarter has the largest spread.</item>
+<item>Range = maximum value – the minimum value = 77 – 59 = 18</item>
+<item>Interquartile Range: <emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis>3 – <emphasis effect="italics">Q</emphasis>1 = 70 – 64.5 = 5.5.</item>
+<item>The interval 59–65 has more than 25% of the data so it has more data in it than the interval 66 through 70 which has 25% of the data.</item>
+<item>The middle 50% (middle half) of the data has a range of 5.5 inches.</item>
+</list></example></section><section id="eip-940"><title>Key Concepts</title><list id="eip-idm388052864">
+
+<item><emphasis effect="bold">Calculate the mean of a set of numbers.</emphasis>
+<list id="eip-id1170326112257" list-type="enumerated" number-style="arabic" class="stepwise"><item>Write the formula for the mean <m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mtext>sum of values in data set</m:mtext><m:mi>n</m:mi></m:mfrac></m:math></item>  
+<item>Find the sum of all the values in the set. Write the sum in the numerator.</item>
+<item>Count the number, <emphasis effect="italics">n</emphasis>, of values in the set. Write this number in the denominator.</item>
+<item>Simplify the fraction.</item>
+<item>Check to see that the mean is reasonable. It should be greater than the least number and less than the greatest number in the set.</item></list></item>
+<item><emphasis effect="bold">Find the median of a set of numbers.</emphasis>
+<list id="eip-id1170326523665" list-type="enumerated" number-style="arabic" class="stepwise"><item>List the numbers from least to greatest.</item>
+<item>Count how many numbers are in the set. Call this <m:math><m:mi>n</m:mi></m:math>.</item>
+<item>Is <m:math><m:mi>n</m:mi></m:math> odd or even?<newline/>
+If <m:math><m:mi>n</m:mi></m:math> is an odd number, the median is the middle value.<newline/>
+If <m:math><m:mi>n</m:mi></m:math> is an even number, the median is the mean of the two middle values</item></list></item>
+<item><emphasis effect="bold">Identify the mode of a set of numbers.</emphasis>
+<list id="eip-id1170326208207" list-type="enumerated" number-style="arabic" class="stepwise"><item>List the data values in numerical order.</item>
+<item>Count the number of times each value appears.</item>
+<item>The mode is the value with the highest frequency.</item></list></item>
+</list></section></content>
+
+<glossary>
+<definition id="fs-idp72865536">
+<term>Box plot</term>
+<meaning id="fs-idp43755328">a graph that gives a quick picture of the middle 50% of the data</meaning>
+</definition>
+
+<definition id="fs-idp102508064">
+<term>First Quartile</term>
+<meaning id="fs-idp111069232">the value that is the median of the of the lower half of the ordered data set.</meaning>
+</definition>
+
+<definition id="mean">
+<term>Mean</term>
+<meaning id="fs-idp43755329">is the arithmetic average of the numbers. The formula is <m:math><m:mtext>mean</m:mtext><m:mo>=</m:mo><m:mfrac><m:mtext>sum of values in data set</m:mtext><m:mi>n</m:mi></m:mfrac></m:math></meaning>
+</definition>
+
+
+<definition id="median">
+<term>Median</term>
+<meaning id="fs-idp111069233">The median of a set of data values is the middle value.
+<list id="fs-id1170326177811"><item>Half the data values are less than or equal to the median.</item>
+<item>Half the data values are greater than or equal to the median.</item></list></meaning>
+</definition>
+
+<definition id="mode">
+<term>Mode</term>
+<meaning id="id14429968">The mode of a set of numbers is the number with the highest frequency.</meaning>
+</definition>
+
+<definition id="qual">
+<term>Qualitative Data</term>
+<meaning id="id14429967">a set of observations, or possible outcomes, whose value is indicated by a label.</meaning>
+</definition>
+
+<definition id="quant">
+<term>Quantitative Data</term>
+<meaning id="id14429999">a set of observations, or possible outcomes, whose value is indicated by a number.</meaning>
+</definition>
+
+<definition id="fs-idm32759648">
+<term>Random Sampling</term>
+<meaning id="fs-idm21672384">a method of selecting a sample that gives every member of the population an equal chance of being selected.</meaning>
+</definition>
+
+
+<definition id="fs-idp0000003">
+<term>Third Quartile</term>
+<meaning id="fs-idp111069234">the value that is the median of the of the upper half of the ordered data set</meaning>
+</definition>
+</glossary>
+
+
+</document>

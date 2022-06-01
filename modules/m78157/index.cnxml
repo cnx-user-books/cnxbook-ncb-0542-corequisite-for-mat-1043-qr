@@ -1,0 +1,888 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Decimals: Lessons 1.A - 1.C</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78157</md:content-id>
+  <md:title>Decimals: Lessons 1.A - 1.C</md:title>
+  <md:abstract>This module works with Lessons 1A-1D of the corequisite course for MAT 1043 (Quantitative Reasoning).</md:abstract>
+  <md:uuid>e910fb15-4501-4d4a-9199-d1b1d08057cf</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-407" type="note"><label>Topics Covered in this Module</label>
+<para id="fs-id2294279">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Name Decimals <link target-id="eip-424" document=""/></item>
+<item>Write Decimals  <link target-id="eip-693" document=""/></item>
+<item>Round Decimals  <link target-id="eip-614" document=""/></item>
+<item>Repeating Decimals  <link target-id="eip-631" document=""/></item>
+<item>Decimal Operations <link document="" target-id="eip-924"/></item>
+
+<item>Convert Decimals to Fraction or Mixed Numbers <link target-id="eip-214" document=""/></item>
+
+<item>Key Concepts  <link target-id="fs-id2296006" document=""/></item></list></note><section id="eip-424"><title>Name Decimals <footnote id="eip-idm161967600">Section material derived from Openstax Prealgebra: Introduction to Decimals-Decimals</footnote></title><para id="eip-798">You probably already know quite a bit about decimals based on your experience with money. Suppose you buy a sandwich and a bottle of water for lunch. If the sandwich costs <m:math><m:mrow><m:mtext>$3.45</m:mtext></m:mrow></m:math>, the bottle of water costs <m:math><m:mrow><m:mtext>$1.25</m:mtext></m:mrow></m:math>, and the total sales tax is <m:math><m:mrow><m:mtext>$0.33</m:mtext></m:mrow></m:math>, what is the total cost of your lunch?</para><media id="fs-id1534499" alt="A vertical addition problem is shown. The top line shows $3.45 for a sandwich, the next line shows $1.25 for water, and the last line shows $0.33 for tax. The total is shown to be $5.03.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_01_002_img.jpg"/>
+</media>
+<para id="fs-id2430784">The total is <m:math><m:mrow><m:mtext>$5.03</m:mtext><m:mo>.</m:mo></m:mrow></m:math> Suppose you pay with a <m:math><m:mrow><m:mtext>$5</m:mtext></m:mrow></m:math> bill and <m:math><m:mn>3</m:mn></m:math> pennies. Should you wait for change? No, <m:math><m:mrow><m:mtext>$5</m:mtext></m:mrow></m:math> and <m:math><m:mn>3</m:mn></m:math> pennies is the same as <m:math><m:mrow><m:mtext>$5.03</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1523908">Because <m:math><m:mrow><m:mtext>100 pennies</m:mtext><m:mo>=</m:mo><m:mtext>$1</m:mtext><m:mo>,</m:mo></m:mrow></m:math> each penny is worth <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math> of a dollar. We write the value of one penny as <m:math><m:mrow><m:mn>$0.01</m:mn><m:mo>,</m:mo></m:mrow></m:math> since <m:math><m:mrow><m:mn>0.01</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1730944">Writing a number with a decimal is known as decimal notation. It is a way of showing parts of a whole when the whole is a power of ten. In other words, decimals are another way of writing fractions whose denominators are powers of ten. Just as the counting numbers are based on powers of ten, decimals are based on powers of ten. <link target-id="fs-id1383547"/> shows the counting numbers.</para><table id="fs-id1383547" summary="A table is shown with two columns and six rows. The first row is a header row and it labels each column, “Counting number” and “Name”. Under the “Counting number” column are the digits: 1, 10 equals 10, 10 times 10 equals 100, 10 times 10 times 10 equals 1000, and 10 times 10 times 10 times 10 equals 10000. Under the “Name” column are the words: one, ten, one hundred, one thousand, and ten thousand.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry align="left" valign="top">Counting number</entry>
+<entry align="left" valign="top">Name</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left">One</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></entry>
+<entry align="left">Ten</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math></entry>
+<entry align="left">One hundred</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>1000</m:mn></m:mrow></m:math></entry>
+<entry align="left">One thousand</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>·</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>10,000</m:mn></m:mrow></m:math></entry>
+<entry align="left">Ten thousand</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1166761303286">How are decimals related to fractions? <link target-id="fs-id2474612"/> shows the relation.</para><table id="fs-id2474612" summary="A table is shown with three columns and five rows. The first row is a header row and it labels each column, “Decimal”, “Fraction”, and “Name”. Under the “Decimal” column are the values: 0.1, 0.01, 0.001, and 0.0001. Under the “Fraction” column are the values: 1 over 10, 1 over 100, 1 over 1000, and 1 over 10000. Under the “Name” column are the words: one tenth, one hundredth, one thousandth, and one ten-thousandth.">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="center">Decimal</entry>
+<entry align="center">Fraction</entry>
+<entry align="center">Name</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="center"><m:math><m:mn>0.1</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry align="center">One tenth</entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mn>0.01</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry align="center">One hundredth</entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mn>0.001</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1,000</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry align="center">One thousandth</entry>
+</row>
+<row valign="top">
+<entry align="center"><m:math><m:mn>0.0001</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>10,000</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry align="center">One ten-thousandth</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1790334">When we name a whole number, the name corresponds to the place value based on the powers of ten. In <link class="target-chapter" document="m57792">Whole Numbers</link>, we learned to read <m:math><m:mrow><m:mn>10,000</m:mn></m:mrow></m:math> as <emphasis effect="italics">ten thousand</emphasis>. Likewise, the names of the decimal places correspond to their <term class="no-emphasis">fraction</term> values. Notice how the place value names in <link target-id="CNX_BMath_Figure_05_01_002"/> relate to the names of the fractions from <link target-id="fs-id2474612"/>.</para><figure id="CNX_BMath_Figure_05_01_002">
+<media id="fs-id2762483" alt="A chart is shown labeled “Place Value”. There are 12 columns. The columns are labeled, from left to right, Hundred thousands, Ten thousands, Thousands, Hundreds, Tens, Ones, Decimal Point, Tenths, Hundredths, Thousandths, Ten-thousandths, Hundred-thousandths.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_01_002.jpg"/>
+</media>
+<caption>This chart illustrates place values to the left and right of the decimal point.</caption>
+</figure>
+<para id="fs-id2241048">Notice two important facts shown in <link target-id="CNX_BMath_Figure_05_01_002"/>.</para>
+<list id="fs-id1852418" list-type="bulleted" bullet-style="bullet">
+<item>The “th” at the end of the name means the number is a fraction. “One thousand” is a number larger than one, but “one thousandth” is a number smaller than one.</item>
+<item>The tenths place is the first place to the right of the decimal, but the tens place is two places to the left of the decimal.</item>
+</list>
+<para id="fs-id1357626">Remember that <m:math><m:mrow><m:mtext>$5</m:mtext><m:mo>.</m:mo><m:mn>0</m:mn><m:mn>3</m:mn></m:mrow></m:math> lunch? We read <m:math><m:mrow><m:mtext>$5.03</m:mtext></m:mrow></m:math> as <emphasis effect="italics">five dollars and three cents</emphasis>. Naming decimals (those that don’t represent money) is done in a similar way. We read the number <m:math><m:mrow><m:mn>5.03</m:mn></m:mrow></m:math> as <emphasis effect="italics">five and three hundredths</emphasis>.</para>
+<para id="fs-id2348757">We sometimes need to translate a number written in <term class="no-emphasis">decimal notation</term> into words. As shown in <link target-id="CNX_BMath_Figure_05_01_003"/>, we write the amount on a check in both words and numbers.</para>
+<figure id="CNX_BMath_Figure_05_01_003">
+<media id="fs-id2597256" alt="An image of a check is shown. The check is made out to Jane Doe. It shows the number $152.65 and says in words, “One hundred fifty two and 65 over 100 dollars.”">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_01_003.jpg"/>
+</media>
+<caption>When we write a check, we write the amount as a decimal number as well as in words. The bank looks at the check to make sure both numbers match. This helps prevent errors.</caption>
+</figure>
+<table id="eip-363" class="unnumbered unstyled" summary=".">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Let’s try naming a decimal, such as 15.68.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>We start by naming the number to the left of the decimal.</entry>
+    <entry>fifteen______</entry>
+  </row>
+  <row>
+    <entry>We use the word “and” to indicate the decimal point.</entry>
+    <entry>fifteen and_____</entry>
+  </row>
+  <row>
+    <entry>Then we name the number to the right of the decimal point as if it were a whole number.</entry>
+    <entry>fifteen and sixty-eight_____</entry>
+  </row>
+  <row>
+    <entry>Last, name the decimal place of the last digit.</entry>
+    <entry>fifteen and sixty-eight hundredths</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id2031490">The number <m:math><m:mrow><m:mn>15.68</m:mn></m:mrow></m:math> is read <emphasis effect="italics">fifteen and sixty-eight hundredths</emphasis>.</para>
+<note id="fs-id1960628" class="howto"><label>Name a Decimal Number</label>
+<list id="eip-id1168467377447"> 
+<item> Name the number to the left of the decimal point.</item>
+<item> Write “and” for the decimal point.</item>
+<item> Name the “number” part to the right of the decimal point as if it were a whole number.</item>
+<item> Name the decimal place of the last digit.</item>
+</list></note><example id="fs-id1899769"><title>Naming Decimal Numbers</title><exercise id="fs-id1631725">
+<problem id="fs-id2582586">
+<para id="fs-id1524236">Name each decimal: <span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mn>4.3</m:mn></m:math> <span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mn>2.45</m:mn></m:math> <span class="token">ⓒ</span><m:math><m:mspace width="0.2em"/><m:mn>0.009</m:mn></m:math> <span class="token">ⓓ</span><m:math><m:mspace width="0.2em"/><m:mn>−15.571</m:mn><m:mo>.</m:mo></m:math></para></problem>
+<solution id="fs-id2431023">
+<title>Solution</title>
+<table id="eip-id1168466143644" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+  <row>
+<entry><span class="token">ⓐ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>4.3</entry>
+</row>
+<row>
+<entry>Name the number to the left of the decimal point.</entry>
+<entry>four_____</entry>
+</row>
+<row>
+<entry>Write "and" for the decimal point.</entry>
+<entry>four and_____</entry>
+</row>
+<row>
+<entry>Name the number to the right of the decimal point as if it were a whole number.</entry>
+<entry>four and three_____</entry>
+</row>
+<row>
+<entry>Name the decimal place of the last digit.</entry>
+<entry>four and three tenths</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+<table id="eip-id1168469455604" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+<row>
+<entry><span class="token">ⓑ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>2.45</entry>
+</row>
+<row>
+<entry>Name the number to the left of the decimal point.</entry>
+<entry>two_____</entry>
+</row>
+<row>
+<entry>Write "and" for the decimal point.</entry>
+<entry>two and_____</entry>
+</row>
+<row>
+<entry>Name the number to the right of the decimal point as if it were a whole number. </entry>
+<entry>two and forty-five_____</entry>
+</row>
+<row>
+<entry>Name the decimal place of the last digit.</entry>
+<entry>two and forty-five hundredths</entry>
+</row>
+
+</tbody>
+
+</tgroup>
+</table>
+<table id="eip-id1168469507978" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+<row>
+<entry><span class="token">ⓒ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>0.009</entry>
+</row>
+<row>
+<entry>Name the number to the left of the decimal point.</entry>
+<entry>Zero is the number to the left of the decimal; it is not included in the name.</entry>
+</row>
+<row>
+<entry>Name the number to the right of the decimal point as if it were a whole number.</entry>
+<entry>nine_____</entry>
+</row>
+<row>
+<entry>Name the decimal place of the last digit.</entry>
+<entry>nine thousandths</entry>
+</row>
+
+</tbody>
+
+</tgroup>
+</table>
+<table id="eip-id1168469769355" class="unnumbered unstyled" summary=".">
+<label/><tgroup cols="2">
+ <tbody>
+<row>
+<entry><span class="token">ⓓ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mo>−</m:mo><m:mn>15.571</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Name the number to the left of the decimal point.</entry>
+<entry>negative fifteen</entry>
+</row>
+<row>
+<entry>Write "and" for the decimal point.</entry>
+<entry>negative fifteen and_____</entry>
+</row>
+<row>
+<entry>Name the number to the right of the decimal point as if it were a whole number.</entry>
+<entry>negative fifteen and five hundred seventy-one_____</entry>
+</row>
+<row>
+<entry>Name the decimal place of the last digit.</entry>
+<entry>negative fifteen and five hundred seventy-one thousandths</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise></example></section><section id="eip-693"><title>Write Decimals <footnote id="eip-idm1223294224">Section material derived from Openstax Prealgebra: Introduction to Decimals-Decimals</footnote></title><para id="fs-id1743266">Now we will translate the name of a decimal number into decimal notation. We will reverse the procedure we just used.</para>
+<para id="fs-id2719392">Let’s start by writing the number six and seventeen hundredths:</para>
+
+<table id="eip-id1168469639112" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/>
+<entry>six and seventeen hundredths</entry>
+</row>
+<row>
+<entry>The word <emphasis effect="italics">and</emphasis> tells us to place a decimal point.</entry>
+<entry>___.___</entry>
+</row>
+<row>
+<entry>The word before <emphasis effect="italics">and</emphasis> is the whole number; write it to the left of the decimal point.</entry>
+<entry>6._____</entry>
+</row>
+<row>
+<entry>The decimal part is seventeen hundredths. <newline/> Mark two places to the right of the decimal point for hundredths.</entry>
+<entry>6._ _</entry>
+</row>
+<row>
+<entry>Write the numerals for seventeen in the places marked.</entry>
+<entry>6.17</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<example id="fs-id3399354"><title>Writing Decimal Numbers</title><exercise id="fs-id2200541"><problem id="fs-id2222107">
+<para id="fs-id3322474">Write fourteen and thirty-seven hundredths as a decimal.</para>
+</problem>
+<solution id="fs-id1916030">
+<title>Solution</title>
+<table id="eip-569" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry>fourteen and thirty-seven hundredths</entry>
+  </row>
+  <row>
+    <entry>Place a decimal point under the word ‘and’.</entry>
+    <entry>______. _________</entry>
+  </row>
+  <row>
+    <entry>Translate the words before ‘and’ into the whole number and place it to the left of the decimal point.</entry>
+    <entry>14. _________</entry>
+  </row>
+  <row>
+    <entry>Mark two places to the right of the decimal point for “hundredths”.</entry>
+    <entry>14.__ __</entry>
+  </row>
+  <row>
+    <entry>Translate the words after “and” and write the number to the right of the decimal point.</entry>
+    <entry>14.37</entry>
+  </row>
+  <row>
+    <entry/>
+    <entry>Fourteen and thirty-seven hundredths is written 14.37.</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example><note id="fs-id1545770" class="howto"><label>Write a Decimal Number from Its Name</label>
+<list id="eip-id1168468315974" list-type="enumerated" number-style="arabic" class="stepwise"><item>Look for the word “and”—it locates the decimal point.</item> 
+
+<item> Mark the number of decimal places needed to the right of the decimal point by noting the place value indicated by the last word.
+
+<list id="eip-id1168468368974">
+<item>Place a decimal point under the word “and.” Translate the words before “and” into the whole number and place it to the left of the decimal point.</item>
+
+<item>If there is no “and,” write a “0” with a decimal point to its right.</item>
+</list></item>
+
+<item>Translate the words after “and” into the number to the right of the decimal point. Write the number in the spaces—putting the final digit in the last place.</item>
+
+<item>Fill in zeros for place holders as needed.</item>
+</list></note><para id="fs-id2635901">The second bullet in Step 2 is needed for decimals that have no whole number part, like ‘nine thousandths’. We recognize them by the words that indicate the place value after the decimal – such as ‘tenths’ or ‘hundredths.’  Since there is no whole number, there is no ‘and.’ We start by placing a zero to the left of the decimal and continue by filling in the numbers to the right, as we did above.</para><example id="fs-id1760611"><title>Writing Decimal Numbers</title><exercise id="fs-id1884725">
+<problem id="fs-id1972020">
+<para id="fs-id1741853">Write twenty-four thousandths as a decimal.</para>
+</problem>
+<solution id="fs-id1949251">
+<title>Solution</title>
+<table id="eip-id1168466165707" class="unnumbered unstyled" summary="The first line says, “twenty-four thousandths”. The next line says, “Look for the word 'and'. There is no 'and' so start with 0. The next line says, “To the right of the decimal point, put three decimal places for thousandths.” There is an image of a zero followed by a decimal point, then three lines labeled from left to right as tenths, hundredths, thousandths. The next line says, “Write the number 24 with the 4 in the thousandths place.” The same image as the last line is shown with 2 above the hundredths line and 4 above the thousandths line. The next line says, “Put zeros as placeholders in the remaining decimal places.” 0.024 is shown. The last line says, “So, twenty-four thousandths is written 0.024.”"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/>
+<entry>twenty-four thousandths</entry>
+</row>
+<row>
+<entry>Look for the word "and".</entry>
+<entry>There is no "and" so start with 0 <newline/> 0.</entry>
+</row>
+<row>
+<entry>To the right of the decimal point, put three decimal places for thousandths.</entry>
+<entry align="left"><media id="eip-id1168466230628" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_020_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Write the number 24 with the 4 in the thousandths place.</entry>
+<entry align="left"><media id="eip-id1168469871187" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_020_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Put zeros as placeholders in the remaining decimal places.</entry>
+<entry>0.024</entry>
+</row>
+<row>
+<entry/>
+<entry>So, twenty-four thousandths is written 0.024</entry>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id3401638">Before we move on to our next objective, think about money again. We know that <m:math><m:mrow><m:mtext>$1</m:mtext></m:mrow></m:math> is the same as <m:math><m:mrow><m:mtext>$1.00</m:mtext><m:mo>.</m:mo></m:mrow></m:math> The way we write <m:math><m:mrow><m:mtext>$1</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mtext>$1.00</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:math> depends on the context. In the same way, integers can be written as decimals with as many zeros as needed to the right of the decimal.</para>
+<equation id="fs-id2264690" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>5.0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mo>=</m:mo><m:mn>−2.0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>5.00</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mo>=</m:mo><m:mn>−2.00</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>5.000</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>−2</m:mn><m:mo>=</m:mo><m:mn>−2.000</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<equation id="fs-id1171103314490" class="unnumbered"><label/><m:math><m:mrow><m:mtext>and so on…</m:mtext></m:mrow></m:math></equation>
+</section><section id="eip-614"><title>Round Decimals <footnote id="eip-idm203566656">Section material derived from Openstax Prealgebra: Introduction to Decimals-Decimals</footnote></title><para id="fs-id1351097">In the United States, gasoline prices are usually written with the decimal part as thousandths of a dollar. For example, a gas station might post the price of unleaded gas at <m:math><m:mtext>$3.279</m:mtext></m:math> per gallon. But if you were to buy exactly one gallon of gas at this price, you would pay <m:math><m:mtext>$3.28</m:mtext></m:math>, because the final price would be rounded to the nearest cent. In <link class="target-chapter" document="m57792">Whole Numbers</link>, we saw that we round numbers to get an approximate value when the exact value is not needed. Suppose we wanted to round <m:math><m:mrow><m:mtext>$2.72</m:mtext></m:mrow></m:math> to the nearest dollar. Is it closer to <m:math><m:mrow><m:mtext>$2</m:mtext></m:mrow></m:math> or to <m:math><m:mrow><m:mtext>$3</m:mtext><m:mo>?</m:mo></m:mrow></m:math> What if we wanted to round <m:math><m:mrow><m:mtext>$2.72</m:mtext></m:mrow></m:math> to the nearest ten cents; is it closer to <m:math><m:mrow><m:mtext>$2.70</m:mtext></m:mrow></m:math> or to <m:math><m:mrow><m:mtext>$2.80</m:mtext><m:mo>?</m:mo></m:mrow></m:math> The number lines in <link target-id="CNX_BMath_Figure_05_01_012"/> can help us answer those questions.</para><figure id="CNX_BMath_Figure_05_01_012"><media id="fs-id1562237" alt="In part a, a number line is shown with 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9 and 3. There is a dot between 2.7 and 2.8 labeled as 2.72.  In part b, a number line is shown with 2.70, 2.71, 2.72, 2.73, 2.74, 2.75, 2.76, 2.77, 2.78, 2.79, and 2.80. There is a dot at 2.72. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_01_012.jpg"/>
+</media>
+
+<caption><span class="token">ⓐ</span> We see that <m:math><m:mrow><m:mn>2.72</m:mn></m:mrow></m:math> is closer to <m:math><m:mn>3</m:mn></m:math> than to <m:math><m:mrow><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> So, <m:math><m:mrow><m:mn>2.72</m:mn></m:mrow></m:math> rounded to the nearest whole number is <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> <newline/><span class="token">ⓑ</span> We see that <m:math><m:mrow><m:mn>2.72</m:mn></m:mrow></m:math> is closer to <m:math><m:mrow><m:mn>2.70</m:mn></m:mrow></m:math> than <m:math><m:mrow><m:mn>2.80</m:mn><m:mo>.</m:mo></m:mrow></m:math> So we say that <m:math><m:mrow><m:mn>2.72</m:mn></m:mrow></m:math> rounded to the nearest tenth is <m:math><m:mrow><m:mn>2.7</m:mn><m:mo>.</m:mo></m:mrow></m:math></caption></figure><para id="fs-id1266320">Can we round decimals without number lines? Yes! We use a method based on the one we used to round whole numbers.</para>
+<note id="fs-id4163462" class="howto"><label>Round a Decimal</label>
+<list id="eip-id1168466730764" list-type="enumerated" number-style="arabic" class="stepwise"><item> Locate the given place value and mark it with an arrow.</item>
+<item> Underline the digit to the right of the given place value.</item>
+<item> Is this digit greater than or equal to <m:math><m:mrow><m:mn>5</m:mn><m:mo>?</m:mo></m:mrow></m:math>
+<list id="fs-id1367462" list-type="bulleted" bullet-style="bullet">
+<item>Yes - add <m:math><m:mn>1</m:mn></m:math> to the digit in the given place value.</item>
+<item>No - do not change the digit in the given place value</item>
+</list></item>
+<item> Rewrite the number, removing all digits to the right of the given place value.</item></list></note><example id="fs-id1567354"><title>Rounding Decimals</title><exercise id="fs-id1614508"><problem id="fs-id2174295">
+<para id="fs-id1614237">Round <m:math><m:mrow><m:mn>18.379</m:mn></m:mrow></m:math> to the nearest hundredth.</para>
+</problem>
+<solution id="fs-id2464215">
+<title>Solution</title>
+<table id="eip-id1168469619891" class="unnumbered unstyled" summary="The number 18.379 is shown. The first line says, “Locate the hundredths place and mark it with an arrow.” There is an arrow marking the hundredths place shown below the 7. The next line says, “Underline the digit to the right of the 7.” The number is shown with the 9 underlined. The next line says, “Because 9 is greater than or equal to 5, add 1 to the 7.” The number is shown showing that we should add 1 to the 7 and delete the 9. The last step says, “Rewrite the number, deleting all digits to the right of the hundredths place.” 18.38 is shown. The last line says, “18.38 is 18.379 rounded to the nearest hundredth.”"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1168468270060" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_021_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Locate the hundredths place and mark it with an arrow.</entry>
+<entry><media id="eip-id1168463808144" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_021_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Underline the digit to the right of the 7.</entry>
+<entry><media id="eip-id1168469635592" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_021_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Because 9 is greater than or equal to 5, add 1 to the 7.</entry>
+<entry><media id="eip-id1168466166028" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_021_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Rewrite the number, deleting all digits to the right of the hundredths place.</entry>
+<entry><media id="eip-id1168468445870" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_021_img-05.png"/></media></entry>
+</row>
+<row>
+<entry/>
+<entry>18.38 is 18.379 rounded to the nearest hundredth.</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1741603"><title>Rounding Decimals</title><exercise id="fs-id1617454">
+<problem id="fs-id1531380">
+<para id="fs-id1968886">Round <m:math><m:mrow><m:mn>18.379</m:mn></m:mrow></m:math> to the nearest <span class="token">ⓐ</span> tenth <span class="token">ⓑ</span> whole number.</para></problem>
+<solution id="fs-id1727429">
+<title>Solution</title>
+<table id="eip-id1168467479198" class="unnumbered unstyled" summary="The number 18.379 is shown. The first line says, “Locate the tenths place and mark it with an arrow.” There is an arrow marking the tenths place shown below the 3. The next line says, “Underline the digit to the right of the 3.” The number is shown with the 7 underlined. The next line says, “Because 7 is greater than or equal to 5, add 1 to the 3.” The number is shown showing that we should add 1 to the 3 and delete the 79. The last step says, “Rewrite the number, deleting all digits to the right of the tenths place.” 18.4 is shown. The last line says, “So, 18.379 rounded to the nearest tenth is 18.4.”"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓐ</span> Round 18.379 to the nearest tenth.</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><media id="eip-id1168469838756" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_022_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Locate the tenths place and mark it with an arrow.</entry>
+<entry><media id="eip-id1168467375522" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_022_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Underline the digit to the right of the tenths digit.</entry>
+<entry><media id="eip-id1168468292755" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_022_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Because 7 is greater than or equal to 5, add 1 to the 3.</entry>
+<entry><media id="eip-id1168468595227" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_022_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Rewrite the number, deleting all digits to the right of the tenths place.</entry>
+<entry><media id="eip-id1168466001190" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_022_img-05.png"/></media></entry>
+</row>
+<row>
+<entry/>
+<entry>So, 18.379 rounded to the nearest tenth is 18.4.</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+<table id="eip-id1168466047205" class="unnumbered unstyled" summary="The number 18.379 is shown. The first line says, “Locate the ones place and mark it with an arrow.” There is an arrow marking the ones place shown below the 8. The next line says, “Underline the digit to the right of the 8.” The number is shown with the 3 underlined. The next line says, “Since 3 is not greater than or equal to 5, do not add 1 to the 8.” The number is shown showing that we should not add 1 to the 8 and to delete the 379. The last step says, “Rewrite the number, deleting all digits to the right of the ones place.” 18 is shown. The last line says, “So, 18.379 rounded to the nearest whole number is 18.”"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓑ</span> Round 18.379 to the nearest whole number.</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><media id="eip-id1168466024767" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_023_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Locate the ones place and mark it with an arrow.</entry>
+<entry><media id="eip-id1168469846810" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_023_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Underline the digit to the right of the ones place.</entry>
+<entry><media id="eip-id1168466176170" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_023_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Since 3 is not greater than or equal to 5, do not add 1 to the 8.</entry>
+<entry><media id="eip-id1168469566569" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_023_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Rewrite the number, deleting all digits to the right of the ones place.</entry>
+<entry><media id="eip-id1168469808231" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_023_img-05.png"/></media></entry>
+</row>
+<row>
+<entry/>
+<entry>So 18.379 rounded to the nearest whole number is 18.</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></solution>
+</exercise>
+</example><note id="fs-id2436675" class="media-2"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id1480623" display="block">
+<item><link url="http://www.openstax.org/l/24decmlnotat">Introduction to Decimal Notation</link></item>
+<item><link url="http://www.openstax.org/l/24word2dcmlnot">Write a Number in Decimal Notation from Words</link></item>
+<item><link url="http://www.openstax.org/l/24decmlnumline">Identify Decimals on the Number Line</link></item>
+<item><link url="http://www.openstax.org/l/24rounddecml">Rounding Decimals</link></item>
+<item><link url="http://www.openstax.org/l/24decmlsimpfrac">Writing a Decimal as a Simplified Fraction</link></item>
+</list>
+</note></section><section id="eip-631"><title>Repeating Decimals <footnote id="eip-idm421330320">Section material derived from Openstax Prealgebra: Introduction to Decimals-Decimal Operations</footnote></title><para id="eip-737">So far, in all the examples converting fractions to decimals the division resulted in a remainder of zero. This is not always the case. Let’s see what happens when we convert the fraction <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> to a decimal. First, notice that <m:math><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> is an improper fraction. Its value is greater than <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> The equivalent decimal will also be greater than <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math>
+</para><para id="eip-535">We divide <m:math><m:mn>4</m:mn></m:math> by <m:math><m:mrow><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math>
+</para><para id="eip-732"><media id="fs-id2820211" alt="A division problem is shown. 4.000 is on the inside of the division sign and 3 is on the outside. Below the 4 is a 3 with a line below it. Below the line is a 10. Below the 10 is a 9 with a line below it. Below the line is another 10, followed by another 9 with a line, followed by another 10, followed by another 9 with a line, followed by a 1. Above the division sign is 1.333...">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_03_004_img.jpg"/>
+</media></para><para id="eip-654">No matter how many more zeros we write, there will always be a remainder of <m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the threes in the quotient will go on forever. The number <m:math><m:mrow><m:mtext>1.333…</m:mtext></m:mrow></m:math> is called a repeating decimal. Remember that the “…” means that the pattern repeats.</para><note id="eip-446"><label>Repeating Decimal</label>
+<para id="fs-id555904">A <term>repeating decimal</term> is a decimal in which the last digit or group of digits repeats endlessly.</para>
+</note><para id="eip-793">How do you know how many ‘repeats’ to write? Instead of writing <m:math><m:mrow><m:mn>1.333</m:mn><m:mo>…</m:mo></m:mrow></m:math> we use a shorthand notation by placing a line over the digits that repeat. The repeating decimal <m:math><m:mrow><m:mn>1.333</m:mn><m:mo>…</m:mo></m:mrow></m:math> is written <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo><m:mover><m:mn>3</m:mn><m:mo>–</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math> The line above the <m:math><m:mn>3</m:mn></m:math> tells you that the <m:math><m:mn>3</m:mn></m:math> repeats endlessly. So <m:math><m:mrow><m:mtext>1.333…</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mover><m:mn>3</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></para><para id="eip-53">For other decimals, two or more digits might repeat. Table 12 shows some more examples of repeating decimals.</para><table id="eip-983" summary="A table with four rows and two columns. In the first column of the first row is 1.333... is equal to 1.3 with a bar above the 3. In the second column of the first row is the text “3 is the repeating digit.” In the first column of the second row is 4.166... equals 4.16 with a bar above the 6. In the second column of the second row is the text “6 is the repeating digit.” In the third row of the first column is 4.161616... equals 4.16 with a bar above the 16. In the second column of the third row is the text “ 16 is the repeating block.” In the fourth row of the first column is 0.271271271 equals 0.271 with a bar above 271. In the second column is the text “271 is the repeating block.”">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry> <m:math><m:mrow><m:mtext>1.333…</m:mtext><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mover><m:mn>3</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></entry>
+  <entry><m:math><m:mn>3</m:mn></m:math> is the repeating digit</entry>
+  </row>
+
+  <row>
+     <entry><m:math><m:mrow><m:mtext>4.1666...</m:mtext><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo><m:mover><m:mn>16</m:mn><m:mo>–</m:mo></m:mover></m:mrow></m:math></entry>
+    <entry><m:math><m:mn>6</m:mn></m:math> is the repeating digit</entry>
+  </row>
+
+  <row>
+    <entry><m:math><m:mrow><m:mtext>4.161616…</m:mtext><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo><m:mover accent="true"><m:mrow><m:mn>16</m:mn></m:mrow><m:mtext>—</m:mtext></m:mover></m:mrow></m:math></entry>
+    <entry><m:math><m:mn>16</m:mn></m:math> is the repeating digit</entry>
+  </row>
+
+  <row>
+    <entry><m:math><m:mrow><m:mtext>0.271271271…</m:mtext><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mover accent="true"><m:mrow><m:mn>271</m:mn></m:mrow><m:mtext>–––</m:mtext></m:mover></m:mrow></m:math></entry>
+    <entry><m:math><m:mn>271</m:mn></m:math> is the repeating digit</entry>
+  </row>
+
+</tbody>
+
+
+</tgroup>
+</table><example id="eip-585"><title>Writing a Repeating Decimal</title><exercise id="fs-id1339511"><problem id="fs-id1333241">
+<para id="fs-id2279799">Write <m:math><m:mrow><m:mfrac><m:mrow><m:mn>43</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:mfrac></m:mrow></m:math> as a decimal.</para>
+</problem>
+<solution id="fs-id2671073">
+<title>Solution</title>
+<para id="fs-id1391214">Divide <m:math><m:mrow><m:mn>43</m:mn></m:mrow></m:math> by <m:math><m:mrow><m:mn>22</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1790568" alt="A division problem is shown. 43.00000 is on the inside of the division sign and 22 is on the outside. Below the 43 is a 22 with a line below it. Below the line is a 210 with a 198 with a line below it. Below the line is a 120 with 110 and a line below it. Below the line is 100 with 88 and a line below it. Below the line is 120 with 110 and a line below it. Below the line is 100 with 88 and a line below it. Below the line is an ellipses. There are arrows pointing to the 120s saying 120 repeats. There are arrows pointing to the 100s saying 100 repeats. There are arrows pointing to the 88s saying, in red, “The pattern repeats, so the numbers in the quotient will repeat as well.” The quotient is shown above the division sign. It is 1.95454.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_03_005_img.jpg"/>
+</media></para>
+<para id="fs-id1160111">Notice that the differences of <m:math><m:mrow><m:mn>120</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math> repeat, so there is a repeat in the digits of the quotient; <m:math><m:mrow><m:mn>54</m:mn></m:mrow></m:math> will repeat endlessly. The first decimal place in the quotient, <m:math><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:math> is not part of the pattern. So,</para>
+<equation id="fs-id2649069" class="unnumbered"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>43</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.9</m:mn><m:mover accent="true"><m:mrow><m:mn>54</m:mn></m:mrow><m:mtext>—</m:mtext></m:mover></m:mrow></m:math></equation>
+</solution>
+</exercise></example><para id="eip-892">It is useful to convert between fractions and decimals when we need to add or subtract numbers in different forms. To add a fraction and a decimal, for example, we would need to either convert the fraction to a decimal or the decimal to a fraction.</para><example id="eip-431"><title>Adding a Fraction and a Decimal</title><exercise id="fs-id2434481"><problem id="fs-id1960505">
+<para id="fs-id2328339">Simplify: <m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>+</m:mo><m:mn>6.4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1266084">
+<title>Solution</title>
+<table id="eip-id1168575382181" class="unnumbered unstyled" summary="The problem says 7 over 8 plus 6.4. The first step says to change 7 over 8 to a decimal. It shows 7.000 being divided by 8. Below the 7.0 is a 64 with a line. Below the line is a 60. Below the 60 is a 56 with a line, followed by a 40. Below the 40 is another 40 with a line, followed by a 0. 0.875 is shown above the division sign. The next step says to add and shows 0.875 plus 6.4. The solution is 7.275."><label/>
+<tgroup cols="3"><tbody>
+<row>
+<entry/>
+<entry/>
+<entry><m:math><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>8</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>6.4</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Change <m:math><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>8</m:mn></m:mrow></m:mfrac></m:math> to a decimal.</entry>
+<entry><media id="eip-id1168468389277" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_03_011_img-01.png"/></media></entry>
+<entry><m:math><m:mn>0.875</m:mn><m:mo>+</m:mo><m:mn>6.4</m:mn></m:math></entry>
+</row>
+<row>
+<entry>Add.</entry>
+<entry/>
+<entry><m:math><m:mn>7.275</m:mn></m:math></entry>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example></section><section id="eip-924"><title>Decimal Operations <footnote id="eip-idm307234592">Section material derived from Openstax Prealgebra: Introduction to Decimas-Decimal Operations</footnote></title><note id="eip-60"><label>Add or Subtract Decimals</label>
+<list id="eip-id1168467213800" list-type="enumerated" number-style="arabic" class="stepwise"><item>Write the numbers vertically so the decimal points line up.</item>
+<item>Use zeros as place holders, as needed.</item>
+<item>Add or subtract the numbers as if they were whole numbers. Then place the decimal in the answer under the decimal points in the given numbers.</item>
+</list></note><example id="eip-462"><title>Adding Decimals</title><exercise id="fs-id1598176">
+<problem id="fs-id555905">
+<para id="fs-id1869509">Add: <m:math><m:mrow><m:mn>23.5</m:mn><m:mo>+</m:mo><m:mn>41.38</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1374217">
+<title>Solution</title>
+<table id="eip-id1168468241397" class="unnumbered unstyled" summary="The first line says 23.5 plus 41.38. The next line says, “Write the numbers vertically so the decimal points line up,” and shows 23.5 above 41.38 with the decimal points lined up and a line below 41.38. The next line says, “Place 0 as a place holder after the 5 in 23.5, so that both numbers have two decimal places,” and shows 23.50 above 41.38 with the decimal points lined up and a line below 41.38. The next line says, “Add the numbers as if they were whole numbers. Then place the decimal in the answer under the decimal points in the given numbers.” A vertical addition problem is shown that says 23.50 plus 41.38 equals 64.88."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+ <entry><m:math><m:mn>23.5</m:mn><m:mo>+</m:mo><m:mn>41.38</m:mn></m:math></entry>
+ </row>
+ <row>
+   <entry>Write the numbers vertically so the decimal points line up.</entry>
+   <entry><media id="eip-id1168467560833" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_02_016_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Place 0 as a place holder after the 5 in 23.5, so that both numbers have two decimal places.</entry>
+   <entry><media id="eip-id1168467155738" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_02_016_img-02.png"/></media></entry>
+ </row>
+ <row> 
+   <entry>Add the numbers as if they were whole numbers. Then place the decimal in the answer under the decimal points in the given numbers.</entry>
+   <entry><media id="eip-id1168467360521" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_02_016_img-03.png"/></media></entry>
+ </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><note id="eip-539"><label>Multiply Decimal Numbers</label>
+<list id="eip-id1168469803517" list-type="enumerated" number-style="arabic" class="stepwise"><item>Determine the sign of the product.</item>
+<item>Write the numbers in vertical format, lining up the numbers on the right.</item>
+<item>Multiply the numbers as if they were whole numbers, temporarily ignoring the decimal points.</item>
+<item>Place the decimal point. The number of decimal places in the product is the sum of the number of decimal places in the factors. If needed, use zeros as placeholders.</item>
+<item>Write the product with the appropriate sign.</item>
+</list></note><example id="eip-380"><title>Multiplying Decimals</title><exercise id="fs-id1967573">
+<problem id="fs-id1288064">
+<para id="fs-id3204672">Multiply: <m:math><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3.9</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>4.075</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id3415489">
+<title>Solution</title>
+
+<table id="eip-id1168466119810" class="unnumbered unstyled" summary="The top line says 3.9 times 4.075. The next line says, “Determine the sign of the product. The signs are he same. The product will be positive.” The next line says, “Write the numbers in vertical format, lining up the numbers on the right,” and shows a vertical multiplication problem with 4.075 times 3.9. The next step says, “Multiply the numbers as if they were whole numbers, temporarily ignoring the decimal points,” and shows 4.075 times 3.9 with a line below. Below the line is 36675, then 12225, then a line. Below that line is 158925. The next line says, “Place the decimal point. Add the number of decimal places in the factors (1 plus 3). Place the decimal point 4 places from the right.” Beside this is the same vertical multiplication problem from the last step. Next to 4.075, it says 3 places. Next to 3.9, it says 1 place. Next to 15.8925, it says 4 places. The last step says, “The product is positive,” and shows 3.9 times 4.075 equals 15.8925."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+ <entry><m:math><m:mo stretchy="false">(</m:mo><m:mn>3.9</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.075</m:mn><m:mo stretchy="false">)</m:mo></m:math></entry>
+ </row>
+ <row>
+   <entry>Determine the sign of the product. The signs are the same.</entry>
+   <entry>The product will be positive.</entry>
+ </row>
+ <row>
+   <entry>Write the numbers in vertical format, lining up the numbers on the right.</entry>
+   <entry><media id="eip-id1168469378183" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_02_019_img-01.png"/></media></entry>
+ </row>
+ <row> 
+   <entry>Multiply the numbers as if they were whole numbers, temporarily ignoring the decimal points.</entry>
+   <entry><media id="eip-id1168465059325" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_02_019_img-02.png"/></media>
+</entry>
+ </row>
+ <row>
+ <entry>Place the decimal point. Add the number of decimal places in the factors <m:math><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">).</m:mo></m:math> Place the decimal point 4 places from the right.</entry>
+ <entry><media id="eip-id1168468454061" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_02_019_img-03.png"/></media></entry>
+ </row>
+ <row>
+ <entry>The product is positive.</entry>
+ <entry><m:math><m:mo stretchy="false">(</m:mo><m:mn>3.9</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.075</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>15.8925</m:mn></m:math></entry>
+ </row>
+</tbody>
+
+
+</tgroup>
+</table></solution>
+</exercise></example></section><section id="eip-214"><title>Convert Decimals to Fractions or Mixed Numbers <footnote id="eip-idm831134208">Section material derived from Openstax Prealgebra Introduction to Decimals-Decimals</footnote></title><para id="fs-id1215329">We often need to rewrite decimals as fractions or mixed numbers. Let’s go back to our lunch order to see how we can convert decimal numbers to fractions. We know that <m:math><m:mrow><m:mtext>$5.03</m:mtext></m:mrow></m:math> means <m:math><m:mn>5</m:mn></m:math> dollars and <m:math><m:mn>3</m:mn></m:math> cents. Since there are <m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math> cents in one dollar, <m:math><m:mn>3</m:mn></m:math> cents means <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math> of a dollar, so <m:math><m:mrow><m:mn>0.03</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1458244">We convert decimals to fractions by identifying the place value of the farthest right digit. In the decimal <m:math><m:mrow><m:mn>0.03</m:mn><m:mo>,</m:mo></m:mrow></m:math> the <m:math><m:mn>3</m:mn></m:math> is in the hundredths place, so <m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math> is the denominator of the fraction equivalent to <m:math><m:mrow><m:mn>0.03</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1409608" class="unnumbered"><label/><m:math><m:mrow><m:mn>0.03</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1406584">For our <m:math><m:mrow><m:mtext>$5.03</m:mtext></m:mrow></m:math> lunch, we can write the decimal <m:math><m:mrow><m:mn>5.03</m:mn></m:mrow></m:math> as a mixed number.</para>
+<equation id="fs-id2454283" class="unnumbered"><label/><m:math><m:mrow><m:mn>5.03</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1166761338151">Notice that when the number to the left of the decimal is zero, we get a proper fraction. When the number to the left of the decimal is not zero, we get a mixed number.</para>
+<note id="fs-id3424016" class="howto"><label>Convert a Decimal Number to a Fraction or Mixed Number.</label>
+<list id="eip-id1168468271407" list-type="enumerated" number-style="arabic" class="stepwise"><item> Look at the number to the left of the decimal.
+   <list id="eip-id1168468271412"><item>If it is zero, the decimal converts to a proper fraction.</item>
+   <item>If it is not zero, the decimal converts to a mixed number.
+   		<list id="eip-id1168468449219">
+   		<item>Write the whole number.</item>
+   		</list>
+  </item></list></item>
+
+<item> Determine the place value of the final digit.</item>
+<item> Write the fraction. 
+	<list id="eip-id1168468484466">
+		<item> numerator—the ‘numbers’ to the right of the decimal point</item>
+		<item> denominator—the place value corresponding to the final digit</item>
+	</list>
+</item>
+<item> Simplify the fraction, if possible. </item>
+</list></note><example id="fs-id1906106"><title>Convert a decimal number to a fraction or mixed number.</title><exercise id="fs-id2649727">
+<problem id="fs-id2352795">
+<para id="fs-id1613048">Write each of the following decimal numbers as a fraction or a mixed number:</para>
+<para id="fs-id1392402"><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mn>4.09</m:mn></m:math> <span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mn>3.7</m:mn></m:math> <span class="token">ⓒ</span><m:math><m:mspace width="0.2em"/><m:mn>−0.286</m:mn></m:math></para></problem>
+<solution id="fs-id2217800">
+<title>Solution</title>
+<para id="fs-id2139078"><table id="eip-id1168466515055" class="unnumbered unstyled" summary="The first line shows 4.09. The next line says, “There is a 4 to the left of he decimal point. Write '4' as the whole number part of the mixed number.” An image of 4 next to an empty rectangle over an empty rectangle is shown. The next line says, “Determine the place value of the final digit.” The original number is shown with tenths written below the 0 and hundredths written below the 9. The next line says, “Write the fraction. Write 9 in the numerator as it is the number to the right of the decimal point.” An image of 4 next to a 9 over an empty rectangle is shown. The next line says, “Write 100 in the denominator as the place of the final digit, 9, is hundredths.” 4 and 9 over 100 is shown. The last line says, “The fraction is in simplest form. So, 4.09 equals 4 and 9 over 100.”"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓐ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>4.09</entry>
+</row>
+<row>
+<entry>There is a 4 to the left of the decimal point. <newline/> Write "4" as the whole number part of the mixed number.</entry>
+<entry><media id="eip-id1168469668446" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_014_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Determine the place value of the final digit.</entry>
+<entry><media id="eip-id1168469648572" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_014_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Write the fraction. <newline/> Write 9 in the numerator as it is the number to the right of the decimal point.</entry>
+<entry><media id="eip-id1168466061708" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_014_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Write 100 in the denominator as the place value of the final digit, 9, is hundredth.</entry>
+<entry><media id="eip-id1168468638916" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_014_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>The fraction is in simplest form.</entry>
+<entry><media id="eip-id1168468415213" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_014_img-05.png"/></media></entry>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></para><para id="fs-id2173676">Did you notice that the number of zeros in the denominator is the same as the number of <term class="no-emphasis">decimal</term> places?</para>
+<para id="fs-id1373869"><table id="eip-id1168468328458" class="unnumbered unstyled" summary="The first line shows 3.7. The next line says, “There is a 3 to the left of he decimal point. Write '3' as the whole number part of the mixed number.” An image of 3 next to an empty rectangle over an empty rectangle is shown. The next line says, “Determine the place value of the final digit.” The original number is shown with tenths written below the 7. The next line says, “Write the fraction. Write 7 in the numerator as it is the number to the right of the decimal point.” An image of 3 next to a 7 over an empty rectangle is shown. The next line says, “Write 10 in the denominator as the place of the final digit, 7, is tenths.”  3 and 7 over 100 is shown. The last line says, “The fraction is in simplest form. So, 3.7 equals 3 and 7 over 10.”"><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓑ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>3.7</entry>
+</row>
+<row>
+<entry>There is a 3 to the left of the decimal point. <newline/> Write "3" as the whole number part of the mixed number.</entry>
+<entry><media id="eip-id1168468250599" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_015_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Determine the place value of the final digit.</entry>
+<entry><media id="eip-id1168468526652" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_015_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Write the fraction. <newline/> Write 7 in the numerator as it is the number to the right of the decimal point.</entry>
+<entry><media id="eip-id1168468654899" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_015_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Write 10 in the denominator as the place value of the final digit, 7, is tenths.</entry>
+<entry><media id="eip-id1168468606116" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_015_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>The fraction is in simplest form.</entry>
+<entry><media id="eip-id1168468280040" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_015_img-05.png"/></media></entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></para><para id="fs-id1834909"><table id="eip-id1168468662484" class="unnumbered unstyled" summary="The first line shows negative 0.286. The next line says, “There is a 0 to the left of the decimal point. Write a negative sign before the fraction.” An image of a negative sign next to an empty rectangle over an empty rectangle is shown. The next line says, “Determine the place value of the final digit and write it in the denominator.” The original number is shown with tenths written below the 2, hundredths written below the 8, and thousandths written below the 6. The next line says, “Write the fraction. Write 286 in the numerator as it is the number to the right of the decimal point. Write 1000 in the denominator as the place value of the final digit, 6, is thousandths.” Negative 286 over 1000 is shown. The last line says, “We remove a common factor of 2 to simplify the fraction.” Negative 143 over 500 is shown."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓒ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>−0.286</entry>
+</row>
+<row>
+<entry>There is a 0 to the left of the decimal point. <newline/> Write a negative sign before the fraction.</entry>
+<entry><media id="eip-id1168468542202" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_016_img-01.png"/></media></entry>
+</row>
+<row>
+<entry>Determine the place value of the final digit and write it in the denominator.</entry>
+<entry><media id="eip-id1168468247472" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_016_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Write the fraction. <newline/> Write 286 in the numerator as it is the number to the right of the decimal point.<newline/>Write 1,000 in the denominator as the place value of the final digit, 6, is thousandths.</entry>
+<entry><media id="eip-id1168468461051" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_016_img-03.png"/></media></entry>
+</row>
+
+<row>
+<entry>We remove a common factor of 2 to simplify the fraction.</entry>
+<entry><media id="eip-id1168468282077" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_05_01_016_img-04.png"/></media></entry>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></para></solution>
+</exercise></example></section><section id="fs-id2296006" class="key-concepts"><title>Key Concepts</title><para id="eip-186"><figure id="decimalplacevalues"><title>Decimal Place values</title><media id="decimalplacevalue" alt="A chart titled 'Place Value' with twelve columns and 3 rows, with the columns broken down into eleven groups of three. The header row shows Hundred thousands, Ten thousand, Thousands, Hundreds, Ten, and Ones, a decimal point, and then continue with Tenths, Hundredths, Thousandths, Ten-thousandths, Hundred-thousandths. The first 6 values in the next row are blank.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_05_01_002.jpg"/>
+</media>
+</figure></para><list id="eip-903"><item><emphasis effect="bold">Name a decimal number.</emphasis>
+<list id="eip-id1170322945699" list-type="enumerated" number-style="arabic" class="stepwise"><item>Name the number to the left of the decimal point.</item>
+<item>Write “and” for the decimal point.</item>
+<item>Name the “number” part to the right of the decimal point as if it were a whole number.</item>
+<item>Name the decimal place of the last digit.</item></list></item>
+
+<item><emphasis effect="bold">Write a decimal number from its name.</emphasis>
+<list id="eip-id1170322956735" list-type="enumerated" number-style="arabic" class="stepwise"><item>Look for the word “and”—it locates the decimal point.<newline/>
+Place a decimal point under the word “and.” Translate the words before “and” into the whole number and place it to the left of the decimal point.<newline/>
+If there is no “and,” write a “0” with a decimal point to its right.</item>
+<item>Mark the number of decimal places needed to the right of the decimal point by noting the place value indicated by the last word.</item>
+<item>Translate the words after “and” into the number to the right of the decimal point. Write the number in the spaces—putting the final digit in the last place.</item>
+<item>Fill in zeros for place holders as needed.</item></list></item>
+
+<item><emphasis effect="bold">Round a decimal.</emphasis>
+<list id="eip-id1170325314005" list-type="enumerated" number-style="arabic" class="stepwise"><item>Locate the given place value and mark it with an arrow.</item>
+<item>Underline the digit to the right of the given place value.</item>
+<item>Is this digit greater than or equal to 5?<newline/>
+Yes - add 1 to the digit in the given place value.<newline/>
+No - do not change the digit in the given place value</item>
+<item>Rewrite the number, removing all digits to the right of the given place value.</item></list></item>
+
+<item><emphasis effect="bold">Convert a decimal number to a fraction or mixed number.</emphasis>
+<list id="eip-id1170322956760" list-type="enumerated" number-style="arabic" class="stepwise"><item>Look at the number to the left of the decimal.<newline/>
+If it is zero, the decimal converts to a proper fraction.<newline/>
+If it is not zero, the decimal converts to a mixed number.<newline/>
+Write the whole number.</item>
+<item>Determine the place value of the final digit.</item>
+<item>Write the fraction.
+numerator—the ‘numbers’ to the right of the decimal point
+denominator—the place value corresponding to the final digit</item>
+<item>Simplify the fraction, if possible.</item></list></item>
+
+<item><emphasis>Add or Subtract Decimals</emphasis>
+<list id="eip-01" list-type="enumerated" number-style="arabic" class="stepwise"><item>Write the numbers vertically so the decimal points line up.</item>
+<item>Use zeros as place holders, as needed.</item>
+<item>Add or subtract the numbers as if they were whole numbers. Then place the decimal in the answer under the decimal points in the given numbers.</item>
+</list>
+</item>
+<item><emphasis>Multiplying Decimal Numbers</emphasis>
+<list id="eip-idm295418736"><item>Determine the sign of the product.</item>
+<item>Write the numbers in vertical format, lining up the numbers on the right.</item>
+<item>Multiply the numbers as if they were whole numbers, temporarily ignoring the decimal points.</item>
+<item>Place the decimal point. The number of decimal places in the product is the sum of the number of decimal places in the factors. If needed, use zeros as placeholders.</item>
+<item>Write the product with the appropriate sign.</item>
+</list>
+</item>
+</list></section></content>
+
+
+<glossary>
+
+
+<definition id="fs-id2711214">
+<term>Number Line</term>
+<meaning id="fs-id2443061">A number line is used to visualize numbers. The numbers on the number line get larger as they go from left to right, and smaller as they go from right to left.</meaning>
+</definition>
+
+<definition id="fs-id1336470">
+<term>Place Value system</term>
+<meaning id="fs-id2263265">Our number system is called a place value system because the value of a digit depends on its position, or place, in a number.</meaning>
+</definition>
+<definition id="fs-id2263270">
+<term>Rounding</term>
+<meaning id="fs-id2326485">The process of approximating a number is called rounding.</meaning>
+</definition>
+
+<definition id="fs-id1483170">
+<term>Equivalent Decimals</term>
+<meaning id="fs-id1483175">Two decimals are equivalent decimals if they convert to equivalent fractions.</meaning>
+</definition>
+</glossary>
+</document>

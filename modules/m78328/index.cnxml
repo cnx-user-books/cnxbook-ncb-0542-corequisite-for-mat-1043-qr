@@ -1,0 +1,779 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Linear &amp; Proportional Relationships: Lessons 8.A-8.C</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78328</md:content-id>
+  <md:title>Linear &amp; Proportional Relationships: Lessons 8.A-8.C</md:title>
+  <md:abstract>This corresponds to Lessons 8A-E from Corequisite MAT 1043(QR) and NCBO courses.</md:abstract>
+  <md:uuid>2b9da7cc-5cc5-4458-b4e6-1303c2314ad8</md:uuid>
+</metadata>
+
+<content>
+    <note id="eip-631"><label>Topics Covered in this Module</label>
+<para id="eip-idm1155439744">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para>
+<list id="fs-id2297272" number-style="arabic" list-type="enumerated" mark-suffix=")"><item>Representations of Mathematical Data <link target-id="eip-986" document=""/></item>
+<item>Rates of Change <link target-id="eip-924" document=""/></item>
+<item>Slope as a Rate of Change <link target-id="eip-783" document=""/></item>
+<item>Proportional Relationships <link target-id="eip-169" document=""/></item>
+<item>Rectangular Coordinate System  <link target-id="eip-111" document=""/></item>
+<item>Graphing an Equation by Plotting Points <link target-id="eip-224" document=""/></item>
+<item>Graphing an Equation with Intercepts <link target-id="eip-181" document=""/></item>
+
+<item>Key Concepts  <link target-id="eip-178" document=""/></item></list></note><section id="eip-986"><title>Representations of Mathematical Data <footnote id="eip-idm626657952"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-705">Often times when mathematical relationships or data needs to be shared or presented, one of the most important decisions you will make will be on how you present your data. In mathematics, and in your Quantitative Reasoning course, there are four ways that data and information can and will be presented for interpretation.
+</para><para id="eip-35"><title>Verbal Representations</title>A <emphasis>verbal representation</emphasis> is one where words are used to describe a mathematical problem, situation, or data set.
+
+<example id="verbalex">
+<title>Verbal Representation</title>
+<para id="verbalrepex">
+Mary has 5 red marbles, 3 blue marbles, and 7 green marbles. If Mary choose two marble randomly from her collection out of a bag, what is the probability she will choose a red <emphasis>and</emphasis> a green one?
+</para>
+</example></para><para id="eip-681"><title>Numerical Representations</title>A <term>numerical representation</term> (sometimes called tabular) is one in which numbers describe or represent a mathematical problem, situation, or data set. It is most common to see a table for this type of representation.
+
+
+<example id="numbex"><title>Numerical Representation</title><table id="numreptable" summary="Presented is a table filled with x and y values to show an example of numerical representation."><title>Numerical Representation of a linear function</title>
+<tgroup cols="2"><thead>
+<row>
+<entry><m:math><m:mn>x</m:mn></m:math></entry>
+<entry><m:math><m:mn>y</m:mn></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><m:math><m:mn>-3</m:mn></m:math></entry>
+<entry><m:math><m:mn>-1</m:mn></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mn>-2</m:mn></m:math></entry>
+<entry><m:math><m:mn>1</m:mn></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mn>-1</m:mn></m:math></entry>
+<entry><m:math><m:mn>3</m:mn></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mn>0</m:mn></m:math></entry>
+<entry><m:math><m:mn>5</m:mn></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mn>1</m:mn></m:math></entry>
+<entry><m:math><m:mn>7</m:mn></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mn>2</m:mn></m:math></entry>
+<entry><m:math><m:mn>9</m:mn></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mn>3</m:mn></m:math></entry>
+<entry><m:math><m:mn>11</m:mn></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></example></para><para id="eip-315"><title>Graphical Representation</title>A <term>graphical representation</term> is one in which mathematical information is plotted and generates a graph representing some relationship.
+
+<figure id="eip-idm449763376"><media id="graphrep" alt="a grpah of the data table values for graphical representation.">
+
+<image mime-type="image/png" src="../../media/graphrep.png"/>
+</media>
+<caption>Graphical representation of data table values that matches the numerical representation example.</caption></figure></para><para id="eip-521"><title>Symbolic/Algebraic Representation</title>A <term>symbolic/algebraic representation</term> is one in which mathematical information or relationships are presented using numbers and variables such as in an algebraic equation.
+
+A <term>graphical representation</term> is one in which mathematical information is plotted and generates a graph representing some relationship.
+
+<figure id="eip-idm502402480">
+<media id="symbolrep" alt="an equation of the data table values for symbolic representation.">
+
+<image mime-type="image/png" src="../../media/symbolrep.png"/>
+</media>
+<caption>Symbolic representation of data table values that matches the graphical representation example.</caption></figure></para></section><section id="eip-924"><title>Rates of Change <footnote id="eip-idm274085616"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-127">A <term>rate of change</term> is a relationship or unit rate that shows how one variable or quantity changes with another. <figure id="eip-idm411519120">
+
+<media id="rocexample" alt="a table with notated changes in x and y values to determine the rate of change.">
+
+<image mime-type="image/png" src="../../media/rocex.png"/>
+</media>
+</figure>
+
+The most common way to investigate rates of change is in numerical or tabular form of data. 
+
+How the values of <m:math><m:mn>x</m:mn></m:math> change compared to how the values of <m:math><m:mn>y</m:mn></m:math> change is called the rate of change. From hour 1 to hour 2, 6 batches of cookies were made. From hour 2 to hour 3, 6 more batches were made. This relationship of change is often represented with a ratio where the dependent variable is in the numerator and the independent variable is in the denominator. The rate of change here would be:
+
+<figure id="eip-idm512806528">
+<media id="rateofchange" alt="An image of the ratio generated by the previous data table.">
+<image mime-type="image/png" src="../../media/rateofchange.png"/>
+</media>
+</figure></para></section><section id="eip-783"><title>Slope as A Rate of Change <footnote id="eip-idm911892320">Section material derived from Openstax Introductory Statistics: The Linear Regression and Correlation-Linear Equations and Prealgebra: Graphs-Understand Slope of a Line</footnote></title><para id="fs-id1167835331483">In mathematics, the measure of the rate of change of a line is called the <term>slope</term> of the line.</para><para id="fs-id1167835203094">The concept of slope has many applications in the real world. In construction, the pitch of a roof, the slant of the plumbing pipes, and the steepness of the stairs are all applications of slope. And as you ski or jog down a hill, you definitely experience slope.</para><para id="fs-id1167835166440">We can assign a numerical value to the slope of a line by finding the ratio of the rise and run. The rise is the amount the vertical distance changes while the run measures the horizontal change, as shown in this illustration. The slope is a rate of change. See <link target-id="CNX_IntAlg_Figure_03_02_001"/>.</para><figure id="CNX_IntAlg_Figure_03_02_001">
+<media id="fs-id1167832015818" alt="This figure has a diagram of two arrows. The first arrow is vertical and pointed up and labeled “rise”. The second arrow starts at the end of the first. The second arrow is horizontal and pointed right and labeled “run”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_001_img_new.jpg"/>
+</media>
+</figure>
+<note id="fs-id1167834536469"><label>Slope of a Line</label>
+<para id="fs-id1167834184595">The slope of a line is <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167826778695">The rise measures the vertical change and the run measures the horizontal change. Creating a ratio out of these values gives us the rate of change of the line.</para></note><note id="eip-62"><label>Quick Guide to the Slopes of Lines</label>
+<figure id="eip-idm1348240720">
+<media id="fs-id116783542047" alt="The image shows four arrows. The first arrow is slanted and pointing up and to the right and is labeled “positive”. The second arrow is slanted and pointing down and to the right and labeled “negative”. The third arrow is horizontal and labeled “zero”. The fourth arrow is vertical and labeled “undefined”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_006_img_new.jpg"/>
+</media>
+</figure></note><para id="eip-742">There are multiple methods to find the slope of a line depending on the type of representation presented.</para><example id="eip-630"><title>Finding the Slope of  a Line</title><exercise id="fs-id1167835335299">
+<problem id="fs-id1167834472479">
+<para id="fs-id1167835297415">Find the slope of the line shown.</para>
+<media id="fs-id1167834094757" alt="This figure shows the graph of a straight line on the x y-coordinate plane. The x-axis runs from negative 1 to 9. The y-axis runs from negative 1 to 7. The line goes through the points (0, 5), (3, 3), and (6, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_002_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167831887592">
+<table id="fs-id1167835235266" class="unnumbered unstyled can-break" summary="Locate two points on the graph whose coordinates are integers. (0,5) and (3,3). Starting at (0, 5) sketch a right triangle to (3,3) on the graph. The figure then shows the graph of a straight line on the x y-coordinate plane. The x-axis runs from negative 1 to 10. The y-axis runs from negative 1 to 8. The line goes through the points (0, 5) and (3, 3). A right triangle is drawn by connecting the three points (0, 3), (0, 5), and (3, 3). The vertical side of the triangle is labeled “rise” and the horizontal side of the triangle is labeled “run”. Count the rise. Since it goes down, it is negative. The rise is negative 2. Count the run. The run is 3. Use the slope formula. m equals rise divided by run. Substitute the values of the rise and run. m equals negative 2 divided by 3. The slope of the line is negative 2 divided by 3.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Locate two points on the graph whose<newline/>coordinates are integers.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Starting at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> sketch a right triangle to<newline/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as shown in this graph.</entry>
+<entry valign="top" align="left"><media id="fs-id1167826940711" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_003a_img.jpg"/></media></entry>
+</row>
+<row>
+<entry valign="top" align="left">Count the rise— since it goes down, it is negative.</entry>
+<entry valign="bottom" align="left">The rise is <m:math><m:mrow><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Count the run.</entry>
+<entry valign="top" align="left">The run is 3.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use the slope formula.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute the values of the rise and run.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>−2</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry/>
+<entry valign="top" align="left">The slope of the line is <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry/>
+<entry valign="top" align="left">So <emphasis effect="italics">y</emphasis> decreases by 2 units as <emphasis effect="italics">x</emphasis> increases by 3 units.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise></example><para id="eip-123"><title>Find the slope of a line from its graph using <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></title><list id="fs-id116783" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Locate two points on the line whose coordinates are integers.</item>
+<item>Starting with one point, sketch a right triangle, going from the first point to the second point.</item>
+<item>Count the rise and the run on the legs of the triangle.</item>
+<item>Take the ratio of rise to run to find the slope: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+</para><example id="eip-780"><title>Finding slope with an integer y-intercept</title><exercise id="fs-id1394081"><problem id="fs-id1553825">
+<para id="fs-id1447838">Find the slope of the line shown:</para>
+<media id="fs-id1677684" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 6. The y-axis runs from -4 to 2. A line passes through the points “ordered pair 5,  1” and “ordered pair 0, -3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_020.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1548111">
+<title>Solution</title>
+<para id="fs-id1607924">Locate two points on the graph, choosing points whose coordinates are integers. We will use <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1611238">Starting with the point on the left, <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> sketch a right triangle, going from the first point to the second point, <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+</para><table id="eip-id1168466130951" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/><entry><media id="fs-id1365464" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 6. The y-axis runs from -4 to 2. A line passes through the points “ordered pair 5,  1” and “ordered pair 0, -3”. Two line segments form a triangle with the line. A horizontal line connects “ordered pair 0, 1” and “ordered pair 5,1 ”. A vertical line segment connects “ordered pair 0, -3” and “ordered pair 0, 1”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_021.jpg"/>
+</media></entry>
+</row>
+<row>
+<entry>Count the rise on the vertical leg of the triangle.</entry>
+<entry>The rise is 4 units.</entry>
+</row>
+ <row>
+ <entry>Count the run on the horizontal leg.</entry>
+ <entry>The run is 5 units.</entry>
+ </row>
+ <row>
+ <entry>Use the slope formula.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values of the rise and run.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry>The slope of the line is <m:math><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math>.</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1556953">Notice that the slope is positive since the line slants upward from left to right.</para>
+</solution>
+</exercise></example><example id="eip-927"><title>Finding slope without an integer y-intercept</title><exercise id="fs-id1659138"><problem id="fs-id1659140">
+<para id="fs-id1658879">Find the slope of the line shown:
+<media id="fs-id1659074" alt="The graph shows the x y-coordinate plane. The x-axis runs from 0 to 7. The y-axis runs from 0 to 8. A line passes through the points “ordered pair 2, 3” and “ordered pair 7, 6”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_045_img.jpg"/>
+</media></para>
+
+</problem>
+<solution id="fs-id1603768">
+<title>Solution</title>
+<para id="fs-id1663106"><table id="eip-id1170321819050" summary="..." class="unnumbered unstyled"><label/>
+<tgroup cols="2"><tbody>
+<row><entry>Locate two points on the graph whose coordinates are integers.</entry><entry><m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math> and <m:math><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math></entry></row>
+<row>
+<entry>Which point is on the left?</entry>
+<entry><m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math></entry></row>
+<row><entry>Starting at <m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math>, sketch a right angle to <m:math><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math> as shown below.</entry><entry/></row>
+</tbody>
+</tgroup>
+</table><newline/>
+</para>
+
+<table id="eip-id1168467128258" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry/><entry><media id="fs-id1662244" alt="The graph shows the x y-coordinate plane. The x-axis runs from 0 to 7. The y-axis runs from 0 to 8. Two unlabeled points are drawn at  “ordered pair 2, 3” and  “ordered pair 7, 6”.  A line passes through the points. Two line segments form a triangle with the line. A vertical line connects “ordered pair 2, 3” and “ordered pair 2, 6 ”.  It is labeled “rise”. A horizontal line segment connects “ordered pair 2, 6” and “ordered pair 7, 6”. It is labeled “run”. ">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_046_img.jpg"/>
+</media></entry></row>
+<row>
+<entry>Count the rise.</entry>
+<entry>The rise is 3.</entry>
+</row>
+ <row>
+ <entry>Count the run.</entry>
+ <entry>The run is 5.</entry>
+ </row>
+ <row>
+ <entry>Use the slope formula.</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry>Substitute the values of the rise and run.</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row><entry/><entry>The slope of the line is <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry></row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example>
+<para id="eip-896">Some lines are not at an angle but are either completely vertical or horizontal. These are special kinds of slope because the numerical equations will only ever have one variable; either just the <m:math><m:mn>x</m:mn></m:math> or <m:math><m:mn>y</m:mn></m:math>.</para><para id="eip-922"><title>The Slope of a Horizontal Line</title>The <term class="no-emphasis">slope</term> of a <term class="no-emphasis">horizontal line</term>, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> is <m:math><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math>
+
+<figure id="eip-idm362233456">
+<media id="fs-id1659117" alt="The graph shows the x y-coordinate plane. The x-axis runs from -1 to 5. The y-axis runs from -1 to 7. A horizontal line passes through the labeled points “ordered pair 0, 4” and “ordered pair 3, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_028.jpg"/>
+</media>
+</figure>
+<table id="eip-311" summary=".">
+<tgroup cols="2"><tbody>
+<row>
+<entry>What is the rise?</entry>
+<entry>The rise is 0.</entry>
+</row>
+ <row>
+ <entry>What is the run?</entry>
+ <entry>The run is 3.</entry>
+ </row>
+ <row>
+ <entry>What is the slope?</entry>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math></entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+All horizontal lines have slope <m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math>. When the <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinates are the same, the rise is <m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para><para id="eip-958"><title>The Slope of a Vertical Line</title>The <term class="no-emphasis">slope</term> of a <term class="no-emphasis">vertical line</term>, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> is undefined.
+<figure id="eip-idm803233520">
+<media id="fs-id1706921" alt="The graph shows the x y-coordinate plane. Both axes run from -5 to 5. A vertical line passes through the labeled points “ordered pair 3, 2” and “ordered pair 3, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_04_029.jpg"/>
+</media>
+
+</figure>
+
+
+
+<table id="verticalline" summary="table of solving a vertical line slope graph">
+<tgroup cols="2">
+
+<tbody>
+<row>
+<entry>What is the rise?</entry>
+<entry>The rise is 2.</entry>
+</row>
+ <row>
+ <entry>What is the run?</entry>
+ <entry>The run is 0.</entry>
+ </row>
+ <row>
+ <entry>What is the slope?</entry>
+ <entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:mfrac></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+All vertical lines have slope <m:math><m:mrow><m:mn>undefined</m:mn></m:mrow></m:math>. When the <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinates are the same, the rise is <m:math><m:mrow><m:mn>undefined</m:mn></m:mrow></m:math>. This is because any number minus itself is <m:math><m:mrow><m:mn>zero</m:mn></m:mrow></m:math> and you cannot divide by <m:math><m:mn>0</m:mn></m:math>.</para><para id="eip-65"><title>The Slope From Two Points</title>The slope of the line between two points <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is:
+<equation id="slopetwopoints">
+<label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>
+</equation>
+
+<emphasis> OR</emphasis>
+
+<equation id="equationinwords">
+<label/><m:math>
+<m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>of the second point minus</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>of the first point</m:mtext></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mrow><m:mtext>over</m:mtext></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>of the second point minus</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>of the first point.</m:mtext></m:mrow></m:mtd></m:mtr>
+</m:mtable></m:math>
+</equation></para><example id="eip-324"><title>Finding the Slope of a Line with Two Points</title><exercise id="fs-id1167835364768">
+<problem id="fs-id1167834247003">
+<para id="fs-id1167835183166">Use the slope formula to find the slope of the line through the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830697881">
+<para id="fs-id1167835375080">
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtext>We’ll call</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mtext>point</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mtext>#</m:mtext><m:mn>1</m:mn></m:mrow><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mtext>point</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mtext>#</m:mtext><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:mtd>
+<m:mtd columnalign="left"><m:mspace width="4em"/>
+<m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the slope formula.</m:mtext></m:mtd><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute the values.</m:mtext></m:mtd><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>of the second point minus</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>of the first point</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>of the second point minus</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>of the first point</m:mtext></m:mtd><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>−7</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd columnalign="left"><m:mspace width="4em"/>
+<m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>5</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr>
+</m:mtable></m:mrow></m:math><newline/>
+Let’s verify this slope on the graph shown.</para>
+<media id="fs-id1167834532263" alt="The figure shows the graph of a straight line on the x y-coordinate plane. The x-axis runs from negative 8 to 2. The y-axis runs from negative 6 to 6. The line goes through the points (negative 7, 4) and (negative 2, negative 3). A right triangle is drawn by connecting the three points (negative 7, 4), (negative 7, negative 3), and (negative 2, negative 3). The vertical side of the triangle is labeled “rise”. The horizontal side of the triangle is labeled “run”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_008_img_new.jpg"/>
+</media>
+<equation id="fs-id1171791300521" class="unnumbered"><label/><m:math>
+<m:mtable>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>−5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>5</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></equation>
+</solution>
+</exercise></example></section><section id="eip-169"><title>Proportional Relationships <footnote id="eip-idm999697280"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-689">
+
+Relationships are considered proportional relationships when the ratio between related sets of data values is constant.
+To know if a relationship is proportional, look for the following aspects:
+
+<list id="eip-idm408981664"><item><emphasis>Algebraic/symbolic representations</emphasis>  (or equations) will tell you if they are proportional when you look at their y-intercept, or the <m:math><m:mi>b</m:mi></m:math>.
+<list id="eip-idm621308224"><item> <emphasis>Proportional relationships</emphasis> will not have a y-intercept, or will not have a <m:math><m:mi>b</m:mi></m:math> value, or the <m:math><m:mi>b</m:mi></m:math> will be <m:math><m:mn>0</m:mn></m:math> .</item>
+<item> <emphasis>Non-Proportional</emphasis> relationships will have a non-zero y-intercept.</item></list>
+
+</item>
+<item><emphasis>Numerical/tabular representations</emphasis> will have the coordinate pair <m:math><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:math> in the table.
+<figure id="eip-idm482801952"><media id="fs-id1167" alt="This figure shows the graph of a straight line on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (2, negative 2) and (5, 2).">
+<image mime-type="image/png" src="../../media/proportionalcompare2.png"/>
+</media>
+<caption>On the left is an example of a non-proportional numerical/tabular representation and on the right is an example of a proportional numerical/tabular representation.</caption></figure>
+</item>
+
+<item><emphasis>Graphical representations</emphasis> will show one of the following:
+<list id="eip-idm228450160"><item>Pass through the origin if it is <emphasis>proportional</emphasis></item>
+<item>Not pass trhough the origin if it is <emphasis>non-proportional</emphasis>.</item></list>
+<figure id="eip-idm536264272"><media id="fs-id1167834376306" alt="This figure shows the graph of a straight line on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (2, negative 2) and (5, 2).">
+<image mime-type="image/png" src="../../media/proportionalcompare.png"/>
+</media>
+<caption>On the left is an example of a non-proportional graphical representation and on the right is an example of a proportional graphical representation.</caption></figure></item></list></para><note id="eip-458" type="important"><emphasis><m:math><m:mn>All proportional relationships are linear but not all linear relationships are proportional</m:mn></m:math></emphasis>.</note></section><section id="eip-111"><title>The Rectangular Coordinate System <footnote id="eip-idm372042480">Section material derived from Openstax Prealgebra: The Properties of Real Numbers-Use the Rectangular Coordinate System</footnote></title><para id="eip-921">The rectangular coordinate system is also called the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-</m:mtext><m:mi>y</m:mi></m:mrow></m:math> plane, the coordinate plane, or the Cartesian coordinate system (since it was developed by a mathematician named René Descartes.)
+
+<figure id="eip-idm392454832">
+<media id="fs-id1425902" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -7 to 7.  An arrow points to the horizontal axis with the label “x-axis”. An arrow points to the vertical axis with label “y-axis”. An arrow points to the intersection of the axes with label “origin”.">
+<image src="../../media/CNX_BMath_Figure_11_01_002.jpg" mime-type="image/jpeg"/>
+</media>
+</figure>
+
+The <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext></m:mrow></m:math> and the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext></m:mrow></m:math> form the rectangular coordinate system.  These axes divide a plane into four areas, called <term>quadrants</term>. The quadrants are identified by Roman numerals, beginning on the upper right and proceeding counterclockwise. See <link target-id="CNX_BMath_Figure_11_01_003"/>.
+
+<figure id="eip-idm792043488">
+<media id="fs-id1328385" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -7 to 7. The top-right portion of the plane is labeled “I”, the top-left portion of the plane is labeled “II”, the bottom-left portion of the plane is labelled “III” and the bottom-right portion of the plane is labeled “IV”">
+<image src="../../media/CNX_BMath_Figure_11_01_003.jpg" mime-type="image/jpeg"/>
+</media>
+</figure>
+
+In the rectangular coordinate system, every point is represented by an <term>ordered pair</term>. The first number in the ordered pair is the <emphasis effect="italics">x</emphasis>-coordinate of the point, and the second number is the <emphasis effect="italics">y</emphasis>-coordinate of the point.
+
+
+
+</para><note id="eip-3"><label>The Origin</label>
+The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is called the <emphasis>origin</emphasis>.  It is the point where the <emphasis effect="italics">x</emphasis>-axis and <emphasis effect="italics">y</emphasis>-axis intersect.</note><note id="eip-501"><label>An ordered pair</label> 
+<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> gives the coordinates of a point in a rectangular coordinate system.
+<equation id="fs-id1172" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The first number is the</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mtext>-coordinate</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The second number is the</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mtext>-coordinate</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><media id="fs-id1364291" alt="The ordered pair x y is labeled with the first coordinate x labeled as “x-coordinate” and the second coordinate y labeled as “y-coordinate”">
+<image src="../../media/CNX_BMath_Figure_11_01_027_img.jpg" mime-type="image/jpeg"/>
+</media>
+</note><para id="eip-341">We can summarize sign patterns of the quadrants as follows.</para><table id="eip-157" summary=".">
+<tgroup cols="4"><thead><row>
+    <entry>Quadrant I</entry>
+    <entry>Quadrant II</entry>
+    <entry>Quadrant III</entry>
+    <entry>Quadrant IV</entry>
+  </row></thead>
+<tbody>
+  
+  <row>
+    <entry align="center">(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>)</entry>
+    <entry align="center">(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>)</entry>
+    <entry align="center">(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>)</entry>
+    <entry align="center">(<emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>)</entry>
+  </row>
+  <row>
+    <entry align="center">(+,+)</entry>
+    <entry align="center">(−,+)</entry>
+    <entry align="center">(−,−)</entry>
+    <entry align="center">(+,−)</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><para id="eip-320"><figure id="eip-idm927151152">
+<media id="fs-id1327621" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -7 to 7. The top-right portion of the plane is labeled “I” and “ordered pair +, +”, the top-left portion of the plane is labeled “II” and “ordered pair -, +”, the bottom-left portion of the plane is labelled “III”  “ordered pair -, -” and the bottom-right portion of the plane is labeled “IV” and “ordered pair +, -”.">
+<image src="../../media/CNX_BMath_Figure_11_01_013.jpg" mime-type="image/jpeg"/>
+</media>
+</figure></para><example id="eip-461"><title>Plotting Points in the Rectangular Coordinate System</title><exercise id="fs-id1280145">
+<problem id="fs-id1372362">
+<para id="fs-id1330849">Plot <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> in the same rectangular coordinate system.</para>
+</problem>
+<solution id="fs-id1370630">
+<title>Solution</title>
+<para id="fs-id1423875">The coordinate values are the same for both points, but the <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math> values are reversed. Let’s begin with point <m:math><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math> The <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-coordinate</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> so find <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> on the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext></m:mrow></m:math> and sketch a vertical line through <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> The <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-coordinate</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> so we find <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> on the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext></m:mrow></m:math> and sketch a horizontal line through <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Where the two lines meet, we plot the point <m:math><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1610323" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -6 to 6. A horizontal dotted line passes through 3 on the y axis. A vertical dotted line passes through 1 on the x axis. The dotted lines intersect at a point labeled “ordered pair 1, 3”.">
+<image src="../../media/CNX_BMath_Figure_11_01_006_img.jpg" mime-type="image/jpeg"/>
+</media></para><para id="fs-id1389854">To plot the point <m:math><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>,</m:mo></m:mrow></m:math> we start by locating <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> on the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext></m:mrow></m:math> and sketch a vertical line through <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Then we find <m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math> on the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext></m:mrow></m:math> and sketch a horizontal line through <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Where the two lines meet, we plot the point <m:math><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1150476" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -6 to 6. A horizontal dotted line passes  through 1 on the y-axis. A vertical dotted line passes through 3 on the x axis. The dotted line intersects at a point labeled “ordered pair 3, 1”.">
+<image src="../../media/CNX_BMath_Figure_11_01_007_img.jpg" mime-type="image/jpeg"/>
+</media></para><para id="fs-id1419465">Notice that the order of the coordinates does matter, so, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is not the same point as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example></section><section id="eip-224"><title>Graph a Linear Equation by Plotting Points <footnote id="eip-idm1254287584">Section material derived from Openstax Prealgebra: Graphs-Understand Slope of a Line</footnote></title><para id="eip-897">
+
+Let’s graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> by plotting points. 
+
+</para><para id="eip-589">We start by finding three points that are solutions to the equation. We can choose any value for <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> or <m:math><m:mrow><m:mi>y</m:mi><m:mo>,</m:mo></m:mrow></m:math> and then solve for the other variable.</para><para id="eip-848">Since <m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math> is isolated on the left side of the equation, it is easier to choose values for <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> We will use <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>-2</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> for this example. We substitute each value of <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> into the equation and solve for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math>
+<figure id="eip-idm212839408">
+<media id="fs-id1525810" alt="The figure shows three algebraic substitutions into an equation. The first substitution is for x = -2, with -2 shown in blue. The next line is y = 2 x + 1. The next line is y = 2 open parentheses -2, shown in blue, closed parentheses, + 1. The next line is y = - 4 + 1. The next line is y = -3. The last line is “ordered pair -2, -3”. The second  substitution is for x = 0, with 0 shown in blue. The next line is y = 2 x + 1. The next line is y = 2 open parentheses 0, shown in blue, closed parentheses, + 1. The next line is y = 0 + 1. The next line is y = 1. The last line is “ordered pair 0, 2”. The third substitution is for x = 1, with 1 shown in blue. The next line is y = 2 x + 1. The next line is y = 2 open parentheses 1, shown in blue, closed parentheses, + 1. The next line is y = 2 + 1. The next line is y = 3. The last line is “ordered pair -1, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_02_027_img.jpg"/>
+</media>
+</figure>
+</para><para id="eip-263">We can organize the solutions in a table.
+<table id="fs-id1313230" summary="This table it titled y = 2 x + 1. It has 3 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and  “ordered pair x, y”. Under the column “x” are the values  -2, 0, and 1, which are shown in blue. Under the column “y” are the values  -3, 1, and 3. Under the column “ordered pair x, y” are the values “ordered pair  -2,  -3”, “ordered pair 0, 1”, and “ordered pair 1, 3”."><tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead><row valign="top">
+<entry align="center" namest="c1" nameend="c3"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+
+</thead>
+<tbody>
+
+
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>1</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</para><para id="eip-283">Now we plot the points on a rectangular coordinate system. Check that the points line up. If they did not line up, it would mean we made a mistake and should double-check all our work.
+
+<figure id="eip-idm206766400">
+<media id="fs-id1444109" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -7 to 7. Three labeled points are shown, “ordered pair -2, -3”, “ordered pair 0, 1”, and ordered pair 1, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_02_028_img.jpg"/>
+</media>
+</figure></para><para id="eip-703">Draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line. The line is the graph of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math>
+
+<figure id="eip-idm1204167840">
+<media id="fs-id1446865" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -7 to 7. A line passes through three labeled points, “ordered pair -2, -3”, “ordered pair 0, 1”, and ordered pair 1, 3”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_02_001.jpg"/>
+</media>
+
+</figure></para><note id="eip-177"><label>Graph a linear equation by plotting points</label>
+<list id="eip-id1168469871242" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find three points whose coordinates are solutions to the equation. Organize them in a table.</item>
+<item>Plot the points on a rectangular coordinate system. Check that the points line up. If they do not, carefully check your work.</item>
+<item>Draw the line through the points. Extend the line to fill the grid and put arrows on both ends of the line.</item></list>
+</note></section><section id="eip-181"><title>Graphing a Linear Equation with Intercepts <footnote id="eip-idm1015623328">Section material derived from Openstax Prealgebra: Graphs-Understand Slope of a Line</footnote></title><para id="eip-211">
+Every <term class="no-emphasis">linear equation</term> has a unique line that represents all the solutions of the equation. When graphing a line by plotting points, each person who graphs the line can choose any three points, so two people graphing the line might use different sets of points.
+</para><para id="eip-340">At first glance, their two lines might appear different since they would have different points labeled. But if all the work was done correctly, the lines will be exactly the same line. One way to recognize that they are indeed the same line is to focus on where the line crosses the axes. Each of these points is called an <term>intercept of the line</term>.</para><note id="eip-807"><label>Intercepts of a Line</label>
+<para id="fs-id1331533">Each of the points at which a line crosses the <m:math><m:mi>x</m:mi><m:mtext>-axis</m:mtext></m:math> and the <m:math><m:mi>y</m:mi><m:mtext>-axis</m:mtext></m:math> is called an intercept of the line.</para>
+<figure id="eip-idm1174755824">
+<media id="fs-id1447156" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -7 to 7. A line passes through two labeled points, “ordered pair 0, 6” and ordered pair 3, 0”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_03_022_img.jpg"/>
+</media>
+
+</figure></note><para id="eip-411">First, notice where each of these lines crosses the <emphasis effect="italics">x</emphasis>- axis: 
+
+<table id="abc123" summary=".">
+<tgroup cols="3">
+<thead>
+<row>
+<entry><emphasis>Figure:</emphasis></entry>
+<entry><emphasis>The line crosses the x-axis at:</emphasis></entry>
+<entry><emphasis>Ordered pair of this point</emphasis></entry>
+</row></thead>
+
+
+
+<tbody>
+  
+  <row>
+    <entry align="center">42</entry>
+    <entry align="center">3</entry>
+    <entry align="center">(3,0)</entry>
+  </row>
+  <row>
+    <entry align="center">43</entry>
+    <entry align="center">4</entry>
+    <entry align="center">(4,0)</entry>
+  </row>
+<row>
+    <entry align="center">44</entry>
+    <entry align="center">5</entry>
+    <entry align="center">(5,0)</entry>
+  </row>
+<row>
+    <entry align="center">45</entry>
+    <entry align="center">0</entry>
+    <entry align="center">(0,0)</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+
+For each row, the <emphasis effect="italics">y-</emphasis> coordinate of the point where the line crosses the <emphasis effect="italics">x-</emphasis> axis is zero.  The point where the line crosses the <emphasis effect="italics">x-</emphasis> axis has the form <m:math><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:math>; and is called the <emphasis effect="italics">x-intercept</emphasis> of the line.  The <emphasis>x-</emphasis> intercept occurs when y is zero.</para><para id="eip-754">Now, let's look at the points where these lines cross the y-axis.
+
+<table id="abc456" summary=".">
+<tgroup cols="3">
+<thead>
+<row>
+<entry><emphasis>Figure:</emphasis></entry>
+<entry><emphasis>The line crosses the y-axis at:</emphasis></entry>
+<entry><emphasis>Ordered pair for this point</emphasis></entry>
+</row></thead>
+
+
+
+<tbody>
+  
+  <row>
+    <entry align="center">42</entry>
+    <entry align="center">6</entry>
+    <entry align="center">(0,6)</entry>
+  </row>
+  <row>
+    <entry align="center">43</entry>
+    <entry align="center">-3</entry>
+    <entry align="center">(0,-3)</entry>
+  </row>
+<row>
+    <entry align="center">44</entry>
+    <entry align="center">-5</entry>
+    <entry align="center">(0,-5)</entry>
+  </row>
+<row>
+    <entry align="center">45</entry>
+    <entry align="center">0</entry>
+    <entry align="center">(0,0)</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+
+For each row, the <emphasis effect="italics">x-</emphasis> coordinate of the point where the line crosses the <emphasis effect="italics">y-</emphasis> axis is zero.  The point where the line crosses the <emphasis effect="italics">y-</emphasis> axis has the form <m:math><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:math>; and is called the <emphasis effect="italics">y-intercept</emphasis> of the line.  The <emphasis>y-</emphasis> intercept occurs when x is zero.</para><note id="eip-906"><label><emphasis effect="italics">x-</emphasis> intercept and <emphasis effect="italics">y-</emphasis> intercept of a line</label>
+<para id="fs-id1787243">The <m:math><m:mi>x</m:mi><m:mtext>-intercept</m:mtext></m:math> is the point, <m:math><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo> <m:mn>0</m:mn><m:mo stretchy="false">),</m:mo></m:math> where the graph crosses the <m:math><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:math> The <m:math><m:mi>x</m:mi><m:mtext>-intercept</m:mtext></m:math> occurs when <m:math><m:mtext>y</m:mtext></m:math> is zero.</para>
+<para id="fs-id1678507">The <m:math><m:mi>y</m:mi><m:mtext>-intercept</m:mtext></m:math> is the point, <m:math><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo> <m:mi>b</m:mi><m:mo stretchy="false">),</m:mo></m:math> where the graph crosses the <m:math><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:math> </para><para id="eip-id1170321806497">The <m:math><m:mi>y</m:mi><m:mtext>-intercept</m:mtext></m:math> occurs when <m:math><m:mtext>x</m:mtext></m:math> is zero.</para></note><para id="eip-53">To graph a linear equation by plotting points, you can use the intercepts as two of your three points. Find the two intercepts, and then a third point to ensure accuracy, and draw the line. This method is often the quickest way to graph a line. </para><example id="eip-149"><title>Graphing with Intercepts</title><exercise id="fs-id1503417">
+<problem id="fs-id1364528">
+<para id="fs-id1657422">Graph <m:math><m:mrow><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> using intercepts.</para>
+</problem>
+<solution id="fs-id1810748">
+<title>Solution</title>
+<para id="fs-id1815195">First, find the <m:math><m:mi>x</m:mi><m:mtext>-intercept</m:mtext><m:mo>.</m:mo></m:math> Let <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>,</m:mo></m:math></para>
+<para id="fs-id1313212"><m:math><m:mtable><m:mtr/><m:mtr><m:mtd><m:mspace width="0.7em"/><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mspace width="2.8em"/><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mspace width="4.3em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1548391">The <m:math><m:mi>x</m:mi><m:mtext>-intercept</m:mtext></m:math> is <m:math><m:mo stretchy="false">(–</m:mo><m:mn>6</m:mn><m:mo>,</m:mo> <m:mn>0</m:mn><m:mo>).</m:mo></m:math></para>
+<para id="fs-id1700851">Now find the <m:math><m:mi>y</m:mi><m:mtext>-intercept</m:mtext><m:mo>.</m:mo></m:math> Let <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+<para id="fs-id1527467"><m:math><m:mtable><m:mtr/><m:mtr><m:mtd><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>−0</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd><m:mspace width="2.4em"/><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mspace width="3em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1429926">The <m:math><m:mi>y</m:mi><m:mtext>-intercept</m:mtext></m:math> is <m:math><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo> <m:mn>3</m:mn><m:mo stretchy="false">).</m:mo></m:math></para>
+<para id="fs-id1313242">Find a third point. We’ll use <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow><m:mo>,</m:mo></m:math></para>
+<para id="fs-id1294926"><m:math><m:mtable><m:mtr/><m:mtr><m:mtd><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>−2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd><m:mspace width="2.4em"/><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mspace width="3em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1394899">A third solution to the equation is <m:math><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo> <m:mn>4</m:mn><m:mo>).</m:mo></m:math></para>
+<para id="fs-id1402326">Summarize the three points in a table and then plot them on a graph.</para>
+<table id="fs-id1822511" class="unnumbered" summary="This table it titled - x + 2 y = 6. It has 4 rows and 3 columns. The first row is a header row and it labels each column “x”, “y”, and  “ordered pair x, y”. Under the column “x” are the values  -6,  0, and 2. Under the column “y” are the values  0, 3, and 4. Under the column “ordered pair x, y” are the values “ordered pair  -6,  0”, “ordered pair 0, 3”, and “ordered pair 2, 4”."><label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="center" namest="c1" nameend="c3"><m:math><m:mrow><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><emphasis effect="italics"><emphasis effect="bold">x</emphasis></emphasis></entry>
+<entry align="left"><emphasis effect="italics"><emphasis effect="bold">y</emphasis></emphasis></entry>
+<entry align="left"><emphasis effect="italics"><emphasis effect="bold">(x,y)</emphasis></emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mn>−6</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>0</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>3</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mn>2</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mn>4</m:mn></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="fs-id1167906421844"><media id="fs-id1804106" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -10 to 10. Three labeled points are shown at “ordered pair -6, 0”, “ordered pair 0, 3” and “ordered pair 2, 4”.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_03_009.jpg"/>
+</media></para><para id="fs-id1576732">Do the points line up? Yes, so draw line through the points.<newline/>
+<media id="fs-id1593852" alt="The graph shows the x y-coordinate plane. The x and y-axis each run from -10 to 10. Three labeled points are shown at “ordered pair -6, 0”, “ordered pair 0, 3” and “ordered pair 2, 4”.  A line passes through the three labeled points.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_11_03_010.jpg"/>
+</media></para></solution>
+</exercise>
+</example><note id="eip-968"><label>Graph a Line Using the Intercepts</label>
+<list id="eip-id1168468755039" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find the <m:math><m:mi>x</m:mi><m:mo>-</m:mo></m:math> and <m:math><m:mtext>y-intercepts</m:mtext></m:math> of the line.
+<list id="fs-id1365900" list-type="bulleted" bullet-style="open-circle">
+<item>Let <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and solve for <m:math><m:mi>x</m:mi></m:math></item>
+<item>Let <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and solve for <m:math><m:mi>y</m:mi><m:mo>.</m:mo></m:math></item>
+</list></item>
+<item>Find a third solution to the equation.</item>
+<item> Plot the three points and then check that they line up.</item>
+<item> Draw the line.</item></list></note></section><section id="eip-178"><title>Key Concepts</title><list id="keyconcepts"><item><emphasis>Intercepts</emphasis><list id="eip-id1170325327811"><item>The <emphasis effect="italics">x-</emphasis>intercept is the point, <m:math><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:math>, where the graph crosses the <emphasis effect="italics">x-</emphasis>axis. The <emphasis effect="italics">x-</emphasis>intercept occurs when y is zero.</item>
+<item>The <emphasis effect="italics">y-</emphasis>intercept is the point, <m:math><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:math>, where the graph crosses the <emphasis effect="italics">y-</emphasis>axis. The <emphasis effect="italics">y-</emphasis>intercept occurs when y is zero.</item>
+<item>The <emphasis effect="italics">x-</emphasis>intercept occurs when y is zero.</item>
+<item>The <emphasis effect="italics">y-</emphasis>intercept occurs when x is zero.</item></list></item>
+<item><emphasis>Find the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> intercepts from the equation of a line</emphasis><list id="eip-id1170322951803"><item>To find the <emphasis effect="italics">x-</emphasis>intercept of the line, let <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and solve for <emphasis effect="italics">x</emphasis>.</item>
+<item>To find the <emphasis effect="italics">y-</emphasis>intercept of the line, let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and solve for <emphasis effect="italics">y</emphasis>.<table id="eip-id1170320456586" summary="..." class="unnumbered"><label/><tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+        <entry><emphasis>x</emphasis></entry>
+        <entry><emphasis>y</emphasis></entry>
+      
+      </row>
+</thead><tbody>
+<row>
+<entry/><entry>0</entry></row><row><entry>0</entry><entry/></row></tbody></tgroup></table></item></list></item>
+<item><emphasis>Graph a line using the intercepts</emphasis><list id="eip-id1170326539490" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find the <emphasis effect="italics">x-</emphasis> and <emphasis effect="italics">y-</emphasis> intercepts of the line.<list id="eip-id1170324213790"><item>Let <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and solve for <emphasis effect="italics">x.</emphasis></item>
+<item>Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and solve for <emphasis effect="italics">y.</emphasis></item></list>
+
+
+
+
+</item><item>Find a third solution to the equation.</item>
+<item>Plot the three points and then check that they line up.</item>
+<item>Draw the line.</item></list></item>
+
+<item><emphasis>Simple interest is represented and calculated with the equation</emphasis>
+<figure id="eip-idm1212693696">
+<media id="simpleinterest2" alt="simple interest equation">
+
+<image mime-type="image/png" src="../../media/simpleinterest.png"/>
+</media>
+</figure>
+</item>
+
+<item>
+<emphasis>Compound interest is represented and calculated with the equation</emphasis>
+<figure id="eip-idm486764864">
+<media id="compoundinterest2" alt="compound interest formula">
+<image mime-type="image/png" src="../../media/compoundinterest.png"/>
+</media>
+</figure>
+</item></list></section></content>
+
+<glossary>
+
+<definition id="graphicalrep">
+<term>Graphical Representation</term>
+<meaning id="graphical">A mathematical representation where the data or information is presented on a graph or coordinate place representing some relationship.</meaning>
+</definition>
+
+
+<definition id="fs-id1830018"><term>Intercepts of a Line</term><meaning id="fs-id1830021">Each of the points at which a line crosses the <emphasis effect="italics">x-</emphasis>axis and the <emphasis effect="italics">y-</emphasis>axis is called an intercept of the line.</meaning></definition>
+
+<definition id="numericalrep">
+<term>Numerical Representation</term>
+<meaning id="numerical">A mathematical representation where the data or information is presented in numerical form such as in a data table.</meaning>
+</definition>
+
+<definition id="proportionalrelate">
+<term>Proportional Relationship</term>
+<meaning id="proportional">A mathematical relationship where the ratio between related sets of data values is constant.</meaning>
+</definition>
+
+<definition id="rateochange">
+<term>Rate of Change</term>
+<meaning id="rate">A relationship or unit rate that shows how one variable or quatity changes with another.</meaning>
+</definition>
+
+
+<definition id="fs-id1726430">
+<term>Slope of a Line</term>
+<meaning id="fs-id1726435">The slope of a line is <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>rise</m:mtext></m:mrow><m:mrow><m:mtext>run</m:mtext></m:mrow></m:mfrac></m:math>. The rise measures the vertical change and the run measures the horizontal change.</meaning>
+</definition>
+
+<definition id="Symbolicrep">
+<term>Symbolic Representation</term>
+<meaning id="symbolic">Also known as algebraic representation, is a mathematical representation where where information or relationships are presented using numbers and symbols such as in an algebraic equation.</meaning>
+</definition>
+
+<definition id="verbalrep">
+<term>Verbal Representation</term>
+<meaning id="verbal">A mathematical representation where words are used to describe the problem, situation, or data set.</meaning>
+</definition>
+
+
+</glossary>
+
+</document>

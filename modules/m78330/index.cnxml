@@ -1,0 +1,738 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Exponential Growth: Lessons 10.A - 10.B</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78330</md:content-id>
+  <md:title>Exponential Growth: Lessons 10.A - 10.B</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Graph exponential functions</item>
+<item>Solve Exponential equations</item>
+<item>Use exponential models in applications</item>
+</list>
+This correlates to Lessons 10A-B from Corequisite MAT 1043(QR) and NCBO.</md:abstract>
+  <md:uuid>20c60827-c95d-4f3f-851c-6fe344c5c419</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-935"><label>Topics Covered in this Module</label>
+<para id="eip-idm309090624">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para>
+<list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Population Growth <link target-id="eip-764" document=""/></item>
+<item>Defining Exponential Functions <link target-id="eip-679" document=""/></item>
+<item>Identifying Exponential Functions <link target-id="eip-739" document=""/></item>
+<item>Graphs of Exponential Functions <link target-id="fs-id1167836378139" document=""/></item>
+
+<item>Key Concepts  <link target-id="fs-id1167836684031" document=""/></item></list></note><para id="eip-504">The functions we have studied so far do not give us a model for many naturally occurring phenomena. From the growth of populations and the spread of viruses to radioactive decay and compounding interest, the models are very different from what we have studied so far. These models involve exponential functions.</para><section id="eip-764"><title>Population Growth Rates <footnote id="eip-idm626657952"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-615">Population growth is often defined as exponential growth. <term>Exponential growth</term> is growth that is shown to be proportional to the size of the population in question. </para><para id="eip-681">Remember from <link target-id="eip-37"/> that exponential functions grow faster the larger the input value is. This means that the larger the population, the faster it will grow.</para><para id="eip-845">Not only will the population itself grow larger, but the rate at which it grows will also increase. This is well represented by exponential models. In order to determine if something is showing exponential growth, one should investigate if the rate of growth is proportional to the total population size.</para><para id="eip-14">The <term>rate of growth </term> of the population can be determined by the following equation:</para><equation id="eip-148"><m:math><m:mi>Average Rate of Change in Popualtion</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Change in Population</m:mi></m:mrow><m:mrow><m:mi>Total Population</m:mi></m:mrow></m:mfrac></m:math></equation>
+<para id="eip-405">This average rate of change in the population is often written in symbols as:</para><equation id="eip-780"><m:math><m:mi>Average Rate of Change in Popualtion</m:mi><m:mo>=</m:mo><m:mo>Δ</m:mo><m:mi>P</m:mi></m:math></equation><para id="eip-196">When this ratio of change in population to change in time is proportional, or the same, over many time instances; it is considered to be a linear growth pattern. When the ratio is not proportional over time, it is not linear and one can investigate if it is exponential in form.</para><para id="eip-663">To determine if it is exponential, we must compare the previous ratio to the total popualtion at that point in time:
+</para>
+
+<equation id="eip-435"><m:math><m:mfrac><m:mrow><m:mi>Average Rate of Change in Popualtion</m:mi></m:mrow><m:mrow><m:mi>Total Popualtion</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mi>Change in Population</m:mi></m:mrow><m:mrow><m:mi>Change in Time</m:mi></m:mrow></m:mfrac></m:mrow><m:mrow><m:mi>Total Population</m:mi></m:mrow></m:mfrac></m:math></equation>
+<para id="eip-743">This growth rate is often written in symbols as:</para><equation id="eip-795"><m:math><m:mfrac><m:mrow><m:mi>Average Rate of Change in Popualtion</m:mi></m:mrow><m:mrow><m:mi>Total Popualtion</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>Δ</m:mo><m:mi>P</m:mi></m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mfrac></m:math></equation><example id="eip-124"><title>Linear or Exponential Growth?</title><exercise id="eip-idm820942736">
+<problem id="eip-253">
+  <para id="eip-62"><link target-id="eip-idm807534864"/> shows how the population of a certain US city has changed over a few years. Determine if the growth is linear or exponential.
+<table id="eip-idm807534864" summary="table of popualtion values of years">
+<tgroup cols="2"><tbody>
+<row>
+<entry align="center"><emphasis><m:math><m:mi>Year</m:mi></m:math></emphasis></entry>
+<entry align="center"><emphasis><m:math><m:mi>Population (in thousands)</m:mi></m:math></emphasis></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2000</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,020</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2001</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,093</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2002</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,168</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2003</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,246</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2004</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,327</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2005</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,411</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2006</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mn>2,498</m:mn></m:math></entry>
+</row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table>
+  </para></problem>
+
+<solution id="eip-856">
+  <para id="eip-978">For each change in a year, find the average rate of change and divide it by the total population from the beginning year.
+<table id="eip-idm396340272" summary=".">
+<tgroup cols="2">
+<tbody>
+<row>
+<entry align="center"><emphasis>Years</emphasis></entry>
+<entry align="center"><emphasis><m:math><m:mi>Δ Population/Δ Time</m:mi></m:math></emphasis></entry>
+</row>
+<row>
+<entry><m:math><m:mn>2000-2001</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,093</m:mn><m:mo>-</m:mo><m:mn>2,020</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>73</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2001-2002</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,168</m:mn><m:mo>-</m:mo><m:mn>2093</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>75</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2002-2003</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,246</m:mn><m:mo>-</m:mo><m:mn>2,168</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>78</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2003-2004</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,327</m:mn><m:mo>-</m:mo><m:mn>2,246</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>81</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2004-2005</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,411</m:mn><m:mo>-</m:mo><m:mn>2,327</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>84</m:mn></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2005-2006</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,498</m:mn><m:mo>-</m:mo><m:mn>2,411</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>87</m:mn></m:math></entry></row>
+</tbody>
+</tgroup>
+</table>
+
+
+In order to determine if the data is linear growth, we look at the ratio outcomes in the second column of <link target-id="eip-idm396340272"/>. Notice that all the resultant ratios are not proportional; they're not the same ratio every time! This tells us that the data is <emphasis>NOT</emphasis> linear. Now let's check and see if the ratio of the average growth to total population is proportional.
+
+
+
+<table id="eip-idm464916416" summary="."><tgroup cols="3"><tbody>
+<row>
+<entry align="center"><emphasis>Years</emphasis></entry>
+<entry align="center"><emphasis><m:math><m:mi>Δ Population/Δ Time</m:mi></m:math></emphasis></entry>
+<entry><emphasis><m:math><m:mi>Avg. Population Growth/Total Population</m:mi></m:math></emphasis></entry>
+<entry align="center"><emphasis><m:math><m:mi>Growth Rate</m:mi></m:math></emphasis></entry>
+</row>
+<row>
+<entry><m:math><m:mn>2000-2001</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,093</m:mn><m:mo>-</m:mo><m:mn>2,020</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>73</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>73</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2,020</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0361</m:mn></m:math></entry>
+<entry><m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>61</m:mn><m:mo>%</m:mo></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2001-2002</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,168</m:mn><m:mo>-</m:mo><m:mn>2093</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>75</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>75</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2,020</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0358</m:mn></m:math></entry>
+<entry><m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>58</m:mn><m:mo>%</m:mo></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2002-2003</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,246</m:mn><m:mo>-</m:mo><m:mn>2,168</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>78</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>78</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2,168</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0359</m:mn></m:math></entry>
+<entry><m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>59</m:mn><m:mo>%</m:mo></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2003-2004</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,327</m:mn><m:mo>-</m:mo><m:mn>2,246</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>81</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>81</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2,246</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0360</m:mn></m:math></entry> 
+<entry><m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>60</m:mn><m:mo>%</m:mo></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2004-2005</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,411</m:mn><m:mo>-</m:mo><m:mn>2,327</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>84</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>84</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2,327</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0361</m:mn></m:math></entry> 
+<entry><m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>61</m:mn><m:mo>%</m:mo></m:math></entry>
+</row>
+<row>
+<entry align="center"><m:math><m:mn>2005-2006</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2,498</m:mn><m:mo>-</m:mo><m:mn>2,411</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1 year</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>87</m:mn></m:math></entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>87</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2,411</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0361</m:mn></m:math></entry> 
+<entry><m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>61</m:mn><m:mo>%</m:mo></m:math></entry>
+</row>
+
+</tbody>
+
+</tgroup>
+</table>
+
+It can be seen from the third and fourth columns of <link target-id="eip-idm464916416"/> that the growth ratios are all very close to the value of <m:math><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>60</m:mn><m:mo>%</m:mo></m:math>. Thus, we can conclude that this population data is indeed an example of exponential growth.</para>
+</solution>
+</exercise>
+</example></section><section id="eip-679"><title>Defining Exponential Functions <footnote id="eip-idm366747264">Section material derived from Openstax College Algebra: Exponential and Logarithmic Functions-Exponential Functions and Intermediate Algebra: Exponential and Logarithmic Functions-Evaluate and Graph Exponential Functions</footnote></title><note id="eip-305"><label>Exponential Functions</label>
+
+<para id="fs-id1165137911387">For any real number<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math>an <term>exponential function</term> is a function with the form</para><equation id="Equation_4_1_1"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+</m:mrow>
+</m:math></equation><para id="eip-751">where</para><list id="fs-id1165137401680" list-type="bulleted"><item><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is a non-zero real number called the initial value and</item>
+<item><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is any positive real number such that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>1.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>The domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is all real numbers.</item>
+<item>The range of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is all positive real numbers if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>The range of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is all negative real numbers if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>The <emphasis effect="italics">y</emphasis>-intercept is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>and the horizontal asymptote is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></item>
+</list><para id="eip-778">Notice that in this function, the variable is the exponent. In our functions so far, the variables were the base.</para><para id="eip-439">Our definition says <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> If we let <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> becomes <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>1</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math> Since <m:math><m:mrow><m:msup><m:mn>1</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for all real numbers, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>1</m:mn><m:mrow/></m:msup><m:mo>.</m:mo></m:mrow></m:math> This is the constant function.</para><para id="eip-350">Our definition also says <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> If we let a base be negative, say <m:math><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> is not a real number when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para><para id="eip-609">In fact, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> would not be a real number any time <m:math><m:mi>x</m:mi></m:math> is a fraction with an even denominator. So our definition requires <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><equation id="eip-21"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>−4</m:mn></m:mrow></m:msqrt><m:mspace width="1em"/><m:mtext>not a real number</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation><figure id="eip-idm395011136">
+<media id="exponentialfunctions" alt="This figure shows three functions: f of x equals negative 3x plus 4, which is marked as linear; f of x equals 2x squared plus 5x minus 3, which is marked as quadratic; and f of x equals 6 to the x power, which is marked exponential. For the functions marked linear and quadratic, x is the base. For the function marked exponential, x is the exponent for the base 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_001_img.jpg"/>
+</media></figure></note><example id="eip-29"><title>Identifying Exponential Functions</title><exercise id="p7"><problem id="p4">
+
+<para id="p5">Which of the following equations are <emphasis effect="italics">not</emphasis> exponential functions?</para>
+<list id="p6">
+<item><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+</list>
+</problem>
+<solution id="p1">
+<para id="p2">By definition, an exponential function has a constant as a base and an independent variable as an exponent. Thus,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>does not represent an exponential function because the base is an independent variable. In fact,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is a power function.</para>
+<para id="p3">Recall that the base <emphasis effect="italics">b </emphasis>of an exponential function is always a positive constant, and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>1.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Thus,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>−2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>does not represent an exponential function because the base,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>−2</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math> is less than<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></para></solution>
+</exercise>
+</example></section><section id="eip-739"><title>Identifying Exponential Functions <footnote id="eip-idm673896960">Section material derived from Openstax College Algebra: Exponential and Logarithmic Functions-Exponential Functions</footnote></title><para id="eip-476">When exploring linear growth, we observed a constant rate of change—a constant number by which the output increased for each unit increase in input. For example, in the equation<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>the slope tells us the output increases by 3 each time the input increases by 1. The scenario in the India population example is different because we have a <emphasis effect="italics">percent</emphasis> change per unit time (rather than a constant change) in the number of people.</para><para id="eip-620">What exactly does it mean to <emphasis effect="italics">grow exponentially</emphasis>? What does the word <emphasis effect="italics">double </emphasis>have in common with <emphasis effect="italics">percent increase</emphasis>? People toss these words around errantly. Are these words used correctly? The words certainly appear frequently in the media.
+<list id="fs-id1165134042783" list-type="bulleted">
+<item><emphasis>Percent change </emphasis>refers to a <emphasis effect="italics">change</emphasis> based on a <emphasis effect="italics">percent</emphasis> of the original amount.</item>
+<item><emphasis>Exponential growth </emphasis>refers to an <emphasis effect="italics">increase</emphasis> based on a constant multiplicative rate of change over equal increments of time, that is, a <emphasis effect="italics">percent</emphasis> increase of the original amount over time.</item>
+<item><term>Exponential decay</term> refers to a <emphasis effect="italics">decrease</emphasis> based on a constant multiplicative rate of change over equal increments of time, that is, a <emphasis effect="italics">percent</emphasis> decrease of the original amount over time.</item>
+</list></para><para id="eip-802">For us to gain a clear understanding of <term class="no-emphasis">exponential growth</term>, let us contrast exponential growth with <term class="no-emphasis">linear growth</term>. We will construct two functions. The first function is exponential. We will start with an input of 0, and increase each input by 1. We will double the corresponding consecutive outputs. The second function is linear. We will start with an input of 0, and increase each input by 1. We will add 2 to the corresponding consecutive outputs. See <link target-id="Table_04_01_01"/>.</para><table id="eip-37" summary=".">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry><m:math>
+<m:mi>x</m:mi>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+</m:mrow>
+</m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">0</entry>
+<entry align="center">1</entry>
+<entry align="center">0</entry>
+</row>
+<row>
+<entry align="center">1</entry>
+<entry align="center">2</entry>
+<entry align="center">2</entry>
+</row>
+<row>
+<entry align="center">2</entry>
+<entry align="center">4</entry>
+<entry align="center">4</entry>
+</row>
+<row>
+<entry align="center">3</entry>
+<entry align="center">8</entry>
+<entry align="center">6</entry>
+</row>
+<row>
+<entry align="center">4</entry>
+<entry align="center">16</entry>
+<entry align="center">8</entry>
+</row>
+<row>
+<entry align="center">5</entry>
+<entry align="center">32</entry>
+<entry align="center">10</entry>
+</row>
+<row>
+<entry align="center">6</entry>
+<entry align="center">64</entry>
+<entry align="center">12</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-539">From <link target-id="eip-37"/> we can infer that for these two functions, exponential growth dwarfs linear growth.</para><para id="eip-771"><list id="eip-idm470025040">
+<item><emphasis>Exponential growth </emphasis>refers to the original value from the range increases by the <emphasis>same percentage</emphasis> over equal increments found in the domain.</item>
+<item><emphasis>Linear growth</emphasis> refers to the original value from the range increases by the <emphasis>same amount</emphasis> over equal increments found in the domain.</item>
+</list></para><para id="eip-748">Apparently, the difference between “the same percentage” and “the same amount” is quite significant. For exponential growth, over equal increments, the constant multiplicative rate of change resulted in doubling the output whenever the input increased by one.  For linear growth, the constant additive rate of change over equal increments resulted in adding 2 to the output whenever the input was increased by one.</para><para id="eip-622">Let us examine the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>by plotting the ordered pairs we observe on the table in <link target-id="CNX_Precalc_Figure_04_01_006"/>, and then make a few observations.</para><figure id="eip-idm585990896">
+<media id="fs-id1165137571891" alt="Graph of Companies A and B’s functions, which values are found in the previous table.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_01_006.jpg"/>
+</media>
+</figure><para id="eip-717">Let’s define the behavior of the graph of the exponential function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and highlight some its key characteristics.</para><list id="eip-596"><item>the domain is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math></item>
+<item>the range is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math></item>
+<item>as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math></item>
+<item>as <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is always increasing,</item>
+<item>the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>will never touch the <emphasis effect="italics">x</emphasis>-axis because base two raised to any exponent never has the result of zero.</item>
+<item><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is the horizontal asymptote.</item>
+<item>the <emphasis effect="italics">y</emphasis>-intercept is 1.</item></list></section><section id="fs-id1167836378139"><title>Graphs of Exponential Functions <footnote id="eip-idm498198928">Section material derived from Openstax Intermediate Algebra: Exponential and Logarithmic Functions-Evaluate and Graph Exponential Functions and Precalculus: Exponential and Logarithmic Functions-Graphs of Exponential Functions</footnote></title><para id="fs-id1167829786799">By graphing a few exponential functions, we will be able to see their unique properties.</para>
+<example id="fs-id1167829684737"><title>Graphing Exponential Functions</title><exercise id="fs-id1167826205226">
+<problem id="fs-id1167829741466">
+<para id="fs-id1167836387106">On the same coordinate system graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829748685">
+<para id="fs-id1167833020673">We will use point plotting to graph the functions.</para>
+<para id="fs-id1167833050627"><media id="fs-id1167833081931" alt="This table has seven rows and five columns. The first row is header row and reads x, f of x equals 2 to the x power, (x, f of x), g of x equals 3 to the x power, and (x, g of x). The second row reads negative 2, 2 to the negative 2 power equals 1 divided by 2 squared which equals 1 over 4, (negative 2, 1 over 4), 3 to the negative 2 power equals 1 divided by 3 squared which equals 1 over 9, (negative 2, 1 over 9). The third row reads negative 1, 2 to the negative 1 power equals 1 divided by 2 to the first power which equals 1 over 2, (negative 1, 1 over 2), 3 to the negative 1 power equals 1 divided by 3 to the first power which equals 1 over 3, (negative 1, 1 over 3). The fourth row reads 0, 2 to the 0 power equals 1, (0, 1), 3 to the 0 power equals 1, (0, 1). The fifth row reads 1, 2 to the 1 power equals 2, (1, 2), 3 to the 1 power equals 9, (1, 3). The sixth row reads 2, 2 to the 2 power equals 4, (2, 4), 3 to the 2 power equals 9, (2, 9). The seventh row reads 3, 2 to the 3 power equals 8, (3, 8), 3 to the 3 power equals 27, (3, 27).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_002_img.jpg"/>
+</media></para>
+<para id="fs-id1167830077474"><media id="fs-id1167829694860" alt="This figure shows two curves. The first curve is marked in blue and passes through the points (negative 1, 1 over 2), (0, 1), and (1, 2). The second curve is marked in red and passes through the points (negative 1, 1 over 3), (0, 1), and (1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_003_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836619114">If we look at the graphs from the previous Example, we can identify some of the properties of exponential functions.</para><para id="fs-id1167836448581">The graphs of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> have the same basic shape. This is the shape we expect from an exponential function where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1167836616275">We notice, that for each function, the graph contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This make sense because <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for any <emphasis effect="italics">a</emphasis>.</para>
+<para id="fs-id1167829580375">The graph of each function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829811012">Notice too, the graph of each function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836662701">What is the domain for each function? From the graphs we can see that the domain is the set of all real numbers. There is no restriction on the domain. We write the domain in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836540116">Look at each graph. What is the range of the function? The graph never hits the <m:math><m:mi>x</m:mi></m:math>-axis. The range is all positive numbers. We write the range in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833114782">Whenever a graph of a function approaches a line but never touches it, we call that line an <term>asymptote</term>. For the exponential functions we are looking at, the graph approaches the <m:math><m:mi>x</m:mi></m:math>-axis very closely but will never cross it, we call the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the <emphasis effect="italics">x</emphasis>-axis, a horizontal asymptote.</para>
+<note id="fs-id1167836699696"><label>Properties of the Graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></label>
+<table id="fs-id1167836507868" class="unnumbered" summary="Table has two columns and six rows. The first row shows the domain is negative infinity to infinity. The second row shows the range is 0 to infinity. The third row shows there is no x intercept. The fourth row shows the y-intercept is 0, 1. The fifth row shows the function contains 1, a and negative 1, 1 over a. The sixth column shows the asymptote is the x axis and the line y equals 0.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">x</emphasis>-intercept</entry>
+<entry valign="top" align="left">None</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">y</emphasis>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<media id="fs-id1167829754330" alt="This figure shows a curve that slopes upward from (negative 1, 1 over a) through (0, 1), up to (1, a).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_004_img.jpg"/>
+</media>
+</note><para id="fs-id1167836528877">Our definition of an exponential function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> says <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> but the examples and discussion so far has been about functions where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> What happens when <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>? The next example will explore this possibility.</para>
+<example id="fs-id1167833381202"><title>Graphing Exponential Functions</title><exercise id="fs-id1167836519839">
+<problem id="fs-id1167836535361">
+<para id="fs-id1167836545857">On the same coordinate system, graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829688322">
+<para id="fs-id11678362881723">We will use point plotting to graph the functions.</para>
+<para id="fs-id1167836703928">
+<media id="fs-id1167833369800" alt="This table has seven rows and five columns. The first row is header row and reads x, f of x, equals 1 over 2 to the x power, (x, f of x), g of x equals 1 over 3 to the x power, and (x, g of x). The second row reads negative 2, 1 over 2 to the negative 2 power equals 2 squared which equals 4, (negative 2, 4), 3 to the negative 2 power equals 3 squared which equals 9, (negative 2, 9). The third row reads negative 1, 1 over 2 to the negative 1 power equals 2 to the first power which equals 2, (negative 1, 2), 1 over 3 to the negative 1 power equals 3 to the first power which equals 3, (negative 1, 3). The fourth row reads 0, 1 over 2 to the 0 power equals 1, (0, 1), 1 over 3 to the 0 power equals 1, (0, 1). The fifth row reads 1, 1 over 2 to the 1 power equals 1 over 2, (1, 1 over 2), 1 over 3 to the 1 power equals 1 over 3, (1, 1 over 3). The sixth row reads 2, 1 over 2 to the 2 power equals 1 over 4, (2, 1 over 4), 1 over 3 to the 2 power equals 1 over 9, (2, 1 over 9). The seventh row reads 3, 1 over 2 to the 3 power equals 1 over 8, (3, 1 over 8), 1 over 3 to the 3 power equals 1 over 27, (3, 1 over 27).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_005_img.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836391528"><media id="fs-id1167836447318" alt="This figure shows two curves. The first curve is marked in blue and passes through the points (negative 1, 2), (0, 1), and (1, 1 over 2). The second curve is marked in red and passes through the points (negative 1, 3), (0, 1), and (1, 1 over 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_006_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example><para id="fs-id1167829586484">Now let’s look at the graphs from the previous Example so we can now identify some of the properties of exponential functions where <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1167836532650">The graphs of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math>  have the same basic shape. While this is the shape we expect from an exponential function where <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> the graphs go down from left to right while the previous graphs, when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> went from up from left to right.</para><para id="fs-id1167833019145">We notice that for each function, the graph still contains the point (0, 1). This make sense because <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for any <emphasis effect="italics">a</emphasis>.</para>
+<para id="fs-id1167836448517">As before, the graph of each function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833082097">Notice too that the graph of each function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836450768">What is the domain and range for each function? From the graphs we can see that the domain is the set of all real numbers and we write the domain in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Again, the graph never hits the <m:math><m:mi>x</m:mi></m:math>-axis. The range is all positive numbers. We write the range in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836311929">We will summarize these properties in the chart below. Which also include when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836329709"><label>Properties of the Graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></label>
+<table id="fs-id1167836516046" class="unnumbered" summary="Table has four columns. It shows that when a is greater than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is increasing. It shows that when a is greater than 0 and less than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is decreasing.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left" namest="c3" nameend="c4">when <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">increasing</entry>
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">decreasing</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<media id="fs-id1167836629903" alt="This figure has two parts. On the left, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a). On the right, where a is noted to be less than 1, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_007_img.jpg"/>
+</media>
+</note></section><section id="fs-id1167836684031" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836512983" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Properties of the Graph of</emphasis> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>:</m:mo></m:mrow></m:math><newline/>
+<table id="fs-id1167836611172" class="unnumbered" summary="Table has four columns. It shows that when a is greater than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is increasing. It shows that when a is greater than 0 and less than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is decreasing.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left" namest="c3" nameend="c4">when <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">increasing</entry>
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">decreasing</entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<media id="fs-id1167836341593" alt="This figure has two parts. On the left, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a). On the right, where a is noted to be less than 1, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_015_img.jpg"/>
+</media>
+</item>
+<item><emphasis>Average rate of growth in a popualtion</emphasis>
+<media id="expgrowtheqn" alt="population growth equation">
+<image mime-type="image/png" src="../../media/exponentialgrowth (1).png"/>
+</media>
+</item>
+<item><emphasis>To determine if a rate of growth is exponential</emphasis>
+<media id="expgrowrate" alt="exponential growth ratio">
+<image mime-type="image/png" src="../../media/expgrowthrate.png"/>
+</media>
+</item></list></section>
+</content>
+<glossary>
+<definition id="fs-id1167833082091">
+<term>Asymptote</term>
+<meaning id="fs-id1167836691950">A line which a graph of a function approaches closely but never touches.</meaning>
+</definition>
+<definition id="fs-id1167836691954">
+<term>Exponential Function</term>
+<meaning id="fs-id1167833007259">An exponential function, where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> is a function of the form <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+
+<definition id="expgrowth">
+<term>Exponential Growth</term>
+<meaning id="expgrowthmean">
+A rate of growth that increases in proportion to the original population.
+</meaning>
+</definition>
+
+<definition id="lineargrowth">
+<term>Linear Growth</term>
+<meaning id="lineargrowthmean">
+A rate of growth that increases in the exact same amount for each step in time.
+</meaning>
+</definition>
+
+<definition id="rateofgrowth">
+<term>Rate of Growth</term>
+<meaning id="rateofgrowthmean">
+The rate at which a popualtion increases over time.
+</meaning>
+</definition>
+
+</glossary>
+</document>

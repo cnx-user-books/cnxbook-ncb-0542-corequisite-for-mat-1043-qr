@@ -1,0 +1,1596 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Equations: Lessons 1.A - 1.C</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78161</md:content-id>
+  <md:title>Equations: Lessons 1.A - 1.C</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Solve equations using the Subtraction and Addition Properties of Equality</item>
+<item>Solve equations that need to be simplified</item>
+<item>Solve equations with Fraction and decimal cooefficients</item>
+<item>Be familiar with Data and its representations</item>
+</list></md:abstract>
+  <md:uuid>ef675611-50a3-46c4-af78-ae7dd923ad1e</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1166479036843" class="be-prepared"><label>Topics Covered in this Module</label>
+<para id="fs-id2294279">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Solve Equations Using the Subtraction and Addition <link document="" target-id="fs-id1956457"/></item>
+
+<item>Solve Equations Using the Division and Multiplication <link document="" target-id="eip-182"/></item>
+<item>Solve Equations with Fraction Coefficients  <link document="" target-id="eip-310"/></item>
+<item>Solve Equations with Decimal Coefficients  <link document="" target-id="eip-300"/></item>
+<item>Solve Equations Using a General Strategy  <link document="" target-id="eip-404"/></item>
+<item>Solve Equations That Need to Be Simplified <link document="" target-id="fs-id1471572"/></item>
+<item>Key Concepts  <link document="" target-id="eip-107"/></item></list></note><section id="fs-id1956457"><title>Solve Equations Using the Subtraction and Addition Properties of Equality <footnote id="eip-idm336246848">Section material derived from Openstax Prealgebra: The Language of Algebra-Solving Equations Using the Subtraction and Addition Properties of Equality</footnote></title><para id="fs-id1166497276639">We began our work solving equations in previous chapters. It has been a while since we have seen an <term class="no-emphasis">equation</term>, so we will review some of the key concepts before we go any further.</para>
+<para id="fs-id1166492076115">We said that solving an equation is like discovering the answer to a puzzle. The purpose in solving an equation is to find the value or values of the <term class="no-emphasis">variable</term> that make each side of the equation the same. Any value of the variable that makes the equation true is called a solution to the equation. It is the answer to the puzzle.</para>
+<note id="fs-id1329645"><label>Solution of an Equation</label>
+<para id="fs-id1956198">A <term>solution of an equation</term> is a value of a variable that makes a true statement when substituted into the equation.</para>
+</note><para id="fs-id1166491773221">In the earlier sections, we listed the steps to determine if a value is a solution. We restate them here.</para>
+<note id="fs-id1166492761655" class="howto"><label>Determine Whether a Number is a Solution to an Equation</label>
+<list id="eip-95" list-type="enumerated" number-style="arabic" class="stepwise"><item>Substitute the number for the variable in the equation.</item>
+<item>Simplify the expressions on both sides of the equation.</item>
+<item>Determine whether the resulting equation is true.
+<list id="fs-id1703984" list-type="bulleted" bullet-style="bullet">
+<item>If it is true, the number is a solution.</item>
+<item>If it is not true, the number is not a solution.</item></list></item>
+</list>
+</note><example id="fs-id1769638"><title>Determining Whether a Number is a Solution to an Equation</title><exercise id="fs-id1674317"><problem id="fs-id1518747">
+<para id="fs-id1166484083630">Determine whether <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> is a solution for <m:math><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166491409809">
+<title>Solution</title>
+<table id="eip-id1168466426761" class="unnumbered unstyled" summary="The top line says 4y plus 3 equals 8y. Beside this is “Given.” The next line says 4 times a red three-fourths plus 3 followed by an equal sign with a question mark, then 8 times a red three-fourths. Beside this is “Substitute three-fourths for y.” Three-fourths is in red. The next line says 3 plus 3 equal sign with a question mark 6. Beside this is “Multiply.” The last line says 6 equals 6. Beside this is “Add. The solution checks."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168468702694" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_001_img-03.png"/></media></entry>
+ </row>
+ <row>
+   <entry><media id="eip-id1168466078265" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_001_img-01.png"/></media></entry>
+   <entry><media id="eip-id1168469511022" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_001_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Multiply.</entry>
+   <entry><media id="eip-id1168468288486" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_001_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Add.</entry>
+   <entry><media id="eip-id1168468655391" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_001_img-05.png"/></media></entry>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id1877457">Since <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> results in a true equation, <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> is a solution to the equation <m:math><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1319383">We introduced the Subtraction and Addition Properties of Equality in <link class="target-chapter" document="m53006">Solving Equations Using the Subtraction and
+Addition Properties of Equality</link>. In that section, we modeled how these properties work and then applied them to solving equations with whole numbers. We used these properties again each time we introduced a new system of numbers. Let’s review those properties here.</para><note id="fs-id1731715"><label>Subtraction and Addition Properties of Equality</label>
+<para id="fs-id1956928"><emphasis effect="bold">Subtraction Property of Equality</emphasis></para>
+<para id="fs-id1952482">For all real numbers <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mi>c</m:mi><m:mo>,</m:mo></m:math> if <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1166490863495"><emphasis effect="bold">Addition Property of Equality</emphasis></para>
+<para id="fs-id1166497417158">For all real numbers <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mi>c</m:mi><m:mo>,</m:mo></m:math> if <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</note><para id="fs-id1166482410092">When you add or subtract the same quantity from both sides of an equation, you still have equality. </para><para id="eip-108">We introduced the <term class="no-emphasis">Subtraction Property of Equality</term> earlier by modeling equations with envelopes and counters. <link target-id="CNX_BMath_Figure_08_01_026"/> models the equation <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><figure id="CNX_BMath_Figure_08_01_026">
+<media id="fs-id1789276" alt="An envelope and three yellow counters are shown on the left side. On the right side are eight yellow counters.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_026.jpg"/>
+</media>
+</figure>
+<para id="fs-id1856746">The goal is to isolate the variable on one side of the equation. So we ‘took away’ <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> from both sides of the equation and found the <term class="no-emphasis">solution</term> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1166490921090">Some people picture a balance scale, as in <link target-id="CNX_BMath_Figure_08_01_001"/>, when they solve equations.</para>
+<figure id="CNX_BMath_Figure_08_01_001">
+<media id="fs-id1437475" alt="Three balance scales are shown. The top scale has one red weight on each side and is balanced. Beside it is “1 mass on each side equals balanced.” The next scale has two weights on each side and is balanced. Beside it is “2 masses on each side equals balanced.” The bottom scale has one weight on the left and two on the right. The right side is lower than the left. Beside the image is “1 mass on one side and 2 masses on the other equals unbalanced.”">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_001.jpg"/>
+</media>
+</figure>
+<para id="fs-id1166497425012">The quantities on both sides of the equal sign in an equation are equal, or balanced. Just as with the balance scale, whatever you do to one side of the equation you must also do to the other to keep it balanced.</para>
+<para id="fs-id1166491428047">Let’s review how to use Subtraction and Addition Properties of Equality to solve equations. We need to isolate the variable on one side of the equation. And we check our solutions by substituting the value into the equation to make sure we have a true statement.</para>
+<example id="fs-id1856064"><title>Solving for a Variable</title><exercise id="fs-id1447632"><problem id="fs-id1953663">
+<para id="fs-id1736543">Solve: <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166488297178">
+<title>Solution</title>
+<para id="fs-id1487471">To isolate <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> we undo the addition of <m:math><m:mrow><m:mn>11</m:mn></m:mrow></m:math> by using the Subtraction Property of Equality.
+</para><table id="eip-id1168468291100" class="unnumbered unstyled" summary="The top line says x plus 11 equals negative 3. The next line says, “Subtract 11 from each side, to 'undo' the addition.” Beside this is x plus 11 minus a red 11 equals negative 3 minus a red 11. The next line says “simplify.” Beside this is x equals negative 14. The next line says “check.” Beside this is x plus 11 equals negative 3. The last line says “substitute” and shows x equals negative 14, then a red negative 14 plus 11 followed by an equal sign with a question mark and a negative 3, then negative 3 equals negative 3 followed by a check mark."><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+ <row>
+   <entry namest="c1" nameend="c2"/>
+  <entry><media id="eip-id1168469834553" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_019_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry namest="c1" nameend="c2">Subtract 11 from each side to "undo" the addition.</entry>
+   <entry><media id="eip-id1168466137434" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_019_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry namest="c1" nameend="c2">Simplify.</entry>
+ <entry><media id="eip-id1168466092262" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_019_img-03.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: </entry>
+   <entry><media id="eip-id1168466072125" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_019_img-04.png"/></media></entry>
+  <entry/>
+</row>
+<row>
+   <entry>Substitute <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−14</m:mn></m:math>.</entry>
+   <entry><media id="eip-id1168466079144" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_019_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry/>
+   <entry><media id="eip-id1168469869298" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_019_img-06.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id1468740">Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−14</m:mn></m:mrow></m:math> makes <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> a true statement, we know that it is a solution to the equation.</para>
+</solution>
+</exercise></example><para id="fs-id1166490870130">In the original equation in the previous example, <m:math><m:mrow><m:mn>11</m:mn></m:mrow></m:math> was added to the <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, so we subtracted <m:math><m:mrow><m:mn>11</m:mn></m:mrow></m:math> to ‘undo’ the addition. In the next example, we will need to ‘undo’ subtraction by using the <term class="no-emphasis">Addition Property of Equality</term>.</para>
+<example id="fs-id1166490904896"><title>Solving for a Variable</title><exercise id="fs-id1957175"><problem id="fs-id1166479028976">
+<para id="fs-id1511517">Solve: <m:math><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166478988064">
+<title>Solution</title>
+<table id="eip-id1168467157298" class="unnumbered unstyled" summary="The first line says m minus 4 equals negative 5. The next line says, “Add 4 to each side, to 'undo' the subtraction.” Beside this is m minus 4 plus a red 4 equals negative 5 plus a red 4. The next line says “simplify” and shows m equals negative 1. The following line says to “check” and shows m minus 4 equals negative 5. Below this is “substitute” and m equals negative 1. Below that is a red negative 1 minus 4 followed by an equal sign with a question mark and negative 5. The last line shows negative 5 equals negative 5 followed by a check mark."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+ <row>
+   <entry namest="c1" nameend="c2"/>
+   <entry><media id="eip-id1168468473383" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_020_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry namest="c1" nameend="c2">Add 4 to each side to "undo" the subtraction.</entry>
+   <entry><media id="eip-id1168467340413" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_020_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry namest="c1" nameend="c2">Simplify.</entry>
+   <entry><media id="eip-id1168467332056" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_020_img-03.png"/></media></entry>
+</row>
+<row>
+   <entry>Check:</entry>
+   <entry><media id="eip-id1168468552729" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_020_img-04.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Substitute <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:math>.</entry>
+   <entry><media id="eip-id1168468614495" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_020_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry/>
+   <entry><media id="eip-id1168467261089" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_020_img-06.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry/>
+   <entry/>
+   <entry>The solution to <m:math><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>−5</m:mn></m:math> is <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn></m:math>.</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id1486893">Now let’s review solving equations with fractions.</para>
+<example id="fs-id1383795"><title>Solving for a Variable with Fractions</title><exercise id="fs-id1166490858912"><problem id="fs-id1441273">
+<para id="fs-id1806883">Solve: <m:math><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166494770805">
+<title>Solution</title>
+<table id="eip-id1168468255179" class="unnumbered unstyled" summary="The first line says n minus 3 eighths equals one half. The next line says, “Use the Addition Property of Equality.” Beside this is n minus 3 over 8 plus a red 3 over 8 equals one half plus a red 3 over 8. The next line says “Find the LCD to add the fractions on the right.” Beside that is n minus 3 over 8 plus 3 over 8 equals 4 over 8 plus 3 over 8. The next line says “simplify” and shows n equals 7 over 8. Below that is “check” and n minus 3 eighths equals one half. The following line says to substitute n equals 7 over 8 and shows a red 7 over 8 minus 3 over 8 followed by an equal sign with a question mark and one half. The next line says “subtract” and shows 4 over 8, equal sign with a question mark, 1 half. The last line says “simplify” and says one half equals one half with a check mark."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><tbody>
+ <row>
+   <entry namest="c1" nameend="c2"/>
+   <entry><media id="eip-id1168466176178" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry namest="c1" nameend="c2">Use the Addition Property of Equality.</entry>
+   <entry><media id="eip-id1168469603754" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry namest="c1" nameend="c2">Find the LCD to add the fractions on the right.</entry>
+   <entry><media id="eip-id1168469611733" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-03.png"/></media></entry>
+</row>
+<row>
+   <entry namest="c1" nameend="c2">Simplify</entry>
+<entry><media id="eip-id1168469683726" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Check:</entry>
+   <entry><media id="eip-id1168466175504" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168468241254" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-09.png"/></media></entry>
+   <entry><media id="eip-id1168467114144" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-06.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Subtract.</entry>
+   <entry><media id="eip-id1168469872572" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-07.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469615789" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_021_img-08.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>The solution checks.</entry>
+   <entry/>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id1166482443040">In <link class="target-chapter" document="m53055">Solve Equations with Decimals</link>, we solved equations that contained decimals. We’ll review this next.</para><example id="fs-id1740911"><title>Solving for a Variable with Decimals</title><exercise id="fs-id1166490854119"><problem id="fs-id1166497408110">
+<para id="fs-id1166490790049">Solve <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3.7</m:mn><m:mo>=</m:mo><m:mn>4.3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1736242">
+<title>Solution</title>
+<table id="eip-id1168468751492" class="unnumbered unstyled" summary="The top line says a minus 3.7 equals 4.3. The next line says “Use the Addition Property of Equality.” Beside that is a minus 3.7 plus a red 3.7 equals 4.3 plus a red 3.7. The next line says to add and shows a equals 8. The next line says to check and shows a minus 3.7 equals 4.3. Below that is “Substitute a equals 8” and a red 8 minus 3.7 followed by an equal sign with a question mark and 4.3. The last line says to simplify and shows 4.3 equals 4.3 with a check mark."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+ <row>
+   <entry namest="c1" nameend="c2"/>
+   <entry><media id="eip-id1168467170715" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_022_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry namest="c1" nameend="c2">Use the Addition Property of Equality.</entry>
+   <entry><media id="eip-id1168468232824" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_022_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry namest="c1" nameend="c2">Add.</entry>
+   <entry><media id="eip-id1168468412922" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_022_img-03.png"/></media></entry>
+</row>
+<row>
+   <entry>Check:</entry>
+   <entry><media id="eip-id1168468389351" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_022_img-04.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Substitute <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:math>.</entry>
+   <entry><media id="eip-id1168465145363" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_022_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468520006" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_022_img-06.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>The solution checks.</entry>
+   <entry/>
+   <entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example></section><section id="eip-182"><title>Solve Equations Using the Division and Multiplication Properties of Equality <footnote id="eip-idm988904496">Section material derived from Openstax Elementary Algebra: Solving Linear Equations and Inequalities-Solve Equations using the Division and Multiplication Properties of Equality</footnote></title><para id="fs-id1166491953626">We introduced the Multiplication and Division Properties of Equality in <link class="target-chapter" document="m53025">Solve Equations Using Integers; The Division Property of Equality</link> and <link class="target-chapter" document="m53044">Solve Equations with Fractions</link>. We modeled how these properties worked using envelopes and counters and then applied them to solving equations (See <link document="m53025" target-id="CNX_BMath_Figure_03_05_001">Solve Equations Using Integers; The Division Property of Equality</link>). We restate them again here as we prepare to use these properties again.</para><note id="fs-id1166482132232"><label>Division and Multiplication Properties of Equality</label>
+<para id="fs-id1470202"><term class="no-emphasis">Division Property of Equality</term>: For all real numbers <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> if <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>c</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1166491226917"><term class="no-emphasis">Multiplication Property of Equality</term>: For all real numbers <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> if <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</note><para id="fs-id1166497355943">When you divide or multiply both sides of an equation by the same quantity, you still have equality. </para><para id="eip-742">Let’s review how these properties of equality can be applied in order to solve equations. Remember, the goal is to ‘undo’ the operation on the variable. In the example below the variable is multiplied by <m:math><m:mn>4</m:mn><m:mo>,</m:mo></m:math> so we will divide both sides by <m:math><m:mn>4</m:mn></m:math> to ‘undo’ the multiplication.</para><example id="fs-id1391203"><title>Solving for a Variable with Division</title><exercise id="fs-id1166489098384"><problem id="fs-id1166490872658">
+<para id="fs-id2048614">Solve: <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−28</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166491249070">
+<title>Solution</title>
+<para id="fs-id1166497438504">We use the Division Property of Equality to divide both sides by <m:math><m:mn>4</m:mn><m:mo>.</m:mo></m:math>
+</para><table id="eip-id1168469858566" class="unnumbered unstyled" summary="The top line shows 4x equals negative 28. The next line says “Divide both sides by 4 to undo the multiplication” and shows 4x over a red 4 equals negative 28 over a red 4. The next step says “Simplify” and shows x equal negative seven. The next line says “Check your answer. Let x equal negative seven.” and shows 4x equals negative 28. The next line shows four times negative seven may be equal to negative twenty-eight. The last line shows that negative twenty-eight equals negative twenty-eight with a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168468329066" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_001_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Divide both sides by 4 to undo the multiplication.</entry>
+    <entry><media id="eip-id1168469640578" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_001_img-02.png"/></media></entry>
+ </row>  
+   <row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468462500" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_001_img-03.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Check your answer. Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:math>.</entry>
+   <entry/>
+ </row>
+ <row>
+   <entry><media id="eip-id1168468413048" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_001_img-04.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168468512983" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_001_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168467108975" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_001_img-06.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id1166482394409">Since this is a true statement, <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow></m:math> is a solution to <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−28</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1166484167968">In the previous example, to ‘undo’ multiplication, we divided. How do you think we ‘undo’ division?</para>
+<example id="fs-id1516712"><title>Solving for a Variable with Division</title><exercise id="fs-id1166483078621"><problem id="fs-id1270894">
+<para id="fs-id829177">Solve: <m:math><m:mrow><m:mfrac><m:mrow><m:mspace width="0.4em"/><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−42</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166484059715">
+<title>Solution</title>
+<para id="fs-id1166484082960">Here <m:math><m:mi>a</m:mi></m:math> is divided by <m:math><m:mrow><m:mn>−7</m:mn><m:mo>.</m:mo></m:mrow></m:math> We can multiply both sides by <m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math> to isolate <m:math><m:mi>a</m:mi><m:mo>.</m:mo></m:math></para><table id="eip-id1168468288515" class="unnumbered unstyled" summary="The top shows a over negative 7 equals negative 42. The next line says “Multiply both sides by negative 7” and shows a red negative 7 times a over negative 7 equals a red negative 7 times negative 42. The next step shows negative 7a over negative 7 equals 294. The next line says “Simplify” and shows a equals 294. The next line says “Check your answer. Let a equal 294.” and shows a over negative 7 equals negative 42. The next line shows 294 over negative seven may be equal to negative 42. The last line shows that negative 42 equals negative 42 with a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168469493043" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Multiply both sides by <m:math><m:mn>−7</m:mn></m:math>.</entry>
+    <entry><media id="eip-id1168469494749" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-02.png"/></media><newline/>
+    <media id="eip-id1168469803678" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-03.png"/></media></entry>
+ </row>  
+   <row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469473089" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-04.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Check your answer. Let <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>294</m:mn></m:math>.</entry>
+   <entry/>
+ </row>
+ <row>
+   <entry><media id="eip-id1168469837940" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168469546102" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-06.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+  <entry><media id="eip-id1168466076220" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_003_img-07.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1166492444040"><title>Solving for a Variable with Division</title><exercise id="fs-id1762363"><problem id="fs-id829704">
+<para id="fs-id1525670">Solve: <m:math><m:mrow><m:mo>−</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1430634">
+<title>Solution</title>
+<para id="fs-id1166484083423">Remember <m:math><m:mrow><m:mo>−</m:mo><m:mi>r</m:mi></m:mrow></m:math> is equivalent to <m:math><m:mrow><m:mn>−1</m:mn><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></para><table id="eip-id1168469604717" class="unnumbered unstyled" summary="The first line says negative r equals 2. The next line says “Rewrite negative r as negative 1 times r” and shows negative 1r equals 2. The next line says “Divide both sides by negative 1” and shows negative 1r over red negative 1 equals 2 over red negative 1. The next line says to divide and shows r equals negative 2. The next line says to check and shows negative r equals 2. It then says to substitute r equals negative 2 and shows negative red negative 2 followed by an equal sign with a question mark and then a 2. The last line says to simplify and shows that 2 equals 2, followed by a check mark."><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/><tbody>
+ <row>
+   <entry namest="c1" nameend="c2"/>
+   <entry><media id="eip-id1168468268336" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry namest="c1" nameend="c2">Rewrite <m:math><m:mo>−</m:mo><m:mi>r</m:mi></m:math> as <m:math><m:mn>−1</m:mn><m:mi>r</m:mi></m:math>.</entry>
+   <entry><media id="eip-id1168468466657" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry namest="c1" nameend="c2">Divide both sides by <m:math><m:mn>−1</m:mn></m:math>.</entry>
+ <entry><media id="eip-id1168467108096" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-03.png"/></media></entry>
+</row>
+<row>
+<entry namest="c1" nameend="c2"/>
+<entry><media id="eip-id1168468270294" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Check.</entry>
+   <entry><media id="eip-id1168467243838" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Substitute <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:math></entry>
+   <entry><media id="eip-id1168468391711" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-06.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468572983" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_015_img-07.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table><para id="fs-id1166486741570">In <link class="target-chapter" document="m53044">Solve Equations with Fractions</link>, we saw that there are two other ways to solve <m:math><m:mrow><m:mo>−</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><para id="fs-id1499512">We could multiply both sides by <m:math><m:mrow><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1525632">We could take the opposite of both sides.</para>
+</solution>
+</exercise></example><example id="fs-id1911407"><title>Solving for a Variable with Fractions</title><exercise id="fs-id1166491410482"><problem id="fs-id1166492357106">
+<para id="fs-id1491967">Solve: <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1481662">
+<title>Solution</title>
+<para id="fs-id1358253">Since the product of a number and its reciprocal is <m:math><m:mn>1</m:mn><m:mo>,</m:mo></m:math> our strategy will be to isolate <m:math><m:mi>x</m:mi></m:math> by multiplying by the reciprocal of <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para><table id="eip-id1168468646645" class="unnumbered unstyled" summary="The first line shows two-thirds x equals 18. The next line says “Multiply by the reciprocal of two-thirds” and shows a red 3 over 2 times two-thirds x equals a red 3 over 2 times 18. The next line says “Reciprocals multiply to 1” and shows 1x equals 3 over 2 times 18 over 1. The next line says “Multiply” and shows x equals 27. The next line says “Check your answer. Let x equal 27 and shows two-thirds x equals 18. The next line shows two-thirds times 27 may equal 18. The last line shows that 18 equals 18 with a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168467105901" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Multiply by the reciprocal of <m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math>.</entry>
+    <entry><media id="eip-id1168468293976" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Reciprocals multiply to one.</entry>
+   <entry><media id="eip-id1168468384024" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-03.png"/></media></entry>
+ </row> 
+   <row>
+   <entry>Multiply.</entry>
+   <entry><media id="eip-id1168467173189" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-04.png"/></media></entry>
+ </row>
+<row>
+   <entry>Check your answer. Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>27</m:mn></m:math></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168468609890" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-05.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168468389040" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-06.png"/></media></entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168467391760" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_02_007_img-07.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id1166492770982">Notice that we could have divided both sides of the equation <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow></m:math> by <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> to isolate <m:math><m:mi>x</m:mi><m:mo>.</m:mo></m:math> While this would work, multiplying by the reciprocal requires fewer steps.</para>
+</solution>
+</exercise></example></section><section id="eip-310"><title>Solve Equations with Fraction Coefficients <footnote id="eip-idm298156880">Section material derived from Openstax Prealgebra: Solving Linear Equations-Solve Equations with Fraction or Decimal Coefficients</footnote></title><para id="fs-id1572424">Let’s use the General Strategy for Solving Linear Equations introduced earlier to solve the equation <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></para>
+
+
+
+<table id="eip-id1168468637854" class="unnumbered unstyled" summary="The top line says one-eighth x plus one-half equals one-fourth. The next line says, “To isolate the x term, subtract one-half from both sides,” and shows one-eighth x plus one-half minus a red one-half equals one-fourth minus a red one-half. The next line says, “Simplify the left side,” and shows one-eighth x equals one-fourth minus one-half. The next line says, “Change the constants to equivalent fractions with the LCD,” and shows one-eighth x equals one-fourth minus two-fourths. The next line says, “Subtract,” and shows one-eighth x equals negative one-fourth. The next line says, “Multiply both sides by the reciprocal of one-eighth,” and shows a red 8 over 1 times one-eighth x equals a red 8 over 1 times negative one-fourth. The next line says, “Divide,” and shows 12x over a red 12 equals 4.8 over a red 12. The last line says, “Simplify,” and shows x equals negative 2."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168468303232" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>To isolate the <m:math><m:mi>x</m:mi></m:math> term, subtract <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> from both sides.</entry>
+   <entry><media id="eip-id1168468687553" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Simplify the left side.</entry>
+   <entry><media id="eip-id1168468503142" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-03.png"/></media></entry>
+</row>
+<row>
+   <entry>Change the constants to equivalent fractions with the LCD.</entry>
+   <entry><media id="eip-id1168468299044" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-04.png"/></media></entry>
+</row>
+<row>
+  <entry>Subtract.</entry>
+ <entry><media id="eip-id1168468241289" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Multiply both sides by the reciprocal of <m:math><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:math>.</entry>
+   <entry><media id="eip-id1168468223424" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-06.png"/></media></entry>
+</row>
+
+<row>
+  <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468762413" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_024_img-08.png"/></media></entry>
+</row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id1166498435623">This method worked fine, but many students don’t feel very confident when they see all those fractions. So we are going to show an alternate method to solve equations with fractions. This alternate method eliminates the fractions.</para>
+<para id="fs-id1807706">We will apply the <term class="no-emphasis">Multiplication Property of Equality</term> and multiply both sides of an equation by the least common denominator of <emphasis effect="italics">all</emphasis> the fractions in the equation. The result of this operation will be a new equation, equivalent to the first, but with no fractions. This process is called <emphasis effect="italics">clearing the equation of fractions</emphasis>. Let’s solve the same equation again, but this time use the method that clears the fractions.</para>
+<example id="fs-id1360468"><title>Solving for a Variable with Fractions</title><exercise id="fs-id1166497435624"><problem id="fs-id1166491427594">
+<para id="fs-id1166484085715">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1166498114957">
+<title>Solution</title>
+<table id="eip-id1168467351085" class="unnumbered unstyled" summary="The top line says, “Find the least common denominator of all the fractions in the equation,” and shows one-eighth x plus one-half equals one-fourth and LCD equals 8. The next line says, “Multiply both sides of the equation by that LCD, 8. This clears the fractions,” and shows a red 8 times each side of the original equation. The next line says, “Use the Distributive Property. Simplify - and notice, no more fractions!” Beside that is 8 times one-eighth x plus 8 times one-half equals 8 and one-fourth, then x plus 4 equals 2. The next line says, “Solve using the General Strategy for Solving Linear Equations,” and shows x plus 4 minus a red 4 equals 2 minus a red 4. The last step says, “Check. Let x equal negative 2.” Beside that is the original equation followed by one-eighth times a red negative 2 plus one-half, equal sign with a question mark, one-fourth. Below that is negative 2 over 8 plus one-half, equal sign with a question mark, one-fourth. Below that is negative 2 over 8 plus 4 over 8, equal sign with a question mark, one-fourth. Below that is 2 over 8, equal sign with a question mark, one-fourth. The last line says one-fourth equals one-fourth."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry>Find the least common denominator of <emphasis effect="italics">all</emphasis> the fractions in the equation.</entry>
+<entry><media id="eip-id1168468607429" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Multiply both sides of the equation by that LCD, 8. This clears the fractions.</entry>
+<entry><media id="eip-id1168468515555" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Use the Distributive Property.</entry>
+<entry><media id="eip-id1168468556552" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify — and notice, no more fractions!</entry>
+<entry><media id="eip-id1168468649581" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Solve using the General Strategy for Solving Linear Equations.</entry>
+<entry><media id="eip-id1168468283150" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168468444919" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-06.png"/></media></entry>
+</row>
+<row>
+<entry align="left">Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:math><newline/><media id="eip-id1168468473387" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_025_img-07.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id1166491051648">Notice in <link target-id="fs-id1360468"/> that once we cleared the equation of fractions, the equation was like those we solved earlier in this chapter. We changed the problem to one we already knew how to solve! We then used the General Strategy for Solving Linear Equations.</para>
+<note id="fs-id1736703" class="howto"><label>Solve Equations with Fraction Coefficients by Clearing the Fractions</label>
+<list id="eip-id1168466140919" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find the least common denominator of <emphasis effect="italics">all</emphasis> the fractions in the equation.</item>
+<item>Multiply both sides of the equation by that LCD. This clears the fractions.</item>
+<item>Solve using the General Strategy for Solving Linear Equations.</item>
+</list></note><example id="fs-id1166488294380"><title>Solving for a Variable with Fractions</title><exercise id="fs-id1547072">
+<problem id="fs-id1166492527250">
+<para id="fs-id1480388">Solve: <m:math><m:mrow><m:mn>7</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1166479044172">
+<title>Solution</title>
+<para id="fs-id1166491296765">We want to clear the fractions by multiplying both sides of the equation by the LCD of all the fractions in the equation.<newline/>
+
+<table id="eip-id1168468606496" class="unnumbered unstyled" summary="The top line says “The LCD is 12” and shows the equation 7 equals one-half x plus three-fourths x minus two-thirds x. The next line says, “Multiply both sides of the equation by 12,” and shows a red 12 times each side of the original equation. The next line says, “Distribute,” and shows 12 times 7 equals 12 times one-half x plus 12 times three-fourths x minus 12 times two-thirds x. The next line says, “Simplify - and notice, no more fractions!” Beside that is 84 equals 6x plus 9x minus 8x. The next line says, “Combine like terms,” and shows 84 equals 7x. The next line says, “Divide by 7,” and shows 84 over a red 7 equals 7x over a red 7. The next line says, “Simplify,” and shows 12 equals x. The last step says, “Check: Let x equal 12.” Beside that is the original equation. Below that is 7 followed by an equal sign with a question mark, then one-half times a red 12 plus three-fourths times a red 12 minus two-thirds times a red 12. Bellow that is 7 followed by an equal sign with a question mark, then 6 plus 9 minus 8. The last line says 7 equals 7, followed by a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry>Find the least common denominator of <emphasis effect="italics">all</emphasis> the fractions in the equation.</entry>
+<entry><media id="eip-id1168468769008" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Multiply both sides of the equation by 12.</entry>
+<entry><media id="eip-id1168468769024" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168468242412" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify — and notice, no more fractions!</entry>
+<entry><media id="eip-id1168468715783" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Combine like terms.</entry>
+<entry><media id="eip-id1168467289944" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Divide by 7.</entry>
+<entry><media id="eip-id1168467289961" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467374437" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>.</m:mo></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168467372853" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_026_img-08.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></para></solution>
+</exercise>
+</example><para id="fs-id1735540">In the next example, we’ll have variables and fractions on both sides of the equation.</para>
+<example id="fs-id1166497457947"><title>Solving for a Variable with Fractions</title><exercise id="fs-id1377039"><problem id="fs-id1166482442812">
+<para id="fs-id1166490904704">Solve: <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id2047530">
+<title>Solution</title>
+
+
+<table id="eip-id1168468770578" class="unnumbered unstyled" summary="The top line says, “Find the LCD of all fractions in the equation,” and shows x plus one-third equals one-sixth x minus one-half. The next line says, “The LCD is 6. Multiply both sides by the LCD,” and shows a red 6 times each side of the original equation. The next step says, “Distribute,” and shows 6x plus 6 times one-third equals 6 times one-sixth x minus 6 times one-half. The next step says, “Simplify - no more fractions!” and shows 6x plus 2 equals x minus 3. The next line says, “Subtract x from both sides,” and shows 6x minus a red x plus 2 equals x minus a red x minus 3. The next line says, “Simplify,” and shows 5x plus 2 equals negative 3. The next line says, “Subtract 2 from both sides,” and shows 5x plus 2 minus a red 2 equals negative 3 minus a red 2. The next line says, “Simplify,” and shows 5x equals negative 5. The next line says, “Divide by 5,” and shows 5x over a red 5 equals negative 5 over a red 5. The next line says, “Simplify,” and shows x equals negative 1. The next line says, “Check,” and shows the original equation. The following line says, “Substitute x equals negative 1.” Beside that is a red negative 1 plus one-third followed by an equal sign with a question mark, then one-sixth times a red negative 1 minus one-half. Below that is negative 1 plus one-third followed by an equal sign with a question mark, then negative one-sixth minus one-half. Below that is negative 3 over 3 plus 1 over 3 followed by an equal sign with a question mark, then negative 1 over 6 minus 3 over 6. Below that is negative 2 over 3 followed by an equal sign with a question mark, then negative 4 over 6. The last line says negative 2 over 3 equals negative 2 over 3."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry>Find the LCD of all the fractions in the equation.</entry>
+ <entry><media id="eip-id1168468529936" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Multiply both sides by the LCD.</entry>
+<entry><media id="eip-id1168468282603" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168468282620" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify — no more fractions!</entry>
+<entry><media id="eip-id1168467223401" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Subtract <m:math><m:mi>x</m:mi></m:math> from both sides.</entry>
+<entry><media id="eip-id1168467314426" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467263801" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Subtract 2 from both sides.</entry>
+<entry><media id="eip-id1168467263817" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168468736475" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-08.png"/></media></entry>
+</row>
+<row>
+<entry>Divide by 5.</entry>
+<entry><media id="eip-id1168468368873" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-09.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168466049401" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-10.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Substitute <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168467359042" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_027_img-11.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id1166490839494">In <link target-id="fs-id1341867"/>, we’ll start by using the Distributive Property. This step will clear the fractions right away!</para><example id="fs-id1341867"><title>Solving for a Variable with Fractions</title><exercise id="fs-id1166493721959"><problem id="fs-id1732124">
+<para id="fs-id1166488300088">Solve: <m:math><m:mrow><m:mn>1</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1166492761836">
+<title>Solution</title>
+
+
+<table id="eip-id1168469839370" class="unnumbered unstyled" summary="The top line says 1 equals one-half times parentheses 4x plus 2. The next line says, “Distribute,” and shows 1 equals one-half times 4x plus one-half times 2. The next line says, “Simplify. Now there are no fractions to clear!” Beside that is 1 equals 2x plus 1. The next line says, “Subtract 1 from both sides,” and shows 1 minus a red 1 equals 2x plus 1 minus a red 1. The next line says, “Simplify,” and shows 0 equals 2x. The next line says, “Divide by 2,” and shows 0 over a red 2 equals 2x over a red 2. The next line says, “Simplify,” and shows 0 equals x. The last step says, “Check: Let x equal 0,” and shows the original equation. Below that is 1 followed by an equal sign with a question mark, then one-half times parentheses 4 times a red 0 plus 2. Below that is 1 followed by an equal sign with a question mark, then one-half times 2. Below that is a 1 followed by an equal sign with a question mark, then 2 over 2. The last line says 1 equals 1."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+<entry><media id="eip-id1168466318642" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168466318657" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify. Now there are no fractions to clear!</entry>
+<entry><media id="eip-id1168469660114" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Subtract 1 from both sides.</entry>
+<entry><media id="eip-id1168469630509" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168466333364" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Divide by 2.</entry>
+<entry><media id="eip-id1168466121763" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168466690860" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168466216328" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_028_img-08.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id1512200">Many times, there will still be fractions, even after distributing.</para>
+<example id="fs-id1487472"><title>Solving for a Variable with Fractions</title><exercise id="fs-id889300"><problem id="fs-id1166494771210">
+<para id="fs-id1166498435655">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1425420">
+<title>Solution</title>
+<table id="eip-id1168468274761" class="unnumbered unstyled" summary="The top line says one-half times parentheses y minus 5 equals one-fourth times parentheses y minus 1. The next line says, “Distribute,” and shows one-half times y minus one-half times 5 equals one-fourth times y minus one-fourth times 1. The next line says, “Simplify,” and shows one-half y minus 5 over 2 equals one-fourth y minus one-fourth. The next step says, “Multiply by the LCD, 4,” and shows a red 4 times each side. The next step says, “Distribute,” and shows 4 times one-half y minus 4 times 5 over 2 equals 4 times one-fourth y minus 4 times one-fourth. The next line says, “Simplify,” and shows 2y minus 10 equals y minus 1. The next line says, “Collect the y terms to the left,” and shows 2y minus 10 minus a red y equals y minus 1 minus a red y. The next line says, “Simplify,” and shows y minus 10 equals negative 1. The next line says, “Collect the constants to the right,” and shows y minus 10 plus a red 10 equals negative 1 plus a red 10. The next line says, “Simplify,” and shows y equals 9. The last step says, “Check. Substitute: 9 for y,” and shows the original equation. Below that is one-half times parentheses red 9 minus 5, equal sign with a question mark, one-fourth times parentheses red 9 minus 1. Below that is one-half times 4, equal sign with a question mark, one-fourth times 8, then 2 equals 2 followed by a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+ <entry><media id="eip-id1168467438640" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168468710108" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168468710125" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Multiply by the LCD, 4.</entry>
+<entry><media id="eip-id1168468710142" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168467196225" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467196242" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Collect the <m:math><m:mi>y</m:mi></m:math> terms to the left.</entry>
+<entry><media id="eip-id1168467268019" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467268036" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-08.png"/></media></entry>
+</row>
+<row>
+<entry>Collect the constants to the right.</entry>
+<entry><media id="eip-id1168468535485" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-09.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168468535502" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-10.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Substitute <m:math><m:mn>9</m:mn></m:math> for <m:math><m:mi>y</m:mi><m:mo>.</m:mo></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168467129797" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_029_img-11.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example></section><section id="eip-300"><title>Solve Equations with Decimal Coefficients <footnote id="eip-idm438070000">Section material derived from Openstax Prealgebra: Solving Linear Equations-Solve Equations with Fraction or Decimal Coefficients</footnote></title><para id="fs-id1166497416928">Some equations have decimals in them. This kind of equation will occur when we solve problems dealing with money and percent. But decimals are really another way to represent fractions. For example, <m:math><m:mrow><m:mn>0.3</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mn>0.17</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>17</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:math> So, when we have an equation with decimals, we can use the same process we used to clear fractions—multiply both sides of the equation by the <term class="no-emphasis">least common denominator</term>.</para>
+<example id="fs-id1869632"><title>Solving for a Varaible with Decimals</title><exercise id="fs-id1166490910986">
+<problem id="fs-id757964">
+<para id="fs-id1166484059532">Solve: <m:math><m:mrow><m:mn>0.8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1166483694392">
+<title>Solution</title>
+<para id="fs-id1166490916414">The only decimal in the equation is <m:math><m:mrow><m:mn>0.8</m:mn></m:mrow><m:mo>.</m:mo></m:math> Since <m:math><m:mrow><m:mn>0.8</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>,</m:mo></m:math> the LCD is <m:math><m:mrow><m:mn>10</m:mn></m:mrow><m:mo>.</m:mo></m:math> We can multiply both sides by <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> to clear the decimal.</para><table id="eip-id1168467123212" class="unnumbered unstyled" summary="The first line says 0.8x minus 5 equals 7. The next line says, “Multiply both sides by the LCD,” and shows both sides being multiplied by a red 10. The next line says, “Distribute,” and shows 10 times 0.8x minus 10 times 5 equals 10 times 7. The next line say, “Multiply, and notice, no more decimals!” Beside that is 8x minus 50 equals 70. The next line says, “Add 50 to get all constants to the right,” and shows 8x minus 50 plus a red 50 equals 70 plus a red 50. The next line says, “Simplify,” and shows 8x equals 120. The next line says, “Divide both sides by 8,” and shows 8x over a red 8 equals 120 over a red 8. The next line says, “Simplify,” and shows x equals 15. The last step says, “Check. Let x equal 15.” Beside that is 0.8 times a red 15 minus 5 equals 7, then 12 minus 5 equals 7, then 7 equals 7."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+ <entry align="right"><media id="eip-id1168469717019" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Multiply both sides by the LCD.</entry>
+<entry align="right"><media id="eip-id1168466176164" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry align="right"><media id="eip-id1168466144871" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Multiply, and notice, no more decimals!</entry>
+<entry align="right"><media id="eip-id1168469856396" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Add 50 to get all constants to the right.</entry>
+<entry align="right"><media id="eip-id1168466113856" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry align="right"><media id="eip-id1168469866706" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Divide both sides by 8.</entry>
+<entry align="right"><media id="eip-id1168466076010" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry align="right"><media id="eip-id1168469479703" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-08.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo>.</m:mo></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168469484813" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_030_img-09.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1166497355660"><title>Solving for a Variable with Decimals</title><exercise id="fs-id2050888">
+<problem id="fs-id1455775">
+<para id="fs-id1547593">Solve: <m:math><m:mrow><m:mn>0.06</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0.02</m:mn><m:mo>=</m:mo><m:mn>0.25</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1.5</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1166493762755">
+<title>Solution</title>
+<para id="fs-id1451821">Look at the decimals and think of the equivalent fractions.</para>
+<para id="fs-id1734698"><m:math><m:mrow><m:mn>0.06</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>6</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="1em"/><m:mn>0.02</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="1em"/><m:mn>0.25</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="1em"/><m:mn>1.5</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="fs-id1166497193424">Notice, the LCD is <m:math><m:mrow><m:mn>100</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+<para id="fs-id1166492788308">By multiplying by the LCD we will clear the decimals.<newline/>
+
+
+<table id="eip-id1168466076129" class="unnumbered unstyled" summary="The top line says 0.06x plus 0.02 equals 0.25x minus 1.5. The next step says, “Multiply both sides by 100,” and shows a red 100 times both sides. The next step says, “Distribute,” and shows 100 times 0.06x plus 100 times 0.02 equals 100 times 0.25x minus 100 times 1.5. The next line says, “Multiply, and now we have no more decimals,” and shows 6x plus 2 equals 25x minus 150. The next line says, “Collect the variables to the right,” and shows 6x minus a red 6x plus 2 equals 25x minus a red 6x minus 150. The next line says, “Simplify,” and shows 2 equals 19x minus 150. The next line says, “Collect the constants to the left,” and shows 2 plus a red 150 equals 19x minus 150 plus a red 150. The next line says, “Simplify,” and shows 152 equals 19x. The next line says, “Divide by 19,” and shows 152 over a red 19 equals 19x over a red 19. The next line says, “Simplify,” and shows 8 equals x. The last line says, “Check: Let x equal 8,” and shows 0.06 times a red 8 plus 0.02 equals 0.25 times a red 8 minus 1.5. Below that is 0.48 plus 0.02 equals 2.00 minus 1.5. The last line says 0.50 equals 0.50."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+<entry><media id="eip-id1168468585245" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Multiply both sides by 100.</entry>
+<entry><media id="eip-id1168467318224" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168467318241" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>Multiply, and now no more decimals.</entry>
+<entry><media id="eip-id1168467117747" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Collect the variables to the right.</entry>
+<entry><media id="eip-id1168467117764" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467164551" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Collect the constants to the left.</entry>
+<entry><media id="eip-id1168467164568" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467164584" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-08.png"/></media></entry>
+</row>
+<row>
+<entry>Divide by 19.</entry>
+<entry><media id="eip-id1168468585228" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-09.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168467662562" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-10.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:math>
+</entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168467298894" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_031_img-11.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></para></solution>
+</exercise>
+</example><para id="fs-id1519395">The next example uses an equation that is typical of the ones we will see in the money applications in the next chapter. Notice that we will distribute the decimal first before we clear all decimals in the equation.</para>
+<example id="fs-id1432397"><title>Solving for a Variable with Decimals</title><exercise id="fs-id1166491409677">
+<problem id="fs-id1377535">
+<para id="fs-id1242257">Solve: <m:math><m:mrow><m:mn>0.25</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.85</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1435379">
+<title>Solution</title>
+<table id="eip-id1168466031358" class="unnumbered unstyled" summary="The top line says 0.25x plus 0.05 times parentheses x plus 3 equals 2.85. The next line says, “Distribute first,” and shows 0.25x plus 0.05x plus 0.15 equals 2.85. The next line says, “Combine like terms,” and shows 0.30x plus 0.15 equals 2.85. The next line says, “To clear decimals, multiply by 100,” and shows a red 100 times parentheses 0.30x plus 0.15 equals a red 100 times 2.85. The next line says, “Distribute,” and shows 30x plus 15 equals 285. The next line says, “Subtract 15 from both sides,” and shows 30x plus 15 minus a red 15 equals 285 minus a red 15. The next line says, “Simplify,” and shows 30x equals 270. The next line says, “Divide by 30,” and shows 30x over a red 30 equals 270 over a red 30. The next line says “Simplify” and shows x equals 9. The next line says, “Check,” and shows the original equation. Below that is “Let x equal 9” and 0.25 times a red 9 plus 0.05 times parentheses red 9 plus 3, equal sign with a question mark, 2.85. Below that is 2.25 plus 0.05 times 12, equal sign with a question mark, 2.85. Below that is 2.25 plus 0.60 followed by an equal sign with a question mark, then 2.85. The last line shows 2.85 equals 2.85."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+ <entry/>
+ <entry><media id="eip-id1168469693745" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-01.png"/></media></entry>
+ </row>
+<row>
+<entry>Distribute first.</entry>
+<entry><media id="eip-id1168469693762" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-02.png"/></media></entry>
+</row>
+<row>
+<entry>Combine like terms.</entry>
+<entry><media id="eip-id1168469744084" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-03.png"/></media></entry>
+</row>
+<row>
+<entry>To clear decimals, multiply by 100.</entry>
+<entry><media id="eip-id1168469744102" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Distribute.</entry>
+<entry><media id="eip-id1168469744119" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-05.png"/></media></entry>
+</row>
+<row>
+<entry>Subtract 15 from both sides.</entry>
+<entry><media id="eip-id1168466012769" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-06.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168466012786" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-07.png"/></media></entry>
+</row>
+<row>
+<entry>Divide by 30.</entry>
+<entry><media id="eip-id1168466636977" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-08.png"/></media></entry>
+</row>
+<row>
+<entry>Simplify.</entry>
+<entry><media id="eip-id1168466636994" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-09.png"/></media></entry>
+</row>
+<row>
+<entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry><media id="eip-id1168469803943" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_04_032_img-10.png"/></media></entry>
+<entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution></exercise></example><note id="fs-id1524849" class="media-2"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id1166491053390">
+<item><link url="http://www.openstax.org/l/24FracVariTerm">Solve an Equation with Fractions with Variable Terms on Both Sides</link></item>
+<item><link url="http://www.openstax.org/l/24Ex1VariTerms">Ex 1: Solve an Equation with Fractions with Variable Terms on Both Sides</link></item>
+<item><link url="http://www.openstax.org/l/24Ex2VariTerms">Ex 2: Solve an Equation with Fractions with Variable Terms on Both Sides</link></item>
+<item><link url="http://www.openstax.org/l/24EquawithDec">Solving Multiple Step Equations Involving Decimals</link></item>
+<item><link url="http://www.openstax.org/l/24LinEquaDec">Ex: Solve a Linear Equation With Decimals and Variables on Both Sides</link></item>
+<item><link url="http://www.openstax.org/l/24DecParens">Ex: Solve an Equation with Decimals and Parentheses</link></item>
+</list>
+</note></section><section id="eip-404"><title>Solve Equations Using a General Strategy <footnote id="eip-idm656489744">Section material derived from Openstax Prealgebra: Solving Linear Equations-Solve Equations with Variables and Constants on Both Sides</footnote></title><para id="fs-id1504713">Each of the first few sections of this chapter has dealt with solving one specific form of a <term class="no-emphasis">linear equation</term>. It’s time now to lay out an overall strategy that can be used to solve <emphasis effect="italics">any</emphasis> linear equation. We call this the <emphasis effect="italics">general strategy</emphasis>. Some equations won’t require all the steps to solve, but many will. Simplifying each side of the equation as much as possible first makes the rest of the steps easier.</para>
+<note id="fs-id1445020" class="howto"><label>Use a General Strategy for Solving Linear Equations</label>
+<list id="eip-id1168467248588" list-type="enumerated" number-style="arabic" class="stepwise"><item>Simplify each side of the equation as much as possible. Use the Distributive Property to remove any parentheses. Combine like terms.</item>
+<item> Collect all the variable terms to one side of the equation. Use the Addition or Subtraction Property of Equality.</item>
+<item>Collect all the constant terms to the other side of the equation. Use the Addition or Subtraction Property of Equality.</item>
+<item>Make the coefficient of the variable term to equal to <m:math><m:mn>1</m:mn><m:mo>.</m:mo></m:math> Use the Multiplication or Division Property of Equality. State the solution to the equation.</item>
+<item>Check the solution. Substitute the solution into the original equation to make sure the result is a true statement.</item>
+</list></note><example id="fs-id1166492477734"><title>Solving Equations</title><exercise id="fs-id1733029"><problem id="fs-id1510057">
+<para id="fs-id1392091">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1166490903989">
+<title>Solution</title>
+<table id="eip-id1168468387403" class="unnumbered unstyled" summary="Simplify each side of the equation as much as possible. Use the Distributive Property.” Beside that is 3 times parentheses x plus 2 equals 18. The next line says, “Collect all variable terms on one side of the equation - all xs are already on the left side.” Beside that is 3x plus 6 equals 18. The next line says, “Collect constant terms on the other side of the equation. Subtract 6 from each side.” Beside that is 3x plus 6 minus a red 6 equals 18 minus a red 6. The next line says, “Simplify,” and shows 3x equals 12. The next line says, “Make the coefficient of the variable term to equal 1. Divide each side by 3.” Beside that is 3x over a red 3 equals 12 over a red 3. The next line says, “Simplify,” and shows x equals 4. The last step says, “Check the solution. Let x equal 4.” Below that is 3 times parentheses x plus 2 equals 18. Below that is 3 times parentheses red 4 plus 2, equal sign with a question mark, 18. Below that is 3 times 6, equal sign with a question mark, 18. The last line shows 18 equals 18 with a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1187288" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Simplify each side of the equation as much as possible.<newline/>
+   Use the Distributive Property.</entry>
+   <entry><media id="eip-id1168468533951" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Collect all variable terms on one side of the equation—all <m:math><m:mi>x</m:mi></m:math>s are already on the left side.</entry>
+   <entry/>
+ </row>  
+<row>
+   <entry>Collect constant terms on the other side of the equation.<newline/>
+   Subtract 6 from each side</entry>
+   <entry><media id="eip-id1168467248487" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-03.png"/></media></entry>
+</row>
+<row>
+  <entry>Simplify.</entry>
+  <entry><media id="eip-id1168468721440" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-04.png"/></media></entry>
+</row>
+<row>
+<entry>Make the coefficient of the variable term equal to 1. Divide each side by 3.</entry>
+  <entry><media id="eip-id1168468646687" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468646704" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+  <entry align="left"><media id="eip-id1168465131755" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_032_img-07.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1166490920838"><title>Solving Equations</title><exercise id="fs-id1166497443723"><problem id="fs-id1258354">
+<para id="fs-id1285644">Solve: <m:math><m:mrow><m:mo>−</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1479905">
+<title>Solution</title>
+<table id="eip-id1168469659755" class="unnumbered unstyled" summary="Simplify each side of the equation as much as possible by distributing. The only x term is on the left side, so all variable terms are on the left side of the equation.” Beside that is negative x minus 5 equals 7. The next line says, “Add 5 to both sides to get all constant terms on the right side of the equation.” Beside that is negative x minus 5 plus a red 5 equals 7 plus a red 5. The next line says, “Simplify,” and shows negative x equals 12. The next line says, “Make the coefficient of the variable term equal to 1 by multiplying both sides by negative 1.” Beside that is a red negative 1 times negative x equals a red negative 1 times 12. The next line says, “Simplify,” and shows x equals negative 12. The last step says, “Check: Let x equal negative 12.” Beside that is negative parentheses x plus 5 equals 7, then negative parentheses red negative 12 plus 5 equals 7, then negative negative 7 equals 7, then 7 equals 7."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168466183184" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Simplify each side of the equation as much as possible by distributing.<newline/>
+   The only <m:math><m:mi>x</m:mi></m:math> term is on the left side, so all variable terms are on the left side of the equation.</entry>
+   <entry><media id="eip-id1168466110663" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Add 5 to both sides to get all constant terms on the right side of the equation.</entry>
+   <entry><media id="eip-id1168469735440" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-03.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168466091761" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-04.png"/></media></entry>
+</row>
+<row>
+  <entry>Make the coefficient of the variable term equal to 1 by multiplying both sides by -1.</entry>
+ <entry><media id="eip-id1168466322456" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469798411" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−12</m:mn></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+  <entry align="left">
+<media id="eip-id1168048774145" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-07.png"/></media><newline/><media id="eip-id1168048774155" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-08.png"/></media><newline/><media id="eip-id1168048774165" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-09.png"/></media><newline/><media id="eip-id1168048774174" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_033_img-10.png"/></media><newline/></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1330718"><title>Solving Equations</title><exercise id="fs-id1506315"><problem id="fs-id1771048">
+<para id="fs-id1166484125384">Solve: <m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1497697">
+<title>Solution</title>
+<table id="eip-id1168469612809" class="unnumbered unstyled" summary="The top line shows 4 times parentheses x minus 2 plus 5 equals negative 3. The next line says, “Simplify each side of the equation as much as possible. Distribute.” Beside that is 4x minus 8 plus 5 equals negative 3. The next line says, “Combine like terms,” and shows 4x minus 3 equals negative 3. The next line says, “The only x is on the left side, so all variable terms are on one side of the equation. Add 3 to both sides to get all constant terms on the other side of the equation.” Beside that is 4x minus 3 plus a red 3 equals negative 3 plus a red 3. The next line says, “Simplify,” and shows 4x equals 0. The next line says, “Make the coefficient of the variable term to equal to 1 by dividing both sides by 4.” Beside that is 4x over a red 4 equals 0 over a red 4. The next line says, “Simplify,” and shows x equals 0. The last step says, “Check: Let x equal 0.” Beside that is 4 times parentheses x minus 2 plus 5 equals negative 3. The next line says 4 times parentheses red 0 minus 2 plus 5 equals negative 3. Below that is 4 times negative 2 plus 5 equals negative 3, then negative 8 plus 5 equals negative 3, then negative 3 equals negative 3."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168469614509" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Simplify each side of the equation as much as possible.<newline/>
+    Distribute.</entry>
+   <entry><media id="eip-id1168466081811" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Combine like terms</entry>
+   <entry><media id="eip-id1168466174407" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-03.png"/></media></entry>
+ </row>
+ <row>
+   <entry>The only <m:math><m:mi>x</m:mi></m:math> is on the left side, so all variable terms are on one side of the equation.</entry>
+   <entry/>
+ </row>  
+<row>
+   <entry>Add 3 to both sides to get all constant terms on the other side of the equation.</entry>
+   <entry><media id="eip-id1168466034680" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469615730" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-05.png"/></media></entry>
+</row>
+<row>
+  <entry>Make the coefficient of the variable term equal to 1 by dividing both sides by 4.</entry>
+  <entry><media id="eip-id1168465988158" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469839767" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-07.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+   <entry align="left"><media id="eip-id1168469773952" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_034_img-08.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1400251"><title>Solving Equations</title><exercise id="fs-id1166478995541"><problem id="fs-id1502246">
+<para id="fs-id1166490779326">Solve: <m:math><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1736230">
+<title>Solution</title>
+<para id="fs-id1946528">Be careful when distributing the negative.</para><table id="eip-id1168467174932" class="unnumbered unstyled" summary="The top line says 8 minus 2 parentheses 3y plus 5 equals 0. The next line says, “Simplify - use the Distributive Property,” and shows 8 minus 6y minus 10 equals 0. The next line says, “Combine like terms,” and shows negative 6y minus 2 equals 0. The next line says, “Add 2 to both sides to collect constants on the right,” and shows negative 6y minus 2 plus a red 2 equals 0 plus a red 2. The next line says, “Simplify,” and shows negative 6y equals 2. The next line says, “Divide both sides by negative 6,” and shows negative 6y over a red negative 6 equals 2 over a red negative 6. The following line says, “Simplify,” and shows y equals negative one-third. The last step says, “Check: let y equal negative one-third.” Beside that is the original equation. Below that is 8 minus 2 parentheses 3 times a red negative one-third plus 5 equals 0. Below is 8 minus 2 parentheses negative 1 plus 5 equals 0, then 8 minus 2 times 4 equals 0, then 8 minus 8 equals 0, and then 0 equals 0."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168467359014" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Simplify—use the Distributive Property.</entry>
+   <entry><media id="eip-id1168468376858" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Combine like terms.</entry>
+   <entry><media id="eip-id1168468567044" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-03.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Add 2 to both sides to collect constants on the right.</entry>
+   <entry><media id="eip-id1168468567060" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-04.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168467473445" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Divide both sides by −6.</entry>
+   <entry><media id="eip-id1168467148757" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168467148774" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-07.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Let <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168467174781" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_035_img-08.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1166492695870"><title>Solving Equations</title><exercise id="fs-id1512345"><problem id="fs-id1166498434552">
+<para id="fs-id1500805">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1218520">
+<title>Solution</title>
+<table id="eip-id1168468704060" class="unnumbered unstyled" summary="The top line says 3 parentheses x minus 2 minus 5 equals 4 parentheses 2x plus 1 plus 5. The next line says, “Distribute,” and shows 3x minus 6 minus 5 equals 8x plus 4 plus 5. The next line says, “Combine like terms,” and shows 3x minus 11 equals 8x plus 9. The next line says “Subtract 3x to get all the variables on the right since 8 is greater than 3,” and shows 3x minus a red 3x minus 11 equals 8x minus a red 3x plus 9. The next line says, “Simplify,” and shows negative 11 equals 5x plus 9. The next line says, “Subtract 9 to get the constants on the left,” and shows negative 11 minus a red 9 equals 5x plus 9 minus a red 9. The net line says, “Simplify,” and shows negative 20 equals 5x. The next line says, “Divide by 5,” and shows negative 20 over a red 5 equals 5x over a red 5. The next line says, “Simplify,” and shows negative 4 equals x. The last step says, “Check. Substitute x equals negative 4.” Beside this is the original equation, followed by 3 times parentheses red negative 4 minus 2 minus 5 equals 4 times parentheses 2 times negative 4 plus 1 plus 5. Below that is 3 times negative 6 minus 5 equals 4 times parentheses negative 8 plus 1 plus 5. Below that is negative 18 minus 5 equals 4 times negative 7 plus 5. Below that is negative 23 equals negative 28 plus 5. The last line shows negative 23 equals negative 23."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168466230669" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Distribute.</entry>
+   <entry><media id="eip-id1168469522784" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Combine like terms.</entry>
+   <entry><media id="eip-id1168465986112" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-03.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Subtract <m:math><m:mn>3</m:mn><m:mi>x</m:mi></m:math> to get all the variables on the right since <m:math><m:mn>8</m:mn><m:mo>&gt;</m:mo><m:mn>3</m:mn></m:math>.</entry>
+   <entry><media id="eip-id1168466281124" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-04.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Simplify.</entry>
+  <entry><media id="eip-id1168469801111" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Subtract 9 to get the constants on the left.</entry>
+   <entry><media id="eip-id1168466036190" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168466215053" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-07.png"/></media></entry>
+</row>
+<row>
+   <entry>Divide by 5.</entry>
+   <entry><media id="eip-id1168466267864" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-08.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168466026625" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-09.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Substitute: <m:math><m:mn>−4</m:mn><m:mo>=</m:mo><m:mi>x</m:mi></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168466463596" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_036_img-10.png"/></media></entry>
+   <entry/>
+</row>
+
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1166497206506"><title>Solving Equations</title><exercise id="fs-id1166492772048"><problem id="fs-id1166492690992">
+<para id="fs-id1482586">Solve: <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1495612">
+<title>Solution</title>
+<table id="eip-id1168469851853" class="unnumbered unstyled" summary="The top line says one-half times parentheses 6x minus 2 equals 5 minus x. The next line says, “Distribute,” and shows 3x minus 1 equals 5 minus x. The next line says, “Add x to get all the variables on the left,” and shows 3x minus 1 plus a red x equals 5 minus x plus a red x. The next line says, “Simplify,” and shows 4x minus 1 equals 5. The next line says, “Add 1 to get constants on the right,” and shows 4x minus 1 plus a red 1 equals 5 plus a red 1. The next line says, “Simplify,” and shows 4x equals 6. The next line says, “Divide by 4,” and shows 4x over a red 4 equals 6 over a red 4. The next line says, “Simplify,” and shows x equals three-halves. The last step says, “Check: Let x equal three-halves.” Beside that is the original equation followed by one-half times parentheses 6 times a red three-halves minus 2 equals 5 minus a red three-halves. Below that is one-half times parentheses 9 minus 2 equals ten-halves minus three-halves, then one-half times 7 equals 7 halves, then 7 halves equals 7 halves."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168466324380" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Distribute.</entry>
+   <entry><media id="eip-id1168465998394" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Add <m:math><m:mi>x</m:mi></m:math> to get all the variables on the left.</entry>
+   <entry><media id="eip-id1168466204103" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-03.png"/></media></entry>
+ </row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168466661049" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Add 1 to get constants on the right.</entry>
+   <entry><media id="eip-id1168469456166" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469577022" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Divide by 4.</entry>
+   <entry><media id="eip-id1168466121572" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-07.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168466166059" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-08.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168466426974" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_037_img-09.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="fs-id1166497359494">In many applications, we will have to solve equations with decimals. The same general strategy will work for these equations.</para>
+<example id="fs-id1166491411241"><title>Solving Equations</title><exercise id="fs-id1433163"><problem id="fs-id1166491403013">
+<para id="fs-id1486914">Solve: <m:math><m:mrow><m:mn>0.24</m:mn><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>.</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1449046">
+<title>Solution</title>
+<table id="eip-id1168468569426" class="unnumbered unstyled" summary="The top line says 0.24 times parentheses 100x plus 5 equals 0.4 times parentheses 30x plus 15. The next line says, “Distribute,” and shows 24x plus 1.2 equals 12x plus 6. The next line says, “Subtract 12x to get the xs to the left,” and shows 24x plus 1.2 minus a red 12x equals 12x plus 6 minus a red 12x. The next line says, “Simplify,” and shows 12x plus 1.2 equals 6. The next line says, “Subtract 1.2 to get the constants to the right,” and shows 12x plus 1.2 minus a red 1.2 equals 6 minus a red 1.2. The next line says, “Simplify,” and shows 12x equals 4.8. The next line says, “Divide,” and shows 12x over a red 12 equals 4.8 over a red 12. The next line says, “Simplify,” and shows x equals 0.4. The next line says, “Check,” and shows the original equation. Below that, it says, “Let x equal 0.4,” and shows 0.24 times parentheses 100 times a red 0.4 plus 5, equal sign with a question mark, 0.4 times parentheses 30 times a red 0.4 plus 15. Below that is 0.24 times parentheses 40 plus 5, equal sign with a question mark, 0.4 times parentheses 12 plus 15. Below that is 0.24 times 45, equal sign with a question mark, 0.4 times 27. The last line says 10.8 equals 10.8 followed by a check mark."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168469856402" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-01.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Distribute.</entry>
+   <entry><media id="eip-id1168469683989" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-02.png"/></media></entry>
+ </row> 
+ <row>
+   <entry>Subtract <m:math><m:mn>12</m:mn><m:mi>x</m:mi></m:math> to get all the <m:math><m:mi>x</m:mi></m:math>s to the left.</entry>
+   <entry><media id="eip-id1168466144870" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-03.png"/></media></entry>
+ </row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469868305" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Subtract 1.2 to get the constants to the right.</entry>
+   <entry><media id="eip-id1168469491155" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+  <entry><media id="eip-id1168469594198" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Divide.</entry>
+   <entry><media id="eip-id1168469544803" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-07.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168469829057" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-08.png"/></media></entry>
+</row>
+<row>
+   <entry>Check: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.4</m:mn></m:math>.</entry>
+   <entry/>
+</row>
+<row>
+   <entry><media id="eip-id1168466203358" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_03_038_img-09.png"/></media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><note id="fs-id1166492477501" class="media-2"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id1166494585868" display="block">
+<item><link url="http://www.openstax.org/l/24SolveMultStep">Solving Multi-Step Equations</link></item>
+<item><link url="http://www.openstax.org/l/24SolveEquatVar">Solve an Equation with Variable Terms on Both Sides</link></item>
+<item><link url="http://www.openstax.org/l/24MultiStepEqu">Solving Multi-Step Equations (L5.4)</link></item>
+<item><link url="http://www.openstax.org/l/24EquVarParen">Solve an Equation with Variables and Parentheses on Both Sides</link></item>
+</list>
+</note></section><section id="fs-id1471572"><title>Solve Equations That Need to Be Simplified <footnote id="eip-idm986638128">Section material derived from Openstax Prealgebra: The Language of Algebra-Solving Equations Using the Subtraction and Addition Properties of Equality</footnote></title><para id="fs-id1166494591280">In the examples up to this point, we have been able to isolate the variable with just one operation. Many of the equations we encounter in algebra will take more steps to solve. Usually, we will need to simplify one or both sides of an equation before using the Subtraction or Addition Properties of Equality. You should always simplify as much as possible before trying to isolate the variable.</para>
+<example id="fs-id1537683"><title>Simplify and Solve</title><exercise id="fs-id1947823"><problem id="fs-id1693654">
+<para id="fs-id1899957">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1475828">
+<title>Solution</title>
+<para id="fs-id1495618">The left side of the equation has an expression that we should simplify before trying to isolate the variable.<newline/>
+</para><table id="eip-id1168467171254" class="unnumbered unstyled" summary="The first line shows the equation 3x minus 7 minus 2x minus 4 equals 1. The next line says, “Rearrange the terms, using the Commutative Property of Addition.” Beside this is 3x minus 2x minus 7 minus 4 equals 1. The next line says, “Combine like terms.” Beside this is x minus 11 equals 1. The next line says, “Add 11 to both sides to isolate x.” Beside this is x minus 11 plus a red 11 equals 1 plus a red 11. The last line says “simplify” and shows x equals 12."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168468454842" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_010_img-01.png"/></media></entry>
+ </row>
+ <row>
+   <entry>Rearrange the terms, using the Commutative Property of Addition.</entry>
+   <entry><media id="eip-id1168468592120" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_010_img-02.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Combine like terms.</entry>
+   <entry><media id="eip-id1168468458434" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_010_img-03.png"/></media></entry>
+</row>
+
+<row>
+   <entry>Add 11 to both sides to isolate <m:math><m:mi>x</m:mi></m:math>.</entry>
+   <entry><media id="eip-id1168467375475" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_010_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468451956" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_010_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Check.<newline/> Substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> into the original equation.<newline/><media id="fs-id1480549" alt="The top line shows 3x minus 7 minus 2x minus 4 equals 1. Below this is 3 times a red 12 minus 7 minus 2 times a red 12 minus 4 equals 1. Next is 36 minus 7 minus 24 minus 4 equals 1. Below is 29 minus 24 minus 4 equals 1. Next is 5 minus 4 equals 1. Last is 1 equals 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_011_img.jpg"/>
+</media></entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+<para id="fs-id1303501">The solution checks.</para>
+</solution>
+</exercise></example><example id="fs-id1264608"><title>Simplify and Solve</title><exercise id="fs-id1399389"><problem id="fs-id1547337">
+<para id="fs-id1166497425790">Solve: <m:math><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166492887596">
+<title>Solution</title>
+<para id="fs-id1302362">The left side of the equation has an expression that we should simplify.
+</para><table id="eip-id1168468254328" class="unnumbered unstyled" summary="The top line says “given” and shows 3 times parentheses n minus 4 minus 2n equals negative 3. The next line says “distribute on the left” and shows 3n minus 12 minus 2n equals negative 3. The next line says, “Use the Commutative Property to rearrange terms.” Beside this is 3n minus 2n minus 12 equals negative 3. The next step says “Combine like terms.” Beside this is n minus 12 equals negative 3. The next line says, “Isolate n using the Addition Property of Equality.” Beside this is n minus 12 plus a red 12 equals negative 3 plus a red 12. The last line says “simplify” and shows n equals 9."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168468249958" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_012_img-01.png"/></media></entry>
+ </row>
+  <row>
+   <entry>Distribute on the left.</entry>
+   <entry><media id="eip-id1168468557711" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_012_img-02.png"/></media></entry>
+ </row>  
+ <row>
+   <entry>Use the Commutative Property to rearrange terms.</entry>
+   <entry><media id="eip-id1168467473331" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_012_img-03.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Combine like terms.</entry>
+   <entry><media id="eip-id1168467453602" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_012_img-04.png"/></media></entry>
+</row>
+
+<row>
+   <entry>Isolate <emphasis effect="italics">n</emphasis> using the Addition Property of Equality.</entry>
+   <entry><media id="eip-id1168468554542" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_012_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168468358150" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_012_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Check. <newline/>Substitute <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> into the original equation.<newline/>
+<media id="fs-id1494005" alt="The top line says 3 times parentheses n minus 4 minus 2n equals negative 3. The next line says 3 times parentheses red 9 minus 3 minus 2 times red 9 equals negative 3. The next line says 3 times 5 minus 18 equals negative 3. Below this is 15 minus 18 equals negative 3. Last is negative 3 equals negative 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_013_img.jpg"/>
+</media><newline/> The solution checks.</entry>
+   <entry/>
+</row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><example id="fs-id1404278"><title>Simplify and Solve</title><exercise id="fs-id1340489"><problem id="fs-id1166493761721">
+<para id="fs-id1724676">Solve: <m:math><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1166483694459">
+<title>Solution</title>
+<para id="fs-id1392545">Both sides of the equation have expressions that we should simplify before we isolate the variable.</para><table id="eip-id1168469785088" class="unnumbered unstyled" summary="The top line says 2 times parentheses 3k minus 1 minus 5k equals negative 2 minus 7. The next line says “Distribute on the left, subtract on the right.” Beside that is 6k minus 2 minus 5k equals negative 9. The next line says “Use the Commutative Property of Addition.” Beside that is 6k minus 5k minus 2 equals negative 9. The next step says “combine like terms” and shows k minus 2 equals negative 9. The next step says, “Undo subtraction by using the Addition Property of Equality.” Beside that is k minus 2 plus a red 2 equals negative 9 plus a red 2. The last step says to simplify and shows k equals negative 7."><label/>
+<tgroup cols="2"><tbody>
+ <row>
+   <entry/>
+   <entry><media id="eip-id1168466140979" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_023_img-01.png"/></media></entry>
+ </row>
+  <row>
+   <entry>Distribute on the left, subtract on the right.</entry>
+   <entry><media id="eip-id1168469711596" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_023_img-02.png"/></media></entry>
+ </row>  
+ <row>
+   <entry>Use the Commutative Property of Addition.</entry>
+   <entry><media id="eip-id1168469714212" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_023_img-03.png"/></media></entry>
+ </row>  
+<row>
+   <entry>Combine like terms.</entry>
+   <entry><media id="eip-id1168469577466" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_023_img-04.png"/></media></entry>
+</row>
+<row>
+   <entry>Undo subtraction by using the Addition Property of Equality.</entry>
+   <entry><media id="eip-id1168469699676" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_023_img-05.png"/></media></entry>
+</row>
+<row>
+   <entry>Simplify.</entry>
+   <entry><media id="eip-id1168466203200" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_023_img-06.png"/></media></entry>
+</row>
+<row>
+   <entry>Check.<newline/>Let <m:math><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1423478" alt="The top line says 2 times parentheses 3k minus 1 minus 5k equals negative 2 minus 7. Below this is 2 times parentheses red negative 7 minus 1 minus 5 times red negative 7 equals negative 2 minus 7. The next line says 2 times parentheses negative 21 minus 1 minus 5 times negative 7 equals negative 9. Below that is 2 times negative 22 plus 35 equals negative 9. Next is negative 44 plus 35 equals negative 9. The last line says negative 9 equals negative 9.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_08_01_014_img.jpg"/>
+</media><newline/>The solution checks.</entry>
+   <entry/>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+</solution>
+</exercise></example></section><section id="eip-107"><title>Key Concepts</title><list id="eip-938"><item><emphasis>Determine whether a number is a solution to an equation.</emphasis><list id="eip-id1170325336255" list-type="enumerated" number-style="arabic" class="stepwise"><item>Substitute the number for the variable in the equation.</item>
+<item>Simplify the expressions on both sides of the equation.</item>
+<item>Determine whether the resulting equation is true.</item></list>
+If it is true, the number is a solution.<newline/>
+If it is not true, the number is not a solution.
+</item>
+<item><emphasis>Subtraction and Addition Properties of Equality</emphasis><list id="eip-id1170322764025"><item><emphasis>Subtraction Property of Equality</emphasis><newline/>For all real numbers <emphasis effect="italics"> a, b,</emphasis> and <emphasis effect="italics">c</emphasis>,<newline/>if <emphasis effect="italics"> a = b</emphasis> then <m:math><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>c</m:mi></m:math>.</item>
+
+
+<item><emphasis>Addition Property of Equality</emphasis><newline/>For all real numbers <emphasis effect="italics"> a, b,</emphasis> and <emphasis effect="italics">c</emphasis>,<newline/>if <emphasis effect="italics"> a = b</emphasis> then <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:math>.</item></list></item>
+
+
+<item><emphasis>Translate a word sentence to an algebraic equation.</emphasis><list id="eip-id1170324011028" list-type="enumerated" number-style="arabic" class="stepwise"><item>Locate the “equals” word(s). Translate to an equal sign.</item>
+<item>Translate the words to the left of the “equals” word(s) into an algebraic expression.</item>
+<item>Translate the words to the right of the “equals” word(s) into an algebraic expression.</item>
+</list></item>
+
+
+<item><emphasis>Problem-solving strategy</emphasis><list id="eip-id1170325411873" list-type="enumerated" number-style="arabic" class="stepwise"><item>Read the problem. Make sure you understand all the words and ideas.</item>
+<item>Identify what you are looking for.</item>
+<item>Name what you are looking for. Choose a variable to represent that quantity.</item>
+<item>Translate into an equation. It may be helpful to restate the problem in one sentence with all the important information. Then, translate the English sentence into an algebra equation.</item>
+<item>Solve the equation using good algebra techniques.</item>
+<item>Check the answer in the problem and make sure it makes sense.</item>
+<item>Answer the question with a complete sentence.</item>
+</list></item>
+
+<item><emphasis>Solve an equation with variables and constants on both sides</emphasis><list id="eip-id1170322988381" list-type="enumerated" number-style="arabic" class="stepwise"><item>Choose one side to be the variable side and then the other will be the constant side.</item>
+<item>Collect the variable terms to the variable side, using the Addition or Subtraction Property of Equality.</item>
+<item>Collect the constants to the other side, using the Addition or Subtraction Property of Equality.</item>
+<item>Make the coefficient of the variable 1, using the Multiplication or Division Property of Equality.</item>
+<item>Check the solution by substituting into the original equation.</item>
+</list></item>
+
+<item><emphasis>General strategy for solving linear equations</emphasis><list id="eip-id1170324010915" list-type="enumerated" number-style="arabic" class="stepwise"><item>Simplify each side of the equation as much as possible. Use the Distributive Property to remove any parentheses. Combine like terms.</item>
+<item>Collect all the variable terms to one side of the equation.  Use the Addition or Subtraction Property of Equality.</item>
+<item>Collect all the constant terms to the other side of the equation. Use the Addition or Subtraction Property of Equality.</item>
+<item>Make the coefficient of the variable term to equal to 1. Use the Multiplication or Division Property of Equality. State the solution to the equation.</item>
+<item>Check the solution. Substitute the solution into the original equation to make sure the result is a true statement.</item>
+</list></item>
+
+<item><emphasis>Division and Multiplication Properties of Equality</emphasis><list id="eip-id1170323851321"><item><emphasis>Division Property of Equality:</emphasis> For all real numbers <emphasis effect="italics">a, b, c,</emphasis> and <m:math><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:math>, if <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:math>, then <m:math><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mi>c</m:mi></m:math>.</item> 
+
+
+<item><emphasis>Multiplication Property of Equality:</emphasis> For all real numbers <emphasis effect="italics">a, b, c,</emphasis> if <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:math>, then <m:math><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mi>c</m:mi></m:math>.</item> </list></item>
+
+<item><emphasis>Solve equations with fraction coefficients by clearing the fractions.</emphasis><list id="eip-id1170323900083" list-type="enumerated" number-style="arabic" class="stepwise"><item>Find the least common denominator of <emphasis effect="italics">all</emphasis> the fractions in the equation.</item>
+<item>Multiply both sides of the equation by that LCD. This clears the fractions.</item>
+<item>Solve using the General Strategy for Solving Linear Equations.
+</item></list></item>
+
+</list></section></content>
+
+<glossary>
+
+<definition id="eqnsln">
+<term>Solution of an Equation</term>
+<meaning id="eqnslnmean">
+A solution to an equation is a value of a variable that makes a true statement when substituted into the equation. The process of finding the solution to an equation is called solving the equation.
+</meaning>
+</definition>
+
+</glossary>
+
+</document>

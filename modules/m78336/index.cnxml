@@ -1,0 +1,56 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="preface">
+
+<title>Preface</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78336</md:content-id>
+  <md:title>Preface</md:title>
+  <md:abstract/>
+  <md:uuid>23fbab90-eac2-4c36-aaa2-0d46ecf33008</md:uuid>
+</metadata>
+
+<content class="preface">
+  <para id="delete_me">This collection is intended for use with a Co-requisite course, pairing a concurrent MAT 1043 - Introduction to Math(Quantitative Reasoning) (TXCCN MAT 1332) with an NCBO (Non-Course Based Option) support course. UTSA's MAT 1043 courses utilize <link url="https://www.utdanacenter.org/our-work/higher-education/higher-education-curricular-resources/quantitative-reasoning" window="new"> Dana Center</link> math pathways materials. This book is designed to supplement the MAT materials and provide a free, opensource option for students to reference in the NCB support course. 
+<newline/><newline/>
+The arrangement of materials within the modules is designed to support the Lessons covered in the MAT course. As a result the sequence may appear odd compared to a traditional developmental math textbook. It also follows our course sequence for NCB, which is a two day a week (50 minute) course that occurs on alternate days to the MAT course. (i.e. MAT 1043 may be MWF, and NCB TR). 
+<newline/><newline/>
+This book utilizes topics from modules in OpenStax PreAlgebra, Intermediate Algebra, Introductory Statistics collections, and several other works found in the CNX repository. Each module cites the source where each section is derived from in footnotes, as well as when new content was created by one of the Authors. 
+<newline/><newline/>
+This collection is intended for developmental students taking a Co-requisite course in math for a non-stem degree pathway.</para><section id="fs-id1165926561504">
+<title>Coverage and Scope</title>
+<para id="fs-id1165926737424">By design, the support course in our Co-requisite model emphasizes "Just-in-time" support of topics discussed in the related math course. It is not meant to be a complete review of all topics from earlier developmental math courses like Elementary or Intermediate Algebra. As a result, each chapter is arranged to review only those topics needed to understand concepts discussed in the specific math course chapter it supports. The material is presented as a sequence of modules tied to Lesson chapters of the MAT 1043 course. I.e. Module 2 supports Lessons 1A-D of MAT 1043. The order of topics was carefully planned to support progression throughout the course (by providing foundational concepts related to the Lesson Topics, and/or previewing material for Lessons), and to facilitate a thorough understanding of each concept. </para><list id="fs-id1165926710568" list-type="bulleted" bullet-style="none"><item><emphasis effect="bold">Chapter 1: Pre-knowledge Concepts</emphasis>
+ </item>
+<item><emphasis effect="bold">Chapter 2: Basics of Numbers, Decimals, Equations, Expressions and Election Math  </emphasis><newline/>
+ These topics are aligned to Lessons 1A-D of MAT 1043. </item>
+<item><emphasis effect="bold">Chapter 3: Data and Central tendency </emphasis><newline/>
+These topics are aligned to Lessons 2A-2C of MAT 1043.</item>
+<item><emphasis effect="bold">Chapter 4: Spread of Data and Percents</emphasis><newline/>
+Chapter 4 covers Lessons 3A-3C of MAT 1043.</item>
+<item><emphasis effect="bold">Chapter 5: Fractions, Ratios, and Probabilities </emphasis><newline/>
+These topics provide review for Lessons 4A-4B of MAT 1043. </item>
+<item><emphasis effect="bold">Chapter 6: Unit rates, Conversions, and Weighted Average </emphasis><newline/>
+Chapter 6 reviews and supports Lessons 5A-6B  </item>
+<item><emphasis effect="bold">Chapter 7: Ratios </emphasis><newline/>
+In Chapter 7, students can preview and find content supporting Lessons 7A-7F .</item>
+<item><emphasis effect="bold">Chapter 8: Linear and Proportional Relationships</emphasis><newline/>
+The topics in Chapter 8 support Lessons 8A-9A of MAT 1043. </item>
+<item><emphasis effect="bold">Chapter 9: Linear Regression and Scatterplot Data </emphasis><newline/>
+Students will find contnet supporting Lessons 9B-9D </item>
+<item><emphasis effect="bold">Chapter 10: Exponential Growth</emphasis><newline/>
+In Chapter 10, students find a brief review of Exponential growth for Lessons 10A-10B.</item>
+<item><emphasis effect="bold">Chapter 11: Logistic Growth </emphasis><newline/>
+Lessons 11A-11E are supported by Chaper 11. </item>
+<item><emphasis effect="bold">Chapter 12: Sinusoidal Functions</emphasis><newline/>
+In Chapter 12, students are introduced to content in Lessons 12A-12B of MAT 1043. </item>
+</list><para id="fs-id1165926770079">All chapters incorporate multiple topics, the titles of which can be viewed in the <emphasis effect="bold">Topics Covered</emphasis> box at the start of each module.</para></section>
+<section id="fs-id1165924264981">
+<title>About the Authors</title>
+<section id="fs-id1166401048777" class="sr-contrib-auth">
+<title>Contributing Authors</title>
+<para id="fs-id1165926653414"><emphasis effect="bold">Elizabeth Pople, University of Texas San Antonio</emphasis></para>
+<para id="eip-021">Elizabeth Pople is the Program Coordinator for Non-Course Based Instruction at the University of Texas at San Antonio. At UTSA, she has worked with the NCB Program for over eight years, and serves as a member of the campus Developmental Education Task Force.</para><para id="eip-023"><emphasis effect="bold">Amanda Towry, University of Texas San antonio</emphasis></para>
+<para id="eip-024">Amanda Towry is currently an NCB Facilitator at the University of Texas at San Antonio while she pursues her Bachelors of Science in Geology. She has a previous Bachelors of Science in Physics and a Masters of Science in Math and Science Education with a concentration in Physics Education. She currently facilitates NCB courses for College Algebra w/App and  Introduction to Mathematics(Q) .</para></section><section id="eip-481"><title>Errata</title><para id="eip-179">This effort was supported through an Adopt a Free Textbook Faculty Grant from the UTSA Library. 
+</para></section>
+</section>
+
+</content>
+</document>

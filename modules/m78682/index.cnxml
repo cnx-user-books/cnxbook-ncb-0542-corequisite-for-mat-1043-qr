@@ -1,0 +1,440 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Sinusoidal Functions: 12.A - 12.B</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78682</md:content-id>
+  <md:title>Sinusoidal Functions: 12.A - 12.B</md:title>
+  <md:abstract>In this section, you will:
+    <list><item>Graph variations of  <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> and <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math> .</item>
+    <item>Use phase shifts of sine and cosine curves.</item></list>
+This correlates to Lessons 12A-B of Corequisite MAT 1043(QR) and NCBO.</md:abstract>
+  <md:uuid>797f548a-388e-4958-a44c-5a5373e04697</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-170"><label>Topics Covered in this Module</label>
+<para id="eip-idm309090624">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para>
+<list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>The Sine Function <link target-id="fs-id1165134032223" document=""/></item>
+<item>Determining the Period of a sinusoidal Function <link target-id="eip-468"/></item>
+<item>Determining the Amplitude <link target-id="eip-786"/></item>
+<item>Key Concepts  <link target-id="fs-id1165137574576" document=""/></item></list></note><para id="fs-id1165135329803">White light, such as the light from the sun, is not actually white at all. Instead, it is a composition of all the colors of the rainbow in the form of waves. The individual colors can be seen only when white light passes through an optical prism that separates the waves according to their wavelengths to form a rainbow. Light waves can be represented graphically by the sine function.</para><section id="fs-id1165134032223"><title>Sinusoidal Functions: The Sine Function <footnote id="eip-idm1089760704">Section material derived from Openstax Precalculus: Periodic Functions-Gaphs of the Sine and Cosine Functions</footnote></title><para id="fs-id1165137410921">As we can see, sine functions have a regular period and range. If we watch ocean waves or ripples on a pond, we will see that they resemble the sine function. However, they are not necessarily identical. Some are taller or longer than others. A function that has the same general shape as a <term>sine function</term> is known as a <term>sinusoidal function</term>. The general forms of sinusoidal functions are</para><equation id="fs-id1165135512530"><m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable>
+ </m:mrow>
+</m:math></equation><para id="eip-876">where, <m:math><m:mi>A</m:mi></m:math> is the amplitude, <m:math><m:mi>B</m:mi></m:math> is the variable that determines the period, <m:math><m:mi>C</m:mi></m:math> specifies any horizontal shifts, and <m:math><m:mi>D</m:mi></m:math> specifies any vertical shifts.</para></section><section id="eip-468"><title>Determining the Period of Sinusoidal Functions <footnote id="eip-idm946515040">Section material derived from Openstax Precalculus: Periodic Functions-Gaphs of the Sine and Cosine Functions</footnote></title><para id="fs-id1165135708019">Looking at the forms of sinusoidal functions, we can see that they are transformations of the sine and cosine functions. We can use what we know about transformations to determine the period.</para>
+<para id="fs-id1165137639577">In the general formula,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>B</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is related to the period by<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>then the period is less than<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>π</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and the function undergoes a horizontal compression, whereas if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>then the period is greater than<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>π</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and the function undergoes a horizontal stretch. For example,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>),</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math><m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the period is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>,</m:mi><m:mtext/>
+ </m:mrow>
+</m:math>which we knew. If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>then<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>2,</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the period is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>π</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and the graph is compressed. If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>then<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the period is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>4</m:mn><m:mi>π</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and the graph is stretched. Notice in <link target-id="Figure_06_01_008"/> how the period is indirectly related to<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><figure id="Figure_06_01_008" class="small">
+<media id="fs-id1165137583924" alt="A graph with three items. The x-axis ranges from 0 to 2pi. The y-axis ranges from -1 to 1. The first item is the graph of sin(x) for one full period. The second is the graph of sin(2x) over two periods. The third is the graph of sin(x/2) for one half of a period.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_008.jpg"/>
+</media>
+</figure>
+
+<note id="fs-id1165137697004"><label>A General note label</label><title>Period of Sinusoidal Functions</title>
+
+<para id="fs-id1165137766762">If we let<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in the general form equations of the sine and cosine functions, we obtain the forms</para>
+<equation id="fs-id1165137855068" class="unnumbered"><label/><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></equation>
+<para id="fs-id1165137413926">The period is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></note></section><section id="eip-786"><title>Determining the Amplitude of Sinusoidal Functions <footnote id="eip-idm204810976">Section material derived from Openstax Precalculus: Periodic Functions-Gaphs of the Sine and Cosine Functions</footnote></title><para id="fs-id1165135207425">Returning to the general formula for a sinusoidal function, we have analyzed how the variable<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>B</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>relates to the period. Now let’s turn to the variable<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so we can analyze how it is related to the <emphasis>amplitude</emphasis>, or greatest distance from rest.<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>represents the vertical stretch factor, and its absolute value<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is the amplitude. The local maxima will be a distance<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>above the horizontal <emphasis>midline</emphasis> of the graph, which is the line<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>D</m:mi><m:mo>;</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>because<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in this case, the midline is the <emphasis effect="italics">x</emphasis>-axis. The local minima will be the same distance below the midline. If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function is stretched. For example, the amplitude of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is twice the amplitude of<m:math display="block">
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function is compressed. <link target-id="Figure_06_01_009"/> compares several sine functions with different amplitudes.</para><figure id="Figure_06_01_009">
+<media id="fs-id1165137482990" alt="A graph with four items. The x-axis ranges from -6pi to 6pi. The y-axis ranges from -4 to 4. The first item is the graph of sin(x), which has an amplitude of 1. The second is a graph of 2sin(x), which has amplitude of 2. The third is a graph of 3sin(x), which has an amplitude of 3. The fourth is a graph of 4 sin(x) with an amplitude of 4.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_009.jpg"/>
+</media>
+</figure>
+
+<note id="fs-id1165134284498"><label>A General Note Label</label><title>Amplitude of Sinusoidal Functions</title>
+
+<para id="fs-id1165134497141">If we let<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in the general form equation of the sine function, we obtain the form</para><equation id="fs-id1165135177658" class="unnumbered"><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo>
+</m:mrow>
+</m:mrow>
+</m:math></equation><para id="fs-id1165137464064">The <term>amplitude</term> is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and the vertical height from the <term>midline</term> is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>In addition, notice in the example that</para><equation id="fs-id1165135460914" class="unnumbered"><label/><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> = amplitude = </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:mtext>maximum </m:mtext><m:mo>−</m:mo><m:mtext> minimum</m:mtext>
+  </m:mrow> <m:mo>|</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</equation></note><example id="Example_06_01_02"><title>Identifying the Amplitude of a Sine Function</title><exercise id="fs-id1165137653911"><problem id="fs-id1165134377968">
+
+<para id="fs-id1165137932594">What is the amplitude of the sinusoidal function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Is the function stretched or compressed vertically?</para></problem>
+<solution id="fs-id1165135195832">
+<para id="fs-id1165135195834">Let’s begin by comparing the function to the simplified form<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165137930335">In the given function,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the amplitude is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+<m:mn>−4</m:mn>
+  </m:mrow> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The function is stretched.</para></solution>
+<commentary id="fs-id1165134226786">
+<title>Analysis</title>
+<para id="fs-id1165137410615">The negative value of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>results in a reflection across the <emphasis effect="italics">x</emphasis>-axis of the <term class="no-emphasis">sine function</term>, as shown in <link target-id="Figure_06_01_010"/>.</para><figure id="Figure_06_01_010" class="small">
+<media id="fs-id1165137425512" alt="A graph of -4sin(x). The function has an amplitude of 4. Local minima at (-3pi/2, -4) and (pi/2, -4). Local maxima at (-pi/2, 4) and (3pi/2, 4). Period of 2pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_010.jpg"/>
+</media>
+</figure>
+
+</commentary>
+</exercise></example></section><section id="fs-id1165137574576" class="key-equations"><title>Key Concepts</title><list id="eip-470"><item>The sine function has the equation
+<equation id="eip-idm1287488048">
+<m:math>
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mi>x</m:mi>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+   </m:mtd>
+  </m:mtr>
+  
+ </m:mtable>
+
+</m:math>
+</equation>
+where, <m:math><m:mi>A</m:mi></m:math> is the amplitude, <m:math><m:mi>B</m:mi></m:math> is the variable that determines the period, <m:math><m:mi>C</m:mi></m:math> specifies any horizontal shifts, and <m:math><m:mi>D</m:mi></m:math> specifies any vertical shifts.
+
+</item>
+</list></section><section id="fs-id1165137540392" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1165137762207" list-type="bulleted"><item>Periodic functions repeat after a given value. The smallest such value is the period. The basic sine function has a period of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></item>
+<item>The function <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is odd, so its graph is symmetric about the origin.</item>
+<item>The graph of a sinusoidal function has the same general shape as a sine or cosine function.</item>
+<item>In the general formula for a sinusoidal function, the period is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>See <link target-id="Example_06_01_01"/>.</item>
+<item>In the general formula for a sinusoidal function,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>represents amplitude. If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function is stretched, whereas if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function is compressed. See <link target-id="Example_06_01_02"/>.</item>
+
+<item>The value<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>D</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in the general formula for a sinusoidal function indicates the vertical shift from the midline. See <link target-id="Example_06_01_04"/>.</item>
+<item>The equation for a sinusoidal function can be determined from a graph. See <link target-id="Example_06_01_06"/> and <link target-id="Example_06_01_07"/>.</item>
+<item>A function can be graphed by identifying its amplitude and period. See <link target-id="Example_06_01_08"/> and <link target-id="Example_06_01_09"/>.</item>
+<item>Sinusoidal functions can be used to solve real-world problems. See <link target-id="Example_06_01_11"/>, <link target-id="Example_06_01_12"/>, and <link target-id="Example_06_01_13"/>.</item>
+</list></section>
+</content>
+<glossary>
+<definition id="fs-id1165137414167">
+<term>amplitude</term>
+<meaning id="fs-id1165137463141">the vertical height of a function; the constant<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>A</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>appearing in the definition of a sinusoidal function</meaning>
+</definition>
+<definition id="fs-id1165137602032">
+<term>midline</term>
+<meaning id="fs-id1165137602037">the horizontal line<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>D</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>where<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>D</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>appears in the general form of a sinusoidal function</meaning>
+</definition>
+<definition id="fs-id1165137678058">
+<term>periodic function</term>
+<meaning id="fs-id1165137678063">a function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>that satisfies<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>P</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>for a specific constant<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>P</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and any value of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi>
+ </m:mrow>
+</m:math></meaning>
+</definition>
+
+<definition id="fs-id1165135160153">
+<term>sinusoidal function</term>
+<meaning id="fs-id1165137737500">any function that can be expressed in the form<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>or<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+ </m:mrow>
+</m:math></meaning>
+</definition>
+</glossary>
+</document>

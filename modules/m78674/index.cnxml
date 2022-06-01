@@ -1,0 +1,716 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Ratios: Lessons 7.A - 7.F</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78674</md:content-id>
+  <md:title>Ratios: Lessons 7.A - 7.F</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Use Pie charts/graphs</item>
+<item>Understand Part to part and whole Ratios</item>
+<item>Calculate Change in Value</item>
+<item>Write in Scientific Notation</item>
+<item>Understand Debt to Income Ratios</item>
+</list>
+This correlates to Lessons 10A-B from Corequisite MAT 1043(QR) and NCBO.</md:abstract>
+  <md:uuid>5180addb-799f-4581-8b6e-c42320e41640</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-352"><label>Topics Covered in this Module</label>
+<para id="eip-idm1253689712">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para>
+<list id="eip-idm254395792" list-type="enumerated" number-style="arabic"><item>Pie Graphs <link document="" target-id="eip-799"/></item>
+<item>Part-to-Whole Ratios<link document="" target-id="eip-532"/></item>
+<item>Part-to-Part Ratios <link document="" target-id="eip-934"/></item>
+<item>Working with Numbers in Scientific Notation <link document="" target-id="eip-246"/></item>
+<item>Calculating Change in Values <link document="" target-id="eip-739"/></item>
+
+<item>Debt-to-Income Ratios <link document="" target-id="eip-772"/></item>
+<item>Key Concepts  <link document="" target-id="eip-684"/></item>
+</list></note><section id="eip-799"><title>Pie Graphs <footnote id="eip-idm998404352"> This material was created by Amanda Towry using Google Sheets spreadsheet program.</footnote></title><para id="eip-76">Pie graphs can be used to represent parts or percentages of a whole. One of the most common applications of pie graphs are budgets or grade summaries like the one below.
+
+<table id="PieChart1" summary="Pie chart of QR grade details"><title>Quantitative Reasoning Grade Details</title>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Preview/Practice Assignments Average (MML)</emphasis></entry>
+    <entry>15%</entry>
+    
+  </row>
+  <row>
+    <entry><emphasis>Student Portfolio</emphasis></entry>
+    <entry>25%</entry>
+
+  </row>
+  <row>
+    <entry><emphasis>Mini-Project Average (Blackboard)</emphasis></entry>
+    <entry>15%</entry>
+  </row>
+  <row>
+    <entry><emphasis>Exams Average (3 Total)</emphasis></entry>
+    <entry>25%</entry>
+  </row>
+  <row>
+    <entry><emphasis>Final Exam (Comprehensive)</emphasis></entry>
+    <entry>20%</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+<figure id="eip-idm472597472"><media id="piegraph1" alt="pie graph of qr grades">
+
+<image mime-type="image/png" src="../../media/Piechart1.png"/>
+</media>
+<caption>Summary of grade break down for the Quatitative reasoning class you are taking right now.</caption></figure></para><para id="eip-761">Each percentage of a pie graph is determined by dividing the part of interest by the whole total. When out of a number other than percentages, the pie graph may look something like below:
+
+<figure id="eip-idm1035334672"><media id="piegraph2" alt="pie graph of the 2012-13 Texas state all-funds budget">
+
+<image mime-type="image/png" src="../../media/Piechart2.png"/>
+</media>
+<caption>Texas state All-Funds Budget for 2012-13. Each portion or percentage shown on the pie graph is of the total $173 billion.</caption></figure></para></section><section id="eip-532"><title>Part-To-Whole Ratios <footnote id="eip-idm1100237424"> This material was created by Amanda Towry using Google Sheets spreadsheet and Microsoft Word processing programs.</footnote></title><para id="eip-295">
+Remember that a ratio is a comparison of two numbers or quantities that are measured in the same unit.  
+</para><para id="eip-442"><emphasis>Part-to-whole ratios</emphasis> are simply a ratio where part or portion of something is compared to the whole.</para><example id="eip-344"><title>Part to Whole Ratios</title><para id="eip-839">Below is a table showing the amounts that are budgeted for a student's monthly bills.
+
+
+<table id="parttowhole" summary="budget table"><title>My Budget</title>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Expense</emphasis></entry>
+    <entry><emphasis>Monthly Cost</emphasis></entry>
+  </row>
+  <row>
+    <entry>Rent</entry>
+    <entry>500</entry>
+  </row>
+  <row>
+    <entry>Utilities</entry>
+    <entry>100</entry>
+  </row>
+  <row>
+    <entry>Insurance</entry>
+    <entry>150</entry>
+  </row>  
+  <row>
+    <entry>Car Loan</entry>
+    <entry>175</entry>
+  </row>
+  <row>
+    <entry>Food</entry>
+    <entry>200</entry>
+  </row>
+  <row>
+    <entry>Entertainment</entry>
+    <entry>250</entry>
+  </row>
+  <row>
+    <entry>Other</entry>
+    <entry>150</entry>
+  </row>
+  <row>
+    <entry><emphasis>Total</emphasis></entry>
+    <entry><emphasis>$1,525</emphasis></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+
+If we were to take the part if the budget planned for rent and compare it to the whole in a ratio, it would look like this:
+
+<figure id="eip-idm376782336">
+<media id="part2wholeratio" alt="part to total, or whole, ratio from budget">
+
+<image mime-type="image/png" src="../../media/part2wholeratio.png"/>
+</media>
+</figure>
+
+Part to whole ratios allows us to see how a portion compares to a total. If we were to create a pie graph out of the monthly bills data, it would look like the following:
+
+<figure id="eip-idm208176240">
+<media id="studentbudget" alt="pie graph of a sample student budget">
+
+<image mime-type="image/png" src="../../media/budgetpiechart.png"/>
+</media>
+</figure>
+
+This chart tells us that the portion of the budget is <m:math><m:mn>32</m:mn><m:mo>%</m:mo></m:math> of the total money spent.
+
+For every <m:math><m:mn>100</m:mn></m:math> dollars spent each month, <m:math><m:mn>32</m:mn></m:math> dollars and <m:math><m:mn>80</m:mn></m:math> cents is spent on rent.
+
+<figure id="eip-idm966595376">
+<media id="part2wholeratio2" alt="part to total, or whole, ratio from budget">
+
+<image mime-type="image/png" src="../../media/part2wholeratio2.png"/>
+</media>
+</figure></para></example></section><section id="eip-934"><title>Part-To-Part Ratios <footnote id="eip-idm397600800"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-393"><emphasis>Part-to-part ratios</emphasis> are ratios where two separate parts of the same whole are compared to each other.</para><para id="eip-249">This makes it easier to compare the importance between two parts or to better understand how they each affect the total.</para><example id="eip-524"><title>Part to Part Ratios</title><para id="eip-323">Below is the table from example 1 showing the amounts that are budgeted for a student's monthly bills.
+
+
+<table id="parttowholeex2" summary="budget table"><title>My Budget</title>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis>Expense</emphasis></entry>
+    <entry><emphasis>Monthly Cost</emphasis></entry>
+  </row>
+  <row>
+    <entry>Rent</entry>
+    <entry>500</entry>
+  </row>
+  <row>
+    <entry>Utilities</entry>
+    <entry>100</entry>
+  </row>
+  <row>
+    <entry>Insurance</entry>
+    <entry>150</entry>
+  </row>  
+  <row>
+    <entry>Car Loan</entry>
+    <entry>175</entry>
+  </row>
+  <row>
+    <entry>Food</entry>
+    <entry>200</entry>
+  </row>
+  <row>
+    <entry>Entertainment</entry>
+    <entry>250</entry>
+  </row>
+  <row>
+    <entry>Other</entry>
+    <entry>150</entry>
+  </row>
+  <row>
+    <entry><emphasis>Total</emphasis></entry>
+    <entry><emphasis>$1,525</emphasis></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+
+If we were to take the part of the budget reserved for food <emphasis>and</emphasis> the part reserved for rent, how would they compare?
+
+<figure id="eip-idm603016512">
+<media id="part2partratio" alt="part to part ratio from budget">
+
+<image mime-type="image/png" src="../../media/part2partratio.png"/>
+</media>
+</figure>
+
+This ratio can be reduced by dividing both the top and bottom by 100, giving the ratio:
+<figure id="eip-idm432875840">
+<media id="part2partratio2" alt="reduced part to part ratio from budget">
+
+<image mime-type="image/png" src="../../media/part2partratio2.png"/>
+</media>
+</figure>
+
+This part to part ratio comparison tells us that for every <m:math><m:mn>2</m:mn></m:math> dollars spent on food, <m:math><m:mn>5</m:mn></m:math> dollars is spent on rent.
+
+This kind of part-to-part comparison lets us see that this college student <emphasis>clearly</emphasis> spends more money on rent than on food; because the rent part (the denominator) is larger than the food part (the numerator).</para></example></section><section id="eip-246"><title>Working with Numbers in Scientific Notation<footnote id="eip-idm1299462960">Section material derived from Openstax Prealgebra: Polynomials-Integer Exponents and Scientific Notation</footnote></title><para id="eip-598">When working with <term>REALLY</term> large or small numbers, it is often easier for scientists to write them in <term>scientific notation</term>. <term>Scientific notation</term> is a number usually between 1 and 10 and multiplied by a factor of ten. This allows for fewer digits to be written down when expressing the numbers.</para><equation id="eip-763"><label/><title>Scientific Notation Format</title><m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math></equation><para id="eip-533">where <m:math><m:mrow><m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn></m:mrow></m:math> and <m:math><m:mi>n</m:mi></m:math> is an integer.</para><para id="eip-528">Converting from decimal or a large number to scientific notation is pretty straight forward that only really requires the moving of the decimal point in the number. If the number doesn't have one (such as a whole integer like 5) you can imagine or write a decimal point at the end of the whole integer.</para><figure id="eip-idm56331">
+<media id="fs-id14936" alt="On the left, we see 4000 equals 4 times 10 cubed. Beneath that is the same thing, but there is an arrow from after the last 0 in 4000 to between the 4 and the first 0. Beneath, it says, “Moved the decimal point 3 places to the left.” On the right, we see 0.004 equals 4 times 10 to the negative 3. Beneath that is the same thing, but there is an arrow from the decimal point to after the 4. Beneath, it says, “Moved the decimal point 3 places to the right.”">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_10_05_008_img.jpg"/></media>
+</figure><para id="eip-587">In both cases, the decimal was moved <m:math><m:mn>3</m:mn></m:math> places to get the first factor, <m:math><m:mn>4</m:mn><m:mo>,</m:mo></m:math> by itself.</para><list id="eip-356"><item>The power of <m:math><m:mn>10</m:mn></m:math> is positive when the number is larger than <m:math><m:mn>1</m:mn><m:mtext>:</m:mtext><m:mspace width="0.2em"/><m:mn>4000</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:math></item>
+<item>The power of <m:math><m:mn>10</m:mn></m:math> is negative when the number is between <m:math><m:mn>0</m:mn></m:math> and <m:math><m:mn>1</m:mn><m:mtext>:</m:mtext><m:mspace width="0.2em"/><m:mn>0.004</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:math></item>
+</list><example id="eip-812"><title>Writing Numbers in Scientific Notation</title><exercise id="fs-id15135"><problem id="fs-id151352">
+<para id="fs-id1513521">Write <m:math><m:mrow><m:mn>37,000</m:mn></m:mrow></m:math> in scientific notation.</para>
+</problem>
+<solution id="fs-id1513531">
+<title>Solution</title>
+
+<table id="eip-id11684673" class="unnumbered unstyled" summary="The first line says, “Step 1: Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.” Beside that is 37000 with an arrow from after the last 0 to between the 3 and the 7. The next line says, “Step 2: Count the number of decimal places, n, that the decimal point was moved.” Beside that is 3.7000 and 4 places. The next line says, “Step 3: Write the number as a product with a power of 10. If the original number is: greater than 1, the power of 10 will be 10 o the n, Between 0 and 1, the power of 10 will be 10 to the negative n.” Beside that is 3.7 times 10 to the 4th. The last line says, “Step 4: Check.” Beside that is 10 to the 4th is 10,000 and 10,000 times 3.7 will be 37,000. 37,000 equals 3.7 times 10 to the fourth."><label/>
+<tgroup cols="2"><tbody>
+
+<row>
+<entry><emphasis>Step 1</emphasis>: Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.</entry>
+<entry><media id="eip-id1168467326" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_10_05_009_img-01.png"/></media></entry>
+</row>
+
+
+<row>
+<entry><emphasis>Step 2</emphasis>: Count the number of decimal places, <m:math><m:mi>n</m:mi></m:math>, that the decimal point was moved. </entry>
+<entry>3.70000<newline/>4 places</entry>
+</row>
+
+<row>
+<entry><emphasis>Step 3</emphasis>: Write the number as a product with a power of 10.</entry>
+
+<entry><m:math><m:mn>3.7</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup></m:math></entry>
+</row>
+
+<row>
+<entry>If the original number is:
+<list id="eip-id1168468452">
+<item>greater than 1, the power of 10 will be <m:math><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>.</item>
+<item>between 0 and 1, the power of 10 will be <m:math><m:msup><m:mn>10</m:mn><m:mi>−n</m:mi></m:msup></m:math></item>
+</list></entry>
+<entry> </entry>
+</row>
+
+<row>
+<entry><emphasis>Step 4</emphasis>: Check.</entry>
+<entry/>
+</row>
+
+<row>
+<entry><m:math><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup></m:math> is 10,000 and 10,000 times 3.7 will be 37,000. </entry>
+<entry/>
+</row>
+
+<row>
+<entry/>
+<entry><m:math><m:mn>37,000</m:mn><m:mo>=</m:mo><m:mn>3.7</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup></m:math></entry></row>
+
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="eip-12"><title>Writing Numbers in Scientific Notation</title><exercise id="fs-id149129"><problem id="fs-id14913">
+<para id="fs-id149133">Write in scientific notation: <m:math><m:mrow><m:mn>0.0052</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1491315">
+<title>Solution</title>
+
+
+
+<table id="eip-id11684671871" class="unnumbered unstyled" summary="The top line shows 0.0052. The next line says, “Move the decimal point to get 5.2, a number between 1 and 10. Count the number of decimal places the point was moved.” Beside that is 0.0052 with an arrow from the decimal to after the 5. Beneath that is written, “3 places.” The last line says, “Write as a product with a power of 10,” and shows 5.2 times 10 to the negative 3."><label/>
+<tgroup cols="2"><tbody>
+
+<row>
+<entry> </entry>
+<entry align="center">0.0052</entry>
+</row>
+
+
+<row>
+<entry>Move the decimal point to get 5.2, a number between 1 and 10.</entry>
+<entry align="center"><media id="eip-id1168468543" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_10_05_010_img-01.png"/></media></entry>
+</row>
+
+<row>
+<entry>Count the number of decimal places the point was moved.</entry>
+<entry align="center">3 places</entry>
+</row>
+
+<row>
+<entry>Write as a product with a power of 10.</entry>
+<entry align="center"><m:math><m:mn>5.2</m:mn><m:mo> ×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−3</m:mn></m:msup></m:math></entry>
+</row>
+
+<row><entry>Check your answer:<newline/><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mrow><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mrow><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mspace width="0.35em"/></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mspace width="0.15em"/><m:mrow><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mspace width="0.25em"/><m:mrow><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>0.001</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mrow><m:mn>0.0052</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:math></entry><entry/></row>
+<row>
+<entry/>
+<entry><m:math><m:mn>0.0052</m:mn><m:mo>=</m:mo><m:mn>5.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:math></entry>
+</row></tbody>
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><note id="eip-454"><label>Convert from Decimal Notation to Scientific Notation</label>
+<list id="eip-id11684687588" list-type="enumerated" number-style="arabic" class="stepwise"><item>Move the decimal point so that the first factor is greater than or equal to <m:math><m:mn>1</m:mn></m:math> but less than <m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Count the number of decimal places, <m:math><m:mi>n</m:mi><m:mo>,</m:mo></m:math> that the decimal point was moved.</item>
+<item>Write the number as a product with a power of <m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math>
+<list id="eip-id11684660269"><item>If the original number is:
+<list id="eip-id4925543"><item>greater than <m:math><m:mn>1</m:mn><m:mo>,</m:mo></m:math> the power of <m:math><m:mn>10</m:mn></m:math> will be <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mi>n</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>between <m:math><m:mn>0</m:mn></m:math> and <m:math><m:mn>1</m:mn><m:mo>,</m:mo></m:math> the power of <m:math><m:mn>10</m:mn></m:math> will be <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></item></list></item>
+</list></item>
+<item>Check.</item>
+</list></note><para id="eip-467">Converting from scientific notation number back to decimal notation is just as easy. The decimal is still moved the number of spaces identified by the exponent on the ten.</para><figure id="eip-idm1178726881">
+<media id="fs-id1495992" alt="On the left, we see 9.12 times 10 to the 4th equals 91,200. Beneath that is 9.12 followed by 2 spaces, with an arrow from the decimal to after the second space, times 10 to the 4th equals 91,200.  On the right, we see 9.12 times 10 to the negative 4 equals 0.000912. Beneath that is three spaces followed by 9.12 with an arrow from the decimal to after the first space, times 10 to the negative 4 equals 0.000912.">
+<image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_10_05_011_img.jpg"/>
+</media>
+</figure><para id="eip-208">In both cases the decimal point moved 4 places. When the exponent was positive, the decimal moved to the right. When the exponent was negative, the decimal point moved to the left.</para><example id="eip-469"><title>Convert from Scientific Notation</title><exercise id="fs-id14960"><problem id="fs-id14961">
+<para id="fs-id149601">Convert to decimal form: <m:math><m:mrow><m:mn>6.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id149608">
+<title>Solution</title>
+
+<table id="eip-id11684652444" class="unnumbered unstyled" summary="The first line says, “Step 1: Determine the exponent, n, on the factor 10,” and shows 6.2 times 10 to the 3rd. The next line says, “Step 2: Move the decimal n places, adding zeros if needed. If the exponent is positive, move the decimal point n places to the right. If the exponent is negative, move the decimal point the absolute value of n places to the left.” Beside that is 6.200 with an arrow from the decimal point to after the second 0. Beneath that is 6,200. The last line says, “Step 3: Check to see if your answer makes sense.” Beside that, it says, “10 cubed is 1000 and 1000 times 6.2 will be 6,200. 6.2 times 10 to the 3rd equals 6,200."><label/>
+<tgroup cols="2"><tbody>
+
+<row>
+<entry><emphasis>Step 1</emphasis>: Determine the exponent, <m:math><m:mi>n</m:mi></m:math>, on the factor 10.</entry>
+<entry align="center"><m:math><m:mn>6.2</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:math></entry>
+</row>
+
+
+<row>
+<entry><emphasis>Step 2</emphasis>: Move the decimal point <m:math><m:mi>n</m:mi></m:math> places, adding zeros if needed.</entry>
+<entry align="center"><media id="eip-id1168467111646" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_10_05_012_img-01.png"/></media></entry>
+</row>
+
+<row>
+<entry><list id="eip-id116846737773"><item>If the exponent is positive, move the decimal point <m:math><m:mi>n</m:mi></m:math> places to the right.</item>
+<item>If the exponent is negative, move the decimal point <m:math><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:math> places to the left. </item></list></entry>
+<entry align="center">6,200</entry>
+</row>
+
+<row>
+<entry><emphasis>Step 3</emphasis>: Check to see if your answer makes sense.</entry>
+<entry/>
+</row>
+
+<row>
+<entry><m:math><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:math> is 1000 and 1000 times 6.2 will be 6,200.
+
+</entry>
+<entry><m:math><m:mn>6.2</m:mn> <m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>6,200</m:mn></m:math></entry></row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="eip-375"><title>Convert from Scientific Notation</title><exercise id="fs-id1491958"><problem id="fs-id1504138">
+<para id="fs-id1504142">Convert to decimal form: <m:math><m:mrow><m:mn>8.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1504163">
+<title>Solution</title>
+
+<table id="eip-id1168469657169" class="unnumbered unstyled" summary="The top line shows 8.9 times 10 to the negative 2. The next line says, “Determine the exponent, n, on the factor 10. The exponent is negative 2.” The following line says, “Move the decimal point 2 places to the left.” Beside that is space 8.9, with an arrow from the decimal point to before the space. The next line says, “Add zeros as needed for placeholders,” and shows 0.089. Beneath that is 8.9 times 10 to the negative 2 equals 0.089."><label/>
+<tgroup cols="2"><tbody>
+
+<row>
+<entry/>
+<entry><m:math><m:mn>8.9</m:mn> <m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−2</m:mn></m:msup></m:math></entry>
+</row>
+
+<row>
+<entry>Determine the exponent <m:math><m:mi>n</m:mi></m:math>, on the factor 10.</entry>
+<entry>The exponent is −2.</entry>
+</row>
+
+<row>
+<entry>Move the decimal point 2 places to the left.</entry>
+<entry><media id="eip-id11684662626" alt="."><image mime-type="image/jpeg" src="../../media/CNX_BMath_Figure_10_05_013_img-01.png"/></media></entry>
+</row>
+
+<row>
+<entry>Add zeros as needed for placeholders.</entry>
+<entry>0.089</entry>
+</row>
+
+<row>
+<entry> </entry>
+<entry><m:math><m:mn>8.9</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>−2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.089</m:mn></m:math></entry>
+</row>
+<row>
+<entry>The Check is left to you.</entry>
+<entry/></row>
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><note id="eip-213"><label>Convert scientific notation to decimal form</label>
+<list id="eip-id1168469761725" list-type="enumerated" number-style="arabic" class="stepwise"><item>Determine the exponent, <m:math><m:mi>n</m:mi><m:mo>,</m:mo></m:math> on the factor <m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Move the decimal <m:math><m:mi>n</m:mi></m:math> places, adding zeros if needed.
+<list id="eip-id1168466070184">
+<item>If the exponent is positive, move the decimal point <m:math><m:mi>n</m:mi></m:math> places to the right.</item>
+<item>If the exponent is negative, move the decimal point <m:math><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow></m:math> places to the left.</item>
+</list>
+</item>
+<item>Check.</item>
+</list></note></section><section id="eip-739"><title>Calculating Change In Values <footnote id="eip-idm268655952"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-165"><title>Absolute Change</title><term>Absolute change</term> describes the specific change in a quantity or value. It is the <emphasis>difference</emphasis> between a new and old value. It can be calculated as:
+
+<figure id="eip-idm607795872">
+<media id="abschange" alt="absolute change equation">
+<image mime-type="image/png" src="../../media/abschange.png"/>
+</media></figure>
+
+When calculating the absolute change, two situations can occur:
+<list id="eip-idm350138336"><item>A <term>POSITIVE</term> difference is an <term>INCREASE</term> over time.</item>
+<item>A <term>NEGATIVE</term> difference is a <term>DECREASE</term> ovdr time.</item>
+</list></para><example id="eip-858"><title>Calculating Absolute Change</title><para id="eip-523">
+  <exercise id="abs-change1">
+   <problem id="abs-change1-problem">
+    <para id="abs-problem1-para">
+      A diversified stock portfolihas a worth that changes from <m:math><m:mo>$</m:mo><m:mn>1,500</m:mn></m:math> to<m:math><m:mo>$</m:mo><m:mn>2,250</m:mn></m:math>. What is the absolute change of the stock portfolio value?
+    </para>
+  </problem>
+  <solution id="abs-change1-solution">
+    <para id="abs-solution1-para">We will subtract the old value from the new value.
+
+<m:math><m:mo>$</m:mo><m:mn>2,250</m:mn><m:mo>-</m:mo><m:mn>1,500</m:mn><m:mo>=</m:mo><m:mo>$</m:mo><m:mn>750</m:mn></m:math>
+    
+Notice that the difference is positive. This means that the change is an increase. As a complete sentence, the answer would be:
+
+<m:math><m:mi>There was a $750 increase in the stock portfolio value.</m:mi></m:math></para></solution>
+</exercise>
+
+</para>
+</example><example id="eip-826"><title>Calculating Absolute Change</title><para id="eip-idm484229312">
+  <exercise id="abs-change2">
+   <problem id="abs-change2-problem">
+    <para id="abs-problem2-para">
+     An animal shelter reports that their number of animals awaiting adoption changed from <m:math><m:mn>82</m:mn></m:math> to <m:math><m:mn>46</m:mn></m:math> animals over <m:math><m:mn>6</m:mn></m:math> months. How did the animal popualtion change over time?
+    </para>
+  </problem>
+  <solution id="abs-change2-solution">
+    <para id="abs-solution2-para">We will subtract the old value from the new value.
+
+<m:math><m:mn>46</m:mn><m:mo>-</m:mo><m:mn>82</m:mn><m:mo>=</m:mo><m:mn>-36</m:mn></m:math>
+    
+Notice that the difference is negative. This means that the change is a decrease. As a complete sentence, the answer would be:
+
+<m:math><m:mn>There was a decrease of 36 animals in the animal shelter population over 6 months.</m:mn></m:math></para></solution>
+</exercise>
+
+</para>
+</example><para id="eip-359"><title>Relative Change</title><term>Relative change</term> describes the ratio comparison of the absolute change to the original value. It can be calculated as:
+<figure id="eip-idm206917472">
+<media id="relativechange" alt="relative change equation">
+<image mime-type="image/png" src="../../media/relativechange.png"/>
+</media>
+</figure>
+The two possible situations still apply to relative change as they did to absolute change:
+<list id="eip-idm273669840">
+<item>A <term>POSITIVE</term> difference is an <term>INCREASE</term> over time.</item>
+<item>A <term>NEGATIVE</term> difference is a <term>DECREASE</term> ovdr time.</item>
+</list>
+
+Because the relative change is a ratio, we can multiply it by <m:math><m:mn>100</m:mn></m:math> and report it as a percentage.</para><example id="eip-283"><title>Calculating Relative Change</title><para id="eip-idm775853056"><exercise id="rel-change1"><problem id="rel-change1-problem">
+    <para id="relchange-problem1-para">
+      A diversified stock portfolio has a worth that changes from <m:math><m:mo>$</m:mo><m:mn>1,500</m:mn></m:math> to<m:math><m:mo>$</m:mo><m:mn>2,250</m:mn></m:math>. What is the relative change of the stock portfolio value?
+    </para>
+  </problem>
+  <solution id="rel-change1-solution">
+    <para id="eip-idm509266288">We will subtract the old value from the new value.
+
+<m:math><m:mo>$</m:mo><m:mn>2,250</m:mn><m:mo>-</m:mo><m:mn>1,500</m:mn><m:mo>=</m:mo><m:mo>$</m:mo><m:mn>750</m:mn></m:math>
+    
+Dividing the result by the old value gives: <m:math><m:mo>$</m:mo><m:mn>750</m:mn><m:mo>/</m:mo><m:mo>$</m:mo><m:mn>1,500</m:mn><m:mo>=</m:mo><m:mn>0.5</m:mn></m:math>. 
+
+</para>
+  </solution>
+</exercise>
+
+To find the percent, we multiply this result by <m:math><m:mn>100</m:mn></m:math>.
+<m:math><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>50</m:mn><m:mo>*</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>%</m:mo></m:math>. 
+
+The final answer as a complete sentence would be: <m:math><m:mi>The stock portfolio has increased in value by 50%</m:mi></m:math></para></example><example id="eip-6"><title>Calculating Relative Change</title><para id="eip-idm377000960"><exercise id="rel-change2"><problem id="rel-change2-problem">
+    <para id="rel-change-problem2-para">
+     An animal shelter reports that their number of animals awaiting adoption changed from <m:math><m:mn>82</m:mn></m:math> to <m:math><m:mn>46</m:mn></m:math> animals over <m:math><m:mn>6</m:mn></m:math> months. How did the animal popualtion change over time?
+    </para>
+  </problem>
+  <solution id="rel-change2-solution">
+    <para id="rel-solution2-para">We will subtract the old value from the new value.
+
+<m:math><m:mn>46</m:mn><m:mo>-</m:mo><m:mn>82</m:mn><m:mo>=</m:mo><m:mn>-36</m:mn></m:math>
+    
+Notice that the difference is negative. Dividing this outcome by the old value gives the result: 
+<m:math><m:mn>-36</m:mn><m:mo>/</m:mo><m:mn>46</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>783</m:mn></m:math></para></solution>
+
+</exercise>
+
+To find the percent, we multiply this result by <m:math><m:mn>100</m:mn></m:math>.
+<m:math><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>783</m:mn><m:mo>*</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>78</m:mn><m:mo>.</m:mo><m:mn>3</m:mn><m:mo>%</m:mo></m:math>. 
+
+The final answer as a complete sentence would be: <m:math><m:mi>The number of animals awaiting adoption at the shelter has DECREASED by 78.3% over 6 months.</m:mi></m:math></para></example></section><section id="eip-772"><title>Debt-To-Income Ratios <footnote id="eip-idm336133872"> This material was created by Amanda Towry using Microsoft Word processing program.</footnote></title><para id="eip-487">One of the major decisions an individual faces when becoming an adult is to take on and manage debt. <emphasis>Debt</emphasis> is what we call when a favor, service, obligation, or money is owed to an individual or organization.</para><para id="eip-814">The most common forms of debt for college students are a student or a car loan. When a person is applying for private loans, credit cards, etc. banks will often look at what is called your debt-to-income ratio.<emphasis> Debt-to-income ratio (DTI)</emphasis> is a ratio that compares a person's monthly debt payments to their <emphasis>gross monthly income</emphasis>. 
+
+
+<figure id="eip-idm409254160">
+<media id="DTI" alt="Equation representing the DTI">
+  <image mime-type="image/png" src="../../media/DTI.png"/>
+</media>
+</figure>
+
+
+Specifically, there are two subcategories of DTI we will look at.</para><note id="eip-712"><label><emphasis> Front-End DTI</emphasis></label>
+<emphasis>Front-End-DTI</emphasis> is a ratio of housing payments to total income and is used in reference to mortgages. 
+
+<figure id="eip-idm786278032"><media id="FrontDTI" alt="Equation for front end DTI">
+<image mime-type="image/png" src="../../media/FrontDTI.png"/>
+</media>
+</figure></note><example id="eip-191"><title>Front End DTI</title><para id="eip-365">Congratulations! You have finished college and have been offered a good job that pays <m:math><m:mo>$</m:mo><m:mn>2,100</m:mn></m:math> per month. 
+
+</para><exercise id="eip-489"><problem id="eip-290">
+  <para id="eip-623">
+   What should your maximum rent payment be to make sure that your front-end DTI is less than or equal to <m:math><m:mn>28</m:mn><m:mo>%</m:mo></m:math>?
+  </para>
+</problem>
+
+<solution id="eip-343">
+  <para id="eip-737">The DTI ratio we are looking for is <m:math><m:mn>28</m:mn><m:mo>%</m:mo></m:math> and so this is the value you pluig in for the left side of the equal sign. 
+The monthly income is given as <m:math><m:mo>$</m:mo><m:mn>2,100</m:mn></m:math> which goees in the denominator of the right side of the DTI equation. This gives the following equation to solve:
+
+<figure id="eip-idm1160309632">
+<media id="DTIEx1-1" alt="Plugging in the given values for the DTI equation.">
+<image mime-type="image/png" src="../../media/DTIex1_1.png"/>
+</media>
+</figure>
+
+First, you need to convert the DTI from a percent to a decimal:
+
+<figure id="eip-idm1376832640">
+<media id="DTIEx1-2" alt="Plugging in the given values for the DTI equation.">
+<image mime-type="image/png" src="../../media/DTIex1_2.png"/>
+</media>
+</figure>
+
+In order to solve for the unknown rent payment, both sides must be multiplied by the denominator, $2,100:
+
+<figure id="eip-idm497247696">
+<media id="DTIEx1-3" alt="Plugging in the given values for the DTI equation.">
+<image mime-type="image/png" src="../../media/DTIex1_3.png"/>
+</media>
+</figure>
+
+Solving by multiplication gives us that the rent payment should be no more that <m:math><m:mo>$</m:mo><m:mn>588</m:mn></m:math>
+
+<figure id="eip-idm1141953424">
+<media id="DTIEx1-4" alt="Plugging in the given values for the DTI equation.">
+<image mime-type="image/png" src="../../media/DTIex1_4.png"/>
+</media>
+</figure></para></solution>
+</exercise>
+</example><note id="eip-479"><label><emphasis>Back-End DTI</emphasis></label>
+<emphasis>Back-End DTI</emphasis> is a ratio of all current and recurring debt payments as well as your mortgage or rent, to total income.
+
+<media id="BackDTI" alt="Equation for back end DTI">
+<image mime-type="image/png" src="../../media/BackDTI.png"/>
+</media>
+</note><example id="eip-172"><title>Back End DTI</title><para id="eip-628">After taking the job that pays <m:math><m:mo>$</m:mo><m:mn>2,100</m:mn></m:math> per month, you decide to tackle your student loan debt from college. You have built up a student loan debt of <m:math><m:mo>$</m:mo><m:mn>18,500</m:mn></m:math> and they carry a <m:math><m:mn>3.5</m:mn><m:mo>%</m:mo></m:math> interest rate.
+
+</para><exercise id="eip-123"><problem id="eip-585">
+  <para id="eip-334">Your rent is <m:math><m:mo>$</m:mo><m:mn>500</m:mn></m:math> per month and you pay <m:math><m:mo>$</m:mo><m:mn>150</m:mn></m:math> per month for your brand new car loan. What should your maximum student loan payment be to maintain a back-end DTI of no more than <m:math><m:mn>32</m:mn><m:mo>%</m:mo></m:math>
+  </para></problem>
+
+<solution id="eip-695">
+  <para id="eip-879">In the back-end DTI equation, all recurring debt payments are considered in the numerator. This means we must consider the money paid for rent, the car loan, and any potential loan payments. Because we are trying to figure out <emphasis>what</emphasis> that student loan payment should be, we can represent it with a variable.
+
+<figure id="eip-idm844343056">
+<media id="backdtiex1_1" alt="back dti equation substituted with values for this example.">
+<image mime-type="image/png" src="../../media/BackDTIex1_1.png"/>
+</media>
+</figure>
+
+Next, we will want to convert the <m:math><m:mn>38</m:mn><m:mo>%</m:mo></m:math> to a decimal.
+
+<figure id="eip-idm477217328">
+<media id="backdtiex1_2" alt="back dti equation substituted with values for this example.">
+<image mime-type="image/png" src="../../media/BackDTIex1_2.png"/>
+</media>
+</figure>
+
+Next, we want to remove the denominator by multiplying both sides by <m:math><m:mn>2,100</m:mn></m:math>.
+
+<figure id="eip-idm503304864">
+<media id="backdtiex1_3" alt="back dti equation substituted with values for this example.">
+<image mime-type="image/png" src="../../media/BackDTIex1_3.png"/>
+</media>
+</figure>
+
+Multiplying out the math on the left side of the equal sign and combining like terms on the right results in an equation that can be simply solved by subtraction:
+
+<figure id="eip-idm539277472">
+<media id="backdtiex1_4" alt="back dti equation substituted with values for this example.">
+<image mime-type="image/png" src="../../media/BackDTIex1_4.png"/>
+</media>
+</figure>
+
+Remember that we were looking for the maximum loan payment possible and that is what the variable represents. This means that the loan payment maximum is <m:math><m:mo>$</m:mo><m:mn>148</m:mn></m:math> per month.</para></solution>
+</exercise>
+</example><section id="eip-684"><title>Key Concepts</title><list id="eip-863"><item><emphasis>Absolute change is</emphasis>
+<equation id="eip-idm580581040">
+<m:math><m:mi>New value - Old value</m:mi></m:math></equation>
+</item>
+
+<item><emphasis>Relative change is</emphasis>
+<equation id="eip-idm402719952"><m:math><m:mfrac><m:mrow><m:mi>Absolute change</m:mi></m:mrow><m:mrow><m:mi>Old value</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>New value - Old value</m:mi></m:mrow><m:mrow><m:mi>Old value</m:mi></m:mrow></m:mfrac></m:math></equation>
+</item>
+
+<item><emphasis>A number in scientific notation is of the format</emphasis>
+<equation id="eip-idm753585840">
+<label/><m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math></equation>
+</item>
+
+<item><emphasis>Debt to income ratio is represented as</emphasis>
+<equation id="eip-idm512802160"><m:math><m:mi>DTI</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Monthly debt payments</m:mi></m:mrow><m:mrow><m:mi>Gross monthly income</m:mi></m:mrow></m:mfrac></m:math>
+</equation>
+</item>
+
+<item><emphasis>Front-emd DTI is represented as</emphasis>
+<equation id="eip-idm1352721248">
+<m:math><m:mi>Front-end DTI</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>Housing payments</m:mi></m:mrow><m:mrow><m:mi>Total income</m:mi></m:mrow></m:mfrac></m:math></equation>
+</item>
+<item><emphasis>Back-end DTI is represented as</emphasis>
+<equation id="eip-idm682067424">
+<m:math><m:mi>Back-end DTI</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>All recurring debt payments</m:mi></m:mrow><m:mrow><m:mi>Total income</m:mi></m:mrow></m:mfrac></m:math></equation>
+</item>
+
+<item><emphasis>Convert from Decimal Notation to Scientific Notation:</emphasis> To convert a decimal to scientific notation:
+<list id="eip-id1170326348637" list-type="enumerated" number-style="arabic" class="stepwise"><item>Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.</item>
+
+
+<item>Count the number of decimal places, <m:math><m:mi>n</m:mi></m:math>, that the decimal point was moved.</item>
+<item>Write the number as a product with a power of 10.<list id="eip-id1170326348647">
+<item>If the original number is greater than 1, the power of 10 will be <m:math><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>.</item>
+<item>If the original number is between 0 and 1, the power of 10 will be <m:math><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:math>.</item></list></item>
+<item>Check.</item></list>
+</item>
+<item><emphasis>Convert Scientific Notation to Decimal Form:</emphasis> To convert scientific notation to decimal form:
+<list id="eip-id1170323926258" list-type="enumerated" number-style="arabic" class="stepwise"><item>Determine the exponent, <m:math><m:mi>n</m:mi></m:math>, on the factor 10.</item>
+<item>Move the decimal <m:math><m:mi>n</m:mi></m:math> places, adding zeros if needed.
+<list id="eip-id1170323926264"><item>If the exponent is positive, move the decimal point <m:math><m:mi>n</m:mi></m:math>  places to the right.</item>
+<item>If the exponent is negative, move the decimal point <m:math><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:math>  places to the left.</item></list></item>
+<item>Check.</item></list></item></list></section></section></content>
+
+<glossary>
+
+<definition id="BackEndDTI">
+<term>Back-End DTI</term>
+<meaning id="BackDTImean">
+A type of DTI that compares all of your recurring debt payments, including rent or mortgage, to your gross monthly income.
+</meaning>
+</definition>
+
+<definition id="DTIratio">
+<term>Debt-to-Income Ratio (DTI)</term>
+<meaning id="DTImean">
+A ratio used in personal finances that compares your monthly debt payments to your gross monthly income.
+</meaning>
+</definition>
+
+
+<definition id="FrontEndDTI">
+<term>Front-End DTI</term>
+<meaning id="FrontDTImean">
+A type of DTI that compares your housing payments, such as rent or mortgage, to your gross monthly income.
+</meaning>
+</definition>
+
+<definition id="part2whole">
+<term>Part-to-Whole Ratio</term>
+<meaning id="part2wholemean">
+A ratio that compares a part or some of the parts of something to the whole.
+</meaning>
+</definition>
+
+<definition id="part2part">
+<term>Part-to-Part Ratio</term>
+<meaning id="part2partmean">
+A ratio that compares a part of a whole to another part of the same whole.
+</meaning>
+</definition>
+
+
+
+</glossary>
+
+</document>

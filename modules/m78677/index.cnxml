@@ -1,0 +1,306 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Election Maths: Lessons 1.C - 1.D</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78677</md:content-id>
+  <md:title>Election Maths: Lessons 1.C - 1.D</md:title>
+  <md:abstract/>
+  <md:uuid>11d896cf-d46b-497a-8695-a7043e54c5fc</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-329"><label>Topics Covered in this Module</label>
+<para id="fs-id2294279">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Simple Majority Elections <link target-id="eip-934"/></item>
+<item>Instant Runoff Elections <link target-id="eip-229"/></item> 
+<item>Borda Count Method Elections <link target-id="eip-11" document=""/></item>
+<item>Key Concepts  <link target-id="eip-448" document=""/></item></list></note><section id="eip-934"><title>Simple Majority Elections <footnote id="eip-idm442095760"> This material was created by Amanda Towry .</footnote></title><para id="eip-788">Elections are ways of helping large groups of people who have different ideas in electing persons, ideas, activities, and more. Elections are used to elect our political representatives and can also be used to decide what food options will be made for a group party or gathering.</para><para id="eip-538">Most elections that occur in your everyday life are simple <term>majority</term> elections. Majority elections require a number of votes over <m:math><m:mn>50</m:mn><m:mo>%</m:mo></m:math>, or a majority of the votes cast.This amount can be easily found by simply calculating <m:math><m:mn>50</m:mn><m:mo>%</m:mo></m:math> of the total votes cast in an election.</para><example id="eip-830"><title>Simple Majority Election</title><exercise id="eip-593"><problem id="eip-84">
+  <para id="eip-764">Janna, Ryan, and Eric are running against each other for the position of class president. Janna is trying to figure out how many votes she would need to win the election. According to her school's records, there are <m:math><m:mn>356</m:mn></m:math> students in Janna's class that she is running to represent. If every student votes in the election, how many of the students must vote for Janna to win the election by a simple majority?
+
+  </para></problem>
+
+<solution id="eip-603">
+  <para id="eip-894">
+    If the total number of votes cast is <m:math><m:mn>356</m:mn></m:math>, then we simply need to calculate <m:math><m:mn>50</m:mn><m:mo>%,</m:mo></m:math>
+  </para>
+ <para id="eip-895">
+   Setting up an equation with the portion of the votes that are unknown is represented as a variable.
+  </para>
+
+ <para id="eip-896"><m:math><m:mn>356</m:mn><m:mo>*</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>50</m:mn><m:mo>=</m:mo><m:mn>x</m:mn></m:math>
+  </para>
+
+<para id="eip-897">Solving for the unknown variable <m:math><m:mn>x</m:mn></m:math>, gives a value of <m:math><m:mn>178</m:mn></m:math>.
+ </para>
+
+<para id="eip-898">
+However, this is not the actual amount of votes that Janna needs to win the election. Janna needs <emphasis>more</emphasis> than <m:math><m:mn>50</m:mn><m:mo>%</m:mo></m:math>. This means the total necessary votes needed must be rounded up by one, giving a total of <m:math><m:mn>179</m:mn></m:math> votes needed for Janna to win the election by simple majority.
+ </para>
+</solution>
+</exercise></example>
+</section><section id="eip-229"><title>Intant Run-Off Elections <footnote id="eip-idm319769440"> This material was created by Amanda Towry .</footnote></title><para id="eip-447">Sometimes a simple majority election cannot be used; usually because an individual does not meet the required greater than <m:math><m:mn>50</m:mn><m:mo>%</m:mo></m:math> of the vote required.</para>
+
+<para id="eip-362">In the case where this happens, an <term>instant-runoff</term> election, or elimination method, might be held. An instant runoff is an election where voting choices are ranked by preference and eliminations are made when no one candidate receives a simple majority.</para>
+
+<example id="eip-357"><title>Instant Run-Off Election</title><para id="eip-819">The student council election is run by an instant runoff of a preference schedule. Students are asked to rank their preference for each student running for office as either first, second, or third choice. These preference schedules are then combined and presented in a total votes preference schedule to determine the winner of the student body election.
+</para>
+
+<table id="eip-818" summary=".">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis>71 voters</emphasis></entry>
+    <entry><emphasis>97 voters</emphasis></entry>
+    <entry><emphasis>49 voters</emphasis></entry>
+    <entry><emphasis>78 voters</emphasis></entry>
+    <entry><emphasis>61 voters</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>1</m:mn><m:mn>st</m:mn></m:msup></m:math></entry>
+    <entry>Eric</entry>
+    <entry>Ryan</entry>
+    <entry>Ryan</entry>
+    <entry>Janna</entry>
+    <entry>Janna</entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>nd</m:mn></m:msup></m:math></entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Ryan</entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>3</m:mn><m:mn>rd</m:mn></m:msup></m:math></entry>
+    <entry>Ryan</entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Ryan</entry>
+    <entry>Eric</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Preference schedule for the student governemnt election.</caption>
+</table>
+<para id="eip-367">Adding up all of the first place votes for each of the candidates gives the following results:
+
+<list id="instantrunoffelect"><item> <emphasis>Eric:</emphasis>  <m:math><m:mn>97 votes</m:mn><m:mo>+</m:mo><m:mn>49 votes</m:mn><m:mo>=</m:mo><m:mn> 146 votes</m:mn></m:math></item>
+<item> <emphasis>Janna:</emphasis>  <m:math><m:mn>78 votes</m:mn><m:mo>+</m:mo><m:mn>61 votes</m:mn><m:mo>=</m:mo><m:mn> 139 votes</m:mn></m:math></item>
+<item> <emphasis>Ryan:</emphasis>  <m:math><m:mn> 146 votes</m:mn></m:math></item></list>
+</para><para id="eip-937">It is clear that no one candidate received a simple majority of the vote in this election. In this case, the candidate that received the least amount of votes is eliminated: Ryan. Once Ryan is removed from the ballot, all remaining candidates are moved up in the ranking and first-place votes are recalculated.</para><table id="eip-73" summary="A table is displayed that has had the candidate Ryan removed to show the fact that he has lost the instant run off and other will be moved up to take his place.">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis>71 voters</emphasis></entry>
+    <entry><emphasis>97 voters</emphasis></entry>
+    <entry><emphasis>49 voters</emphasis></entry>
+    <entry><emphasis>78 voters</emphasis></entry>
+    <entry><emphasis>61 voters</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>1</m:mn><m:mn>st</m:mn></m:msup></m:math></entry>
+    <entry>Eric</entry>
+    <entry/>
+    <entry/>
+    <entry>Janna</entry>
+    <entry>Janna</entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>nd</m:mn></m:msup></m:math></entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>3</m:mn><m:mn>rd</m:mn></m:msup></m:math></entry>
+    <entry/>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry/>
+    <entry>Eric</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Preference schedule for the student governemnt election that has had the last place candidate removed from the ballot for an instant runoff decision.</caption>
+</table><table id="eip-821" summary="A table is displayed showing how the ranking looks after moving candidates up a position due to the instant run off.">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis>71 voters</emphasis></entry>
+    <entry><emphasis>97 voters</emphasis></entry>
+    <entry><emphasis>49 voters</emphasis></entry>
+    <entry><emphasis>78 voters</emphasis></entry>
+    <entry><emphasis>61 voters</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>1</m:mn><m:mn>st</m:mn></m:msup></m:math></entry>
+    <entry>Eric</entry>
+    <entry>Eric</entry>
+    <entry>Janna</entry>
+    <entry>Janna</entry>
+    <entry>Janna</entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>nd</m:mn></m:msup></m:math></entry>
+    <entry>Janna</entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Eric</entry>
+    <entry>Eric</entry>
+  </row>
+ 
+</tbody>
+
+
+
+
+
+
+
+</tgroup><caption>Preference schedule for the student governemnt election that has had the next in line behind the eliminated candidate moved up before recalcualting the number of first place votes.</caption>
+</table><para id="eip-226">Now, recalculating the total votes shows that:
+
+<list id="runoffelect"><item> <emphasis>Eric:</emphasis>  <m:math><m:mn>71 votes</m:mn><m:mo>+</m:mo><m:mn>97 votes</m:mn><m:mo>=</m:mo><m:mn> 168 votes</m:mn></m:math></item>
+
+<item> <emphasis>Janna:</emphasis>  <m:math><m:mn>49 votes</m:mn><m:mo>+</m:mo><m:mn>78 votes</m:mn><m:mo>+</m:mo><m:mn>61 votes</m:mn><m:mo>=</m:mo><m:mn> 188 votes</m:mn></m:math></item>
+
+</list></para><para id="eip-235">After the instant runoff, Janna has a total of <m:math><m:mn>188 votes</m:mn></m:math> and can now be declared the winner of the election because 188 is more than <m:math><m:mn>50</m:mn><m:mo>%</m:mo></m:math> of the total votes in the class.</para>
+</example></section><section id="eip-11"><title>Borda Count Method of Election <footnote id="eip-idm214175072"> This material was created by Amanda Towry .</footnote></title><para id="eip-143">In the instant runoff election, a preference schedule was constructed in order to determine the winner of the student body election. Sometimes a preference schedule can be used to determine the winner of an election using points, in a method called a <term>Borda Count method</term>.</para><para id="eip-192">The Borda Count Method involves awarding points to candidates based on their positions in the preference schedules collected. The lowest position, or last place, always receives the least amount of points and the highest position, or first place, always receives the most points. </para>
+
+<para id="eip-251">The total amount of points that the candidate receives is the total of all the points awarded for all positions in the preference schedule, instead of just in the first place. The person with the most amount of points wins that election.</para><example id="eip-804"><title>Borda Count Election</title><para id="eip-21">
+  The student council election is run by the Borda Count method from a preference schedule distributed to the student body. Students are asked to rank their preference for each student running for office as either first, second, or third choice. These preference schedules are then combined and presented in a total votes preference schedule to determine the winner of the student body election.
+</para>
+
+<para id="eip-287">We start with the initial preference schedule that was completed. Each of the places gets a set amount of points. First place gets 3 points, second place gets two points, and third place gets one point. This is because the last place always gets the least amount of points and the first place vote always gets the most amount of points; with the point value ascending upwards between last to first place.</para><table id="eip-71" summary="The table displays a preference schedule with point allocations added to identify it as Borda Count Method">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis>71 voters</emphasis></entry>
+    <entry><emphasis>97 voters</emphasis></entry>
+    <entry><emphasis>49 voters</emphasis></entry>
+    <entry><emphasis>78 voters</emphasis></entry>
+    <entry><emphasis>61 voters</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>1</m:mn><m:mn>st</m:mn></m:msup><m:mo>(</m:mo><m:mn>3 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Eric</entry>
+    <entry>Ryan</entry>
+    <entry>Ryan</entry>
+    <entry>Janna</entry>
+    <entry>Janna</entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>nd</m:mn></m:msup><m:mo>(</m:mo><m:mn>2 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Ryan</entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>3</m:mn><m:mn>rd</m:mn></m:msup><m:mo>(</m:mo><m:mn>1 point</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Ryan</entry>
+    <entry>Janna</entry>
+    <entry>Eric</entry>
+    <entry>Ryan</entry>
+    <entry>Eric</entry>
+  </row>
+</tbody>
+</tgroup><caption>Preference schedule for the student governemnt election that has the point values of each preference position listed for calculating points awarded to each candidate.</caption>
+</table>
+<para id="eip-975">To calculate the number of points each vote in the preference gets, we multiply the place value of the row with the place value of the column each vote occurs in. So In the first column, Eric got first place and his points for that vote are calculated by <m:math><m:mn>3 points</m:mn></m:math> (for being in first place), times <m:math><m:mn>71 votes</m:mn></m:math> because that column had <m:math><m:mn>71</m:mn></m:math> voters assigned to it.
+<equation id="eip-idm495683584">
+<m:math><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)(</m:mo><m:mn>71</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>213</m:mn></m:math>
+</equation>
+
+This process is then repeated for each cell in the preference schedule.</para><table id="eip-150" summary="Tabke showing the total number of points awarded to each candidate under the Borda Count Method">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis>71 voters</emphasis></entry>
+    <entry><emphasis>97 voters</emphasis></entry>
+    <entry><emphasis>49 voters</emphasis></entry>
+    <entry><emphasis>78 voters</emphasis></entry>
+    <entry><emphasis>61 voters</emphasis></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>1</m:mn><m:mn>st</m:mn></m:msup><m:mo>(</m:mo><m:mn>3 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Eric <m:math><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>*</m:mo><m:mn>71</m:mn><m:mo>=</m:mo><m:mn>213 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Ryan<m:math><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>*</m:mo><m:mn>97</m:mn><m:mo>=</m:mo><m:mn>291 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Ryan<m:math><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>*</m:mo><m:mn>49</m:mn><m:mo>=</m:mo><m:mn>147 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Janna<m:math><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>*</m:mo><m:mn>78</m:mn><m:mo>=</m:mo><m:mn>234 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Janna<m:math><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>*</m:mo><m:mn>61</m:mn><m:mo>=</m:mo><m:mn>183 points</m:mn><m:mo>)</m:mo></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>nd</m:mn></m:msup><m:mo>(</m:mo><m:mn>2 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Janna<m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>*</m:mo><m:mn>71</m:mn><m:mo>=</m:mo><m:mn>142 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Eric<m:math><m:mo>(</m:mo><m:mn>194 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Janna<m:math><m:mo>(</m:mo><m:mn>98 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Eric<m:math><m:mo>(</m:mo><m:mn>156 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Ryan<m:math><m:mo>(</m:mo><m:mn>122 points</m:mn><m:mo>)</m:mo></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:msup><m:mn>2</m:mn><m:mn>nd</m:mn></m:msup><m:mo>(</m:mo><m:mn>1 point</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Ryan<m:math><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>*</m:mo><m:mn>71</m:mn><m:mo>=</m:mo><m:mn>71 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Janna<m:math><m:mo>(</m:mo><m:mn>97 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Eric<m:math><m:mo>(</m:mo><m:mn>49 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Ryan<m:math><m:mo>(</m:mo><m:mn>78 points</m:mn><m:mo>)</m:mo></m:math></entry>
+    <entry>Eric<m:math><m:mo>(</m:mo><m:mn>61 points</m:mn><m:mo>)</m:mo></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup><caption>Preference schedule for the student governemnt election that has the point values of each preference position calculated and listed so that totals can be determined. </caption>
+</table>
+
+<para id="eip-868">Adding up all of the points each candidate earns for each place vote gives the following totals:
+
+<list id="Bordacount2"><item> <emphasis>Eric: </emphasis><m:math><m:mn> 213 points</m:mn><m:mo>+</m:mo><m:mn>194 points</m:mn><m:mo>+</m:mo><m:mn>49 points</m:mn><m:mo>+</m:mo><m:mn>156 points</m:mn><m:mo>+</m:mo><m:mn>61 points</m:mn><m:mo>=</m:mo><m:mn>673 points</m:mn></m:math></item>
+<item> <emphasis>Janna:</emphasis>  <m:math><m:mn> 142 points</m:mn><m:mo>+</m:mo><m:mn>97 points</m:mn><m:mo>+</m:mo><m:mn>98 points</m:mn><m:mo>+</m:mo><m:mn>234 points</m:mn><m:mo>+</m:mo><m:mn>183 points</m:mn><m:mo>=</m:mo><m:mn>754 points</m:mn></m:math></item> 
+<item> <emphasis>Ryan:</emphasis>  <m:math><m:mn> 71 points</m:mn><m:mo>+</m:mo><m:mn>291 points</m:mn><m:mo>+</m:mo><m:mn>147 points</m:mn><m:mo>+</m:mo><m:mn>78 points</m:mn><m:mo>+</m:mo><m:mn>122 points</m:mn><m:mo>=</m:mo><m:mn>709 points</m:mn></m:math></item>
+</list>
+</para><para id="eip-94">As can be seen from the totals above, Janna received the highest number of points in this election and thus would be caonsidered the winner in the Borda Count Method election.</para>
+</example></section><note id="eip-6" type="aside">Material from this section was developed and edited by Amanda Towry. Material Concept was inspired by the Dana Center materials.</note><section id="eip-448"><title>Key Concepts</title><list id="eip-idm338705792"><item><emphasis> Winners of elections can be conducted in three common ways</emphasis>
+<list id="eip-idm836535072">
+<item>Simple majority</item>
+<item>Instant run-off</item>
+<item>Borda count method</item>
+</list>
+</item>
+<item><emphasis>Simple majority elections require at least <m:math><m:mn>51</m:mn><m:mo>%</m:mo></m:math> of the votes cast in the election.</emphasis></item>
+<item><emphasis>Instant run-off elections are similar to simple majority elections but require eleminating a candidate/option.</emphasis></item>
+<item><emphasis>Borda count method elections require calculating and adding up points calculating by place vote and number of votes earned for that cadidate/option.</emphasis></item></list></section></content>
+
+<glossary>
+
+<definition id="simpleelect">
+<term>Simple Majority Election</term>
+<meaning id="simpleelectmean">
+An election in which a candidate is required to achieve at least <m:math><m:mn>51</m:mn><m:mo>%</m:mo></m:math> of the votes cast in order to be considered the winner.</meaning>
+</definition>
+
+<definition id="runoff">
+<term>Instant Run-off Election</term>
+<meaning id="runoffmean">
+An election in which a candidate/option is eliminated from a ballot or preference schedule in order to achieve a simple majority possibility vote collection for one of the remaining candidates/options.
+</meaning>
+</definition>
+
+<definition id="bordacount">
+<term>Borda Count Method</term>
+<meaning id="bordacountmean">
+An election method in which candidates/options in a preference schedule are assigned point values based off ranking position and number of votes cast for that ranking line up.</meaning>
+</definition>
+
+</glossary>
+
+</document>

@@ -1,0 +1,98 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Logistic Growth: Lessons 11.A - 11.E</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78681</md:content-id>
+  <md:title>Logistic Growth: Lessons 11.A - 11.E</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Explain the characteristics of and differences between exponential and logistic growth patterns</item>
+<item>Give examples of exponential and logistic growth in natural populations</item>
+<item>Give examples of how the carrying capacity of a habitat may change</item>
+<item>Compare and contrast density-dependent growth regulation and density-independent growth regulation giving examples</item>
+</list>
+This correlates to Lessons 11A-E of Corequisite MAT 1043(QR) and NCBO.</md:abstract>
+  <md:uuid>f8b8d9d8-26cc-4abc-8433-bd1a632eeeeb</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-96"><title>Topics Covered</title><para id="eip-387">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="eip-997" number-style="arabic" list-type="enumerated"><item>Exponential Population Growth <link document="" target-id="eip-913"/></item>
+<item>Logistic Population Growth<link document="" target-id="fs-idm16989792"/></item>
+
+<item>Key Concepts  <link document="" target-id="eip-632"/></item></list></note><para id="fs-idm90997296">Population ecologists make use of a variety of methods to model population dynamics. An accurate model should be able to describe the changes occurring in a population and predict future changes.</para>
+<para id="eip-273">The two simplest models of population growth use deterministic equations (equations that do not account for random events) to describe the rate of change in the size of a population over time. The first of these models, exponential growth, describes theoretical populations that increase in numbers without any limits to their growth. The second model, logistic growth, introduces limits to reproductive growth that become more intense as the population size increases. Neither model adequately describes natural populations, but they provide points of comparison.</para><section id="eip-913"><title>Exponential Population Growth <footnote id="eip-idm476658064">Section material derived from Openstax Concepts of Biology: Ecology-Populations and Community Ecology-Population Growth and Regulation</footnote></title><para id="fs-idp75549024">Charles Darwin, in developing his theory of natural selection, was influenced by the English clergyman Thomas Malthus. Malthus published his book in 1798 stating that populations with abundant natural resources grow very rapidly; however, they limit further growth by depleting their resources. The early pattern of accelerating population size is called <term>exponential growth</term>.</para>
+<para id="fs-idp40874352">The best example of exponential growth in organisms is seen in bacteria. Bacteria are prokaryotes that reproduce largely by binary fission. This division takes about an hour for many bacterial species. If 1000 bacteria are placed in a large flask with an abundant supply of nutrients (so the nutrients will not become quickly depleted), the number of bacteria will have doubled from 1000 to 2000 after just an hour. In another hour, each of the 2000 bacteria will divide, producing 4000 bacteria. After the third hour, there should be 8000 bacteria in the flask. The important concept of exponential growth is that the growth rate—the number of organisms added in each reproductive generation—is itself increasing; that is, the population size is increasing at a greater and greater rate. After 24 of these cycles, the population would have increased from 1000 to more than 16 billion bacteria. When the population size, <emphasis effect="italics">N</emphasis>, is plotted over time, a <term>J-shaped growth curve</term> is produced (<link target-id="fig-ch19_02_01" document=""/><emphasis effect="bold">a</emphasis>).</para>
+<para id="fs-idm55406096">The bacteria-in-a-flask example is not truly representative of the real world where resources are usually limited. However, when a species is introduced into a new habitat that it finds suitable, it may show exponential growth for a while. In the case of the bacteria in the flask, some bacteria will die during the experiment and thus not reproduce; therefore, the growth rate is lowered from a maximal rate in which there is no mortality. The growth rate of a population is largely determined by subtracting the <term>death rate</term>, <emphasis effect="italics">D</emphasis>, (number organisms that die during an interval) from the <term>birth rate</term>, <emphasis effect="italics">B</emphasis>, (number organisms that are born during an interval). The growth rate can be expressed in a simple equation that combines the birth and death rates into a single factor: <emphasis effect="italics">k</emphasis>. This is shown in the following formula:</para><equation id="eip-863"><m:math display="block">
+ <m:mrow>
+  <m:mtext>Population growth </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>-</m:mo><m:mi>D</m:mi><m:mo>)</m:mo><m:mi>P</m:mi>
+ </m:mrow>
+</m:math></equation><equation id="eip-838"><m:math display="block">
+ <m:mrow>
+  <m:mtext>Population growth </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>k</m:mi><m:mi>P</m:mi>
+ </m:mrow>
+</m:math></equation><para id="fs-idm93590176">The value of <emphasis effect="italics">k</emphasis> can be positive, meaning the population is increasing in size (the rate of change is positive); or negative, meaning the population is decreasing in size; or zero, in which case the population size is unchanging, a condition known as <term>zero population growth</term>.</para></section><section id="fs-idm16989792"><title>Logistic Population Growth <footnote id="eip-idm903075088">Section material derived from Openstax Concepts of Biology: Ecology-Populations and Community Ecology-Population Growth and Regulation</footnote></title><para id="fs-idm89244144">Extended exponential growth is possible only when infinite natural resources are available; this is not the case in the real world. Charles Darwin recognized this fact in his description of the “struggle for existence,” which states that individuals will compete (with members of their own or other species) for limited resources. The successful ones are more likely to survive and pass on the traits that made them successful to the next generation at a greater rate (natural selection). To model the reality of limited resources, population ecologists developed the <term>logistic growth</term> model.</para>
+<section id="fs-idm33759984">
+<title>Carrying Capacity and the Logistic Model</title>
+<para id="fs-idp78257440">In the real world, with its limited resources, exponential growth cannot continue indefinitely. Exponential growth may occur in environments where there are few individuals and plentiful resources, but when the number of individuals gets large enough, resources will be depleted and the growth rate will slow down. Eventually, the growth rate will plateau or level off (<link target-id="fig-ch19_02_01" document=""/><emphasis effect="bold">b</emphasis>). This population size, which is determined by the maximum population size that a particular environment can sustain, is called the <term>carrying capacity</term>, or <emphasis effect="italics">L</emphasis>. In real populations, a growing population often overshoots its carrying capacity, and the death rate increases beyond the birth rate causing the population size to decline back to the carrying capacity or below it. Most populations usually fluctuate around the carrying capacity in an undulating fashion rather than existing right at it.</para><para id="fs-idm47112576">The formula used to calculate logistic growth adds the carrying capacity as a moderating force in the growth rate. The expression “<emphasis effect="italics">L</emphasis> – <emphasis effect="italics">P</emphasis>” is equal to the number of individuals that may be added to a population at a given time, and “<emphasis effect="italics">L</emphasis> – <emphasis effect="italics">P</emphasis>” divided by “<emphasis effect="italics">L</emphasis>” is the fraction of the carrying capacity available for further growth. Thus, the exponential growth model is restricted by this factor to generate the logistic growth equation:</para><equation id="eip-911"><m:math display="block">
+ <m:mrow>
+  <m:mtext>Population growth </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>k</m:mi><m:mi>P</m:mi><m:mtext> </m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>L</m:mi><m:mo>−</m:mo><m:mi>P</m:mi>
+    </m:mrow>
+    <m:mi>L</m:mi>
+   </m:mfrac>
+   
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math></equation><para id="fs-idm78857120">Notice that when <emphasis effect="italics">P</emphasis> is almost zero the quantity in brackets is almost equal to 1 (or <emphasis effect="italics">L</emphasis>/<emphasis effect="italics">L</emphasis>) and growth is close to exponential. When the population size is equal to the carrying capacity, or <emphasis effect="italics">P</emphasis> = <emphasis effect="italics">L</emphasis>, the quantity in brackets is equal to zero and growth is equal to zero. A graph of this equation (logistic growth) yields the <term>S-shaped curve</term> (<link target-id="fig-ch19_02_01" document=""/><emphasis effect="bold">b</emphasis>). It is a more realistic model of population growth than exponential growth. There are three different sections to an S-shaped curve. Initially, growth is exponential because there are few individuals and ample resources available. Then, as resources begin to become limited, the growth rate decreases. Finally, the growth rate levels off at the carrying capacity of the environment, with little change in population number over time.</para><figure id="fig-ch19_02_01" class=" "><media id="fs-idm93237040" alt=" Both (a) and (b) graphs plot population size versus time. In graph (a), exponential growth results in a curve that gets increasingly steep, resulting in a J-shape. In graph (b), logistic growth results in a curve that gets increasingly steep, then levels off when the carrying capacity is reached, resulting in an S-shape.">
+<image mime-type="image/png" src="../../media/expvlogistic.png"/>
+</media>
+<caption>When resources are unlimited, populations exhibit (a) exponential growth, shown in a J-shaped curve. When resources are limited, populations exhibit (b) logistic growth. In logistic growth, population expansion decreases as resources become scarce, and it levels off when the carrying capacity of the environment is reached. The logistic growth curve is S-shaped.</caption></figure></section>
+<section id="fs-idp126128384"><title>Examples of Logistic Growth <footnote id="eip-idm216942032">Section material derived from Openstax Concepts of Biology: Ecology-Populations and Community Ecology-Population Growth and Regulation</footnote></title><para id="fs-idm29259696">Yeast, a microscopic fungus used to make bread and alcoholic beverages, exhibits the classical S-shaped curve when grown in a test tube (<link target-id="fig-ch19_02_02" document=""/><emphasis effect="bold">a</emphasis>). Its growth levels off as the population depletes the nutrients that are necessary for its growth. In the real world, however, there are variations to this idealized curve. Examples in wild populations include sheep and harbor seals (<link target-id="fig-ch19_02_02" document=""/><emphasis effect="bold">b</emphasis>). In both examples, the population size exceeds the carrying capacity for short periods of time and then falls below the carrying capacity afterwards. This fluctuation in population size continues to occur as the population oscillates around its carrying capacity. Still, even with this oscillation, the logistic model is confirmed.</para><example id="eip-812"><label/><title>Real World Examples</title>
+
+<figure id="fig-ch19_02_02" class=" "><media id="fs-idp35323232" alt=" Graph (a) plots amount of yeast versus time of growth in hours. The curve rises steeply, and then plateaus at the carrying capacity. Data points tightly follow the curve. Graph (b) plots the number of harbor seals versus time in years. Again, the curve rises steeply then plateaus at the carrying capacity, but this time there is much more scatter in the data. A micrograph of yeast cells, which are oval in shape, and a photo of a harbor seal are shown.">
+<image mime-type="image/png" src="../../media/Figure_19_02_02abf.png" width="475"/>
+</media>
+<caption>(a) Yeast grown in ideal conditions in a test tube shows a classical S-shaped logistic growth curve, whereas (b) a natural population of seals shows real-world fluctuation. The yeast is visualized using differential interference contrast light micrography. (credit a: scale-bar data from Matt Russell)</caption></figure>
+
+
+<!--<para><link target-id="fig-ch19_02_01" document=""/><emphasis effect="bold">ab</emphasis>A: The carrying capacity of seals would decrease, as would the seal population.</para>--></example></section></section><section id="eip-632"><title>Key Concepts</title><list id="eip-idm220237776">
+<item><emphasis>Logistic population growth</emphasis>
+<equation id="eip-idm826348992"><m:math display="block">
+ <m:mrow>
+  <m:mtext>Population growth </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>k</m:mi><m:mi>P</m:mi><m:mtext> </m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>L</m:mi><m:mo>−</m:mo><m:mi>P</m:mi>
+    </m:mrow>
+    <m:mi>L</m:mi>
+   </m:mfrac>
+   
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math></equation>
+</item>
+</list></section></content>
+<glossary>
+<definition id="fs-idp22904912"><term>Birth Rate</term> <meaning id="fs-idp78238208">the number of births within a population at a specific point in time</meaning></definition>
+
+<definition id="fs-idm82230608"><term>Carrying Capacity</term> <meaning id="fs-idp168549344">the maximum number of individuals of a population that can be supported by the limited resources of a habitat</meaning></definition>
+
+<definition id="fs-idp92857552"><term>Death Rate</term> <meaning id="fs-idp4298480">the number of deaths within a population at a specific point in time</meaning></definition>
+
+
+<definition id="fs-idm111937664"><term>Exponential Growth</term> <meaning id="fs-idm66931072">an accelerating growth pattern seen in populations where resources are not limiting</meaning></definition>
+
+<definition id="fs-idm1862384"><term>J-shaped growth curve</term> <meaning id="fs-idm7127536">the shape of an exponential growth curve</meaning></definition>
+
+
+<definition id="fs-idm64647680"><term>Logistic Growth</term> <meaning id="fs-idm89028752">the leveling off of exponential growth due to limiting resources</meaning></definition>
+
+
+
+<definition id="fs-idm57085328"><term>S-shaped growth curve</term> <meaning id="fs-idp2635696">the shape of a logistic growth curve</meaning></definition>
+
+<definition id="fs-idm144677696"><term>Zero Population Growth</term> <meaning id="fs-idm14151808">the steady population size where birth rates and death rates are equal</meaning></definition>
+</glossary>
+</document>

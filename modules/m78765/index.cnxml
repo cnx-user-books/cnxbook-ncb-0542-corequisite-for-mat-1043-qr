@@ -1,0 +1,776 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Modeling Linear Relationships: 8.C -9.A</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78765</md:content-id>
+  <md:title>Modeling Linear Relationships: 8.C -9.A</md:title>
+  <md:abstract/>
+  <md:uuid>a26a7322-4e61-4b97-adb9-69116676f168</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-128"><label>Topics Covered in this Module</label>
+<para id="eip-idm1155439744">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para>
+<list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Simple and Compound Interest <link document="" target-id="eip-344"/></item>
+
+<item>Graphing Piecewise Functions <link document="" target-id="eip-103"/></item>
+
+<item>Recognizing Interpolation or Extrapolation <link document="" target-id="eip-355"/></item>
+<item>Key Concepts  <link document="" target-id="eip-769"/></item></list></note><section id="eip-344"><title>Simple and Compound Interest <footnote id="eip-idm620574144">Section material derived by Amanda Towry</footnote></title><para id="eip-814">If you deposit money into a bank account, you are effectively lending money to the bank - and you can expect to receive interest in return. Similarly, if you borrow money from a bank (or from a department store, or a car dealership, for example) then you can expect to have to pay interest on the loan. That is the price of borrowing money.</para><para id="eip-667">If it stayed in your wallet, you could spend it any time you wanted. If the bank looked after it for you, then they could spend it, with the plan of making profit from it. The bank usually “pays" you to deposit it into an account, as a way of encouraging you to bank it with them, This payment is like a reward, which provides you with a reason to leave it with the bank for a while, rather than keeping the money in your wallet.</para><para id="eip-287">We call this reward "interest".</para><para id="eip-863"><title>Simple Interest</title><term>Simple interest</term> is where money is earned based off the <term>initial investment</term>. Simple interest can be calculated by the equation
+
+
+<figure id="eip-idm650697280"><media id="simpleinterest" alt="simple interest equation">
+
+<image mime-type="image/png" src="../../media/simpleinterest.png"/>
+</media>
+<caption>I is interest earned, P is initial investment (or your initial deposit), r is the interest rate (usually substituted in as a decimal), and t is the time in years.</caption></figure></para><example id="eip-60"><title>Simple Interest</title><para id="eip-302">You invest <m:math><m:mo>$</m:mo><m:mn>500</m:mn></m:math> in an account that earns <m:math><m:mn>3</m:mn><m:mo>%</m:mo></m:math> per year. What would be your account balance after <m:math><m:mn>15</m:mn></m:math> years?
+</para><para id="eip-271">You would first need to substitute each of the known values into the equation. Your initial investment is <m:math><m:mo>$</m:mo><m:mn>500</m:mn></m:math> and your time is <m:math><m:mn>15</m:mn></m:math> years. The interest rate is <m:math><m:mn>3</m:mn><m:mo>%</m:mo></m:math> but we must enter it in the equation as a decimal which is <m:math><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>03</m:mn></m:math>.</para>
+<figure id="eip-idm609128272">
+<media id="simpleinterestex_1" alt="Working through simple interest example">
+<image mime-type="image/png" src="../../media/simpleinterestex_1.png"/>
+</media>
+</figure><para id="eip-734">Now, the answer we have calculated is the amount of <term>interest</term> that was earned; not the total account balance after <m:math><m:mn>15</m:mn></m:math> years. In order to find the account balance, you must add the calculated interest to the initial deposit of <m:math><m:mo>$</m:mo><m:mn>500</m:mn></m:math>.
+</para>
+<figure id="eip-idm1018484768">
+<media id="simpleinterestex_2" alt="Working through simple interest example">
+<image mime-type="image/png" src="../../media/simpleinterestex_2.png"/>
+</media>
+</figure></example><example id="eip-767"><title>Simple Interest </title><exercise id="fs-id1166482688863"><problem id="fs-id1166478994905">
+<para id="fs-id1449403">Find the rate if a principal of <m:math><m:mrow><m:mtext>$8,200</m:mtext></m:mrow></m:math> earned <m:math><m:mrow><m:mtext>$3,772</m:mtext></m:mrow></m:math> interest in <m:math><m:mn>4</m:mn></m:math> years.</para>
+</problem>
+<solution id="fs-id1166490806329">
+<title>Solution</title>
+<para id="fs-id1166479044194">Organize the given information.</para>
+<para id="fs-id1432054"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>$3,772</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>$8,200</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>4 years</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1166497360367">We will use the simple interest formula to find the rate.</para>
+
+
+<table id="eip-id1168469481185" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+
+<row>
+<entry>Write the formula.</entry>
+<entry><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Substitute the given information.</entry>
+<entry><m:math><m:mrow><m:mn>3,772</m:mn><m:mo>=</m:mo><m:mn>8,200</m:mn><m:mi>r</m:mi><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Multiply.</entry>
+<entry><m:math><m:mrow><m:mn>3,772</m:mn><m:mo>=</m:mo><m:mn>32,800</m:mn><m:mi>r</m:mi></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Divide.</entry>
+<entry><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3,772</m:mn></m:mrow><m:mrow><m:mn>32,800</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>32,800</m:mn><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>32,800</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Simplify.</entry>
+<entry><m:math><m:mrow><m:mn>0.115</m:mn><m:mo>=</m:mo><m:mi>r</m:mi></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Write as a percent.</entry>
+<entry><m:math><m:mtext>11.5%</m:mtext><m:mo>=</m:mo><m:mi>r</m:mi></m:math></entry>
+</row>
+
+ <row>
+ <entry>Check your answer. Is 11.5% a reasonable rate if $3,772 was earned in 4 years?</entry>
+<entry/>
+</row>
+
+<row>
+ <entry align="center"><m:math><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:math></entry>
+<entry/>
+ </row>
+
+<row>
+<entry align="center"><m:math><m:mrow><m:mn>3,772</m:mn><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover><m:mn>8,200</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.115</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry/>
+</row>
+
+<row>
+<entry align="center"><m:math><m:mrow><m:mn>3,772</m:mn><m:mo>=</m:mo><m:mn>3,772</m:mn><m:mo>✓</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+
+ <row> 
+ <entry>Write a complete sentence that answers the question.</entry>
+ <entry>The rate was 11.5%.</entry>
+ </row>
+
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="eip-903"><title>Simple Interest</title><exercise id="fs-id1425471"><problem id="fs-id1166476199917">
+<para id="fs-id1314922">Eduardo noticed that his new car loan papers stated that with an interest rate of <m:math><m:mrow><m:mtext>7.5%</m:mtext><m:mo>,</m:mo></m:mrow></m:math> he would pay <m:math><m:mrow><m:mtext>$6,596.25</m:mtext></m:mrow></m:math> in interest over <m:math><m:mn>5</m:mn></m:math> years. How much did he borrow to pay for his car?</para>
+</problem>
+<solution id="fs-id1417502">
+<title>Solution</title>
+<para id="fs-id1166497146830">We are asked to find the principal, <m:math><m:mi>P</m:mi><m:mo>.</m:mo></m:math></para>
+<para id="eip-id1995216"> Organize the given information.</para>
+<para id="fs-id1166490757076"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6,596.25</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>7.5%</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>5 years</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+
+
+<table id="eip-id1168466205229" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+
+<row>
+<entry>Write the formula.</entry>
+<entry align="center"><m:math><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:math></entry>
+</row>
+
+<row>
+<entry>Substitute the given information.</entry>
+<entry align="center"><m:math><m:mrow><m:mn>6,596.25</m:mn><m:mo>=</m:mo><m:mi>P</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0.075</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Multiply.</entry>
+<entry align="center"><m:math><m:mn>6,596.25</m:mn><m:mo>=</m:mo><m:mn>0.375</m:mn><m:mi>P</m:mi></m:math></entry>
+</row>
+
+<row>
+<entry>Divide.</entry>
+<entry align="center"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>6,596.25</m:mn></m:mrow><m:mrow><m:mn>0.375</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.375</m:mn><m:mi>P</m:mi></m:mrow><m:mrow><m:mn>0.375</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+
+<row>
+<entry>Simplify.</entry>
+<entry align="center"><m:math><m:mrow><m:mn>17,590</m:mn><m:mo>=</m:mo><m:mi>P</m:mi></m:mrow></m:math></entry>
+</row>
+
+<row>
+ <entry>Check your answer. Is $17,590 a reasonable amount to borrow to buy a car?</entry>
+<entry/>
+</row>
+ 
+
+
+<row>
+<entry align="center"><m:math><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:math></entry>
+<entry/>
+</row>
+
+<row>
+<entry align="center"><m:math><m:mn>6,596.25</m:mn><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>17,590</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0.075</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+<entry/>
+</row>
+
+<row>
+<entry align="center"><m:math><m:mn>6,596.25</m:mn><m:mo>=</m:mo><m:mn>6,596.25</m:mn><m:mo>✓</m:mo></m:math></entry>
+<entry/>
+</row>
+
+<row> 
+ <entry>Write a complete sentence that answers the question.</entry>
+ <entry>The amount borrowed was $17,590.</entry>
+</row>
+
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise></example><para id="eip-99"><title>Compound Interest</title><term>Compound interest</term> is when you earn interest based off a <term>previous year's balance</term>. You are essentially earning interest off the investment <term>and</term> any accumulated interest. This is an important difference between the simple interest formula and the compound interest formula because it means that in the compound interest formula a non-linear, or exponential, form is used to calculate it.
+<figure id="eip-idm1326189504">
+<media id="compoundinterest" alt="compound interest formula">
+<image mime-type="image/png" src="../../media/compoundinterest.png"/>
+</media>
+</figure>
+
+We can see this equation develop from the simple interest equation by working through the concept step by step.
+Let's say we invest an initial balance of <m:math><m:mi>P</m:mi></m:math> into an account that pays interest <m:math><m:mi>i</m:mi></m:math>; then after the first year, the balance would be:
+<equation id="compound_1">
+<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+              <m:mn> 1 </m:mn><m:mspace width="2pt"/>
+              <m:mi> year </m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+</equation>
+
+This is the same as Simple Interest because it only covers a single year. Then, if we take that out and re-invest it for another year - just as you saw us doing in the worked example above - then the balance after the second year will be:
+
+<equation id="compound_2">
+<m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Closing Balance after </m:mi><m:mspace width="2pt"/>
+                  <m:mn>2</m:mn><m:mspace width="2pt"/>
+                  <m:mi> years </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>[</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>]</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+</equation>
+
+This is because you will earn interest off of the balance you invested for year two which just so happens to be the initial investment <term>plus</term> the interest you made off of it in year one! If you continue this process, you will have an exponential continuation of the account balance. This is why it is raised to the power of the number of years you invest it for.</para><example id="eip-696"><title>Compound Interest</title><para id="eip-288">You invest <m:math><m:mo>$</m:mo><m:mn>500</m:mn></m:math> in an account that earns <m:math><m:mn>3</m:mn><m:mo>%</m:mo></m:math> <term>compounded</term> every year. What would be your account balance after <m:math><m:mn>15</m:mn></m:math> years?
+
+<figure id="eip-idm206557440">
+<media id="compoundinterestex_1" alt="working through compound interest example">
+<image mime-type="image/png" src="../../media/compoundinterestex_1.png"/>
+</media>
+
+</figure>
+
+</para></example></section><section id="eip-103"><title>Graphing Piecewise-Defined Functions <footnote id="eip-idm911892320">Section material derived from Openstax College Algebra: Introductions to Functions-Domain and Range</footnote></title><para id="fs-id1165137409262">Sometimes, we come across a function that requires more than one formula in order to obtain the given output. For example, in the toolkit functions, we introduced the absolute value function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>With a domain of all real numbers and a range of values greater than or equal to 0, <term class="no-emphasis">absolute value</term> can be defined as the <term class="no-emphasis">magnitude</term>, or <term class="no-emphasis">modulus</term>, of a real number value regardless of sign. It is the distance from 0 on the number line. All of these definitions require the output to be greater than or equal to 0.</para><para id="fs-id1165137558775">If we input 0, or a positive value, the output is the same as the input.</para>
+<equation id="fs-id1165135194329" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165137529947">If we input a negative value, the output is the opposite of the input.</para>
+<equation id="fs-id1165133112779" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165137863778">Because this requires two different processes or pieces, the absolute value function is an example of a piecewise function. A <term>piecewise function</term> is a function in which more than one formula is used to define the output over different pieces of the domain.</para><para id="fs-id1165134042316">We use piecewise functions to describe situations in which a rule or relationship changes as the input value crosses certain “boundaries.” For example, we often encounter situations in business for which the cost per piece of a certain item is discounted once the number ordered exceeds a certain value. Tax brackets are another real-world example of piecewise functions. For example, consider a simple tax system in which incomes up to $10,000 are taxed at 10%, and any additional income is taxed at 20%. The tax on a total income<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>S</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>would be<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>0.1</m:mn><m:mi>S</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>S</m:mi><m:mo>≤</m:mo><m:mtext>$</m:mtext><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mn>000</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mtext>$</m:mtext><m:mn>1000</m:mn><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>S</m:mi><m:mo>−</m:mo><m:mtext>$</m:mtext><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mn>000</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>S</m:mi><m:mo>&gt;</m:mo><m:mtext>$</m:mtext><m:mn>10</m:mn><m:mtext>,</m:mtext><m:mn>000.</m:mn>
+ </m:mrow>
+</m:math></para><note id="fs-id1165137531241"><label>Piecewise Function</label>
+<para id="fs-id1165135504970">A piecewise function is a function in which more than one formula is used to define the output. Each formula has its own domain, and the domain of the function is the union of all these smaller domains. We notate this idea like this:</para>
+<equation id="fs-id1165137482244" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo> <m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext>formula 1     if </m:mtext><m:mi>x</m:mi><m:mtext> is in domain 1</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext>formula 2     if </m:mtext><m:mi>x</m:mi><m:mtext> is in domain 2</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext>formula 3     if </m:mtext><m:mi>x</m:mi><m:mtext> is in domain 3</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:mrow></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165137543841">In piecewise notation, the absolute value function is</para>
+<equation id="fs-id1165135190749" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo> <m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi>x</m:mi><m:mtext>    if  </m:mtext><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo>−</m:mo><m:mi>x</m:mi><m:mtext>  if  </m:mtext><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:mrow></m:mrow>
+</m:math>
+</equation>
+</note><note id="fs-id1165137768426" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1165137823161"><emphasis>Given a piecewise function, write the formula and identify the domain for each interval.
+</emphasis></para>
+<list id="fs-id1165135443772" list-type="enumerated" number-style="arabic">
+<item>Identify the intervals for which different rules apply.</item>
+<item>Determine formulas that describe how to calculate an output from an input in each interval.</item>
+<item>Use braces and if-statements to write the function.</item>
+</list>
+</note>
+
+<example id="Example_01_02_11"><title>Writing Piecewise Functions</title><exercise id="fs-id1165137452506">
+<problem id="fs-id1165135321994">
+<title>Writing a Piecewise Function</title>
+<para id="fs-id1165137834905">A museum charges $5 per person for a guided tour with a group of 1 to 9 people or a fixed $50 fee for a group of 10 or more people. Write a <term class="no-emphasis">function</term> relating the number of people,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>to the cost,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137807421">
+<para id="fs-id1165135331729">Two different formulas will be needed. For <emphasis effect="italics">n</emphasis>-values under 10,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>For values of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>that are 10 or greater,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>50.</m:mn></m:mrow>
+</m:math>
+</para>
+
+<equation id="fs-id1165135208951" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo> <m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mrow>
+<m:mn>5</m:mn><m:mi>n</m:mi></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>n</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mrow>
+<m:mn>50</m:mn></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>10</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable></m:mrow> </m:mrow></m:mrow>
+</m:math>
+</equation>
+</solution>
+<commentary id="fs-id1165135436578">
+<title>Analysis </title>
+<para id="fs-id1165135196985">The function is represented in <link target-id="Figure_01_02_021"/>. The graph is a diagonal line from<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>and a constant after that. In this example, the two formulas agree at the meeting point where<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>but not all piecewise functions have this property.</para><figure id="Figure_01_02_021" class="small">
+<media id="fs-id1165137419948" alt="Graph of C(n).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_02_021.jpg"/>
+</media>
+</figure>
+</commentary>
+</exercise>
+</example><example id="Example_01_02_12">
+<exercise id="fs-id1165135436662">
+<problem id="fs-id1165135436664">
+<title>Working with a Piecewise Function</title>
+<para id="fs-id1165137938645">A cell phone company uses the function below to determine the cost,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>in dollars for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>gigabytes of data transfer.</para> 
+<equation id="fs-id1165137660470" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo> <m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mrow>
+<m:mn>25</m:mn></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>g</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mrow>
+<m:mn>25</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mi>g</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable></m:mrow> </m:mrow></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165135193798">Find the cost of using 1.5 gigabytes of data and the cost of using 4 gigabytes of data.</para></problem>
+<solution id="fs-id1165135177567">
+<para id="fs-id1165134373545">To find the cost of using 1.5 gigabytes of data,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>we first look to see which part of the domain our input falls in. Because 1.5 is less than 2, we use the first formula.</para>
+
+<equation id="fs-id1165134300204" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>25</m:mn>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165135440213">To find the cost of using 4 gigabytes of data,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>we see that our input of 4 is greater than 2, so we use the second formula.</para>
+<equation id="fs-id1165135383665" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>45</m:mn>
+</m:mrow>
+</m:math></equation></solution>
+<commentary id="fs-id1165137634432">
+<title>Analysis </title>
+<para id="fs-id1165137601265">The function is represented in <link target-id="Figure_01_02_022"/>. We can see where the function changes from a constant to a shifted and stretched identity at<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>We plot the graphs for the different formulas on a common set of axes, making sure each formula is applied on its proper domain. </para><figure id="Figure_01_02_022" class="">
+<media id="fs-id1165135453346" alt="Graph of C(g)">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_02_022.jpg"/>
+</media>
+</figure>
+</commentary>
+</exercise>
+</example>
+
+<note id="fs-id1165137600493" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1165135532516"><emphasis>Given a piecewise function, sketch a graph.</emphasis></para>
+<list id="fs-id1165137588539" list-type="enumerated" number-style="arabic"><item>Indicate on the <emphasis effect="italics">x</emphasis>-axis the boundaries defined by the intervals on each piece of the domain.</item>
+<item>For each piece of the domain, graph on that interval using the corresponding equation pertaining to that piece.  Do not graph two functions over one interval because it would violate the criteria of a function.</item> 
+</list></note>
+
+<example id="Example_01_02_13">
+<exercise id="fs-id1165137781618"><problem id="fs-id1165135412870">
+<title>Graphing a Piecewise Function</title>
+<para id="fs-id1165137838785">Sketch a graph of the function.</para>
+<equation id="fs-id1165137475346" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo> <m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>1</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>3</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>x</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mtext>if</m:mtext></m:mrow>
+</m:mtd>
+<m:mtd>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable></m:mrow> </m:mrow></m:mrow>
+</m:math>
+</equation>
+</problem>
+<solution id="fs-id1165135487148">
+<para id="fs-id1165135487150">Each of the component functions is from our library of toolkit functions, so we know their shapes. We can imagine graphing each function and then limiting the graph to the indicated domain. At the endpoints of the domain, we draw open circles to indicate where the endpoint is not included because of a less-than or greater-than inequality; we draw a closed circle where the endpoint is included because of a less-than-or-equal-to or greater-than-or-equal-to inequality.</para><para id="fs-id1165137642848"><link target-id="Figure_01_02_023"/> shows the three components of the piecewise function graphed on separate coordinate systems.</para>
+
+<figure id="Figure_01_02_023">
+<media id="fs-id1165137439226" alt="Graph of each part of the piece-wise function f(x)">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_02_023abc.jpg"/>
+</media>
+<caption>(a)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mtext> if  </m:mtext><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>(b)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext> if 1&lt; </m:mtext><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>(c)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext>  if </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow>
+</m:math>
+</caption>
+</figure>
+
+<para id="fs-id1165137676209">Now that we have sketched each piece individually, we combine them in the same coordinate plane. See <link target-id="Figure_01_02_026"/>.</para>
+
+<figure id="Figure_01_02_026" class="small">
+<media id="fs-id1165137646696" alt="Graph of the entire function.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_02_026.jpg"/>
+</media>
+</figure>
+</solution>
+<commentary id="fs-id1165135188517">
+<title>Analysis </title>
+<para id="fs-id1165134389893">Note that the graph does pass the vertical line test even at<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>because the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow>  <m:mo>)</m:mo></m:mrow></m:mrow></m:math> are not part of the graph of the function, though <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>
+ and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are.</para></commentary>
+</exercise></example>
+
+</section><section id="eip-355"><title>Recognizing Interpolation or Extrapolation  <footnote id="eip-idm394347120">Section material derived from Openstax Precalculus: Fitting Linear Models to Data-Fitting Linear Models to Data</footnote></title><para id="fs-id1165135255246">While the data for most examples does not fall perfectly on the line, the equation is our best guess as to how the relationship will behave outside of the values for which we have data. We use a process known as <emphasis>interpolation</emphasis> when we predict a value inside the domain and range of the data. The process of <emphasis>extrapolation</emphasis> is used when we predict a value outside the domain and range of the data.</para> 
+<para id="fs-id1165137911398"><link target-id="CNX_Precalc_Figure_02_04_004"/> compares the two processes for the cricket-chirp data addressed in <link target-id="Example_02_04_02"/>. We can see that interpolation would occur if we used our model to predict temperature when the values for chirps are between 18.5 and 44. Extrapolation would occur if we used our model to predict temperature when the values for chirps are less than 18.5 or greater than 44.</para>
+<para id="fs-id1165137399663">There is a difference between making predictions inside the domain and range of values for which we have data and outside that domain and range. Predicting a value outside of the domain and range has its limitations. When our model no longer applies after a certain point, it is sometimes called <term>model breakdown</term>. For example, predicting a cost function for a period of two years may involve examining the data where the input is the time in years and the output is the cost. But if we try to extrapolate a cost when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>50,</m:mn></m:mrow></m:math> that is in 50 years, the model would not apply because we could not account for factors fifty years in the future.</para>
+
+<figure id="CNX_Precalc_Figure_02_04_004" class="small">
+<media id="fs-id1165137438581" alt="Scatter plot, showing the line of best fit and where interpolation and extrapolation occurs. It is titled 'Cricket Chirps Vs Air Temperature'. The x-axis is  'c, Number of Chirps', and the y-axis is 'T(c), Temperature (F)'.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_02_04_004.jpg"/>
+</media>
+<caption>Interpolation occurs within the domain and range of the provided data whereas extrapolation occurs outside.</caption>
+</figure>
+
+<note id="fs-id1165137447983"><label>Interpolation and Extrapolation</label>
+
+<para id="fs-id1165135646198">Different methods of making predictions are used to analyze data.</para>
+ <list id="fs-id1165137666284" list-type="bulleted" bullet-style="none"><item>The method of <term>interpolation</term> involves predicting a value inside the domain and/or range of the data.</item>
+<item>The method of <term>extrapolation</term> involves predicting a value outside the domain and/or range of the data.</item>
+<item><emphasis>Model breakdown</emphasis> occurs at the point when the model no longer applies.</item>
+</list></note><example id="Example_02_04_03"><title>Understanding Interpolation and Extrapolation</title><exercise id="fs-id1165137584562"><problem id="fs-id1165137734950">
+
+<para id="fs-id1165137668321">Use the cricket data from <link target-id="CNX_Precalc_Figure_02_04_004"/> to answer the following questions:</para><list id="fs-id1165137843776" list-type="enumerated" number-style="lower-alpha">
+<item>Would predicting the temperature when crickets are chirping 30 times in 15 seconds be interpolation or extrapolation? Make the prediction, and discuss whether it is reasonable.</item>
+<item>Would predicting the number of chirps crickets will make at 40 degrees be interpolation or extrapolation? Make the prediction, and discuss whether it is reasonable.</item>
+</list>
+</problem>
+<solution id="fs-id1165137843814">
+<list id="fs-id1165137779181" list-type="enumerated" number-style="lower-alpha"><item>The number of chirps in the data provided varied from 18.5 to 44. A prediction at 30 chirps per 15 seconds is inside the domain of our data, so would be interpolation. Using our model:
+<equation id="eip-id1165131886691" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>T</m:mi><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>30</m:mn><m:mo>+</m:mo><m:mn>1.2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>         </m:mtext><m:mo>=</m:mo><m:mn>66</m:mn><m:mtext> </m:mtext><m:mtext>degrees</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><newline/>Based on the data we have, this value seems reasonable.</item>
+<item>The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40 degrees is extrapolation because 40 is outside the range of our data. Using our model:
+<equation id="eip-id1165135551132" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>40</m:mn><m:mo>=</m:mo><m:mn>30</m:mn><m:mo>+</m:mo><m:mn>1.2</m:mn><m:mi>c</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>10</m:mn><m:mo>=</m:mo><m:mn>1.2</m:mn><m:mi>c</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo> </m:mo><m:mi>c</m:mi><m:mo>≈</m:mo><m:mn>8.33</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></item>
+</list><para id="fs-id1165137434356">We can compare the regions of interpolation and extrapolation using <link target-id="CNX_Precalc_Figure_02_04_005"/>.</para>
+
+<figure id="CNX_Precalc_Figure_02_04_005">
+<media id="fs-id1165135253858" alt="Scatter plot, showing the line of best fit and where interpolation and extrapolation occurs. It is titled 'Cricket Chirps Vs Air Temperature'. The x-axis is  'c, Number of Chirps', and the y-axis is 'T(c), Temperature (F)'.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_02_04_005.jpg"/>
+</media>
+</figure>
+</solution>
+<commentary id="fs-id1165137637804">
+<title>Analysis</title>
+<para id="fs-id1165137580571">Our model predicts the crickets would chirp 8.33 times in 15 seconds. While this might be possible, we have no reason to believe our model is valid outside the domain and range. In fact, generally crickets stop chirping altogether below around 50 degrees.</para>
+</commentary>
+</exercise></example></section><section id="eip-769"><title>Key Concepts</title><list id="eip-idm1344736064">
+<item><emphasis>Simple interest is represented and calculated with the equation</emphasis>
+<figure id="eip-idm1212693696">
+<media id="simpleinterest2" alt="simple interest equation">
+
+<image mime-type="image/png" src="../../media/simpleinterest.png"/>
+</media>
+</figure>
+</item>
+
+<item>
+<emphasis>Compound interest is represented and calculated with the equation</emphasis>
+<figure id="eip-idm486764864">
+<media id="compoundinterest2" alt="compound interest formula">
+<image mime-type="image/png" src="../../media/compoundinterest.png"/>
+</media>
+</figure>
+</item></list></section></content>
+<glossary>
+
+<definition id="compoundinterestform">
+<term>Compound Interest</term>
+<meaning id="compound">A method of charging interest on a loan or interest earned in a bank account which uses the previous year's balance, the rate of interest, and the time spent in the account as the information needed to calculate the interest made. This relationship can be modeled with a non-linear, or exponential, equation.</meaning>
+</definition>
+
+<definition id="fs-id1165137549428">
+<term>extrapolation</term>
+<meaning id="fs-id1165135485274">predicting a value outside the domain and range of the data</meaning>
+</definition>
+
+<definition id="fs-id1165135485278">
+<term>interpolation</term>
+<meaning id="fs-id1165135184191">predicting a value inside the domain and range of the data</meaning>
+</definition>
+
+<definition id="fs-id1830018"><term>Intercepts of a Line</term><meaning id="fs-id1830021">Each of the points at which a line crosses the <emphasis effect="italics">x-</emphasis>axis and the <emphasis effect="italics">y-</emphasis>axis is called an intercept of the line.</meaning></definition>
+
+<definition id="fs-id1165135487256">
+<term>Piecewise function</term> 
+<meaning id="fs-id1165137452169">a function in which more than one formula is used to define the output</meaning>
+</definition>
+
+<definition id="simpleint">
+<term>Simple Interest</term>
+<meaning id="simple">A method of charging interest on a loan or interest earned in a bank account which uses the initial deposit, the rate of interest, and the time spent in the account as the information needed to calculate the interest made.</meaning>
+</definition>
+
+</glossary>
+</document>

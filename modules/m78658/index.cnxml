@@ -1,0 +1,955 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Expressions: Lessons 1.A - 1.C</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78658</md:content-id>
+  <md:title>Expressions: Lessons 1.A - 1.C</md:title>
+  <md:abstract/>
+  <md:uuid>97f5f067-8745-4d73-957f-8465bec4fd8e</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-795"><label>Topics Covered in this Module</label>
+<para id="fs-id2294279">In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</para><list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Simplify Expressions using Order of Operations <link target-id="eip-68" document=""/></item>
+<item>Identify terms, Coefficients, Like Terms <link target-id="eip-308" document=""/></item>
+<item>Evaluate Algebraic Expressions <link target-id="eip-642" document=""/></item>
+<item>Simplify Expressions by Combining Like Terms <link target-id="eip-687" document=""/></item>
+<item>Identify Expressions and Equations <link target-id="eip-189" document=""/></item>
+
+
+<item>Key Concepts  <link target-id="eip-709" document=""/></item></list></note><section id="eip-68"><title>Simplify Expressions Using the Order of Operations <footnote id="eip-idm358469440">Section material derived from Openstax Prealgebra: The Language of Algebra-Use the Language of Algebra</footnote></title><para id="eip-904">
+We’ve introduced most of the symbols and notation used in algebra, but now we need to clarify the <term class="no-emphasis">order of operations</term>. Otherwise, expressions may have different meanings, and they may result in different values.
+</para><para id="eip-361">For example, consider the expression:</para><equation id="eip-789"><label/><m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mrow></m:math></equation><equation id="eip-466"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mtext>Some students say it simplifies to 49.</m:mtext></m:mtd><m:mtd><m:mspace width="2em"/></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mtext>Some students say it simplifies to 25.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>gives 7.</m:mtext></m:mtd><m:mtd><m:mspace width="2em"/></m:mtd><m:mtd columnalign="center"><m:mn>7</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>And</m:mtext><m:mspace width="0.2em"/><m:mn>7</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>is 49.</m:mtext></m:mtd><m:mtd><m:mspace width="2em"/></m:mtd><m:mtd columnalign="center"><m:mn>49</m:mn></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext>Since</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>is 21.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>21</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mtext>And</m:mtext><m:mspace width="0.2em"/><m:mn>21</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>makes 25.</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="center"><m:mn>25</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation><para id="eip-395">Imagine the confusion that could result if every problem had several different correct answers. The same expression should give the same result. So mathematicians established some guidelines called the order of operations, which outlines the order in which parts of an expression must be simplified.</para><note id="eip-891"><label>The Order of Operations</label>
+<para id="fs-id2750738">When simplifying mathematical expressions perform the operations in the following order:</para>
+<para id="fs-id1834652">1. <emphasis effect="bold">P</emphasis>arentheses and other Grouping Symbols</para>
+<list id="fs-id1171104029952" list-type="bulleted" bullet-style="bullet">
+<item>Simplify all expressions inside the parentheses or other grouping symbols, working on the innermost parentheses first.</item>
+
+
+</list>
+<para id="fs-id1570796">2. <emphasis effect="bold">E</emphasis>xponents</para>
+<list id="fs-id1171104407077" list-type="bulleted" bullet-style="bullet">
+<item>Simplify all expressions with exponents.</item>
+</list>
+<para id="fs-id1894922">3. <emphasis effect="bold">M</emphasis>ultiplication and <emphasis effect="bold">D</emphasis>ivision</para>
+<list id="fs-id1171103140103" list-type="bulleted" bullet-style="bullet">
+<item>Perform all multiplication and division in order from left to right. These operations have equal priority.</item>
+</list>
+<para id="fs-id3402451">4. <emphasis effect="bold">A</emphasis>ddition and <emphasis effect="bold">S</emphasis>ubtraction</para>
+<list id="fs-id1171104002792" list-type="bulleted" bullet-style="bullet">
+<item>Perform all addition and subtraction in order from left to right. These operations have equal priority.</item>
+</list>
+This process is also known as <emphasis>P.E.M.D.A.S.</emphasis>.</note><para id="eip-408">Students often ask, “How will I remember the order?” Here is a way to help you remember: Take the first letter of each key word and substitute the silly phrase. <emphasis effect="bold">P</emphasis>lease <emphasis effect="bold">E</emphasis>xcuse <emphasis effect="bold">M</emphasis>y <emphasis effect="bold">D</emphasis>ear <emphasis effect="bold">A</emphasis>unt <emphasis effect="bold">S</emphasis>ally.</para><table id="eip-316" summary="This table has five rows and two columns. The first row spans both columns and is a header reading “Order of Operations”. In the second row the first column contains the word please with the p in bold and the second column contains the word parentheses with the p in bold. In the next row the first column contains the word excuse with the first e in bold and the second column contains the word exponents with the first e in bold. The next row contains the phrase “my dear” in the first column with the m in my and the d in dear in bold and the second column contains the phrase “multiplication and division” with the m in multiplication and the d in division in bold. The last row contains the phrase “Aunt Sally” in the first column with the a in aunt and the s in Sally in bold and the second column contains the phrase “addition and subtraction with the a in addition and the s in subtraction in bold.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="center" namest="c1" nameend="c2"><emphasis effect="bold">Order of Operations</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">P</emphasis>lease</entry>
+<entry align="left"><emphasis effect="bold">P</emphasis>arentheses</entry>
+</row>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">E</emphasis>xcuse</entry>
+<entry align="left"><emphasis effect="bold">E</emphasis>xponents</entry>
+</row>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">M</emphasis>y <emphasis effect="bold">D</emphasis>ear</entry>
+<entry align="left"><emphasis effect="bold">M</emphasis>ultiplication and <emphasis effect="bold">D</emphasis>ivision</entry>
+</row>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">A</emphasis>unt <emphasis effect="bold">S</emphasis>ally</entry>
+<entry align="left"><emphasis effect="bold">A</emphasis>ddition and <emphasis effect="bold">S</emphasis>ubtraction</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-916">It’s good that ‘<emphasis effect="bold">M</emphasis>y <emphasis effect="bold">D</emphasis>ear’ goes together, as this reminds us that <emphasis effect="bold">m</emphasis>ultiplication and <emphasis effect="bold">d</emphasis>ivision have equal priority. We do not always do multiplication before division or always do division before multiplication. We do them in order from left to right.</para><para id="eip-425">Similarly, ‘<emphasis effect="bold">A</emphasis>unt <emphasis effect="bold">S</emphasis>ally’ goes together and so reminds us that <emphasis effect="bold">a</emphasis>ddition and <emphasis effect="bold">s</emphasis>ubtraction also have equal priority and we do them in order from left to right.</para><note id="eip-546">Doing the Manipulative Mathematics activity Game of 24 will give you practice using the order of operations.</note><example id="eip-561"><title>Order of Operations</title><exercise id="fs-id1956499"><problem id="fs-id3340653">
+<para id="fs-id1714375">Simplify: <list id="eip-id1168468508209" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mtext>18</m:mtext><m:mo>÷</m:mo><m:mtext>9</m:mtext><m:mo>·</m:mo><m:mtext>2</m:mtext><m:mspace width="0.2em"/></m:math></item>
+
+<item><span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mtext>18</m:mtext><m:mo>·</m:mo><m:mtext>9</m:mtext><m:mo>÷</m:mo><m:mtext>2</m:mtext></m:math></item></list></para></problem>
+<solution id="fs-id1231784">
+<title>Solution</title>
+
+
+
+<table id="eip-id1164754213884" class="unnumbered unstyled" summary="The table shows the expression eighteen divided by nine times two. Are there any parentheses? No. Are there any exponents? No. Is there any multiplication or division? Yes, there is both multiplication and division. Perform multiplication and division from left to right so, divide first. Divide eighteen by nine to get two. The expression is now two times two. The last operation is multiplication. Multiply two by two to get four."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓐ</span></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry><media id="eip-id1164754213914" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_013_img-01.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Are there any <emphasis>p</emphasis>arentheses? No.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Are there any <emphasis>e</emphasis>xponents? No.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is there any <emphasis>m</emphasis>ultiplication or <emphasis>d</emphasis>ivision? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Multiply and divide from left to right. Divide.</entry>
+    <entry><media id="eip-id1164752720013" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_013_img-02.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><media id="eip-id1164752720030" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_013_img-03.png"/></media></entry>
+  </row>  
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+<table id="eip-id1164752720001" class="unnumbered unstyled" summary="The table shows the expression eighteen times nine divided by two. Are there any parentheses? No. Are there any exponents? No. Is there any multiplication or division? Yes, there is both multiplication and division. Perform multiplication and division from left to right so, multiply first. Multiply eighteen by nine to get one hundred sixty-two. The expression is now one hundred sixty-two divided by two. The last operation is division. divide one hundred sixty-two by two to get eighty-one."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><span class="token">ⓑ</span></entry>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry><media id="eip-id1164752720032" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_014_img-01.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Are there any <emphasis>p</emphasis>arentheses? No.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Are there any <emphasis>e</emphasis>xponents? No.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Is there any <emphasis>m</emphasis>ultiplication or <emphasis>d</emphasis>ivision? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Multiply and divide from left to right.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><media id="eip-id1164752720096" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_014_img-02.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Divide.</entry>
+    <entry><media id="eip-id1164752720113" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_014_img-03.png"/></media></entry>
+  </row>  
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="eip-661"><title>Order of Operations</title><exercise id="fs-id2877213">
+<problem id="fs-id2877215">
+<para id="fs-id2308683">Simplify: <m:math><m:mrow><m:mn>18</m:mn><m:mo>÷</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id4127406">
+<title>Solution</title>
+
+
+<table id="eip-id1164754213917" class="unnumbered unstyled" summary="The image shows the expression eighteen divided by six plus four, in parentheses, five minus two. Are there any parentheses? Yes, perform the subtraction inside the parentheses. Five minus two becomes three inside the parentheses. The expression is now eighteen divided by six plus four, in parentheses, three. Are there any exponents? No. Is there any multiplication or division? Yes, there is both multiplication and division. Divide first because multiplication and division are performed left to right. Divide eighteen by six to get three. The expression is now three plus four, in parentheses, three. Now multiply four by the three in parentheses to get twelve. The expression becomes three plus twelve. Add three and twelve to get fifteen."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><media id="eip-id1164754213936" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_015_img-01.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Parentheses? Yes, subtract first.</entry>
+    <entry><media id="eip-id1164752719997" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_015_img-02.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Exponents? No.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Multiplication or division? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Divide first because we multiply and divide left to right.</entry>
+    <entry><media id="fs-id1166567548482" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_015_img-03.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Any other multiplication or division? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><media id="eip-id1164752720057" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_015_img-04.png"/></media></entry>
+  </row>  
+  <row>
+    <entry>Any other multiplication or division? No.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Any addition or subtraction? Yes.</entry>
+    <entry><media id="eip-id1164752720083" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_01_015_img-05.png"/></media></entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><para id="eip-502">When there are multiple grouping symbols, we simplify the innermost parentheses first and work outward.</para><example id="eip-351"><title>Order of Operations</title><exercise id="fs-id2563013">
+<problem id="fs-id2563015">
+<para id="fs-id2563017"><m:math><m:mrow><m:mtext>Simplify:</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2308936">
+<title>Solution</title>
+<table id="eip-id1164754129434" class="unnumbered unstyled" summary="The image shows the expression five plus two cubed plus three, open bracket, six minus three, open parentheses, four minus two close parentheses, close bracket. Are there any parentheses (or other grouping symbols)? Yes, there are parentheses within brackets. Start with the innermost grouping, the parentheses. Inside the parentheses subtract two from four to get two. The expression becomes five plus two cubed plus three, open bracket, six minus three, in parentheses, two, close bracket. Within the brackets is six minus three, in parentheses, two. Multiply three by two since multiplication comes before subtraction. The expression becomes five plus two cubed plus three, in brackets, six minus six. Finish simplifying inside the brackets by performing the subtraction. Six minus six leaves zero. The expression is now five plus two cubed plus three, in brackets, zero. Are there exponents? Yes, two cubed is eight and the expression becomes five plus eight plus three, in brackets, zero. Is there any multiplication or division? Yes, multiply three by zero to get zero. The expression is now five plus eight plus zero. The remaining operations are both addition. Perform the addition from left to right. five plus eight is thirteen. Thirteen plus zero is thirteen."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Are there any parentheses (or other grouping symbol)? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Focus on the parentheses that are inside the brackets.</entry>
+    <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Subtract.</entry>
+    <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+ <entry>Continue inside the brackets and multiply.</entry>
+    <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Continue inside the brackets and subtract.</entry>
+    <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>0</m:mn></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>The expression inside the brackets requires no further simplification.</entry>
+    <entry/>
+  </row>  
+  <row>
+    <entry>Are there any exponents? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Simplify exponents.</entry>
+  <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>0</m:mn></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Is there any multiplication or division? Yes.</entry>
+ <entry/>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+<entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo> <m:mrow><m:mn>0</m:mn></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+
+  </row>
+  <row>
+    <entry>Is there any addition or subtraction? Yes.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Add.</entry>
+ <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Add.</entry>
+   <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>13</m:mn></m:mrow><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+   <entry><m:math><m:mrow><m:mspace width="0.2em"/><m:mrow><m:mn>13</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="eip-258"><title>Order of Operations</title><exercise id="fs-id1956305">
+<problem id="fs-id1956307">
+<para id="fs-id1956309">Simplify: <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1956342">
+<title>Solution</title>
+<table id="eip-id1164754324162" class="unnumbered unstyled" summary="The image shows the expression two cubed plus three to the fourth divided by three minus five squared. Are there any parentheses? No. Are there any exponents? Yes, several. Simplify each exponent. Two cubed is eight, three to the fourth is eighty-one, and five squared is twenty-five. The expression becomes eight plus eighty-one divided by three minus twenty-five. Is there any multiplication or division? Yes, just division. Divide eighty-one by three to get twenty-seven. The expression is now eight plus twenty-seven minus five. There is both addition and subtraction left. Perform these from left to right. Eight plus twenty-seven is thirty-five. Now the expression is thirty-five minus twenty five which leaves ten."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>If an expression has several exponents, they may be simplified in the same step.</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Simplify exponents.</entry>
+    <entry><m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>3</m:mn><m:mn>4</m:mn></m:msup><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Divide.</entry>
+    <entry><m:math><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>81</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>25</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Add.</entry>
+    <entry><m:math><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>27</m:mn><m:mo>−</m:mo><m:mn>25</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Subtract.</entry>
+    <entry><m:math><m:mrow><m:mn>35</m:mn><m:mo>−</m:mo><m:mn>25</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry/>
+    <entry><m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>  
+
+</tbody>
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><note id="eip-335"><title>ACCESS ADDITIONAL ONLINE RESOURCES</title><list id="fs-id2327307" display="block">
+<item><link url="http://openstaxcollege.org/l/24orderoperate">Order of Operations</link></item>
+<item><link url="http://openstaxcollege.org/l/24orderbasic">Order of Operations – The Basics</link></item>
+<item><link url="http://openstaxcollege.org/l/24Evalexpress">Ex: Evaluate an Expression Using the Order of Operations</link></item>
+<item><link url="http://openstaxcollege.org/l/24evalexpress3">Example 3: Evaluate an Expression Using The Order of Operations</link></item>
+</list>
+</note></section><section id="eip-308"><title>Identify Terms, Coefficients, and Like Terms <footnote id="eip-idm345085232">Section material derived from Openstax Prealgebra: The Language of Algebra-Evaluate Simplify and Translate Expressions</footnote></title><para id="eip-607">
+Algebraic expressions are made up of <emphasis effect="italics">terms</emphasis>. A <term>term</term> is a constant or the product of a constant and one or more variables. Some examples of terms are <m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>13</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math>
+</para><para id="eip-217">The constant that multiplies the variable(s) in a term is called the <term>coefficient</term>. We can think of the coefficient as the number <emphasis effect="italics">in front of</emphasis> the variable. The coefficient of the term <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> is <m:math><m:mn>3</m:mn><m:mo>.</m:mo></m:math> When we write <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> the coefficient is <m:math><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> <link target-id="fs-id2266631"/> gives the coefficients for each of the terms in the left column.</para><table id="eip-699" summary="This table has five rows and two columns. The first row is a header row and it labels each column. The first column is labeled “Term” and the second “Coefficient”. The next row has the number 7 in the “Term” column and the number 7 in the “Coefficient” column. The next row has the term 9 a in the “Term” column and the number 9 in the “Coefficient” column. The next row has the letter y in the “Term” column and the number 1 in the “Coefficient” column. The last row has the term 5 x squared in the “Term” column and the number 5 in the “Coefficient” column.">
+<tgroup cols="2"><thead>
+<row valign="top">
+<entry align="center">Term</entry>
+<entry align="center">Coefficient</entry>
+</row>
+</thead>
+<tbody>
+  <row>
+    <entry align="center"><m:math><m:mn>7</m:mn></m:math></entry>
+    <entry align="center"><m:math><m:mn>7</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry align="center"><m:math><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi></m:mrow></m:math></entry>
+    <entry align="center"><m:math><m:mn>9</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry align="center"><m:math><m:mi>y</m:mi></m:math></entry>
+    <entry align="center"><m:math><m:mn>1</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry align="center"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+    <entry align="center"><m:math><m:mn>5</m:mn></m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table><example id="eip-951"><title>Identifying Terms, Coefficients, and Like Terms  </title><exercise id="fs-id4127959">
+<problem id="fs-id1919072">
+<para id="fs-id1512228">Identify each term in the expression <m:math><m:mrow><m:mn>9</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math> Then identify the coefficient of each term.</para>
+</problem>
+<solution id="fs-id1823248">
+<title>Solution</title>
+<para id="fs-id2581602">The expression has four terms. They are <m:math><m:mrow><m:mn>9</m:mn><m:mi>b</m:mi><m:mo>,</m:mo><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1405969">The coefficient of <m:math><m:mrow><m:mn>9</m:mn><m:mi>b</m:mi></m:mrow></m:math> is <m:math><m:mrow><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2593979">The coefficient of <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is <m:math><m:mrow><m:mn>15</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1944608">Remember that if no number is written before a variable, the coefficient is <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> So the coefficient of <m:math><m:mi>a</m:mi></m:math> is <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2265026">The coefficient of a constant is the constant, so the coefficient of <m:math><m:mn>6</m:mn></m:math> is <m:math><m:mrow><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="eip-212">Some terms share common traits. Look at the following terms. Which ones seem to have traits in common?</para><equation id="eip-497"><label/><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation><para id="eip-95">Which of these terms are like terms?</para><list id="eip-213"><item>The terms <m:math><m:mn>7</m:mn></m:math> and <m:math><m:mn>4</m:mn></m:math> are both constant terms.</item>
+<item>The terms <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> are both terms with <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>The terms <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> both have <m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+</list><para id="eip-948">Terms are called <term>like terms</term> if they have the same variables and exponents. All constant terms are also like terms. So among the terms <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></para><equation id="eip-582"><m:math><m:mn>7</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>are like terms.</m:mtext></m:math></equation><equation id="eip-505"><label/><m:math><m:mn>5</m:mn><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>are like terms.</m:mtext></m:math></equation><equation id="eip-208"><label/><m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>are like terms.</m:mtext></m:math></equation><note id="eip-49"><label>Like terms</label>
+<para id="fs-id2275773">Terms that are either constants or have the same variables with the same exponents are like <term>terms</term>.</para>
+</note><example id="eip-978"><title>Identifying Like terms</title><para id="eip-855">
+  <exercise id="fs-id1308316">
+<problem id="fs-id1518703">
+<para id="fs-id1410435">Identify the like terms:</para>
+<para id="fs-id2647142"><list id="eip-id1168468588896" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>23</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math>
+</item>
+<item>
+<span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:math>
+</item></list></para></problem>
+<solution id="fs-id2142618">
+<title>Solution</title>
+<para id="fs-id1190825"><span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>23</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math></para><para id="fs-id1335628">Look at the variables and exponents. The expression contains <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and constants.</para>
+<para id="fs-id1587743">The terms <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> are like terms because they both have <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1408738">The terms <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are like terms because they both have <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1531249">The terms <m:math><m:mrow><m:mn>14</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>23</m:mn></m:mrow></m:math> are like terms because they are both constants.</para>
+<para id="fs-id1245764">The term <m:math><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math> does not have any like terms in this list since no other terms have the variable <m:math><m:mi>x</m:mi></m:math> raised to the power of <m:math><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2649666"><span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:math></para><para id="fs-id2495896">Look at the variables and exponents. The expression contains the terms <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>40</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math></para>
+<para id="fs-id1462544">The terms <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are like terms because they both have <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1194075">The terms <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>40</m:mn><m:mi>x</m:mi></m:mrow></m:math> are like terms because they all have <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2173435">The term <m:math><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math> has no like terms in the given expression because no other terms contain the two variables <m:math><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+</para></example></section><section id="eip-642"><title>Evaluate Algebraic Expressions <footnote id="eip-idm474120304">Section material derived from Openstax Prealgebra: The Language of Algebra-Evaluate Simplify and Translate Expressions</footnote></title><para id="eip-294">
+In the last section, we simplified expressions using the order of operations. In this section, we’ll evaluate expressions—again following the order of operations.
+</para><para id="eip-708">To <term>evaluate</term> an algebraic expression means to find the value of the expression when the <term class="no-emphasis">variable</term> is replaced by a given number. To evaluate an <term class="no-emphasis">expression</term>, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations.</para><example id="eip-984"><title>Evaluating Algebraic Expressions</title><exercise id="fs-id1177441">
+<problem id="fs-id1372248">
+<para id="fs-id1987806">Evaluate <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> when 
+<list id="eip-id1168467157803" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span>
+<m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:math> 
+</item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id2388055">
+<title>Solution</title>
+<para id="fs-id1576712"><span class="token">ⓐ</span> To evaluate, substitute <m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> in the expression, and then simplify.<newline/>
+
+<table id="eip-id1166566546426" class="unnumbered unstyled" summary="The image shows the given expression x plus 7. Substitute 3 for x. The expression becomes 3 plus x which is 10."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>x</m:mn><m:mo>+</m:mo><m:mn>7</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Substitute.</entry>
+    <entry><m:math><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>7</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Add.</entry>
+    <entry><m:math><m:mn>10</m:mn></m:math></entry>
+  </row>
+ 
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table></para><para id="fs-id2650628">When <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> the expression <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> has a value of <m:math><m:mrow><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id2819088"><span class="token">ⓑ</span> To evaluate, substitute <m:math><m:mrow><m:mn>12</m:mn></m:mrow></m:math> for <m:math><m:mi>x</m:mi></m:math> in the expression, and then simplify.<newline/>
+<table id="eip-id1166566410105" class="unnumbered unstyled" summary="The image shows the given expression x plus 7, substitute 12 for x. The expression becomes 12 plus x which is 19."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>x</m:mn><m:mo>+</m:mo><m:mn>7</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Substitute.</entry>
+    <entry><m:math><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>7</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Add.</entry>
+    <entry><m:math><m:mn>19</m:mn></m:math></entry>
+  </row>
+ 
+</tbody>
+
+</tgroup>
+</table></para><para id="fs-id1737222">When <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>,</m:mo></m:mrow></m:math> the expression <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> has a value of <m:math><m:mrow><m:mn>19</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1736700">Notice that we got different results for parts <span class="token">ⓐ</span> and <span class="token">ⓑ</span> even though we started with the same expression. This is because the values used for <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> were different. When we evaluate an expression, the value varies depending on the value used for the variable.</para></solution>
+</exercise></example><example id="eip-202"><title>Evaluating Algebraic Expressions</title><exercise id="fs-id2219842">
+<problem id="fs-id2603896">
+<para id="fs-id1800944">Evaluate <m:math><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext>when</m:mtext><m:mspace width="0.2em"/></m:math>
+<list id="eip-id1168468470077" list-type="enumerated" number-style="arabic" class="circled"><item>
+<span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mspace width="0.2em"/></m:math></item>
+<item>
+<span class="token">ⓑ</span>
+<m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math></item>
+</list></para></problem>
+<solution id="fs-id1406199">
+<title>Solution</title>
+<para id="fs-id2311961">Remember <m:math><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow></m:math> means <m:math><m:mi>a</m:mi></m:math> times <m:math><m:mi>b</m:mi><m:mo>,</m:mo></m:math> so <m:math><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math> means <m:math><m:mn>9</m:mn></m:math> times <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id3177480"><span class="token">ⓐ</span> To evaluate the expression when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> we substitute <m:math><m:mn>5</m:mn></m:math> for <m:math><m:mi>x</m:mi><m:mo>,</m:mo></m:math> and then simplify.<newline/>
+
+<table id="eip-id1168469462966" class="unnumbered unstyled" summary="The image shows the given expression nine x minus 2. Substitute 5 for x. The expression becomes 9 times 5 minus 2. Multiply first. Nine times 5 is 45 and the expression is now 45 minus 2. Subtract to get 43."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>9x</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+   <entry><emphasis>Substitute <m:math><m:mn>5</m:mn></m:math> for <m:math><m:mn>x</m:mn></m:math></emphasis></entry>
+   <entry><m:math><m:mn>9</m:mn><m:mo>*</m:mo><m:mn>5</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><m:math><m:mn>45</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Subtract.</entry>
+    <entry><m:math><m:mn>43</m:mn></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table></para><para id="fs-id2440233"><span class="token">ⓑ</span> To evaluate the expression when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> we substitute <m:math><m:mn>1</m:mn></m:math> for <m:math><m:mi>x</m:mi><m:mo>,</m:mo></m:math> and then simplify.<newline/>
+
+<table id="eip-id1168468440939" class="unnumbered unstyled" summary="The image shows the given expression nine x minus 2. Substitute 1 for x. The expression becomes 9 times 1 minus 2. Multiply first. Nine times 1 is 9 and the expression is now 9 minus 2. Subtract to get 7."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>9x</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+   <entry><emphasis>Substitute <m:math><m:mn>1</m:mn></m:math> for <m:math><m:mn>x</m:mn></m:math></emphasis></entry>
+   <entry><m:math><m:mn>9</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><m:math><m:mn>9</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Subtract.</entry>
+    <entry><m:math><m:mn>7</m:mn></m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table></para><para id="fs-id2216151">Notice that in part <span class="token">ⓐ</span> that we wrote <m:math><m:mrow><m:mn>9</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn></m:mrow></m:math> and in part <span class="token">ⓑ</span> we wrote <m:math><m:mrow><m:mn>9</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Both the dot and the parentheses tell us to multiply.</para></solution>
+</exercise>
+</example><example id="eip-340"><title>Evaluating Algebraic Expressions</title><exercise id="fs-id1610002">
+<problem id="fs-id2756986">
+<para id="fs-id1811335">Evaluate <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2661268">
+<title>Solution</title>
+<para id="fs-id2214943">We substitute <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> for <m:math><m:mi>x</m:mi><m:mo>,</m:mo></m:math> and then simplify the expression.<newline/>
+
+<table id="eip-id1168468538199" class="unnumbered unstyled" summary="The image shows the given expression x squared. Substitute 10 for x. The expression becomes 10 squared. By the definition of exponents, 10 squared is 10 times 10. Multiply to get 100."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:msup><m:mn>x</m:mn><m:mn>2</m:mn></m:msup></m:math></entry>
+  </row>
+  <row>
+    <entry><emphasis>Substitute <m:math><m:mn>10</m:mn></m:math> for x</emphasis></entry>
+    <entry><m:math><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup></m:math></entry>
+  </row>
+  <row>
+    <entry>Use the definition of exponent.</entry>
+    <entry><m:math><m:mn>10</m:mn><m:mo>*</m:mo><m:mn>10</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><m:math><m:mn>100</m:mn></m:math></entry>
+  </row>
+</tbody>
+</tgroup>
+</table></para><para id="fs-id2197016">When <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo></m:mrow></m:math> the expression <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> has a value of <m:math><m:mrow><m:mn>100</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-210"><title>Evaluating Algebraic Expressions</title><exercise id="fs-id1567145">
+<problem id="fs-id1863809">
+<para id="fs-id1325186"><m:math><m:mrow><m:mtext>Evaluate</m:mtext><m:mspace width="0.2em"/><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mspace width="0.2em"/><m:mtext>when</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2784321">
+<title>Solution</title>
+<para id="fs-id1731877">In this expression, the variable is an exponent.<newline/>
+
+<table id="eip-id1168469574741" class="unnumbered unstyled" summary="The image shows the given expression 2 to the power of x. Substitute 5 for x. The expression becomes 2 to the fifth power. By the definition of exponents, 2 to the fifth power is 2 times 2 times 2 times 2 times 2, or 5 factors of 2. Multiply from left to right to get 32."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><media id="eip-id1168469574762" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_019_img-02.png"/></media></entry>
+  </row>
+  <row>
+    <entry><media id="eip-id1168469574776" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_019_img-01.png"/></media></entry>
+    <entry><media id="eip-id1168469574787" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_019_img-03.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Use the definition of exponent.</entry>
+    <entry><media id="eip-id1168469574804" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_019_img-04.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><media id="eip-id1168469574821" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_019_img-05.png"/></media></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table></para><para id="fs-id1547737">When <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> the expression <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> has a value of <m:math><m:mrow><m:mn>32</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-565"><title>Evaluating Algebraic Expressions</title><exercise id="fs-id1408555">
+<problem id="fs-id1891867">
+<para id="fs-id2276108"><m:math><m:mrow><m:mtext>Evaluate</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>when</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id2439822">
+<title>Solution</title>
+<para id="fs-id2264342">This expression contains two variables, so we must make two substitutions.<newline/>
+
+<table id="eip-id1168467158036" class="unnumbered unstyled" summary="The image shows the given expression three x plus four y minus 6. Substitute 10 for x and 2 for y. The expression becomes 3 times 10 plus 4 times 2 minus 6. Perform multiplication from left to right. Three times 10 is 30 and 4 times 2 is 8. The expression becomes 30 plus 8 minus 6. Add and subtract from left to right. Thirty plus 8 is 38. Thirty-eight minus 6 is 32."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><media id="eip-id1168467237223" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_020_img-02.png"/></media></entry>
+  </row>
+  <row>
+    <entry><media id="eip-id1168467237237" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_020_img-01.png"/></media></entry>
+    <entry><media id="eip-id1168467237247" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_020_img-03.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><media id="eip-id1168467237264" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_020_img-04.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Add and subtract left to right.</entry>
+    <entry><media id="eip-id1168467237280" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_020_img-05.png"/></media></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+</para><para id="fs-id1470900">When <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> the expression <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math> has a value of <m:math><m:mrow><m:mn>32</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-253"><title>Evaluating Algebraic Expressions</title><exercise id="fs-id1788450">
+<problem id="fs-id1785986">
+<para id="fs-id2657506"><m:math><m:mrow><m:mtext>Evaluate</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>when</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1383958">
+<title>Solution</title>
+<para id="fs-id2310003">We need to be careful when an expression has a variable with an exponent. In this expression, <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> means <m:math><m:mrow><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>⋅</m:mo><m:mi>x</m:mi></m:mrow></m:math> and is different from the expression <m:math><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> which means <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>⋅</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/>
+
+<table id="eip-id1168466011069" class="unnumbered unstyled" summary="The image shows the given expression two x squared plus three x plus 8. Substitute 4 for each x. The expression becomes 2 times 4 squared plus 3 times 4 plus 8. Simplify exponents first. Four squared is 16 so the expression becomes 2 times 16 plus 3 times 4 plus 8. Next perform multiplication from left to right. Two times 16 is 32 and 3 times 4 is 12. The expression becomes 32 plus 12 plus 8. Add from left to right. Thirty-two plus 12 is 44. Forty-four plus 8 is 52."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:msup><m:mn>2x</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3x</m:mn><m:mo>+</m:mo><m:mn>8</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry><emphasis>Substitute <m:math><m:mn>4</m:mn></m:math> for each x </emphasis></entry>
+    <entry><m:math><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>8</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Simplify <m:math><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup></m:math>.</entry>
+    <entry><m:math><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>16</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>8</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Multiply.</entry>
+    <entry><m:math><m:mn>32</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>8</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Add.</entry>
+    <entry><m:math><m:mn>52</m:mn></m:math></entry>
+  </row>  
+</tbody>
+
+
+
+</tgroup>
+</table></para></solution>
+</exercise>
+</example></section><section id="eip-687"><title>Simplify Expressions by Combining Like Terms <footnote id="eip-idm308766608">Section material derived from Openstax Prealgebra: The Language of Algebra-Evaluate Simplify and Translate Expressions</footnote></title><para id="eip-182">
+We can simplify an expression by combining the <term class="no-emphasis">like terms</term>. What do you think <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> would simplify to? If you thought <m:math><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> you would be right!.
+</para><para id="eip-483">We can see why this works by writing both terms as addition problems.</para><para id="eip-108">Insert image here</para><para id="eip-580">Add the <term class="no-emphasis">coefficients</term> and keep the same variable. It doesn’t matter what <m:math><m:mi>x</m:mi></m:math> is. If you have <m:math><m:mn>3</m:mn></m:math> of something and add <m:math><m:mn>6</m:mn></m:math> more of the same thing, the result is <m:math><m:mn>9</m:mn></m:math> of them. For example, <m:math><m:mn>3</m:mn></m:math> oranges plus <m:math><m:mn>6</m:mn></m:math> oranges is <m:math><m:mn>9</m:mn></m:math> oranges. We will discuss the mathematical properties behind this later.</para><para id="eip-908">The expression <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> has only two terms. When an expression contains more terms, it may be helpful to rearrange the terms so that like terms are together. The <term class="no-emphasis">Commutative Property of Addition</term> says that we can change the order of addends without changing the sum. So we could rearrange the following expression before combining like terms.</para><para id="eip-442">Insert image here</para><para id="eip-162">Now it is easier to see the like terms to be combined.</para><note id="eip-174"><label>Combining Like Terms</label>
+<list id="eip-id1168466010921" list-type="enumerated" number-style="arabic" class="stepwise"><item> Identify like terms.</item>
+<item> Rearrange the expression so like terms are together.</item>
+<item> Add the coefficients of the like terms.</item></list></note><example id="eip-911"><title>Combining Like Terms</title><para id="eip-31">
+ <exercise id="fs-id1558860">
+<problem id="fs-id2436213">
+<para id="fs-id2466501">Simplify the expression: <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1547208">
+<title>Solution</title>
+
+
+<table id="eip-id1168468738000" class="unnumbered unstyled" summary="The image shows the expression 3 x plus 7 plus 4 x plus 5. Three x and 4 x are like terms as are 7 and 5. The middle terms, 7 and 4 x, can be rearranged so that the like terms are together. The expressions becomes 3 x plus 4 x plus 7 plus 5. Now the like terms can be combined by adding the coefficients of the like terms. Three x plus 4 x is 7 x and 7 plus 5 is 12. The expression becomes 7 x plus 12."><label/>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mn>3x</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>4x</m:mn><m:mo>+</m:mo><m:mn>5</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>Identify the like terms.</entry>
+    <entry><media id="eip-id1168468738036" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_022_img-02.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Rearrange the expression, so the like terms are together.</entry>
+    <entry><media id="eip-id1168468738052" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_022_img-03.png"/></media></entry>
+  </row>
+  <row>
+    <entry>Add the coefficients of the like terms.</entry>
+    <entry><media id="eip-id1168468373750" alt="."><image mime-type="image/png" src="../../media/CNX_BMath_Figure_02_02_022_img-04.png"/></media></entry>
+  </row>
+  <row>
+    <entry>The original expression is simplified to...</entry>
+    <entry><m:math><m:mn>7x</m:mn><m:mo>+</m:mo><m:mn>12</m:mn></m:math></entry>
+  </row>  
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise>
+</para>
+</example></section><section id="eip-189"><title>Identify Expressions and Equations <footnote id="eip-idm369937696">Section material derived from Openstax Prealgebra: The Language of Algebra-Use the Language of Algebra</footnote></title><para id="fs-id2139102">What is the difference in English between a phrase and a sentence? A phrase expresses a single thought that is incomplete by itself, but a sentence makes a complete statement. “Running very fast” is a phrase, but “The football player was running very fast” is a sentence. A sentence has a subject and a verb.</para>
+<para id="fs-id1171104014483">In algebra, we have <emphasis effect="italics">expressions</emphasis> and <emphasis effect="italics">equations</emphasis>. An <term class="no-emphasis">expression</term> is like a phrase. Here are some examples of expressions and how they relate to word phrases:</para>
+<table id="fs-id2472125" class="unnumbered" summary="This table has five rows and three columns. The first row is a header row and it labels each column. The first column is labeled “Expression”, the second “Words” and the third “Phrase”. In the second row, under the “Expression” column is three plus five. Under the “Words” column is the phrase “three plus five”. Under the “Phrase” column is the phrase “the sum of three and five”. In the third row, under the “Expression” column is n minus one. Under the “Words” column is the phrase “n minus one.” Under the “Phrase” column is the phrase “the difference of n and one.” In the fourth row, under the “Expression” column is  six times seven. Under the “Words” column is the phrase “six times seven.” Under the “Phrase” column is the phrase “the product of six and seven.” In the fifth row, under the “Expression” column is x divided by y. Under the “Words” column is the phrase “x divided by y.” Under the “Phrase” column is the phrase “the quotient of x and y.”">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry align="left">Expression</entry>
+<entry align="left">Words</entry>
+<entry align="left">Phrase</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>plus</m:mtext><m:mspace width="0.2em"/><m:mn>5</m:mn></m:mrow></m:math></entry>
+<entry align="left">the sum of three and five</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> minus one</entry>
+<entry align="left">the difference of <m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math> and one</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mrow><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>times</m:mtext><m:mspace width="0.2em"/><m:mn>7</m:mn></m:mrow></m:math></entry>
+<entry align="left">the product of six and seven</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mi>x</m:mi></m:math> divided by <m:math><m:mi>y</m:mi></m:math></entry>
+<entry align="left">the quotient of <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id2471615">Notice that the phrases do not form a complete sentence because the phrase does not have a verb. An <term class="no-emphasis">equation</term> is two expressions linked with an equal sign. When you read the words the symbols represent in an equation, you have a complete sentence in English. The equal sign gives the verb. Here are some examples of equations:</para>
+<table id="fs-id2658369" class="unnumbered" summary="This table has six rows and two columns. The first row is a header row  labeling each column. The first column is labeled “Equation” and the second “Sentence”. In the second row, under the “Equation” column is three plus five equals eight. Under the “Sentence” column is the sentence “The sum of three and five is equal to eight”. In the third row, under the “Equation” column is  n minus one equals fourteen. Under the “Sentence” column is the Sentence “The difference of n and one equals fourteen.” In the fourth row, under the “Equation” column is six times seven equals forty-two. Under the “Sentence” column is the sentence “The product of six and seven is equal to forty-two.” In the fifth row, under the “Equation” column is  x equals fifty-three. Under the “Sentence” column is the sentence “x is equal to fifty-three.” In the sixth row, under the “Equation” column is y plus  nine equals two times y minus 3. Under the “Sentence” column is the sentence “y plus nine is equal to two y minus three.”">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry align="left">Equation</entry>
+<entry align="left">Sentence</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry align="left">The sum of three and five is equal to eight.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mi>n</m:mi></m:math> minus one equals fourteen.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>42</m:mn></m:mrow></m:math></entry>
+<entry align="left">The product of six and seven is equal to forty-two.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>53</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mi>x</m:mi></m:math> is equal to fifty-three.</entry>
+</row>
+<row valign="top">
+<entry align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry align="left"><m:math><m:mi>y</m:mi></m:math> plus nine is equal to two <m:math><m:mi>y</m:mi></m:math> minus three.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note id="fs-id1365219"><label>Expressions and Equations</label>
+<para id="fs-id2196798">An <term>expression</term> is a number, a variable, or a combination of numbers and variables and operation symbols.</para><para id="fs-id2451266">An <term>equation</term> is made up of two expressions connected by an equal sign.</para></note><example id="fs-id2650235"><title>Identifying Expressions and Equations </title><exercise id="fs-id588356"><problem id="fs-id2198153">
+<para id="fs-id1544580">Determine if each is an expression or an equation:
+<list id="eip-id1168469631637" list-type="enumerated" number-style="arabic" class="circled"><item><span class="token">ⓐ</span><m:math><m:mspace width="0.2em"/><m:mn>16</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>10</m:mn></m:math></item>
+<item><span class="token">ⓑ</span><m:math><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:math></item>
+<item><span class="token">ⓒ</span><m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>÷</m:mo><m:mn>25</m:mn></m:math></item>
+<item><span class="token">ⓓ</span><m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>40</m:mn></m:math></item></list></para>
+</problem>
+<solution id="fs-id1584678">
+<title>Solution</title>
+<table id="eip-id1166346957031" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2">
+<tbody>
+<row> 
+   <entry><span class="token">ⓐ</span> <m:math><m:mspace width="0.2em"/><m:mn>16</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>10</m:mn></m:math></entry>
+   <entry>This is an equation—two expressions are connected with an equal sign.</entry>
+</row>
+
+<row>
+  <entry><span class="token">ⓑ</span> <m:math><m:mspace width="0.2em"/><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:math></entry>
+   <entry> This is an expression—no equal sign.</entry>
+</row>
+
+<row>
+  <entry><span class="token">ⓒ</span> <m:math><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>÷</m:mo><m:mn>25</m:mn></m:math></entry>
+  <entry> This is an expression—no equal sign.</entry>
+</row>
+<row>
+   <entry><span class="token">ⓓ</span> <m:math><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>40</m:mn></m:math></entry>
+  <entry> This is an equation—two expressions are connected with an equal sign.</entry>
+</row></tbody></tgroup></table>
+</solution>
+</exercise></example></section><section id="eip-709"><title>Key Concepts</title><list id="eip-idm320574048"><item><emphasis>Algebraic Notation</emphasis>
+<table id="eip-871" summary="This table has five rows and four columns. The first row is a header row. Each column is labeled accordingly: the first is labeled “Operation”, the second “Notation”, the third “Say” and the last “The result is...”. Under the “Operation” column are the words: addition, multiplication, subtraction and division. Under the “Notation” column are algebraic expressions. The first row shows the letter a, the plus symbol, and the letter b. The next row shows four algebraic expressions. The first is the letter a, dot multiplication symbol, and the letter b. The second expression is the letter a in parentheses and the letter b in parentheses. The third expression is the letter a in parentheses and the letter b. The fourth expression is the letter a and the letter b in parentheses. The next row shows the letter a, the minus symbol, and the letter b. The last row shows four algebraic expressions. The first is the letter a, division symbol, and the letter b. The second expression is the letter a, the backslash symbol and the letter b. The third expression is the letter a above the fraction bar and the letter b below the fraction bar. The fourth expression is the letter b outside the division bracket and the letter a inside the division bracket."><title>Understanding Algebraic Notation</title>
+<tgroup cols="4"><thead>
+<row valign="top">
+<entry align="left"><emphasis effect="bold">Operation</emphasis></entry>
+<entry align="left"><emphasis effect="bold">Notation</emphasis></entry>
+<entry align="left"><emphasis effect="bold">Say:</emphasis></entry>
+<entry align="left"><emphasis effect="bold">The result is…</emphasis></entry>
+</row>
+</thead>
+<tbody>
+  <row>
+    <entry>Addition</entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>plus</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry>the sum of <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry>Multiplication</entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>times</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry>The product of <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry>Subtraction</entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>minus</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry>the difference of <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry>Division</entry>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>÷</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo stretchy="false">/</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>b</m:mi><m:menclose notation="longdiv"><m:mi>a</m:mi></m:menclose></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> divided by <m:math><m:mi>b</m:mi></m:math></entry>
+    <entry>The quotient of <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</item>
+
+<item><emphasis>Algebraic inequalitysymbols</emphasis>
+<table id="eip-218" summary="This table has seven rows and two columns. The first row is a header row and it labels each column. The first column is labeled “Algebraic Notation”, the second “Say”. Under the “Algebraic Notation” column are the algebraic expressions: a equals b; a is not equal to b; a is less than b; a is greater than b; a is less than or equal to b; a is greater than or equal to b. Under the “Say” column are the phrases: “a is equal to b”, “a is not equal to b”, “a is less than b”, “a is greater than b”, “a is less than or equal to b”, and “a is greater than or equal to b”."><title>Understanding Algebraic Notation</title>
+<tgroup cols="2"><thead>
+<row valign="top">
+    <entry>Algebraic Notation</entry>
+    <entry>Say</entry>
+</row>
+</thead>
+<tbody>
+  <row>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> is equal to <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> is not equal to <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> is less than <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> is greater than <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> is less than or equal to <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:mrow><m:mi>a</m:mi><m:mo>≥</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+    <entry><m:math><m:mi>a</m:mi></m:math> is greater than or equal to <m:math><m:mi>b</m:mi></m:math></entry>
+  </row>
+
+</tbody>
+
+</tgroup>
+</table>
+</item>
+
+<item><emphasis>Equality Symbol</emphasis>
+<list id="eip-id1168262501680"><item><m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:math> is read as <m:math><m:mi>a</m:mi></m:math> is equal to <m:math><m:mi>b</m:mi></m:math></item>
+<item>The symbol <m:math><m:mo>=</m:mo></m:math> is called the equal sign.</item></list></item>
+
+<item>
+<emphasis>Order of Operations</emphasis> When simplifying mathematical expressions perform the operations in the following order:
+<list id="eip-id1168264820124" list-type="bulleted" bullet-style="bullet"><item>Parentheses and other Grouping Symbols:    Simplify all expressions inside the parentheses or other grouping symbols, working on the innermost parentheses first.</item>
+<item>Exponents:   Simplify all expressions with exponents.</item>
+<item>Multiplication and Division:   Perform all multiplication and division in order from left to right. These operations have equal priority.</item>
+<item>Addition and Subtraction:   Perform all addition and subtraction in order from left to right. These operations have equal priority.
+</item>
+</list>
+</item>
+<item><emphasis effect="strong">Combine like terms.</emphasis>
+<list id="eip-id1168265179478" list-type="enumerated" number-style="arabic" class="stepwise"><item>Identify like terms.</item>
+<item>Rearrange the expression so like terms are together.</item>
+<item>Add the coefficients of the like terms</item></list></item>
+</list></section></content>
+
+<glossary>
+<definition id="fs-id1503046">
+<term>Term</term>
+<meaning id="fs-id1891510">A term is a constant or the product of a constant and one or more variables.</meaning>
+</definition>
+<definition id="fs-id2662318">
+<term>Coefficient</term>
+<meaning id="fs-id1301322">The constant that multiplies the variable(s) in a term is called the coefficient.</meaning>
+</definition>
+<definition id="fs-id2961409">
+<term>Like Terms</term>
+<meaning id="fs-id1294455">Terms that are either constants or have the same variables with the same exponents are like terms.</meaning>
+</definition>
+<definition id="fs-id1549920">
+<term>Evaluate</term>
+<meaning id="fs-id1753163">To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number.</meaning>
+</definition>
+</glossary>
+</document>
